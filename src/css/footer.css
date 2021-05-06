@@ -1,0 +1,109 @@
+.footer-partner{
+    box-shadow: 0px 0px 12px rgba(100,100,100,0.4);
+}
+
+.head{
+    font-size: 45px;
+    font-weight:bold;
+}
+
+.footer{
+    background-color: #010e1b;
+}
+
+.logo-footer{
+    width: 80%!important;
+}
+
+
+h6{
+    font-weight: 590;
+    color: white;
+}
+
+.footer-list{
+    list-style-type: none;
+    font-size: 14px;
+    color: white;
+    opacity: 0.2;
+}
+
+.footer-list li{
+    cursor: pointer;
+}
+
+.foot-note{
+    font-size: 14px;
+}
+
+.facebook, .twitter, .linkedin, .instagram{
+    background-color: white;
+    padding:5px;
+    font-size: 30px;
+    color: #151515;
+    border-radius: 50%;
+    width: 15%;
+    height: 20%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+hr{
+    background-color: white;
+    opacity: 0.3;
+}
+
+.watermark{
+    color: #0275d8;
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+    .facebook, .twitter, .linkedin, .instagram{
+        width: 19%;
+        height: 19%;
+    }
+
+    .foot-link{
+        padding-left: 20px!important;
+    }
+
+
+ }
+
+
+
+
+
+
+ /* Tablets */
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+
+ }
+
+
+/* Larger Screens */
+ @media only screen and (min-width:1824px) {
+     
+ }
