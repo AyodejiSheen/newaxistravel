@@ -1,5 +1,7 @@
 import React from 'react'
 import '../css/homepage.css';
+import {Link, useHistory} from 'react-router-dom';
+
 
 //pictures
 import carousel1 from '../picture/carousel 1.jpeg';
@@ -88,7 +90,7 @@ export const Homepage = () => {
 
     <div className="container animate__animated animate__backInUp">
         <div className="row">
-            <div className="col-md-3">
+            <div className=" col-6 col-md-3">
                 <div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto text-center p-3">
                         <img src={flight} className="icon-pic"/>
@@ -97,7 +99,7 @@ export const Homepage = () => {
                 </div>
             </div>
 
-            <div className="col-md-3">
+            <div className=" col-6 col-md-3">
             <div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center ">
                         <img src={visas} className="icon-pic"/>
@@ -106,7 +108,7 @@ export const Homepage = () => {
                 </div>
             </div>
 
-            <div className="col-md-3">
+            <div className=" col-6 col-md-3">
             <div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <i className="fa fa-user-shield shield"></i>
@@ -115,7 +117,7 @@ export const Homepage = () => {
                 </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-6 col-md-3">
             <div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <img src={tour} className="icon-pic"/>
@@ -127,16 +129,17 @@ export const Homepage = () => {
 
 
         <div className="row mt-4 service-2">
-            <div className="col-md-3">
+            <div className="col-6 col-md-3">
                 <div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <img src={hotel} className="icon-pic"/>
                     </div>
-                        <p className="service-name mt-4 text-center">Hotel Reservation</p>
+                        <p className="service-name service-name-hotel-1 mt-4 text-center">Hotel Reservation</p>
+                        <p className="service-name-hotel mt-4 text-center">Hotel Resv.</p>
                 </div>
             </div>
 
-            <div className="col-md-3 service">
+            <div className="col-6 col-md-3 service">
                 <div className="service">
                     <div className="service-box pb-5 pt-5">
                             <div className="icon mx-auto p-3 text-center">
@@ -147,7 +150,7 @@ export const Homepage = () => {
                 </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-6 col-md-3">
             <div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <img src={packages} className="icon-pic"/>
@@ -156,7 +159,7 @@ export const Homepage = () => {
             </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-6 col-md-3">
             <div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto text-center p-3">
                         <img src={conference} className="icon-pic"/>
@@ -179,7 +182,7 @@ export const Homepage = () => {
                 <h1 className="head-tag">Corporate Travel With <span style={{color:'#0275d8'}}>Axis Travel</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. </p>
 
-                <button className="btn btn-lg button mt-4">READ MORE</button>
+                <Link to="/corporate-travel" className="link" ><button className="btn btn-lg button mt-4">READ MORE</button></Link>
                 </div>
             </div>
 
@@ -194,7 +197,7 @@ export const Homepage = () => {
     </div>
 
 {/* Meetings and events */}
-    <div className="container mt-5 pb-5">
+    <div className="container mt-5 pb-5 meeting">
         <div className="row">
             <div className="col-md-6 order-2 order-md-1">
                 <div className="stack-poly ">
@@ -223,7 +226,7 @@ export const Homepage = () => {
             <img src={leisure} className="leisure-pic"/>
         </div>
 
-        <div className="col-md-6 leisure-content p-5">
+        <div className="col-md-6 leisure-content p-5 order-1 order-md-2">
                 <h1 className="head-tag text-white"> We Know & Understand Your Great Choice of <span style={{color:'#0275d8'}}>Leisure Travel</span></h1>
                     <p className="text-justify text-white heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. </p>
 
@@ -231,7 +234,7 @@ export const Homepage = () => {
             <p className="font-weight-bold mt-5 mb-0 text-secondary">Ideals for your next Trip</p>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
+            <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicator"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicator"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicator"></li>
@@ -341,8 +344,8 @@ export const Homepage = () => {
                 <button className="btn btn-lg button mt-4">READ MORE</button>
             </div>
 
-            <div className="col-md-6 mt-4">
-                <video width="100%" autoplay controls className="video ">
+            <div className="col-md-6 mt-4 about-us-video">
+                <video width="100%" controls className="video ">
                     <source src={movie} type="video/mp4"/>
                 </video>
 
@@ -380,9 +383,9 @@ export const Homepage = () => {
         </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div className="row p-4">
+                    <div className="row testimonial-row p-4">
                     <div className="col-md-6">
-                            <div className=" p-5 shadow rounded box position-relative">
+                            <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
                             <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Platea dictumst vestibulum rhoncus est pellentesque. 
@@ -393,7 +396,7 @@ export const Homepage = () => {
                         </div>
 
                         <div className="col-md-6">
-                        <div className=" p-5 shadow rounded box position-relative">
+                        <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
                             <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Platea dictumst vestibulum rhoncus est pellentesque. 
@@ -404,10 +407,10 @@ export const Homepage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                <div className="row p-4">
+                <div className="carousel-item">
+                <div className="row testimonial-row p-4">
                     <div className="col-md-6">
-                    <div className=" p-5 shadow rounded box position-relative">
+                    <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
                             <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Platea dictumst vestibulum rhoncus est pellentesque. 
@@ -418,7 +421,7 @@ export const Homepage = () => {
                         </div>
 
                         <div className="col-md-6">
-                        <div className=" p-5 shadow rounded box position-relative">
+                        <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
                             <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Platea dictumst vestibulum rhoncus est pellentesque. 
@@ -429,10 +432,10 @@ export const Homepage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                <div className="row p-4">
+                <div className="carousel-item">
+                <div className="row testimonial-row p-4">
                     <div className="col-md-6">
-                    <div className=" p-5 shadow rounded box position-relative">
+                    <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
                             <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Platea dictumst vestibulum rhoncus est pellentesque. 
@@ -443,7 +446,7 @@ export const Homepage = () => {
                         </div>
 
                         <div className="col-md-6">
-                        <div className=" p-5 shadow rounded box position-relative">
+                        <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
                             <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Platea dictumst vestibulum rhoncus est pellentesque. 

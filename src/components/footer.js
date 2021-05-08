@@ -54,7 +54,7 @@ export const Footer = () => {
 
                         <div className="col-md-8 pt-5 mt-2 pl-5 foot-link">
                             <div className="row">
-                                    <div className=" col-6 col-md-3">
+                                    <div className=" col-6 col-md-4 col-lg-3">
                                 <h6>Resources</h6>
                                 <ul className="footer-list">
                                     <li>Testimonials</li>
@@ -64,7 +64,7 @@ export const Footer = () => {
                                 </ul>
                                 </div>
 
-                                <div className=" col-6 col-md-3">
+                                <div className=" col-6 col-md-4 col-lg-3">
                                 <h6>Quick Link</h6>
                                 <ul className="footer-list">
                                     <li>Corporate Travel</li>
@@ -75,7 +75,7 @@ export const Footer = () => {
                                 </ul>
                                 </div>
 
-                                <div className=" col-md-3">
+                                <div className=" col-md-4 col-lg-3">
                                 <h6>Services</h6>
                                 <ul className="footer-list">
                                     <li>Flight</li>
@@ -89,12 +89,12 @@ export const Footer = () => {
                                 </ul>
                                 </div>
 
-                                <div className="col-md-3">
+                                <div className="col-md-6 col-lg-3">
                                 <h6>Contact</h6>
                                 <ul className="footer-list">115 Office Court Building, Oud Metha P.O.Box 23240 Dubai, United Arab Emirates.
-                                Office: +971 4 399 9332
-                                Fax: +971 4 399 9335
-                                Email: bookings@axistravel.ae
+                                <br></br>Office: +971 4 399 9332
+                                <br></br>Fax: +971 4 399 9335
+                                <br></br>Email: bookings@axistravel.ae
                                 </ul>
                                 </div>
                             </div>

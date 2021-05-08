@@ -189,6 +189,10 @@
     background-color: #010e1b;
 }
 
+.service-name-hotel{
+    display: none;
+}
+
 
 .video:hover{
     box-shadow: 0 10px 10px -5px rgb(124, 130, 141);
@@ -269,7 +273,7 @@
         font-size: 14px;
     }
 
-    .indicator-1, .scroll{
+    .indicator-1, .scroll, .service-name-hotel-1{
         display: none;
     }
 
@@ -283,8 +287,8 @@
 
     .service-box{
         margin: auto;
-        width: 260px;
-        height: 150px;
+        width: 100%;
+        height: 90%;
         border-radius: 10px;
         padding-top: 20px!important;
         padding-bottom: 20px!important;
@@ -309,7 +313,15 @@
     .service-name{
         margin-bottom: 0px!important;
         margin-top: 10px!important;
-        font-size: 18px!important;
+        font-size: 16px!important;
+    }
+
+    .service-name-hotel{
+        display: block;
+        font-weight: 700;
+        margin-bottom: 0px!important;
+        margin-top: 10px!important;
+        font-size: 16px!important;
     }
     
     .shield{
@@ -322,7 +334,7 @@
     }
 
     .c-travel .c-travel-sub{
-        margin-top: 0px!important;
+        margin-top: -20px!important;
         padding: 0px!important;
     }
 
@@ -410,6 +422,14 @@
         display: none;
     }
 
+    .testimonial-row{
+        padding: 15px 15px 25px 15px!important;
+    }
+
+    .testimonial-text{
+        padding: 20px!important;
+    }
+
 
 
  }
@@ -422,11 +442,233 @@
  /* Tablets */
 
  @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    
+    .heading{
+        font-weight: 900;
+        font-size: 35px;
+    }
+    
+    .head-tag{
+        font-size: 28px;
+    }
 
+    .hero-content{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 6rem;
+        background-color: hsla(210, 95%, 5%, 0.92);
+        z-index: 70;
+        height: 30rem!important;
+    }
+
+    .image{
+        height:30rem!important
+    }
+
+    .heading-note{
+        font-size: 14px;
+    }
+
+    .indicator-1, .scroll, .service-name-hotel-1{
+        display: none;
+    }
+
+    .button{
+        width: 150px;
+        height: 50px;
+        background: #0275d8;
+        font-size: 14px;
+        margin-top: 10px!important;
+    }
+
+    .service-box{
+        margin: auto;
+        width: 100%;
+        height: 90%;
+        border-radius: 10px;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+        margin-bottom: 20px!important;
+    }
+
+    .icon{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        border: 10px solid #f1f2f6;;
+    }
+    
+    .icon-pic{
+        width: 100%;
+    }
+    
+    .service-2{
+        margin-top: 0px!important;
+    }
+    
+    .service-name{
+        margin-bottom: 0px!important;
+        margin-top: 10px!important;
+        font-size: 16px!important;
+    }
+
+    .service-name-hotel{
+        display: block;
+        font-weight: 700;
+        margin-bottom: 0px!important;
+        margin-top: 10px!important;
+        font-size: 16px!important;
+    }
+    
+    .shield{
+        font-size: 27px;
+        color: #0275d8;
+    }
+
+    .our-services{
+        padding-bottom: 0px!important;
+    }
+
+    .c-travel .c-travel-sub{
+        margin-top: -20px!important;
+        padding: 0px!important;
+    }
+
+    .meeting, .leisure-travel{
+        margin-top: 0px!important;
+        padding-bottom: 0px!important;
+    }
+
+    .stack-rect{
+        margin-bottom: 300px;
+        margin-top: 40px;
+    }
+
+    .stack3{
+        width: 250px;
+        height: 300px;
+        right: 0%;
+    }
+    
+    .stack2{
+        width: 200px;
+        height: 250px;
+        margin-top:8%;
+        left: 5%;
+    }
+    
+    .stack1{
+        width: 150px;
+        height: 190px;
+        margin-top: 15%;
+        left: 0%;
+    }
+
+    .poly1{
+        width: 12rem;
+        height: 12rem;
+        z-index: 90;
+        left: 0;
+    }
+    
+    .poly2{
+        width: 11.7rem;
+        height: 11.7rem;
+        z-index: 90;
+        margin-top: 150px;
+        margin-left: 100%;
+    }
+    
+    .poly3{
+        display: none;
+    }
+    
+    .stack-poly{
+        margin-top: 30px;
+        margin-bottom: 300px;
+        width: 40%;
+    }
+
+    .leisure-content{
+        padding: 20px 20px 40px 20px!important;
+    }
+
+    .leisure-pic{
+        height:100% ;
+    }
+
+    .why-us{
+        margin-top: 50px!important;
+    }
+
+    .numbering{
+        width: 30px!important;
+    }
+
+    h5{
+        font-size: 18px;
+    }
+
+
+    .about-us{
+        margin-top: 0px!important;
+    }
+
+    .about{
+        padding: 20px!important;
+    }
+
+    .about-us-video{
+        margin-top: 10%!important;
+    }
+
+    .text-secondary{
+        margin-top: 20px!important;
+        font-size: 14px;
+    }
+
+    .carousel-control-prev{
+        display: none;
+    }
+    
+    .carousel-control-next-icon{
+        display: none;
+    }
+
+    .testimonial-row{
+        padding: 15px 15px 25px 15px!important;
+    }
+
+    .testimonial-text{
+        padding: 20px!important;
+    }
  }
 
 
 /* Larger Screens */
  @media only screen and (min-width:1824px) {
-     
+    .hero-content{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10rem;
+    }
+
+    .heading{
+        font-weight: 900;
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .heading-note{
+        font-size: 18px;
+    }
+
+    .leisure-content{
+        padding: 100px!important;
+    }
+
+    .text-secondary{
+        margin-top: 100px!important;
+    }
+
  }

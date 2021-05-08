@@ -80,8 +80,8 @@ hr{
     }
 
     .facebook, .twitter, .linkedin, .instagram{
-        width: 19%;
-        height: 19%;
+        width: 50px;
+        height: 50px;
     }
 
     .foot-link{
@@ -99,6 +99,23 @@ hr{
  /* Tablets */
 
  @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+    .facebook, .twitter, .linkedin, .instagram{
+        width: 50px;
+        height: 50px;
+    }
+
+    .foot-link{
+        padding-left: 20px!important;
+    }
 
  }
 

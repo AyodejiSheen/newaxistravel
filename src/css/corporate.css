@@ -1,0 +1,58 @@
+.hero-corporate{
+    padding: 0px!important;
+    animation-name: hero-anim;
+    animation-duration: 20s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim {
+    0%{
+        background-image: url('../picture/corporate bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    65%{
+        background-image: url('../picture/leisure-hero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/corporate bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-corporate{
+    background-color: hsla(210, 95%, 5%, 0.92);
+    padding-top: 9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5rem;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.scroll{
+    margin-top: -20px;
+    animation-iteration-count: 5;
+}
+
+.priemer{
+    background-image: url('../picture/corporate\ bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.qualities-pics{
+    width: 100%;
+}
+
+
+

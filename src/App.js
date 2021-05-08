@@ -8,6 +8,8 @@ import {Navbar} from './components/navbar';
 import {Homepage} from './view/homepage';
 import {Errorpage} from './view/errorpage';
 import {Footer} from './components/footer';
+import {Contact} from './view/contact';
+import {Corporate} from './view/corporate';
 
 function App() {
   return (
@@ -20,8 +22,16 @@ function App() {
                       <Footer/>
                     </Route>
 
-                    <Route exact path="/beginner-dashboard">
-                        
+                    <Route exact path="/contact-us">
+                        <Navbar/>
+                        <Contact/>
+                        <Footer/>
+                    </Route>
+
+                    <Route exact path="/corporate-travel">
+                        <Navbar/>
+                        <Corporate/>
+                        <Footer/>
                     </Route>
 
                     <Route exact path="*">
