@@ -27,7 +27,7 @@
 }
 
 .hero-content-corporate{
-    background-color: hsla(210, 95%, 5%, 0.92);
+    background-color: hsla(210, 95%, 5%, 0.88);
     padding-top: 9rem;
     padding-left: 50px;
     padding-right: 50px;
@@ -54,5 +54,102 @@
     width: 100%;
 }
 
+
+.fa-check-circle{
+    color: #0275d8;
+}
+
+ul{
+    line-height: 2;
+}
+
+.corporate-part{
+    background-image: url('../picture/Rectangle.png');
+}
+
+.partners-pic{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .hero-content-corporate{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .priemer{
+        padding: 0px!important;
+    }
+
+    .priemer-section{
+        padding-bottom: 0px!important;
+    }
+
+    .corporate-qualities{
+        margin-top: 0px!important;
+    }
+
+    .corporate-list{
+        padding: 50px 20px 20px 20px!important;
+    }
+
+    .corporate-part{
+        margin-top: 0px!important;
+    }
+
+    .corporate-part .col-md-6{
+        margin-top: 25px!important;
+        padding: 20px!important;
+    }
+
+
+ }
+
+
+
+
+
+
+ /* Tablets */
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+    .facebook, .twitter, .linkedin, .instagram{
+        width: 50px;
+        height: 50px;
+    }
+
+    .foot-link{
+        padding-left: 20px!important;
+    }
+
+ }
+
+
+/* Larger Screens */
+ @media only screen and (min-width:1824px) {
+     
+ }
 
 

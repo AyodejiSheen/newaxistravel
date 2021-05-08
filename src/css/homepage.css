@@ -1,8 +1,49 @@
+.hero-main{
+    padding: 0px!important;
+    animation-name: hero-main;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-main {
+    0%{
+        background-image: url('../picture/mainhero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    25%{
+        background-image: url('../picture/mainhero2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    50%{
+        background-image: url('../picture/mainhero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    75%{
+        background-image: url('../picture/mainhero2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/mainhero3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
 .hero-content{
     background-color: #010e1b;
-    padding-top: 9rem;
+    padding-top: 6rem;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 3rem;
 }
 
 .hero{
@@ -243,27 +284,21 @@
 
     .heading{
         font-weight: 900;
-        font-size: 35px;
+        font-size: 32px!important;
     }
     
     .head-tag{
         font-size: 28px;
+        text-align: center;
     }
+
 
     .hero-content{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 6rem;
-        background-color: hsla(210, 95%, 5%, 0.92);
-        z-index: 70;
-        height: 30rem!important;
+        background-color: hsla(210, 95%, 5%, 0.89)!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
 
-    .carousel-phone{
-        position: absolute;
-        z-index: 60;
-        height: 400px!important
-    }
 
     .image{
         height:30rem!important

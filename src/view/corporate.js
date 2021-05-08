@@ -5,6 +5,7 @@ import '../css/corporate.css';
 //pictures
 import qualities from '../picture/corporate qualities.png'
 import scroll from '../picture/Scroll.png';
+import partners from '../picture/corporate bg3.png'
 
 
 
@@ -33,7 +34,7 @@ export const Corporate = () => {
 {/* Note section */}
 <section className="note">
     <div className="container p-5">
-        <p className="text-center">At <b>Axis Travel & Tourism,</b> we know how impeccable our clients prefer their trips to be. For this, our friendly and professional agents who truly understand customer care stand by to respond to client queries and arrange travel requirements promptly. Further, we give high regard to our clients’ safety and peace of mind as we prepare their vacation trips or book their hotels.
+        <p className="text-center heading-note">At <b>Axis Travel & Tourism,</b> we know how impeccable our clients prefer their trips to be. For this, our friendly and professional agents who truly understand customer care stand by to respond to client queries and arrange travel requirements promptly. Further, we give high regard to our clients’ safety and peace of mind as we prepare their vacation trips or book their hotels.
 
         With a roster of credible partners in the local and global tourism industry, we ensure that our clients get the best service that they deserve.
 
@@ -47,7 +48,7 @@ export const Corporate = () => {
         <div className="container-fluid priemer">
             <div className="container pt-5 pb-5">
             <div className="col-md-6">
-            <h1 className="head-tag text-white">A Premier Corporate<span style={{color:'#0275d8'}}> Travel Management Agency</span></h1>
+            <h1 className="head-tag text-white text-left">A Premier Corporate<span style={{color:'#0275d8'}}> Travel Management Agency</span></h1>
             
             <p className="text-justify text-white heading-note">We're big enough to handle the largest multinationals; small enough to understand the needs of small businesses. We're proud to say that we treat each and every customer with the same high standard of care.
             <br></br>
@@ -69,9 +70,33 @@ export const Corporate = () => {
                     <img src={qualities} className="qualities-pics"/>
                 </div>
 
-                <div className="col-md-6 p-5 order-1 order-md-2">
-                <h1 className="head-tag">Corporate Travel <span style={{color:'#0275d8'}}>Qualities With Axis Travel</span></h1>
-                <p className="text-justify heading-note">We're big enough to handle the largest multinationals; small enough to understand the needs of small businesses. We're proud to say that we treat each and every customer with the same high standard of care.</p>
+                <div className="col-md-6 corporate-list p-5 order-1 order-md-2">
+                <h1 className="head-tag text-left">Corporate Travel <span style={{color:'#0275d8'}}>Qualities With Axis Travel</span></h1>
+                <p className="text-justify heading-note font-weight-bold">AxisTravel embodies the best qualities of corporate travel management companies.</p>
+                <ul className="pl-3">
+                    <li>Dedicated account manager and account team, you can reach through a direct number and email.</li>
+                    <li>Preferential booking terms and rates.</li>
+                    <li>Business account (subject to status).</li>
+                    <li>24/7 personalised customer care.</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<section className="corporate-part mt-5 pb-5">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-6 p-5 mt-4">
+                <h1 className="head-tag text-left">Start A Partnership With<span style={{color:'#0275d8'}}> Axis Travel</span></h1>
+                    <p className="text-justify heading-note ">When businesses create long-term relationships with AxisTravel, they see even more benefits from the available corporate travel services. Travel account managers can use past travel reports to find ways to optimize future travel budgets. The online booking tool streamlines the pre-trip process and simplifies reporting expenses to the business’s accounting department. As time goes on, Forest Travel grows even better at understanding each business and catering to their specific needs.</p>
+
+                    <button className="btn btn-lg button mt-4">CONTACT US</button>
+                </div>
+
+                <div className="col-md-6">
+                    <img src={partners} className="partners-pic shadow"/>
                 </div>
             </div>
         </div>

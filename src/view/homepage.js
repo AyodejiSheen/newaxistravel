@@ -4,9 +4,6 @@ import {Link, useHistory} from 'react-router-dom';
 
 
 //pictures
-import carousel1 from '../picture/carousel 1.jpeg';
-import carousel2 from '../picture/carousel 2.jpeg';
-import carousel3 from '../picture/carousel 3.jpeg';
 import scroll from '../picture/Scroll.png';
 import flight from '../picture/Airport icon.png';
 import visas from '../picture/Passport icon.png';
@@ -45,38 +42,16 @@ export const Homepage = () => {
         <>
 
         {/* Hero section */}
-            <section>
-                <div className="container-fluid hero">
-                        <div className="row">
-                            <div className="col-md-5 hero-content">
-                                <h1 className="heading text-white"><b>A <span style={{color:"#0275d8"}}>Travel Agency </span>Unlike All Others Travel</b></h1>
-                                <p className="text-white text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. </p>
+        <section>
+                <div className="container-fluid hero-main">
+                    <div className="col-md-5 hero-content">
+                                <h1 className="heading text-white"><b>A <span style={{color:"#0275d8"}}> Travel Agency</span> Unlike All Others Travel</b></h1>
+                                <p className="text-white text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. </p>
                                 <button className="btn btn-lg button mt-4">CONTACT US</button>
-                            </div>
+                    </div>
+                </div>
+        </section>
 
-                            <div className="col-md-7 p-0 carousel-phone">
-                                    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-                                        <ol class="carousel-indicators indicator-1">
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                            <img src={carousel1} class=" w-100 h-100 image" alt="..."/>
-                                            </div>
-                                            <div class="carousel-item">
-                                            <img src={carousel2} class=" w-100 h-100 image" alt="..."/>
-                                            </div>
-                                            <div class="carousel-item">
-                                            <img src={carousel3} class="w-100 h-100 image" alt="..."/>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                </div>   
-            </section>
 
 <div className="text-center">
     <img src={scroll} className="scroll animate__animated animate__bounce"/>
@@ -227,7 +202,7 @@ export const Homepage = () => {
         </div>
 
         <div className="col-md-6 leisure-content p-5 order-1 order-md-2">
-                <h1 className="head-tag text-white"> We Know & Understand Your Great Choice of <span style={{color:'#0275d8'}}>Leisure Travel</span></h1>
+                <h1 className="head-tag text-white text-left"> We Know & Understand Your Great Choice of <span style={{color:'#0275d8'}}>Leisure Travel</span></h1>
                     <p className="text-justify text-white heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. </p>
 
                 <button className="btn btn-lg button mt-4">READ MORE</button>
