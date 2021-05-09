@@ -186,7 +186,7 @@ export const Homepage = () => {
                 <h1 className="head-tag">Meetings And <br></br> <span style={{color:'#0275d8'}}>Events</span></h1>
                     <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. Quam nulla porttitor massa id neque aliquam vestibulum morbi.</p>
 
-                <button className="btn btn-lg button mt-4">READ MORE</button>
+                    <Link to="/meetings-and-events" className="link" ><button className="btn btn-lg button mt-4">READ MORE</button></Link>
             </div>
         </div>
     </div>
@@ -205,7 +205,7 @@ export const Homepage = () => {
                 <h1 className="head-tag text-white text-left"> We Know & Understand Your Great Choice of <span style={{color:'#0275d8'}}>Leisure Travel</span></h1>
                     <p className="text-justify text-white heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. </p>
 
-                <button className="btn btn-lg button mt-4">READ MORE</button>
+                <Link to="leisure-travel" className="link"><button className="btn btn-lg button mt-4">READ MORE</button></Link>
             <p className="font-weight-bold mt-5 mb-0 text-secondary">Ideals for your next Trip</p>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

@@ -64,7 +64,7 @@ export const Corporate = () => {
 {/* corporate travel qualities */}
 
 <section className="corporate-qualities mt-5">
-        <div className="container-fluid ">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-0 order-2 order-md-1">
                     <img src={qualities} className="qualities-pics"/>
@@ -85,6 +85,7 @@ export const Corporate = () => {
 </section>
 
 
+{/* partnership section */}
 <section className="corporate-part mt-5 pb-5">
         <div className="container">
             <div className="row">

@@ -1,0 +1,144 @@
+.hero-leisure{
+    padding: 0px!important;
+    animation-name: hero-anim-leisure;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-leisure {
+    0%{
+        background-image: url('../picture/leisure-hero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    65%{
+        background-image: url('../picture/leisure-hero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/carousel\ 3.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-leisure{
+    background-color: hsla(210, 95%, 5%, 0.88);
+    padding-top: 9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5rem;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.scroll{
+    margin-top: -20px;
+    animation-iteration-count: 5;
+}
+
+.leisure-dest{
+    background-color:#F2F8FD;
+}
+
+.leisure-stack1{
+    width:100%;
+}
+
+.leisure-idea{
+    margin-top: -120px!important;
+    padding-top: 200px;
+    background-image: url('../picture/Rectangle.png');
+}
+
+.ideas:hover{
+    box-shadow: 0px 4px 10px rgba(7, 41, 70, 0.8);
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+
+    .hero-content-leisure{
+        background-color: hsla(210, 95%, 5%, 0.88);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+
+    }
+
+    .page-note{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-bottom: 0px!important;
+        padding-top: 20px!important;
+    }
+
+    .dest-note, .lux-note{
+        padding: 0px 20px 0px 20px!important;
+    }
+
+
+
+
+ }
+
+
+
+
+
+
+ /* Tablets */
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+    .dest-note{
+        padding: 0px 20px 0px 20px!important;
+    }
+
+    .lux-note{
+        padding: 20px 20px 0px 20px!important;
+    }
+
+
+ }
+
+
+/* Larger Screens */
+ @media only screen and (min-width:1824px) {
+     
+ }

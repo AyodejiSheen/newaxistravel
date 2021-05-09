@@ -1,12 +1,12 @@
 .hero-corporate{
     padding: 0px!important;
-    animation-name: hero-anim;
+    animation-name: hero-anim-corporate;
     animation-duration: 20s;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     animation-iteration-count: infinite;
 }
 
-@keyframes hero-anim {
+@keyframes hero-anim-corporate{
     0%{
         background-image: url('../picture/corporate bg.png');
         background-repeat: no-repeat;

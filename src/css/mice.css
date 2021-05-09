@@ -1,0 +1,138 @@
+.hero-mice{
+    padding: 0px!important;
+    animation-name: hero-anim-mice;
+    animation-duration: 20s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-mice {
+    0%{
+        background-image: url('../picture/mice-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    65%{
+        background-image: url('../picture/mice-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/corporate bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-mice{
+    background-color: hsla(210, 95%, 5%, 0.88);
+    padding-top: 9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5rem;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.scroll{
+    margin-top: -20px;
+    animation-iteration-count: 5;
+}
+
+.meet-incent{
+    background-color:#F2F8FD;
+}
+
+.meet, .events{
+    width: 100%;
+    height: 100%;
+}
+
+.mice-project{
+    background-color: #010e1b;
+    border: 8px solid white;
+    height: 378;
+    padding: 30px 20px 30px 20px!important;
+}
+
+.mice-project p{
+    font-size: 15px!important;
+}
+
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+
+    .hero-content-mice{
+        background-color: hsla(210, 95%, 5%, 0.88);
+
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+
+    }
+
+    .page-note{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-bottom: 0px!important;
+    }
+
+
+
+
+ }
+
+
+
+
+
+
+ /* Tablets */
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+    .mice-services-row{
+        justify-content: center!important;
+    }
+
+    .for-tab{
+        margin-top: 30px;
+    }
+
+
+ }
+
+
+/* Larger Screens */
+ @media only screen and (min-width:1824px) {
+     
+ }

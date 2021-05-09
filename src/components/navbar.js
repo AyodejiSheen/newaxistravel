@@ -19,14 +19,23 @@ export const Navbar = () => {
                 <li className="nav-item active">
                 <Link to="/" className="link" ><a className="nav-link">HOME <span className="sr-only">(current)</span></a></Link>
                 </li>
-              <li className="nav-item">
-                    <a className="nav-link" href="#">TIME TRAVEL</a>
+                <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    TIME TRAVEL
+                    </a>
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <Link to="corporate-travel" className="link"><a className="dropdown-item">Corporate Travel</a></Link>
+                    <a className="dropdown-item" href="#">Business Travel</a>
+                    <a className="dropdown-item" href="#">One-Stop Travel solution</a>
+                    <a className="dropdown-item" href="#">Simplified Travel Management</a>
+                    <a className="dropdown-item" href="#">Consulting Services</a>
+                    </div>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">LEISURE TRAVEL</a>
+                    <Link to="/leisure-travel" className="link"><a className="nav-link">LEISURE TRAVEL</a></Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">MEETINGS AND EVENTS</a>
+                    <Link to="/meetings-and-events" className="link"><a className="nav-link">MEETINGS AND EVENTS</a></Link>
                 </li>
 
                 <li className="nav-item dropdown">
@@ -45,8 +54,14 @@ export const Navbar = () => {
                     </div>
                 </li>
 
-                <li className="nav-item">
-                    <a className="nav-link" href="#">ABOUT US</a>
+                <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ABOUT US
+                    </a>
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <Link to="/our-company" className="link"><a className="dropdown-item">Our Company</a></Link>
+                    <a className="dropdown-item">Philosophy</a>
+                    </div>
                 </li>
                 <li className="nav-item">
                    <Link to="/contact-us" className="link" ><a className="nav-link">CONTACT US</a></Link> 
