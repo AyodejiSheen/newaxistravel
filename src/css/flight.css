@@ -1,36 +1,36 @@
-.hero-leisure{
+.hero-flight{
     padding: 0px!important;
-    animation-name: hero-anim-leisure;
+    animation-name: hero-anim-flight;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
-@keyframes hero-anim-leisure {
+@keyframes hero-anim-flight {
     0%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/flight-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/flight-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/carousel\ 3.jpeg');
+        background-image: url('../picture/mainhero2.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
-.hero-content-leisure{
+.hero-content-flight{
     background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 9rem;
+    padding-top: 12rem;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 
 .heading{
@@ -43,30 +43,10 @@
     animation-iteration-count: 5;
 }
 
-.leisure-dest{
+
+.smooth-book, .benefit-book{
     background-color:#F2F8FD;
 }
-
-.leisure-stack1{
-    width:100%;
-}
-
-.leisure-idea{
-    margin-top: -120px!important;
-    padding-top: 200px;
-    background-image: url('../picture/Rectangle.png');
-}
-
-.ideas:hover{
-    box-shadow: 0px 4px 10px rgba(7, 41, 70, 0.8);
-    z-index: 100;
-}
-
-
-
-
-
-
 
 
 
@@ -86,33 +66,30 @@
     }
 
 
-    .hero-content-leisure{
+    .hero-content-flight{
         background-color: hsla(210, 95%, 5%, 0.88);
         padding-left: 20px!important;
         padding-right: 20px!important;
 
     }
 
-    .page-note{
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-bottom: 0px!important;
-        padding-top: 20px!important;
-    }
 
-    .dest-note, .lux-note{
-        padding: 0px 20px 0px 20px!important;
+    .smooth-book-note{
+        padding: 20px!important;
+        margin-top: 10px!important;
     }
 
 
-    .leisure-stack{
-        padding: 5px 20px 5px 20px!important;
+    .benefit-book-note{
+        padding: 20px!important;
+        margin-top: 10px !important;
     }
 
-
-    .ideas{
-        margin-top: 10px!important  ;
+    .partner-note{
+        margin-top: 10px!important;
+        padding: 20px!important ;
     }
+
 
 
  }
@@ -134,17 +111,30 @@
         font-size: 30px;
     }
 
-    .dest-note{
-        padding: 0px 20px 0px 20px!important;
+
+    .smooth-book-note{
+        padding: 20px!important;
+        margin-top: 0px!important;
     }
 
-    .lux-note{
-        padding: 20px 20px 0px 20px!important;
+    .smooth-book{
+        padding-bottom: 0px!important;
     }
 
-    .leisure-idea{
-        margin-top: -150px!important;
+    .partner-note{
+        margin-top: 0px!important;
+        padding: 20px!important ;
     }
+
+
+    .benefit-book-note{
+        padding: 20px!important;
+    }
+
+
+
+
+
 
 
  }

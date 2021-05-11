@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../css/footer.css';
 
 //picture
@@ -59,26 +60,26 @@ export const Footer = () => {
                                 <ul className="footer-list">
                                     <li>Testimonials</li>
                                     <li>Why Choose Us</li>
-                                    <li>Terms & Services</li>
-                                    <li>Privacy Policy</li>
+                                    <Link to="/terms-and-conditions" className="footer-link"><li>Terms & Services</li></Link>
+                                    <Link to="/privacy-policy" className="footer-link"><li>Privacy Policy</li></Link>
                                 </ul>
                                 </div>
 
                                 <div className=" col-6 col-md-4 col-lg-3">
                                 <h6>Quick Link</h6>
                                 <ul className="footer-list">
-                                    <li>Corporate Travel</li>
-                                    <li>Leisure Travel</li>
-                                    <li>Meetings and Events</li>
-                                    <li>About Us</li>
-                                    <li>Contact Us</li>
+                                <Link to="/corporate-travel" className="footer-link"><li>Corporate Travel</li></Link>
+                                <Link to="/leisure-travel" className="footer-link"><li>Leisure Travel</li></Link>
+                                <Link to="/meetings-and-events" className="footer-link"><li>Meetings and Events</li></Link>
+                                <Link to="/our-company" className="footer-link"><li>About Us</li></Link>
+                                <Link to="/contact-us" className="footer-link"><li>Contact Us</li></Link>
                                 </ul>
                                 </div>
 
                                 <div className=" col-md-4 col-lg-3">
                                 <h6>Services</h6>
                                 <ul className="footer-list">
-                                    <li>Flight</li>
+                                <Link to="/flight" className="footer-link "> <li>Flight</li></Link>
                                     <li>Visas</li>
                                     <li>Hotel Reservation</li>
                                     <li>Tours</li>
@@ -105,7 +106,7 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <hr ></hr>
+                <hr className="footer-line" ></hr>
 
                 <p className="text-center pb-0 mb-0 watermark">Designed and Developed By iBuild</p>
             </div>

@@ -20,7 +20,7 @@ export const Navbar = () => {
                 <Link to="/" className="link" ><a className="nav-link">HOME <span className="sr-only">(current)</span></a></Link>
                 </li>
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     TIME TRAVEL
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -39,11 +39,11 @@ export const Navbar = () => {
                 </li>
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     SERVICES
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a className="dropdown-item" href="#">Flight</a>
+                    <Link to="/flight" className="link"><a className="dropdown-item">Flight</a></Link>
                     <a className="dropdown-item" href="#">Visas</a>
                     <a className="dropdown-item" href="#">Insurances</a>
                     <a className="dropdown-item" href="#">Tours</a>
@@ -55,12 +55,12 @@ export const Navbar = () => {
                 </li>
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     ABOUT US
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <Link to="/our-company" className="link"><a className="dropdown-item">Our Company</a></Link>
-                    <a className="dropdown-item">Philosophy</a>
+                    <Link to="/our-philosophy" className="link"><a className="dropdown-item">Philosophy</a></Link>
                     </div>
                 </li>
                 <li className="nav-item">

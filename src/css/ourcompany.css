@@ -46,6 +46,7 @@
 
 .accordion{
     background-color: #010e1b!important;
+    border-bottom: 2px solid white!important;
 }
 
 .MuiIconButton-root{

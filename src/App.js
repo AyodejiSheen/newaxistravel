@@ -13,55 +13,97 @@ import {Corporate} from './view/corporate';
 import { Mice } from './view/mice';
 import { Leisure } from './view/leisure';
 import { Ourcompany } from './view/ourcomany';
+import { Philosophy } from './view/philosophy';
+import { Terms } from './view/terms';
+import { Privacy } from './view/privacy';
+import { Flight } from './view/flight';
+import { Visas } from './view/visas';
+import ScrollToTop from './view/scrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop/>
+              <Navbar/>
                 <Switch>
                     <Route exact path="/">
-                      <Navbar/>
+                 
                       <Homepage/>
                       <Footer/>
                     </Route>
 
                     <Route exact path="/contact-us">
-                        <Navbar/>
+                     
                         <Contact/>
-                        <Footer/>
+                        <Footer/> 
                     </Route>
 
                     <Route exact path="/corporate-travel">
-                        <Navbar/>
+                       
                         <Corporate/>
                         <Footer/>
                     </Route>
 
                     <Route exact path="/meetings-and-events">
-                      <Navbar/>
+                      
                       <Mice/>
                       <Footer/>
                     </Route>
 
                     <Route exact path="/leisure-travel">
-                      <Navbar/>
+                    
                       <Leisure/>
                       <Footer/>
                     </Route>
 
                     <Route exact path="/our-company">
-                      <Navbar/>
+                      
                       <Ourcompany/>
                       <Footer/>
                     </Route>
 
+                    <Route exact path="/our-philosophy">
+                     
+                      <Philosophy/>
+                      <Footer/>
+                    </Route>
 
+
+                    <Route exact path="/terms-and-conditions">
+                    
+                      <Terms/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/privacy-policy">
+                     
+                      <Privacy/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/visas-and-passport">
+                     
+                      <Visas/>
+                      <Footer/>
+                    </Route>
+
+
+{/* Services Pages */}
+
+
+    <Route exact path="/flight">
+  
+      <Flight/>
+      <Footer/>
+    </Route>
 
                     <Route exact path="*">
-
                       <Errorpage/>
                     </Route>
+    
                 </Switch>
+
             </Router>
     </>
   );

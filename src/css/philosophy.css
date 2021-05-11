@@ -1,31 +1,31 @@
-.hero-leisure{
+.hero-philosophy{
     padding: 0px!important;
-    animation-name: hero-anim-leisure;
+    animation-name: hero-anim-philosophy;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
-@keyframes hero-anim-leisure {
+@keyframes hero-anim-philosophy {
     0%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/ourphilosophy.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/ourphilosophy.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/carousel\ 3.jpeg');
+        background-image: url('../picture/mainhero2.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
-.hero-content-leisure{
+.hero-content-philosophy{
     background-color: hsla(210, 95%, 5%, 0.88);
     padding-top: 9rem;
     padding-left: 50px;
@@ -43,31 +43,25 @@
     animation-iteration-count: 5;
 }
 
-.leisure-dest{
-    background-color:#F2F8FD;
+.tag{
+    font-size: 25px!important;
 }
 
-.leisure-stack1{
-    width:100%;
+.accordion-philosophy{
+    background-color: #010e1b!important;
+    border-bottom: 2px solid white!important;
 }
 
-.leisure-idea{
-    margin-top: -120px!important;
-    padding-top: 200px;
-    background-image: url('../picture/Rectangle.png');
+.accordion-note{
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
 }
 
-.ideas:hover{
-    box-shadow: 0px 4px 10px rgba(7, 41, 70, 0.8);
-    z-index: 100;
+.offering-note{
+    background-image: url('../picture/corporate\ bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-
-
-
-
-
-
 
 
 /* Media Queries begins */
@@ -86,32 +80,22 @@
     }
 
 
-    .hero-content-leisure{
+    .hero-content-philosophy{
         background-color: hsla(210, 95%, 5%, 0.88);
         padding-left: 20px!important;
         padding-right: 20px!important;
 
     }
 
-    .page-note{
-        padding-left: 20px!important;
-        padding-right: 20px!important;
+    .page-note-phil{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
         padding-bottom: 0px!important;
         padding-top: 20px!important;
     }
 
-    .dest-note, .lux-note{
-        padding: 0px 20px 0px 20px!important;
-    }
-
-
-    .leisure-stack{
-        padding: 5px 20px 5px 20px!important;
-    }
-
-
-    .ideas{
-        margin-top: 10px!important  ;
+    .tag{
+        font-size: 18px!important;
     }
 
 
@@ -134,17 +118,12 @@
         font-size: 30px;
     }
 
-    .dest-note{
-        padding: 0px 20px 0px 20px!important;
+    .tag{
+        font-size: 18px!important;
     }
 
-    .lux-note{
-        padding: 20px 20px 0px 20px!important;
-    }
 
-    .leisure-idea{
-        margin-top: -150px!important;
-    }
+
 
 
  }

@@ -65,22 +65,22 @@ export const Homepage = () => {
 
     <div className="container animate__animated animate__backInUp">
         <div className="row">
-            <div className=" col-6 col-md-3">
-                <div className="service-box pb-5 pt-5">
+        <div className=" col-6 col-md-3">
+        <Link to="/flight" className="link text-dark"><div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto text-center p-3">
                         <img src={flight} className="icon-pic"/>
                     </div>
                         <p className="service-name mt-4 text-center">Flight</p>
-                </div>
+                </div></Link>
             </div>
 
             <div className=" col-6 col-md-3">
-            <div className="service-box pb-5 pt-5">
-                    <div className="icon mx-auto p-3 text-center ">
+            <Link to="/visas-and-passport" className="link text-dark"><div className="service-box pb-5 pt-5">
+            <div className="icon mx-auto p-3 text-center ">
                         <img src={visas} className="icon-pic"/>
                     </div>
                         <p className="service-name mt-4 text-center">Visas</p>
-                </div>
+                </div></Link>
             </div>
 
             <div className=" col-6 col-md-3">
@@ -316,7 +316,7 @@ export const Homepage = () => {
                 Platea dictumst vestibulum rhoncus est pellentesque. 
                 Risus quis varius quam quisque id diam vel quam elementum. Quis ipsum suspendisse ultrices gravida dictum. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. </p>
 
-                <button className="btn btn-lg button mt-4">READ MORE</button>
+                <Link to="/our-company" className="link"><button className="btn btn-lg button mt-4">READ MORE</button></Link>
             </div>
 
             <div className="col-md-6 mt-4 about-us-video">

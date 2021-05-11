@@ -11,8 +11,7 @@ import ourhistory from '../picture/ourcompany-bg4.png';
 
 
 
-
-import { makeStyles } from '@material-ui/core/styles';
+//material ui
 import Accordion from '@material-ui/core/Accordion';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
@@ -41,12 +40,12 @@ export const Ourcompany = () => {
 
         {/* Hero section */}
         <section>
-                <div className="container-fluid hero-ourcompany">
+                <div className="container-fluid hero-ourcompany img-fluid">
 
                     <div className="col-md-5 hero-content-ourcompany">
                                 <h1 className="heading text-white"><b>Our Company</b></h1>
                                 <p className="text-white text-justify heading-note">We ’re shaping the future of business travel with our award-winning corporate travel management and booking platform – built on the foundations of trust, choice and great people.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                 <button className="btn btn-lg button mt-4">CONTACT US</button>
                     </div>
                 </div>
@@ -93,7 +92,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-5 mt-5 order-2 order-md-1 profile-note">
-                <h1 className="head-tag text-left">Our<br></br><spa n style={{color:'#0275d8'}}>Profile</spa></h1>
+                <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Profile</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.  </p>
                 </div>
 
@@ -128,7 +127,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <h1 className="head-tag text-center">Frequently Asked <span style={{color:'#0275d8'}}>Question</span></h1>
 
 
-<div>
+<div className="mt-4">
       <Accordion  expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
