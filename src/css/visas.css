@@ -47,7 +47,7 @@
 }
 
 
-.card{
+.country-card{
     transition: box-shadow 0.5s;
     border-radius: 10px;
     background: #ffffff;
@@ -71,7 +71,7 @@
 }
 
 
-.card-title{
+.country-name{
     font-size: 14px;
     font-weight: bold;
     margin-top: 20px;
@@ -119,7 +119,7 @@
     }
 
     .mobile-country{
-        display: block;
+        display: flex;
     }
 
     .desktop-country{

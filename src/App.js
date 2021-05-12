@@ -19,6 +19,7 @@ import { Privacy } from './view/privacy';
 import { Flight } from './view/flight';
 import { Visas } from './view/visas';
 import ScrollToTop from './view/scrollToTop';
+import { Insurance } from './view/insurance';
 
 function App() {
   return (
@@ -82,21 +83,30 @@ function App() {
                       <Footer/>
                     </Route>
 
-                    <Route exact path="/visas-and-passport">
-                     
-                      <Visas/>
-                      <Footer/>
-                    </Route>
+
 
 
 {/* Services Pages */}
 
+
+                  <Route exact path="/visas-and-passport">
+                     
+                     <Visas/>
+                     <Footer/>
+                   </Route>
 
     <Route exact path="/flight">
   
       <Flight/>
       <Footer/>
     </Route>
+
+
+    <Route exact path="/insurance">
+  
+  <Insurance/>
+  <Footer/>
+</Route>
 
                     <Route exact path="*">
                       <Errorpage/>

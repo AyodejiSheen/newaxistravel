@@ -44,8 +44,8 @@ export const Navbar = () => {
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <Link to="/flight" className="link"><a className="dropdown-item">Flight</a></Link>
-                    <a className="dropdown-item" href="#">Visas</a>
-                    <a className="dropdown-item" href="#">Insurances</a>
+                    <Link to="/visas-and-passport" className="link"><a className="dropdown-item">Visas</a></Link>
+                    <Link to="/insurance" className="link"><a className="dropdown-item">Insurances</a></Link>
                     <a className="dropdown-item" href="#">Tours</a>
                     <a className="dropdown-item" href="#">Hotel Reservation</a>
                     <a className="dropdown-item" href="#">Transport</a>

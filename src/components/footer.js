@@ -80,10 +80,10 @@ export const Footer = () => {
                                 <h6>Services</h6>
                                 <ul className="footer-list">
                                 <Link to="/flight" className="footer-link "> <li>Flight</li></Link>
-                                    <li>Visas</li>
+                                <Link to="/visas-and-passport" className="footer-link "> <li>Visas</li></Link>
                                     <li>Hotel Reservation</li>
                                     <li>Tours</li>
-                                    <li>Insurance</li>
+                                    <Link to="/insurance" className="footer-link "> <li>Insurance</li></Link>
                                     <li>Transport</li>
                                     <li>Packages</li>
                                     <li>Conferences</li>

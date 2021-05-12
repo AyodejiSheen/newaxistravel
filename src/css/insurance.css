@@ -1,0 +1,246 @@
+.hero-insurance{
+    padding: 0px!important;
+    animation-name: hero-anim-insurance;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-insurance {
+    0%{
+        background-image: url('../picture/insurance-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    65%{
+        background-image: url('../picture/insurance-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/mainhero3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-insurance{
+    background-color: hsla(210, 95%, 5%, 0.88);
+    padding-top: 9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5rem;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.scroll{
+    margin-top: -20px;
+    animation-iteration-count: 5;
+}
+
+.insurance-pack{
+    color: black!important;
+    width: 210px;
+    transition: box-shadow 0.5s;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(46,46,46,0.5);
+}
+
+.pack-icon{
+    margin-top: 6px;
+    width: 80%;
+}
+
+.inc-icon{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 10px solid #f1f2f6;
+    padding: 5px;
+}
+
+.pack-title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pack-note{
+    font-size: 14px;
+}
+
+.pack-button{
+    border: 1px solid #0275d8;
+    border-radius: 0px;
+    font-size: 14px;
+    color: #0275d8;
+    font-weight: 600;
+}
+
+.pack-button:hover{
+    background-color: #0275d8;
+    color: white;
+}
+
+.packs{
+    margin: 18px!important;
+}
+
+.insurance-pack:hover{
+    background-color: #010e1b;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.89);
+    color: white!important;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+
+.personal-accident, .lost-baggage, .missed-flight{
+    background-color:#F2F8FD;
+}
+
+.medical, .passport{
+    background-image: url('../picture/Rectangle.png');
+}
+
+.mobile-pack{
+    display: none;
+}
+
+
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+
+    .hero-content-insurance{
+        background-color: hsla(210, 95%, 5%, 0.88);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+
+    }
+
+    .insurance-pack{
+    width: 100%;
+    transition: box-shadow 0.5s;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(46,46,46,0.5);
+}
+
+.insurance-pack:hover{
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.89);
+}
+
+
+.packs{
+    margin: 0px!important;
+    padding: 5px 10px 5px 10px;
+}
+
+.desktop-pack{
+    padding: 8px;
+}
+
+ .pack-note, .pack-button{
+    display: none;
+}
+
+.pack-title{
+    font-size: 12px;
+}
+
+
+.insurance-pack{
+    border: 0px;
+    text-decoration: none!important;
+}
+
+
+.pack-icon{
+    width: 70%;
+}
+
+.inc-icon{
+    width: 70px;
+    height: 70px;
+}
+
+
+.desktop-pack{
+    display: none;
+}
+
+.mobile-pack{
+    display: flex;
+}
+
+
+.personal-accident, .missed-flight{
+    padding-bottom: 0px!important;
+}
+
+.medical-section{
+    padding: 20px!important;
+}
+
+
+
+
+ }
+
+
+
+
+
+
+ /* Tablets */
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+    .packs{
+        padding: 0px 100px 0px 100px!important;
+    }
+
+
+
+
+
+
+
+ }
+
+
+/* Larger Screens */
+ @media only screen and (min-width:1824px) {
+     
+ }
