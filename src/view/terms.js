@@ -17,7 +17,7 @@ export const Terms = () => {
                     {/* Hero section */}
             <section>
                 <div className="container-fluid p-0 hero-terms">
-                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+                <div id="carouselExampleSlidesOnly44" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={carousel} className="d-block terms1 w-100 img-fluid"  alt="..."/>

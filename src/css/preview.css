@@ -1,0 +1,102 @@
+.terms1{
+    height: 580px!important;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.scroll{
+    margin-top: -20px;
+    animation-iteration-count: 5;
+    
+}
+
+
+.get-book{
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+}
+
+.our-travel-preview{
+    background-image: url('../picture/Rectangle.png');
+}
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .terms1{
+        height: 100%!important;
+        margin-top: 5px;
+    }
+
+    .hero-terms{
+        padding-top: 60px!important;
+    }
+
+    .terms{
+        margin-top: 30px;
+    }
+
+    .terms-note{
+        font-size: 14px;
+    }
+
+    .terms-head{
+        font-size: 16px;
+    }
+
+    .highlight{
+        padding-left: 30px;
+    }
+
+
+    .our-travel-preview{
+        margin-top: 50px;
+    }
+
+ }
+
+
+
+
+
+
+ /* Tablets */
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+
+    .terms1{
+        height: 100%!important;
+    }
+
+    .hero-terms{
+        padding-top: 60px!important;
+    }
+
+    .terms{
+        margin-top: 30px;
+    }
+
+    .terms-note{
+        font-size: 14px;
+    }
+
+    .terms-head{
+        font-size: 16px;
+    }
+
+ }
+
+
+/* Larger Screens */
+ @media only screen and (min-width:1824px) {
+     
+ }

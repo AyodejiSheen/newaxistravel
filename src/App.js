@@ -20,6 +20,8 @@ import { Flight } from './view/flight';
 import { Visas } from './view/visas';
 import ScrollToTop from './view/scrollToTop';
 import { Insurance } from './view/insurance';
+import { Tour } from './view/tour';
+import { Preview } from './view/preview';
 
 function App() {
   return (
@@ -95,18 +97,58 @@ function App() {
                      <Footer/>
                    </Route>
 
-    <Route exact path="/flight">
-  
-      <Flight/>
-      <Footer/>
-    </Route>
+                  <Route exact path="/flight">
+                
+                    <Flight/>
+                    <Footer/>
+                  </Route>
 
 
-    <Route exact path="/insurance">
-  
-  <Insurance/>
-  <Footer/>
-</Route>
+                <Route exact path="/insurance">
+                
+                <Insurance/>
+                <Footer/>
+              </Route>
+
+
+
+              <Route exact path="/tour">
+                
+                <Tour/>
+                <Footer/>
+              </Route>
+
+
+              <Route exact path="/bangkok-tour">
+                
+                <Preview/>
+                <Footer/>
+              </Route>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                     <Route exact path="*">
                       <Errorpage/>

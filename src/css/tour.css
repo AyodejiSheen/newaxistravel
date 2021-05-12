@@ -1,0 +1,222 @@
+.hero-tour{
+    padding: 0px!important;
+    animation-name: hero-anim-tour;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-tour {
+    0%{
+        background-image: url('../picture/tour-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    65%{
+        background-image: url('../picture/tour-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/mainhero3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-tour{
+    background-color: hsla(210, 95%, 5%, 0.88);
+    padding-top: 9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5rem;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.scroll{
+    margin-top: -20px;
+    animation-iteration-count: 5;
+}
+
+
+.tour-title{
+    font-weight: bold;
+}
+
+.tour-options{
+    border: none;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(46,46,46,0.5);
+}
+
+
+.tour-img{
+    width: 300px!important;
+    height: 190px!important;
+}
+
+.dest-img{
+    border: 3px solid white;
+    box-shadow: 0px 4px 6px rgba(46,46,46,0.5);
+}
+
+
+.travels-pic{
+    border-radius: 0px!important;
+}
+
+
+.tour-button{
+        background-color: #0275d8;
+        border-radius: 0px;
+        font-size: 14px;
+    color: white;
+        font-weight: 600;
+}
+
+.enjoy-section{
+    padding-bottom: 100px!important;
+}
+
+.our-travels{
+    padding-bottom: 30px!important;
+}
+
+.card{
+    border: none;
+}
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+
+    .hero-content-tour{
+        background-color: hsla(210, 95%, 5%, 0.88);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+
+    }
+
+    .tour-options{
+        margin-top: 20px!important;
+        padding: 0px;
+    }
+
+    .tour-img{
+        width: 300px!important;
+        height: 180px!important;
+    }
+
+    .t-img-box{
+        padding: 15px;
+        margin: -20px 0px 0px 0px!important;
+    }
+
+    .img-box{
+        padding: 7px 2px 7px 2px!important;
+    }
+
+
+    .travel-dest{
+        margin-top:20px!important;
+    }
+
+
+    .enjoy-section{
+        padding-bottom: 0px!important;
+    }
+
+    .our-travels{
+        margin-top: 20px!important;
+    }
+
+
+
+
+
+ }
+
+
+
+
+
+
+ /* Tablets */
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .heading-note{
+        font-size: 12px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+    .img-box{
+        padding: 7px 2px 7px 2px!important;
+    }
+
+
+    .t-img-box{
+        padding: 30px;
+        margin: -20px 0px 0px 0px!important;
+    }
+
+
+    .tour-img{
+        width: 300px!important;
+        height: 120px!important;
+    }
+
+
+    .tour-options{
+        padding: 0px!important;
+    }
+
+    .tour-title{
+        font-size: 15px;
+    }
+    
+    .enjoy-section{
+        padding-bottom: 0px!important;
+    }
+
+    .our-travels{
+        margin-top: 20px!important;
+    }
+
+
+
+
+
+
+
+
+ }
+
+
+/* Larger Screens */
+ @media only screen and (min-width:1824px) {
+     
+ }

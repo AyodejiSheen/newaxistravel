@@ -46,7 +46,7 @@ export const Navbar = () => {
                     <Link to="/flight" className="link"><a className="dropdown-item">Flight</a></Link>
                     <Link to="/visas-and-passport" className="link"><a className="dropdown-item">Visas</a></Link>
                     <Link to="/insurance" className="link"><a className="dropdown-item">Insurances</a></Link>
-                    <a className="dropdown-item" href="#">Tours</a>
+                    <Link to="/tour" className="link"><a className="dropdown-item">Tours</a></Link>
                     <a className="dropdown-item" href="#">Hotel Reservation</a>
                     <a className="dropdown-item" href="#">Transport</a>
                     <a className="dropdown-item" href="#">Packages</a>

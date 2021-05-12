@@ -120,16 +120,15 @@ Visas, or obtaining visas for travel to other countries.</p>
 
 
 
-
         <div className="mobile-country">
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active" data-interval="1000">
                     <div className="row p-3">
                         <div className="col-6">
                         <div className="card country-card">
-                            <img src={unitedFlag} className="flag"/>
-                            <img src={united} class="card-img-top img-fluid"/>
+                            <img src={dubaiFlag} className="flag"/>
+                            <img src={dubai} class="card-img-top img-fluid"/>
                             <div className="card-body">
                                 <h5 className="card-title country-name">Dubai</h5>
                             </div>
@@ -138,10 +137,10 @@ Visas, or obtaining visas for travel to other countries.</p>
 
                         <div className="col-6">
                             <div className="card country-card">
-                            <img src={austraFlag} className="flag"/>
-                            <img src={australia} class="card-img-top img-fluid"/>
+                            <img src={unitedFlag} className="flag"/>
+                            <img src={united} class="card-img-top img-fluid"/>
                             <div className="card-body">
-                                <h5 className="card-title country-name">Australia</h5>
+                                <h5 className="card-title country-name">USA</h5>
                             </div>
                             </div>
                         </div>

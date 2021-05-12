@@ -82,7 +82,7 @@ export const Footer = () => {
                                 <Link to="/flight" className="footer-link "> <li>Flight</li></Link>
                                 <Link to="/visas-and-passport" className="footer-link "> <li>Visas</li></Link>
                                     <li>Hotel Reservation</li>
-                                    <li>Tours</li>
+                                    <Link to="/tour" className="footer-link "> <li>Tours</li></Link>
                                     <Link to="/insurance" className="footer-link "> <li>Insurance</li></Link>
                                     <li>Transport</li>
                                     <li>Packages</li>

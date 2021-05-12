@@ -93,12 +93,12 @@ export const Homepage = () => {
             </div>
 
             <div className="col-6 col-md-3">
-            <div className="service-box pb-5 pt-5">
+            <Link to="/tour" className="link text-dark"><div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <img src={tour} className="icon-pic"/>
                     </div>
                         <p className="service-name mt-4 text-center">Tours</p>
-                </div>
+                </div></Link>
             </div>
         </div>
 
