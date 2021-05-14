@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../css/philosophy.css'
 
 
@@ -38,8 +39,7 @@ export const Philosophy = () => {
                     <div className="col-md-5 hero-content-philosophy">
                                 <h1 className="heading text-white"><b>Philosophy</b></h1>
                                 <p className="text-white text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. </p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
-                    </div>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>                    </div>
                 </div>
         </section>
 
@@ -238,8 +238,7 @@ eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
             
             <p className="text-justify  text-white heading-note">You can mail us or click here to fill out an online enquiry form and one of our team will give you a call.</p>
 
-            <button className="btn btn-lg button mt-4">CONTACT US</button>
-            </div>
+            <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>            </div>
             </div>
         </div>
 </section>

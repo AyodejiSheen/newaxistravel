@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../css/flight.css'
 
 
@@ -21,9 +22,9 @@ export const Flight = () => {
                     <div className="col-md-5 hero-content-flight">
                                 <h1 className="heading text-white"><b>Flight</b></h1>
                                 <p className="text-white text-justify heading-note">Axis Travel works closely with large number of partner
-airlines from around the globe, allowing us to book flight
-tickets quickly on any flight around the world.</p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                                airlines from around the globe, allowing us to book flight
+                                tickets quickly on any flight around the world.</p>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                     </div>
                 </div>
         </section>

@@ -27,10 +27,10 @@
 
 .hero-content-tour{
     background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 9rem;
+    padding-top: 11rem;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 
 .heading{
@@ -56,8 +56,9 @@
 
 
 .tour-img{
-    width: 300px!important;
+    width: 100%!important;
     height: 190px!important;
+border-radius: 0px!important;
 }
 
 .dest-img{
@@ -114,6 +115,8 @@
         background-color: hsla(210, 95%, 5%, 0.88);
         padding-left: 20px!important;
         padding-right: 20px!important;
+        padding-top: 9rem;
+        padding-bottom: 5rem;
 
     }
 
@@ -123,8 +126,8 @@
     }
 
     .tour-img{
-        width: 300px!important;
-        height: 180px!important;
+        width: 100%!important;
+        height: 100%!important;
     }
 
     .t-img-box{

@@ -58,8 +58,8 @@ export const Footer = () => {
                                     <div className=" col-6 col-md-4 col-lg-3">
                                 <h6>Resources</h6>
                                 <ul className="footer-list">
-                                    <li>Testimonials</li>
-                                    <li>Why Choose Us</li>
+                                <a href="/#testimonials" className="footer-link"><li>Testimonials</li></a>
+                                <a href="/#why-choose-us" className="footer-link"><li>Why Choose Us</li></a>
                                     <Link to="/terms-and-conditions" className="footer-link"><li>Terms & Services</li></Link>
                                     <Link to="/privacy-policy" className="footer-link"><li>Privacy Policy</li></Link>
                                 </ul>
@@ -81,12 +81,12 @@ export const Footer = () => {
                                 <ul className="footer-list">
                                 <Link to="/flight" className="footer-link "> <li>Flight</li></Link>
                                 <Link to="/visas-and-passport" className="footer-link "> <li>Visas</li></Link>
-                                    <li>Hotel Reservation</li>
+                                <Link to="/hotel" className="footer-link "> <li>Hotel Reservation</li></Link>
                                     <Link to="/tour" className="footer-link "> <li>Tours</li></Link>
                                     <Link to="/insurance" className="footer-link "> <li>Insurance</li></Link>
-                                    <li>Transport</li>
-                                    <li>Packages</li>
-                                    <li>Conferences</li>
+                                    <Link to="/transport" className="footer-link "><li>Transport</li></Link>
+                                    <Link to="/packages" className="footer-link "><li>Packages</li></Link>
+                                    <Link to="/meetings-and-events#conferences" className="footer-link "><li>Conferences</li></Link>
                                 </ul>
                                 </div>
 

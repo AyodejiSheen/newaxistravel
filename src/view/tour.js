@@ -40,7 +40,8 @@ tours. Your dedicated Tour Consultant will work closely with
 you to deliver the perfect tour at the best possible price. Same
 day booking is available, with pick up and drop off at your hotel
 or accommodation.</p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+
                     </div>
                 </div>
         </section>
@@ -59,7 +60,7 @@ or accommodation.</p>
             <div className="col-md-4">
                 <div className="card tour-options">
                 <img src={world} class="card-img-top img-fluid tour-img"/>
-                <div className="card-body">
+                <div className="card-body tour-note">
                     <h5 className="card-title tour-title text-center">Worldwide Connected</h5>
                     <p className="heading-note text-center  mb-0">Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor
@@ -130,7 +131,7 @@ Commodo sed egestas egestas fringilla.</p>
 
     {/* Awesome Destination */}
 
-        <div className="container-fluid mt-5 p-0">
+        <div className="container-fluid mt-5 p-4">
         <h1 className="head-tag text-center">Awesome <span style={{color:'#0275d8'}}>Destinations</span></h1>
         <p className="text-center mx-auto col-md-6 heading-note">Axis Travel, we promise our guest with the standard</p>
 

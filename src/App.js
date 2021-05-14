@@ -22,6 +22,9 @@ import ScrollToTop from './view/scrollToTop';
 import { Insurance } from './view/insurance';
 import { Tour } from './view/tour';
 import { Preview } from './view/preview';
+import { Hotel } from './view/hotel.';
+import { Transport } from './view/transport';
+import { Package } from './view/package';
 
 function App() {
   return (
@@ -125,6 +128,27 @@ function App() {
                 <Footer/>
               </Route>
 
+
+
+              <Route exact path="/hotel">
+                
+                <Hotel/>
+                <Footer/>
+              </Route>
+
+
+              <Route exact path="/transport">
+                
+                <Transport/>
+                <Footer/>
+              </Route>
+
+
+              <Route exact path="/packages">
+                
+                <Package/>
+                <Footer/>
+              </Route>
 
 
 

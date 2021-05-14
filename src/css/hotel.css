@@ -1,19 +1,22 @@
-.hero-flight{
+
+
+
+  .hero-hotel{
     padding: 0px!important;
-    animation-name: hero-anim-flight;
+    animation-name: hero-anim-hotel;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
-@keyframes hero-anim-flight {
+@keyframes hero-anim-hotel {
     0%{
-        background-image: url('../picture/flight-bg.png');
+        background-image: url('../picture/hotel-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/flight-bg.png');
+        background-image: url('../picture/hotel-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -25,12 +28,12 @@
     }
 }
 
-.hero-content-flight{
+.hero-content-hotel{
     background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 13rem;
+    padding-top: 11rem;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 9rem;
+    padding-bottom: 7rem;
 }
 
 .heading{
@@ -44,9 +47,27 @@
 }
 
 
-.smooth-book, .benefit-book{
+.hotel-book, .hotel-benefit{
     background-color:#F2F8FD;
 }
+
+
+
+.partner-logo{
+    width: 75%;
+}
+
+.hotel-tab-screen{
+    display: none;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -66,30 +87,32 @@
     }
 
 
-    .hero-content-flight{
+    .hero-content-hotel{
         background-color: hsla(210, 95%, 5%, 0.88);
         padding-left: 20px!important;
         padding-right: 20px!important;
+        padding-top: 9rem;
+        padding-bottom: 5rem;
 
     }
 
 
-    .smooth-book-note{
+    .hotel-book{
+        margin-top: 0px!important;
+        padding-top: 0px!important;
+    }
+
+    .hotel-book-note{
         padding: 20px!important;
-        margin-top: 10px!important;
     }
 
-
-    .benefit-book-note{
+    .hotel-partner-note{
         padding: 20px!important;
-        margin-top: 10px !important;
     }
 
-    .partner-note{
-        margin-top: 10px!important;
-        padding: 20px!important ;
+    .partner-logo{
+        width: 100%;
     }
-
 
 
  }
@@ -111,25 +134,44 @@
         font-size: 30px;
     }
 
+    .hero-content-hotel{
+        background-color: hsla(210, 95%, 5%, 0.88);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 9rem;
+        padding-bottom: 5rem;
 
-    .smooth-book-note{
-        padding: 20px!important;
-        margin-top: 0px!important;
     }
 
-    .smooth-book{
+    .hotel-book-note{
+        margin-top: 0px!important;
+        padding-top: 0px!important;
+    }
+
+    .hotel-book{
         padding-bottom: 0px!important;
     }
 
-    .partner-note{
-        margin-top: 0px!important;
-        padding: 20px!important ;
-    }
-
-
-    .benefit-book-note{
+    .hotel-partner-note{
         padding: 20px!important;
     }
+
+    .partner-logo{
+        width: 100%;
+        text-align: center;
+        justify-self: center;
+        margin-right: auto;
+    }
+
+    .hotel-tab-screen{
+        display: flex!important;
+    }
+
+    .hotel-all-screen{
+        display: none;
+    }
+
+
 
 
 

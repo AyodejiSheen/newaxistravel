@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../css/visas.css'
 
 
@@ -36,7 +37,8 @@ service, issuing UAE visas for periods from 7 to 90 days
 directly from our office; ideal for corporate travel. We can
 also offer advice and assistance in processing Schengen
 Visas, or obtaining visas for travel to other countries.</p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+
                     </div>
                 </div>
         </section>
@@ -226,7 +228,7 @@ Visas, or obtaining visas for travel to other countries.</p>
                 paperwork will conform to the requirements of foreign
                 embassies. Choose only trusted online visa services by
                 contactin us now.</p>
-                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
 
                 </div>
             </div>
@@ -246,7 +248,7 @@ Visas, or obtaining visas for travel to other countries.</p>
                 new passports to getting a second passport to applying for
                 visas, our travel experts will assist you in every step of the
                 process for our passport services. </p>
-                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
 
                 <div className="col-md-6 p-0 order-1 order-md-2">

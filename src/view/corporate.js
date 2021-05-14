@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, useHistory} from 'react-router-dom';
 import '../css/corporate.css';
 
 
@@ -19,7 +20,7 @@ export const Corporate = () => {
                     <div className="col-md-5 hero-content-corporate">
                                 <h1 className="heading text-white"><b>Corporate<span style={{color:"#0275d8"}}> <br></br>Travel</span></b></h1>
                                 <p className="text-white text-justify heading-note">Whether it’s exploring new wonders in places beyond or taking trips to bring your business to grander heights, Axis Travel & Tourism offers first-rate travel and tour solutions to make each journey a worry-free experience. From booking flight tickets and accommodation to organizing leisure tours, we have expertly tailored our menu of services to cover travel needs at a very competitive cost.</p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                     </div>
                 </div>
         </section>
@@ -54,7 +55,7 @@ export const Corporate = () => {
             <br></br>
             Businesses can schedule a demo with Forest Travel and see the benefit of working with a skilled corporate travel company. Between perks that businesses can’t access on their own and the ease of booking trips through a company that takes care of all of the details, business trips will be a breeze. </p>
 
-            <button className="btn btn-lg button mt-4">READ MORE</button>
+            <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
             </div>
             </div>
         </div>
@@ -93,7 +94,7 @@ export const Corporate = () => {
                 <h1 className="head-tag text-left">Start A Partnership With<span style={{color:'#0275d8'}}> Axis Travel</span></h1>
                     <p className="text-justify heading-note ">When businesses create long-term relationships with AxisTravel, they see even more benefits from the available corporate travel services. Travel account managers can use past travel reports to find ways to optimize future travel budgets. The online booking tool streamlines the pre-trip process and simplifies reporting expenses to the business’s accounting department. As time goes on, Forest Travel grows even better at understanding each business and catering to their specific needs.</p>
 
-                    <button className="btn btn-lg button mt-4">CONTACT US</button>
+                    <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
 
                 <div className="col-md-6">

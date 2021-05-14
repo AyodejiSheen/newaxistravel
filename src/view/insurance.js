@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import '../css/insurance.css'
 
 
@@ -31,7 +32,8 @@ export const Insurance = () => {
                                 issued immediately. Our individual trip option covers you for
                                 between 5 and 92 days, while multi-trip coverage can
                                 protect you for up to one year.</p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+
                     </div>
                 </div>
         </section>
@@ -45,13 +47,13 @@ export const Insurance = () => {
 
 {/* insurance packages */}
 <section className="mb-5 country">
-    <div className="container mt-4">
+    <div className="container-fluid mt-4">
         <div className="mx-auto col-md-8 ">
         <h1 className="head-tag text-center">Our <span style={{color:'#0275d8'}}> Packages</span></h1>
         <p className="text-center heading-note ">Our insurances packages cover you in the event of:</p>
         </div>
 
-        <div className="row  mt-4 pt-2 desktop-pack">
+        <div className="row mt-4 pt-2 desktop-pack justify-content-center">
 
             <div className="col-md-2 col-6  text-center packs">
                 <div className="card insurance-pack">
@@ -130,7 +132,7 @@ export const Insurance = () => {
         <div className="row justify-content-center mt-4 pt-2 mobile-pack">
 
 <div className="col-md-2 col-6  text-center packs">
-<a href="#personal-accident"><div className="card text-dark insurance-pack">
+<a href="#personal-accident" className="link"><div className="card text-dark insurance-pack">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={accident} className="pack-icon img-fluid"/>
@@ -145,7 +147,7 @@ export const Insurance = () => {
 
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#medical"><div className="card insurance-pack text-dark">
+<a href="#medical" className="link"><div className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={ambulance} className="pack-icon img-fluid"/>
@@ -160,7 +162,7 @@ export const Insurance = () => {
 
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#lost-bag"><div className="card insurance-pack text-dark">
+<a href="#lost-bag" className="link"><div className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={bag} className="pack-icon img-fluid"/>
@@ -174,7 +176,7 @@ export const Insurance = () => {
 </div>
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#lost-passport"><div className="card insurance-pack text-dark">
+<a href="#lost-passport" className="link"><div className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={passport} className="pack-icon img-fluid"/>
@@ -188,7 +190,7 @@ export const Insurance = () => {
 </div>
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#missed-flight"> <div className="card insurance-pack text-dark">
+<a href="#missed-flight" className="link"> <div className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={flightCancel} className="pack-icon img-fluid"/>
@@ -327,7 +329,8 @@ accidentally damaged, Axis Travel has you covered. </p>
 
 
 <div className="text-center mb-5">
-<button className="btn btn-lg button mt-4">CONTACT US</button>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+
 </div>
 
 

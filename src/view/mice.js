@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../css/mice.css'
 
 
@@ -22,7 +23,7 @@ export const Mice = () => {
                     <div className="col-md-5 hero-content-mice">
                                 <h1 className="heading text-white"><b>Meetings And<span style={{color:"#0275d8"}}> <br></br>Events</span></b></h1>
                                 <p className="text-white text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                     </div>
                 </div>
         </section>
@@ -56,7 +57,7 @@ export const Mice = () => {
                 <div className="col-md-6 p-5 mt-5">
                 <h1 className="head-tag text-left">Meetings And  <br></br><span style={{color:'#0275d8'}}>Incentives</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
-                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
             </div>
         </div>
@@ -69,7 +70,7 @@ export const Mice = () => {
                 <div className="col-md-6 p-5 mt-5 order-2 order-md-1">
                 <h1 className="head-tag text-left">Events</h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
-                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
 
                 <div className="col-md-6 p-0 order-1 order-md-2">
@@ -80,8 +81,8 @@ export const Mice = () => {
 </section>
 
 
-{/* Events*/}
-<section className="meet-incent pt-5 pb-5">
+{/* conferences*/}
+<section className="meet-incent pt-5 pb-5" id="conferences">
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-0">
@@ -91,7 +92,7 @@ export const Mice = () => {
                 <div className="col-md-6 p-5 mt-5">
                 <h1 className="head-tag text-left">Conference  <br></br><span style={{color:'#0275d8'}}>Meetings</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
-                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
             </div>
         </div>

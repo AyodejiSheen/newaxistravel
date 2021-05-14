@@ -1,19 +1,19 @@
-.hero-flight{
+.hero-package{
     padding: 0px!important;
-    animation-name: hero-anim-flight;
+    animation-name: hero-anim-package;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
-@keyframes hero-anim-flight {
+@keyframes hero-anim-package {
     0%{
-        background-image: url('../picture/flight-bg.png');
+        background-image: url('../picture/package-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/flight-bg.png');
+        background-image: url('../picture/insurance-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -25,28 +25,25 @@
     }
 }
 
-.hero-content-flight{
+.hero-content-package{
     background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 13rem;
+    padding-top: 12rem;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 9rem;
 }
 
-.heading{
-    font-weight: 900;
-    font-size: 50px;
-}
 
-.scroll{
-    margin-top: -20px;
-    animation-iteration-count: 5;
+.package-contact{
+    background-color: #010e1b;
 }
 
 
-.smooth-book, .benefit-book{
-    background-color:#F2F8FD;
-}
+
+
+
+
+
 
 
 
@@ -66,29 +63,16 @@
     }
 
 
-    .hero-content-flight{
+    .hero-content-package{
         background-color: hsla(210, 95%, 5%, 0.88);
         padding-left: 20px!important;
         padding-right: 20px!important;
+        padding-top: 9rem;
+        padding-bottom: 5rem;
 
     }
 
 
-    .smooth-book-note{
-        padding: 20px!important;
-        margin-top: 10px!important;
-    }
-
-
-    .benefit-book-note{
-        padding: 20px!important;
-        margin-top: 10px !important;
-    }
-
-    .partner-note{
-        margin-top: 10px!important;
-        padding: 20px!important ;
-    }
 
 
 
@@ -103,7 +87,7 @@
 
  @media only screen and (min-device-width:768px) and (max-device-width:1024px){
     .heading-note{
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
@@ -112,24 +96,7 @@
     }
 
 
-    .smooth-book-note{
-        padding: 20px!important;
-        margin-top: 0px!important;
-    }
 
-    .smooth-book{
-        padding-bottom: 0px!important;
-    }
-
-    .partner-note{
-        margin-top: 0px!important;
-        padding: 20px!important ;
-    }
-
-
-    .benefit-book-note{
-        padding: 20px!important;
-    }
 
 
 

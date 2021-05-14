@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, useHistory} from 'react-router-dom';
 import '../css/leisure.css'
 
 
@@ -28,7 +29,7 @@ export const Leisure = () => {
                     <div className="col-md-5 hero-content-leisure">
                                 <h1 className="heading text-white"><b>Leisure<span style={{color:"#0275d8"}}> Travel</span></b></h1>
                                 <p className="text-white text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                     </div>
                 </div>
         </section>
@@ -61,7 +62,7 @@ export const Leisure = () => {
                 <div className="col-md-6 p-5 mt-5 dest-note">
                 <h1 className="head-tag text-left">Leisure Travel<br></br><span style={{color:'#0275d8'}}>Destinations.</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
-                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
             </div>
         </div>
@@ -75,7 +76,7 @@ export const Leisure = () => {
                 <div className="col-md-6 p-5 mt-5 lux-note order-2 order-md-1">
                 <h1 className="head-tag text-left">Luxury Travel<br></br><span style={{color:'#0275d8'}}>Expert</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
-                <button className="btn btn-lg button mt-4">CONTACT US</button>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
 
                 <div className="col-md-6 order-1 order-md-2">

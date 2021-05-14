@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../css/ourcompany.css';
 
 
@@ -43,11 +44,10 @@ export const Ourcompany = () => {
                 <div className="container-fluid hero-ourcompany img-fluid">
 
                     <div className="col-md-5 hero-content-ourcompany">
-                                <h1 className="heading text-white"><b>Our Company</b></h1>
+                                <h1 className="heading text-white"><b>Our <span style={{color:'#0275d8'}}>Company</span></b></h1>
                                 <p className="text-white text-justify heading-note">We ’re shaping the future of business travel with our award-winning corporate travel management and booking platform – built on the foundations of trust, choice and great people.
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <button className="btn btn-lg button mt-4">CONTACT US</button>
-                    </div>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>                    </div>
                 </div>
         </section>
 
@@ -222,8 +222,7 @@ export const Ourcompany = () => {
 
 
 <div className="text-center">
-<button className="btn btn-lg button mt-3 mb-5">CONTACT US</button>
-</div>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link></div>
 
 
 
