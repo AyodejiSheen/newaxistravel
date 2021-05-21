@@ -52,7 +52,10 @@
 // }
 
 
-import React from 'react';
+import React, {useState} from 'react';
+import {Baseurl} from '../baseurl';
+import {Link, useHistory} from 'react-router-dom';
+import axios from 'axios';
 import '../css/contact.css'
 
 
@@ -66,7 +69,52 @@ import call from '../picture/call.png';
 
 
 
+
+
+
+
 export const Contact = () => {
+
+
+
+    let [message, setMessage] = useState({ fullname: "", email: "", phone: "", message: ""});
+
+    let[usercontact, Setusercontact] = useState([]);
+
+    const handleChange = (e) => {
+        let name = e.target.name;
+        let value = e.target.value;
+        setMessage({ ...message, [name]: value });
+    }
+
+    const submit = (e) => {
+         e.preventDefault();
+        Setusercontact([...usercontact, message]);
+
+        //to send to backend then to database  sweetalert2, aos-animation, skeleton-loader
+        axios.post(`${Baseurl}contact.php`, JSON.stringify(message)).then(res => {
+            let contResponse = res.data;
+            console.log(res.data)
+            if(res.data.Success){
+                alert("submitted")
+            }
+        })
+
+
+        setMessage({ fullname: "", email: "", phone: "", message: ""});
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     return (
         <>
 
@@ -91,7 +139,7 @@ export const Contact = () => {
 {/* map section */}
 <section className="map mt-5 mb-5">
     <div className="container-fluid">
-        <img src={map} className="img-fluid shadow"></img>
+        <img src={map} className="img-fluid shadow" data-aos="zoom-in"></img>
     </div>
 </section>
 
@@ -103,7 +151,7 @@ export const Contact = () => {
         <div className="row">
             <div className="col-md-5 mt-5">
                 <div className="row pt-5 mt-5 location-details ">
-                    <div className="col-md-3">
+                    <div className="col-md-3" >
                         <img src={location} className="contact-icon img-fluid"/>
                     </div>
                     <div className="col-md-9">

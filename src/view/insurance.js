@@ -48,7 +48,7 @@ export const Insurance = () => {
 {/* insurance packages */}
 <section className="mb-5 country">
     <div className="container-fluid mt-4">
-        <div className="mx-auto col-md-8 ">
+        <div className="mx-auto col-md-8" data-aos="fade-down">
         <h1 className="head-tag text-center">Our <span style={{color:'#0275d8'}}> Packages</span></h1>
         <p className="text-center heading-note ">Our insurances packages cover you in the event of:</p>
         </div>
@@ -56,7 +56,7 @@ export const Insurance = () => {
         <div className="row mt-4 pt-2 desktop-pack justify-content-center">
 
             <div className="col-md-2 col-6  text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-left">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={accident} className="pack-icon img-fluid"/>
@@ -71,7 +71,7 @@ export const Insurance = () => {
 
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-right">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={ambulance} className="pack-icon img-fluid"/>
@@ -85,7 +85,7 @@ export const Insurance = () => {
             </div>
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-left">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={bag} className="pack-icon img-fluid"/>
@@ -99,7 +99,7 @@ export const Insurance = () => {
             </div>
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-right">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={passport} className="pack-icon img-fluid"/>
@@ -113,7 +113,7 @@ export const Insurance = () => {
             </div>
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-right">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={flightCancel} className="pack-icon img-fluid"/>
@@ -132,7 +132,7 @@ export const Insurance = () => {
         <div className="row justify-content-center mt-4 pt-2 mobile-pack">
 
 <div className="col-md-2 col-6  text-center packs">
-<a href="#personal-accident" className="link"><div className="card text-dark insurance-pack">
+<a href="#personal-accident" className="link"><div data-aos="flip-left" className="card text-dark insurance-pack">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={accident} className="pack-icon img-fluid"/>
@@ -147,7 +147,7 @@ export const Insurance = () => {
 
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#medical" className="link"><div className="card insurance-pack text-dark">
+<a href="#medical" className="link"><div data-aos="flip-right" className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={ambulance} className="pack-icon img-fluid"/>
@@ -162,7 +162,7 @@ export const Insurance = () => {
 
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#lost-bag" className="link"><div className="card insurance-pack text-dark">
+<a href="#lost-bag" className="link"><div data-aos="flip-left" className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={bag} className="pack-icon img-fluid"/>
@@ -176,7 +176,7 @@ export const Insurance = () => {
 </div>
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#lost-passport" className="link"><div className="card insurance-pack text-dark">
+<a href="#lost-passport" className="link"><div data-aos="flip-right" className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={passport} className="pack-icon img-fluid"/>
@@ -190,7 +190,7 @@ export const Insurance = () => {
 </div>
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#missed-flight" className="link"> <div className="card insurance-pack text-dark">
+<a href="#missed-flight" className="link"> <div data-aos="flip-left" className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={flightCancel} className="pack-icon img-fluid"/>
@@ -217,7 +217,7 @@ export const Insurance = () => {
                     <img src={insurance1} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 smooth-book-note">
+                <div className="col-md-6 p-5 mt-5 smooth-book-note" data-aos="fade-down">
                 <h1 className="head-tag text-left">Personal<span style={{color:'#0275d8'}}> Accidents and
                 Injury</span></h1>  
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
@@ -232,7 +232,7 @@ export const Insurance = () => {
 <section className="medical" id="medical">
 <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-5 mt-5 order-2 medical-section order-md-1">
+                <div className="col-md-6 p-5 mt-5 order-2 medical-section order-md-1" data-aos="fade-down">
                 <h1 className="head-tag text-left">Emergency<span style={{color:'#0275d8'}}> Medical
                 Treatment</span> </h1>
                 <p className="text-justify heading-note">If you suffer a sudden illness or need a quick medical
@@ -261,7 +261,7 @@ export const Insurance = () => {
                     <img src={insurance3} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 smooth-book-note">
+                <div className="col-md-6 p-5 mt-5 smooth-book-note" data-aos="fade-down">
                 <h1 className="head-tag text-left">Lost<span style={{color:'#0275d8'}}> Baggages</span></h1>  
                 <p className="text-justify heading-note">Did your bags and things head for the hills on your trip? Here’s
 how Axis Travel will cover your lost, stolen or damaged
@@ -282,8 +282,8 @@ accidentally damaged, Axis Travel has you covered. </p>
 <section className="passport" id="lost-passport">
 <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-5 mt-5 order-2 medical-section order-md-1">
-                <h1 className="head-tag text-left">Lost Passports, Visas & <span style={{color:'#0275d8'}}> Travel Documents</span> </h1>
+                <div data-aos="fade-down" className="col-md-6 p-5 mt-5 order-2 medical-section order-md-1">
+                <h1 className="head-tag text-left">Lost Passports & <span style={{color:'#0275d8'}}> Travel Documents</span> </h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Tortor at auctor urna nunc id. Commodo sed egestas
@@ -311,16 +311,16 @@ accidentally damaged, Axis Travel has you covered. </p>
                     <img src={insurance5} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 smooth-book-note">
-                <h1 className="head-tag text-left">Lost<span style={{color:'#0275d8'}}> Baggages</span></h1>  
-                <p className="text-justify heading-note">Did your bags and things head for the hills on your trip? Here’s
-how Axis Travel will cover your lost, stolen or damaged
-luggage, devices and personal belongings.<br></br> It can happen to anyone. Your bag is beside you at the train
-station and next minute it’s nicked. Or, you’re happily sunning
-yourself at the pool when your phone gets stomped on by a
-clumsy waiter. Not Happy. Whether you’ve lost your
-sunglasses, handbag and gear, had them stolen, or
-accidentally damaged, Axis Travel has you covered. </p>
+                <div className="col-md-6 p-5 mt-5 smooth-book-note" data-aos="fade-down">
+                <h1 className="head-tag text-left">Missed<span style={{color:'#0275d8'}}> Flights</span></h1>  
+                <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Tortor at auctor urna nunc id. Commodo sed egestas
+                egestas fringilla. Vulputate sapien nec sagittis aliquam
+                malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit
+                amet risus. Scelerisque eleifend donec pretium vulputate
+                sapien nec sagittis aliquam malesuada. Maecenas pharetra
+                convallis posuere morbi leo urna molestie at elementum.</p>
                 </div>
             </div>
         </div>

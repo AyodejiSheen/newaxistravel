@@ -46,11 +46,14 @@ available at preferential rates.</p>
 
 
 <section className="our-travels  mb-5">
+  
+<div data-aos="fade-down">
 <h1 className="head-tag text-center">Our <span style={{color:'#0275d8'}}>UAE Packages</span></h1>
         <p className="text-center mx-auto col-md-6 heading-note">Axis Travel UAE packages cover you in the following</p>
-    <div className="container">
+    </div>
+        <div className="container">
         <div className="row justify-content-center">
-            <div className="col-md-4 travel-dest mt-4">
+            <div className="col-md-4 travel-dest mt-4" data-aos="zoom-in">
             <div className="card border-0 shadow">
                 <img src={shopping} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
@@ -67,7 +70,7 @@ arcu.</p>
             </div>
 
 
-            <div className="col-md-4 travel-dest mt-4">
+            <div className="col-md-4 travel-dest mt-4" data-aos="zoom-in">
             <div className="card border-0 shadow ">
                 <img src={omega} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
@@ -84,7 +87,7 @@ arcu.</p>
             </div>
 
 
-            <div className="col-md-4 travel-dest mt-4">
+            <div className="col-md-4 travel-dest mt-4" data-aos="zoom-in">
                 <div className="card border-0 shadow">
                 <img src={horse} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
@@ -101,7 +104,7 @@ arcu.</p>
             </div>
 
 
-            <div className="col-md-4 travel-dest mt-4">
+            <div className="col-md-4 travel-dest mt-4" data-aos="zoom-in">
                 <div className="card border-0 shadow">
                 <img src={gitex} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
@@ -118,7 +121,7 @@ arcu.</p>
             </div>
 
 
-            <div className="col-md-4 travel-dest mt-4">
+            <div className="col-md-4 travel-dest mt-4" data-aos="zoom-in">
                 <div className="card border-0 shadow">
                 <img src={fashion} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
@@ -135,7 +138,7 @@ arcu.</p>
             </div>
 
 
-            <div className="col-md-4 travel-dest mt-4">
+            <div className="col-md-4 travel-dest mt-4" data-aos="zoom-in">
                 <div className="card border-0 shadow">
                 <img src={dpworld} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
@@ -152,7 +155,7 @@ arcu.</p>
             </div>
 
 
-            <div className="col-md-4 travel-dest mt-4">
+            <div className="col-md-4 travel-dest mt-4" data-aos="zoom-in">
                 <div className="card border-0 shadow">
                 <img src={emirate} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
@@ -169,7 +172,7 @@ arcu.</p>
             </div>
 
 
-            <div className="col-md-4 travel-dest mt-4">
+            <div className="col-md-4 travel-dest mt-4" data-aos="zoom-in">
                 <div className="card border-0 shadow">
                 <img src={film} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
@@ -193,16 +196,16 @@ arcu.</p>
 
 
 
-<section className="package-contact p-4 mb-5">
+<section className="package-contact p-4 mb-5" >
         <div className="container">
-            <div className="row">
+            <div className="row " >
                 <div className="col-md-8">
                     <p className="text-white">Our team will also be happy to discuss and plan bespoke
 packages for other events, both in UAE and elsewhere in the
 world.</p>
                 </div>
 
-                <div className="col-md-4 text-center">
+                <div className="col-md-4 text-center" data-aos="fade-left">
                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
             </div>

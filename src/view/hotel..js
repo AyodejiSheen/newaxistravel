@@ -58,26 +58,26 @@ business trip.</p>
         <div className="col-md-6 order-2 order-md-1">
             <div className="row">
                 <div className="col-6 p-1">
-                    <img src={hotel11} className="img-fluid"/>
+                    <img src={hotel11} className="img-fluid" data-aos="flip-right"/>
                 </div>
 
                 <div className="col-6 p-1">
-                    <img src={hotel12} className="img-fluid"/>
+                    <img src={hotel12} className="img-fluid" data-aos="flip-left"/>
                 </div>
             </div>
 
             <div className="row">
                 <div className="col-6 p-1">
-                    <img src={hotel13} className="img-fluid"/>
+                    <img src={hotel13} className="img-fluid" data-aos="flip-right"/>
                 </div>
 
                 <div className="col-6 p-1">
-                    <img src={hotel14} className="img-fluid"/>
+                    <img src={hotel14} className="img-fluid" data-aos="flip-left"/>
                 </div>
             </div>
         </div>
 
-        <div className="col-md-6 p-5 mt-5 hotel-book-note order-1 order-md-2"> 
+        <div className="col-md-6 p-5 mt-5 hotel-book-note order-1 order-md-2" data-aos="fade-right"> 
         <h1 className="head-tag text-left">Hotel Booking with<span style={{color:'#0275d8'}}> more choice, better rates, total control.</span></h1>  
                 <p className="text-justify heading-note">Axis Travel has access to thousands of hotels and properties,
 both within the UAE and across the globe. Our team has the
@@ -109,15 +109,15 @@ upgrades with minimal or no additional charges. </p>
 
             <div className="row justify-content-center hotel-all-screen">
                 <div className="col-6">
-                    <img src={marrot} className="img-fluid partner-logo"/>
+                    <img src={marrot} className="img-fluid partner-logo" data-aos="fade-up"/>
                 </div>
 
                 <div className="col-6">
-                    <img src={hilton} className="img-fluid partner-logo"/>
+                    <img src={hilton} className="img-fluid partner-logo" data-aos="fade-down"/>
                 </div>
 
                 <div className="col-6">
-                    <img src={img} className="img-fluid partner-logo"/>
+                    <img src={img} className="img-fluid partner-logo" data-aos="fade-up"/>
                 </div>
             </div>
 
@@ -153,7 +153,7 @@ upgrades with minimal or no additional charges. </p>
                     <img src={hotel3} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 smooth-book-note order-1 order-md-2">
+                <div data-aos="fade-down" className="col-md-6 p-5 mt-5 smooth-book-note order-1 order-md-2">
                 <h1 className="head-tag text-left"><span style={{color:'#0275d8'}}> Benefits of Booking</span> With Us</h1>  
                 <div className="text-justify heading-note">
           
@@ -163,7 +163,7 @@ upgrades with minimal or no additional charges. </p>
           <p><i className="fa fa-check-circle mr-3"> </i><span>Preferential rates for hotel booking and room reservation.</span></p>
           <p><i className="fa fa-check-circle mr-3"> </i><span>IATA Licensed.</span></p>
   </div>
-  <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+  <Link to="/contact-us" className="link" ><button data-aos="fade-left" className="btn btn-lg button mt-4 mb-4">CONTACT US</button></Link>
 
                 </div>
             </div>
@@ -177,15 +177,15 @@ upgrades with minimal or no additional charges. </p>
                 
         <div className="row">
             <div className="col-md-4">
-            <img src={marrothotel} className="img-fluid"/>
+            <img src={marrothotel} className="img-fluid" data-aos="fade-down"/>
             </div>
 
             <div className="col-md-4">
-            <img src={hiltonhotel} className="img-fluid"/>
+            <img src={hiltonhotel} className="img-fluid" data-aos="fade-down"/>
             </div>
 
             <div className="col-md-4">
-            <img src={avidhotel} className="img-fluid"/>
+            <img src={avidhotel} className="img-fluid" data-aos="fade-down"/>
             </div>
         </div>
     </div>

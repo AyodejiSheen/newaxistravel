@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import './App.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 // components
 import {Navbar} from './components/navbar';
@@ -25,8 +27,16 @@ import { Preview } from './view/preview';
 import { Hotel } from './view/hotel.';
 import { Transport } from './view/transport';
 import { Package } from './view/package';
+import { Business } from './view/business';
+import { Onestop } from './view/onestop';
+import { Consult } from './view/consult';
 
 function App() {
+
+  useEffect(() => {
+    Aos.init({duration:1000});
+  }, []);
+
   return (
     <>
       <Router>
@@ -85,6 +95,24 @@ function App() {
                     <Route exact path="/privacy-policy">
                      
                       <Privacy/>
+                      <Footer/>
+                    </Route>
+
+
+                    <Route exact path="/business-travel">
+                      <Business/>
+                      <Footer/>
+                    </Route>
+
+
+                    <Route exact path="/one-stop-travel">
+                      <Onestop/>
+                      <Footer/>
+                    </Route>
+
+
+                    <Route exact path="/consulting-services">
+                      <Consult/>
                       <Footer/>
                     </Route>
 

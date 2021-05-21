@@ -38,7 +38,7 @@ export const Mice = () => {
 
 {/* Note section */}
 <section className="note">
-    <div className="container p-5 page-note">
+    <div className="container p-5 page-note" data-aos="fade-down">
         <p className="text-center heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
         magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium 
         vulputate sapien nec sagittis aliquam malesuada.</p>
@@ -54,7 +54,7 @@ export const Mice = () => {
                     <img src={meetincentices} className="meet"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5">
+                <div className="col-md-6 p-5 mt-5 meeting-col" data-aos="fade-right">
                 <h1 className="head-tag text-left">Meetings And  <br></br><span style={{color:'#0275d8'}}>Incentives</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
@@ -67,7 +67,7 @@ export const Mice = () => {
 <section>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-5 mt-5 order-2 order-md-1">
+                <div data-aos="fade-right" className="col-md-6 p-5 mt-5 order-2 order-md-1 events-col">
                 <h1 className="head-tag text-left">Events</h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
@@ -89,7 +89,7 @@ export const Mice = () => {
                     <img src={meetincentices3} className="events"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5">
+                <div data-aos="fade-right" className="col-md-6 p-5 mt-5 conf-col">
                 <h1 className="head-tag text-left">Conference  <br></br><span style={{color:'#0275d8'}}>Meetings</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
@@ -106,7 +106,7 @@ export const Mice = () => {
     <p className="text-center mx-auto heading-note">Axis Travel MICE Services includes</p>
 
         <div className="row mice-services-row">
-            <div className="col-md-6 col-lg-4">
+            <div className="col-md-6 col-lg-4" data-aos="flip-left">
                 <div className="mice-project shadow">
                 <h4 className="font-weight-bold text-white"><span style={{color:'#0275d8'}}>Project</span> Management</h4>
                 <p className="text-white">Axis Travel Project Management Includes:</p>
@@ -119,7 +119,7 @@ export const Mice = () => {
                 </div>
             </div>
 
-            <div className="col-md-6 col-lg-4">
+            <div className="col-md-6 col-lg-4" data-aos="flip-left">
             <div className="mice-project shadow ">
                 <h4 className="font-weight-bold text-white"><span style={{color:'#0275d8'}}>Destination</span> Management</h4>
                 <p className="text-white">Axis Travel Destination Management Includes:</p>
@@ -131,7 +131,7 @@ export const Mice = () => {
                 </div>
             </div>
 
-            <div className="col-md-6 col-lg-4 for-tab">
+            <div className="col-md-6 col-lg-4 for-tab" data-aos="flip-left">
             <div className="mice-project shadow ">
                 <h4 className="font-weight-bold text-white"><span style={{color:'#0275d8'}}>Event</span> Management</h4>
                 <p className="text-white">Axis Travel Event Management Includes:</p>

@@ -426,6 +426,14 @@
         padding: 20px 20px 40px 20px!important;
     }
 
+    .leisure-car{
+        height: 70px!important;
+    }
+
+    .choice-list{
+        padding: 10px 2px 0px 2px!important;
+    }
+
     .why-us{
         margin-top: -10px!important;
     }
@@ -457,7 +465,7 @@
     }
 
     .testimonial-row{
-        padding: 15px 15px 25px 15px!important;
+        padding: 15px 5px 25px 5px!important;
     }
 
     .testimonial-text{

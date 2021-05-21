@@ -51,7 +51,7 @@ including trains, planes, helicopters and boats.</p>
 {/* insurance packages */}
 <section className="mb-5 country">
     <div className="container-fluid mt-4">
-        <div className="mx-auto col-md-8 ">
+        <div className="mx-auto col-md-8 " data-aos="fade-down">
         <h1 className="head-tag text-center">Our <span style={{color:'#0275d8'}}> Packages</span></h1>
         <p className="text-center heading-note ">Our insurances packages cover you in the event of:</p>
         </div>
@@ -59,7 +59,7 @@ including trains, planes, helicopters and boats.</p>
         <div className="row justify-content-center mt-4 pt-2 desktop-pack">
 
             <div className="col-md-2 col-6  text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-left">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={plane} className="pack-icon img-fluid"/>
@@ -73,7 +73,7 @@ including trains, planes, helicopters and boats.</p>
 
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-right">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={ship} className="pack-icon img-fluid"/>
@@ -86,7 +86,7 @@ including trains, planes, helicopters and boats.</p>
             </div>
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-left">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={train} className="pack-icon img-fluid"/>
@@ -98,7 +98,7 @@ including trains, planes, helicopters and boats.</p>
             </div>
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack">
+                <div className="card insurance-pack" data-aos="flip-right">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={road} className="pack-icon img-fluid"/>
@@ -114,7 +114,7 @@ including trains, planes, helicopters and boats.</p>
         <div className="row justify-content-center mt-4 pt-2 mobile-pack">
 
 <div className="col-md-2 col-6  text-center packs">
-<a href="#air" className="link"><div className="card text-dark insurance-pack">
+<a href="#air" className="link"><div data-aos="flip-left" className="card text-dark insurance-pack">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={plane} className="pack-icon img-fluid"/>
@@ -128,7 +128,7 @@ including trains, planes, helicopters and boats.</p>
 
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#ocean" className="link"><div className="card insurance-pack text-dark">
+<a href="#ocean" className="link"><div data-aos="flip-right"  className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={ship} className="pack-icon img-fluid"/>
@@ -142,7 +142,7 @@ including trains, planes, helicopters and boats.</p>
 
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#rail" className="link"><div className="card insurance-pack text-dark">
+<a href="#rail" className="link"><div data-aos="flip-left" className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={train} className="pack-icon img-fluid"/>
@@ -156,7 +156,7 @@ including trains, planes, helicopters and boats.</p>
 </div>
 
 <div className="col-6 col-md-2 text-center packs">
-<a href="#vechile" className="link"><div className="card insurance-pack text-dark">
+<a href="#vechile" className="link"><div data-aos="flip-right" className="card insurance-pack text-dark">
     <div className="card-body">
         <div className="inc-icon mx-auto">
             <img src={road} className="pack-icon img-fluid"/>
@@ -188,7 +188,7 @@ including trains, planes, helicopters and boats.</p>
                     <img src={air} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 smooth-book-note">
+                <div data-aos="zoom-in" className="col-md-6 p-5 mt-5 smooth-book-note">
                 <h1 className="head-tag text-left">Air</h1>  
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -212,7 +212,7 @@ neque aliquam vestibulum morbi. </p>
 <section className="medical" id="ocean">
 <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-5 mt-5 order-2 medical-section order-md-1">
+                <div data-aos="fade-down" className="col-md-6 p-5 mt-5 order-2 medical-section order-md-1">
                 <h1 className="head-tag text-left">Ocean<span style={{color:'#0275d8'}}> Freight</span> </h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -244,7 +244,7 @@ neque aliquam vestibulum morbi. </p>
                     <img src={rail} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 smooth-book-note">
+                <div data-aos="fade-down" className="col-md-6 p-5 mt-5 smooth-book-note">
                 <h1 className="head-tag text-left">Rail</h1>  
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -268,7 +268,7 @@ neque aliquam vestibulum morbi. </p>
 <section className="passport" id="vechile">
 <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-5 mt-5 order-2 medical-section order-md-1">
+                <div data-aos="zoom-in" className="col-md-6 p-5 mt-5 order-2 medical-section order-md-1">
                 <h1 className="head-tag text-left"> <span style={{color:'#0275d8'}}> Vehicle</span> </h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -292,7 +292,7 @@ neque aliquam vestibulum morbi.  </p>
 
 
 <div className="text-center mb-5">
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<Link to="/contact-us" className="link" ><button data-aos="flip-down"  className="btn btn-lg button mt-4">CONTACT US</button></Link>
 
 </div>
 

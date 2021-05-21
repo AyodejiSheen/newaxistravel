@@ -1,37 +1,37 @@
-.hero-contact{
+.hero-consult{
     padding: 0px!important;
-    animation-name: hero-anim-contact;
+    animation-name: hero-anim-consult;
     animation-duration: 20s;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     animation-iteration-count: infinite;
 }
 
-@keyframes hero-anim-contact {
+@keyframes hero-anim-consult{
     0%{
-        background-image: url('../picture/contact-bg.png');
+        background-image: url('../picture/corporate bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/contact-bg.png');
+        background-image: url('../picture/leisure-hero.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/corporate bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
-.hero-content-contact{
-    background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 13rem;
+.hero-content-consult{
+    background-color: hsla(210, 95%, 5%, 0.95);
+    padding-top: 9rem;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
 }
 
 .heading{
@@ -45,25 +45,25 @@
 }
 
 
-.form{
-    background-image: url('../picture/Rectangle.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.label-note{
-    font-size: 12px!important;
-    font-weight: 600;
-}
-
-input, textarea{
-    border-radius: 0px!important;
+.consult-option{
+    background-color: #F2F8FD;
 }
 
 
-.contact-icon{
-    width: 50%!important;
+.most-offer-consult{
+    margin-bottom: 30px;
+    height:280px;
+    box-shadow: 0px 4px 5px rgba(46,46,46,0.5);
 }
+
+.most-offer-consult:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #010e1b!important;
+    transition: background-color 0.5s;
+}
+
+
 
 
 
@@ -83,40 +83,33 @@ input, textarea{
     }
 
 
-    .hero-content-contact{
-        padding-top: 9rem;
-        padding-bottom: 5rem;
-        background-color: hsla(210, 95%, 5%, 0.88);
+
+    .hero-content-consult{
+        background-color: hsla(210, 95%, 5%, 0.8);
         padding-left: 20px!important;
         padding-right: 20px!important;
-
+        padding-top: 9rem;
+        padding-bottom: 5rem;
     }
 
-    .map{
-        margin-bottom: 0px!important;
+
+    .consult-option{
+        padding: 5px!important;
     }
 
-    .location-details{
+    .most-offer-consult{
+        height: 280px;
         margin-top: 0px!important;
+    }
+
+    .consult-form{
         padding-top: 0px!important;
-        text-align: center;
     }
 
-
-    .contact-icon{
-        width: 15%!important;
-        margin-bottom: 20px;
-    }
-    
-    .detail{
-        text-align: center;
-        margin-top: 30px!important;
-    }
 
     .contact-form{
-        padding: 20px!important;
+        box-shadow: 0px 4px 5px rgba(46,46,46,0.5)!important;
     }
-
 
 
 
@@ -142,10 +135,16 @@ input, textarea{
         font-size: 30px;
     }
 
-    .contact-icon{
-        width:100%!important;
-        margin-bottom: 20px;
+    .most-offer{
+        margin-top: 20px;
+        height: 280px;
     }
+
+
+
+
+
+
 
  }
 
@@ -154,3 +153,4 @@ input, textarea{
  @media only screen and (min-width:1824px) {
      
  }
+

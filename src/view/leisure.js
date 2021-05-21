@@ -55,11 +55,11 @@ export const Leisure = () => {
 <section className="leisure-dest pt-5 pb-5">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-0">
+                <div className="col-md-6 p-0" data-aos="fade-up">
                     <img src={leisuredest} className="meet"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 dest-note">
+                <div className="col-md-6 p-5 mt-5 dest-note" data-aos="fade-right">
                 <h1 className="head-tag text-left">Leisure Travel<br></br><span style={{color:'#0275d8'}}>Destinations.</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
@@ -73,30 +73,30 @@ export const Leisure = () => {
 <section>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-5 mt-5 lux-note order-2 order-md-1">
+                <div className="col-md-6 p-5 mt-5 lux-note order-2 order-md-1" data-aos="fade-down">
                 <h1 className="head-tag text-left">Luxury Travel<br></br><span style={{color:'#0275d8'}}>Expert</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                 </div>
 
                 <div className="col-md-6 order-1 order-md-2">
+                        <div className="row">
+                        <div className="col-6 p-1" data-aos="flip-left">
+                            <img src={leisurestack1} className="img-fluid"/>
+                        </div>
+
+                        <div className="col-6 p-1" data-aos="flip-right">
+                            <img src={leisurestack2} className="img-fluid"/>
+                        </div>
+                    </div>
+
                     <div className="row">
-                        <div className="col-md-6 p-0 leisure-stack">
-                            <img src={leisurestack1} className="leisure-stack1 img-fluid"/>
+                        <div className="col-6 p-1" data-aos="flip-left">
+                            <img src={leisurestack3} className="img-fluid"/>
                         </div>
 
-                        <div className="col-md-6 p-0 leisure-stack">
-                            <img src={leisurestack2} className="leisure-stack1 img-fluid"/>
-                        </div>
-                        </div>
-
-                    <div className="row">
-                        <div className="col-md-6 p-0 leisure-stack">
-                            <img src={leisurestack3} className="leisure-stack1 img-fluid"/>
-                        </div>
-
-                        <div className="col-md-6 p-0 leisure-stack">
-                            <img src={leisurestack4} className="leisure-stack1 img-fluid"/>
+                        <div className="col-6 p-1" data-aos="flip-right">
+                            <img src={leisurestack4} className="img-fluid"/>
                         </div>
                     </div>
                 </div>
@@ -112,27 +112,27 @@ export const Leisure = () => {
         <p className="text-center mx-auto col-md-6 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id.</p>
 
         <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-down">
             <img src={space} className="img-fluid ideas"/>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-down">
             <img src={adventure} className="img-fluid ideas"/>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-down">
             <img src={honeymoon} className="img-fluid ideas"/>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-down">
             <img src={rail} className="img-fluid ideas"/>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-down">
             <img src={family} className="img-fluid ideas"/>
             </div>
 
-            <div className="col-md-4 mt-1">
+            <div className="col-md-4 mt-1" data-aos="fade-down">
             <img src={cruise} className="img-fluid ideas"/>
             </div>
         </div>

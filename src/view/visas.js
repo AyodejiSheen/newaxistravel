@@ -37,7 +37,7 @@ service, issuing UAE visas for periods from 7 to 90 days
 directly from our office; ideal for corporate travel. We can
 also offer advice and assistance in processing Schengen
 Visas, or obtaining visas for travel to other countries.</p>
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<a href="https://indexhospitality.ae/VisaInformation.php" className="link" ><button className="btn btn-lg button mt-4">LEARN MORE</button></a>
 
                     </div>
                 </div>
@@ -53,14 +53,14 @@ Visas, or obtaining visas for travel to other countries.</p>
 {/* countries and flag */}
 <section className="mb-5 country">
     <div className="container mt-4">
-        <div className="mx-auto col-md-8 ">
+        <div className="mx-auto col-md-8 " data-aos="fade-down">
         <h1 className="head-tag text-center">Get Your Travel Visa for Any<span style={{color:'#0275d8'}}> Global Destination</span></h1>
         <p className="text-center heading-note ">We process visas for all the 5 contineunts. Find out up-to-dateentry requirements and apply in minutes by contact us.</p>
         </div>
 
         <div className="row mt-4 pt-2 desktop-country">
             <div className="col-md-2">
-                <div className="card country-card">
+                <div className="card country-card" data-aos="fade-right">
                 <img src={unitedFlag} className="flag"/>
                 <img src={united} class="card-img-top img-fluid"/>
                 <div className="card-body">
@@ -70,7 +70,7 @@ Visas, or obtaining visas for travel to other countries.</p>
             </div>
 
             <div className="col-md-2">
-                <div className="card country-card">
+                <div className="card country-card" data-aos="fade-right">
                 <img src={austraFlag} className="flag"/>
                 <img src={australia} class="card-img-top img-fluid"/>
                 <div className="card-body">
@@ -80,7 +80,7 @@ Visas, or obtaining visas for travel to other countries.</p>
             </div>
 
             <div className="col-md-2">
-            <div className="card country-card">
+            <div className="card country-card" data-aos="fade-right">
                 <img src={chinaFlag} className="flag"/>
                 <img src={china} class="card-img-top img-fluid"/>
                 <div className="card-body">
@@ -90,7 +90,7 @@ Visas, or obtaining visas for travel to other countries.</p>
             </div>
 
             <div className="col-md-2">
-            <div className="card country-card">
+            <div className="card country-card" data-aos="fade-right">
                 <img src={southFlag} className="flag"/>
                 <img src={south} class="card-img-top img-fluid"/>
                 <div className="card-body">
@@ -100,7 +100,7 @@ Visas, or obtaining visas for travel to other countries.</p>
             </div>
 
             <div className="col-md-2">
-            <div className="card country-card">
+            <div className="card country-card" data-aos="fade-right">
                 <img src={unitedFlag} className="flag"/>
                 <img src={united} class="card-img-top img-fluid"/>
                 <div className="card-body">
@@ -110,7 +110,7 @@ Visas, or obtaining visas for travel to other countries.</p>
             </div>
 
             <div className="col-md-2">
-            <div className="card country-card">
+            <div className="card country-card" data-aos="fade-right">
                 <img src={dubaiFlag} className="flag"/>
                 <img src={dubai} class="card-img-top img-fluid"/>
                 <div className="card-body">
@@ -123,12 +123,12 @@ Visas, or obtaining visas for travel to other countries.</p>
 
 
         <div className="mobile-country">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide" data-ride="carousel" data-aos="fade-right">
             <div className="carousel-inner">
-                <div className="carousel-item active" data-interval="1000">
+                <div className="carousel-item active" data-interval="1000" >
                     <div className="row p-3">
                         <div className="col-6">
-                        <div className="card country-card">
+                        <div className="card country-card" >
                             <img src={dubaiFlag} className="flag"/>
                             <img src={dubai} class="card-img-top img-fluid"/>
                             <div className="card-body">
@@ -150,11 +150,11 @@ Visas, or obtaining visas for travel to other countries.</p>
                 </div>
 
 
-                <div className="carousel-item">
+                <div className="carousel-item" >
 
                 <div className="row p-3">
                         <div className="col-6">
-                    <div className="card country-card">
+                    <div className="card country-card" >
                         <img src={chinaFlag} className="flag"/>
                         <img src={china} class="card-img-top img-fluid"/>
                         <div className="card-body">
@@ -177,17 +177,8 @@ Visas, or obtaining visas for travel to other countries.</p>
                 </div>
 
 
-                <div className="carousel-item">
-                <div className="row p-3">
-                        <div className="col-6">
-                    <div className="card country-card">
-                        <img src={unitedFlag} className="flag"/>
-                        <img src={united} class="card-img-top img-fluid"/>
-                        <div className="card-body">
-                            <h5 className="card-title country-name">Dubai</h5>
-                        </div>
-                        </div>
-                    </div>
+                <div className="carousel-item" >
+                <div className="row p-3 justify-content-center">
 
                     <div className="col-6">
                     <div className="card country-card">
@@ -216,7 +207,7 @@ Visas, or obtaining visas for travel to other countries.</p>
                     <img src={visa1} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 visa-note">
+                <div className="col-md-6 p-5 mt-5 visa-note" data-aos="zoom-in">
                 <h1 className="head-tag text-left"><span style={{color:'#0275d8'}}>Online Visa</span> Services</h1>
                 <p className="text-justify heading-note">Applying for visas online has never been easier than it is with
                 Axis Travel. Our team of travel experts has relationships with
@@ -238,7 +229,7 @@ Visas, or obtaining visas for travel to other countries.</p>
 
 
 {/* Expedited passport` */}
-<section className="passport">
+<section className="passport pb-5">
 <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-5 mt-5 order-2 passport-section order-md-1">

@@ -1,0 +1,189 @@
+.hero-business{
+    padding: 0px!important;
+    animation-name: hero-anim-business;
+    animation-duration: 20s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-business{
+    0%{
+        background-image: url('../picture/corporate bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    65%{
+        background-image: url('../picture/leisure-hero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/corporate bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-business{
+    background-color: hsla(210, 95%, 5%, 0.88);
+    padding-top: 9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 6rem;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.scroll{
+    margin-top: -20px;
+    animation-iteration-count: 5;
+}
+
+.pave-note{
+    line-height: 2;
+}
+
+.pave-list{
+    cursor: pointer;
+    box-shadow: 0px 4px 5px rgba(46,46,46,0.5);
+}
+
+.pave-list:hover{
+    background-color: #010e1b;
+    color: white;
+}
+
+.make-most{
+    background-image: url('../picture/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explain{
+    background-image: url('../picture/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.most-offer{
+    height: 300px;
+    box-shadow: 0px 4px 5px rgba(46,46,46,0.5);
+}
+
+.most-offer:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #010e1b!important;
+    transition: background-color 0.5s;
+}
+
+
+.most-offer:hover, .most-offer:hover .time-saving-cont{
+    transition: all 0.5s;
+}
+
+.most-offer:hover .time-saving-cont{
+    background-color:white;
+}
+
+.time-saving-cont{
+    background-color: #F2F8FD;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+
+.assured-stay{
+    background-image: url('../picture/hotel-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+
+    .hero-content-business{
+        background-color: hsla(210, 95%, 5%, 0.88);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 9rem;
+        padding-bottom: 5rem;
+    }
+
+
+    .pave-way-list{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .most-offer{
+        margin-top: 20px;
+    }
+
+
+
+
+ }
+
+
+
+
+
+
+ /* Tablets */
+
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .heading-note{
+        font-size: 14px;
+    }
+
+
+    .head{
+        font-size: 30px;
+    }
+
+    .most-offer{
+        margin-top: 20px;
+        height: 280px;
+    }
+
+
+
+
+
+
+
+ }
+
+
+/* Larger Screens */
+ @media only screen and (min-width:1824px) {
+     
+ }

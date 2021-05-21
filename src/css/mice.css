@@ -103,6 +103,11 @@
     }
 
 
+    .meeting-col, .events-col, .conf-col{
+        padding: 20px!important;
+    }
+
+
 
  }
 

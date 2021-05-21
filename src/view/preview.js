@@ -99,7 +99,7 @@ est. A erat nam at lectus.</p>
 
 <div className="get-book"> 
     <h5 className="font-weight-bold">To get Booked for the destination</h5> 
-    <button className="btn btn-lg button ">CONTACT US</button>
+    <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button mt-4">BOOK A TOUR</button></a>
 </div>
             </div>
 

@@ -63,9 +63,9 @@ export const Homepage = () => {
     <h1 className="head-tag text-center">Our <span style={{color:"#0275d8"}}>Services</span></h1>
     <p className="text-center col-md-6 mx-auto heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
 
-    <div className="container animate__animated animate__backInUp">
+    <div className="container">
         <div className="row">
-        <div className=" col-6 col-md-3">
+        <div className=" col-6 col-md-3" data-aos="fade-up">
         <Link to="/flight" className="link text-dark"><div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto text-center p-3">
                         <img src={flight} className="icon-pic"/>
@@ -74,7 +74,7 @@ export const Homepage = () => {
                 </div></Link>
             </div>
 
-            <div className=" col-6 col-md-3">
+            <div className=" col-6 col-md-3" data-aos="fade-up">
             <Link to="/visas-and-passport" className="link text-dark"><div className="service-box pb-5 pt-5">
             <div className="icon mx-auto p-3 text-center ">
                         <img src={visas} className="icon-pic"/>
@@ -83,7 +83,7 @@ export const Homepage = () => {
                 </div></Link>
             </div>
 
-            <div className=" col-6 col-md-3">
+            <div className=" col-6 col-md-3" data-aos="fade-up">
             <Link to="/insurance" className="link text-dark"><div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <i className="fa fa-user-shield shield"></i>
@@ -92,7 +92,7 @@ export const Homepage = () => {
                 </div></Link>
             </div>
 
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-up">
             <Link to="/tour" className="link text-dark"><div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <img src={tour} className="icon-pic"/>
@@ -104,7 +104,7 @@ export const Homepage = () => {
 
 
         <div className="row mt-4 service-2">
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-down">
             <Link to="/hotel" className="link text-dark"> <div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <img src={hotel} className="icon-pic"/>
@@ -114,7 +114,7 @@ export const Homepage = () => {
                 </div></Link>
             </div>
 
-            <div className="col-6 col-md-3 service">
+            <div className="col-6 col-md-3 service" data-aos="fade-down">
             <Link to="/transport" className="link text-dark">
                     <div className="service-box pb-5 pt-5">
                             <div className="icon mx-auto p-3 text-center">
@@ -125,7 +125,7 @@ export const Homepage = () => {
                 </Link>
             </div>
 
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-down">
             <Link to="/packages" className="link text-dark"><div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto p-3 text-center">
                         <img src={packages} className="icon-pic"/>
@@ -134,7 +134,7 @@ export const Homepage = () => {
             </div></Link>
             </div>
 
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-down">
             <Link to="/meetings-and-events#conferences" className="link text-dark"><div className="service-box pb-5 pt-5">
                     <div className="icon mx-auto text-center p-3">
                         <img src={conference} className="icon-pic"/>
@@ -161,11 +161,11 @@ export const Homepage = () => {
                 </div>
             </div>
 
-            <div className="col-md-6">
-                <div className="stack-rect">
-                    <img src={stack3} className="position-absolute stack3"/>
-                    <img src={stack2} className="position-absolute stack2"/>
-                    <img src={stack1} className="position-absolute stack1"/>
+            <div className="col-md-6" >
+                <div className="stack-rect" >
+                    <img src={stack3} className="position-absolute stack3" data-aos="fade-up"/>
+                    <img src={stack2} className="position-absolute stack2" data-aos="fade-down"/>
+                    <img src={stack1} className="position-absolute stack1" data-aos="fade-up"/>
                 </div>
             </div>
         </div>
@@ -176,13 +176,13 @@ export const Homepage = () => {
         <div className="row">
             <div className="col-md-6 order-2 order-md-1">
                 <div className="stack-poly ">
-                    <img src={meet1} className="position-absolute poly1 animate__animated animate__heartBeat"/>
-                    <img src={meet2} className="position-absolute poly2 animate__animated animate__heartBeat"/>
-                    <img src={meet3} className="position-absolute poly3 animate__animated animate__heartBeat"/>
+                    <img src={meet1} className="position-absolute poly1" data-aos="flip-left"/>
+                    <img src={meet2} className="position-absolute poly2 " data-aos="flip-right"/>
+                    <img src={meet3} className="position-absolute poly3 " data-aos="flip-down"/>
                 </div>
             </div>
 
-            <div className="col-md-6 order-1 order-md-2">
+            <div className="col-md-6 order-1 order-md-2" data-aos="zoom-in">
                 <h1 className="head-tag">Meetings And <br></br> <span style={{color:'#0275d8'}}>Events</span></h1>
                     <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. Quam nulla porttitor massa id neque aliquam vestibulum morbi.</p>
 
@@ -197,8 +197,8 @@ export const Homepage = () => {
 <section className="leisure-travel pb-5">
     <div className="container-fluid ">
         <div className="row">
-        <div className="col-md-6 p-0 order-2 order-md-1">
-            <img src={leisure} className="leisure-pic"/>
+        <div className="col-md-6 p-0 order-2 order-md-1" data-aos="fade-down">
+            <img src={leisure} className="leisure-pic" />
         </div>
 
         <div className="col-md-6 leisure-content p-5 order-1 order-md-2">
@@ -250,7 +250,7 @@ export const Homepage = () => {
                 </div>
 
                 <div className="col-md-4">
-                    <div className="row">
+                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
                     <div className="col-2"><img src={W01} className="numbering"/></div>
                     <div className="col-10">
                     <h5 className="font-weight-bold">Save Time and Money</h5>
@@ -258,7 +258,7 @@ export const Homepage = () => {
                     </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
                     <div className="col-2"><img src={W02} className="numbering"/></div>
                     <div className="col-10">
                     <h5 className="font-weight-bold">Trave Assistance</h5>
@@ -266,7 +266,7 @@ export const Homepage = () => {
                     </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
                     <div className="col-2"><img src={W03} className="numbering"/></div>
                     <div className="col-10">
                     <h5 className="font-weight-bold">Expert Guidance</h5>
@@ -276,7 +276,7 @@ export const Homepage = () => {
                 </div>
 
                 <div className="col-md-4">
-                <div className="row">
+                <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
                     <div className="col-2"><img src={W04} className="numbering"/></div>
                     <div className="col-10">
                     <h5 className="font-weight-bold">Best Travel Experience</h5>
@@ -284,7 +284,7 @@ export const Homepage = () => {
                     </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
                     <div className="col-2"><img src={W05} className="numbering"/></div>
                     <div className="col-10">
                     <h5 className="font-weight-bold">Personalized Service</h5>
@@ -292,10 +292,10 @@ export const Homepage = () => {
                     </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
                     <div className="col-2"><img src={W06} className="numbering"/></div>
                     <div className="col-10">
-                    <h5 className="font-weight-bold">Covid-19 Pandemic Response</h5>
+                    <h5 className="font-weight-bold">Covid-19 Pandemic </h5>
                     <p className="text-justify content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
                     </div>
                     </div>
@@ -309,7 +309,7 @@ export const Homepage = () => {
 <section className="about-us mt-5 mb-5">
         <div className="container">
             <div className="row">
-            <div className="col-md-6 about p-5" >
+            <div className="col-md-6 about p-5" data-aos="flip-left">
                 <h1 className="head-tag text-white">About<span style={{color:'#0275d8'}}> Us</span></h1>
 
                 <p className="text-justify text-white heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eget velit aliquet sagittis id. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Luctus venenatis lectus magna fringilla.
@@ -324,7 +324,7 @@ export const Homepage = () => {
                     <source src={movie} type="video/mp4"/>
                 </video>
 
-                <div className="ml-2">
+                <div className="ml-2" data-aos="fade-up">
                 <h1 className="head-tag mt-4">Travel & Tour<span style={{color:'#0275d8'}}> Inspiration</span></h1>
 
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -350,7 +350,7 @@ export const Homepage = () => {
 
             
 
-            <div id="carouselExampleIndicators3" class="carousel slide" data-interval="30000" data-ride="carousel">
+            <div   id="carouselExampleIndicators3" class="carousel slide" data-interval="30000" data-ride="carousel">
             <ol class="carousel-indicators d-none">
             <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>

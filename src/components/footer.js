@@ -4,6 +4,7 @@ import '../css/footer.css';
 
 //picture
 import logo from '../picture/logo-light.png';
+import logos from '../picture/logos.jpg';
 
 
 export const Footer = () => {
@@ -12,12 +13,12 @@ export const Footer = () => {
             <div className="container-fluid footer-partner mb-4">
                 <div className="container p-2">
                 <div className="row">
-                    <div className="col-4 col-md-3 border-right">
-                    <h1 className="head mb-0">Our <br></br><span style={{color:'#0275d8'}}> Partners</span></h1>
+                    <div className="col-12 col-md-3 our-part border-right">
+                    <h1 className="head mb-0">Our <span style={{color:'#0275d8'}}> Partners</span></h1>
                     </div>
 
-                    <div className="col-md-8">
-
+                    <div data-aos="fade-right" className="col-md-8 pt-3 logos-col">
+                        <img src={logos} className="foot-logo"/>
                     </div>
                 </div>
                 </div>

@@ -44,7 +44,7 @@ export const Ourcompany = () => {
                 <div className="container-fluid hero-ourcompany img-fluid">
 
                     <div className="col-md-5 hero-content-ourcompany">
-                                <h1 className="heading text-white"><b>Our <span style={{color:'#0275d8'}}>Company</span></b></h1>
+                                <h1 className="heading text-white"><b>Our <br></br><span style={{color:'#0275d8'}}>Company</span></b></h1>
                                 <p className="text-white text-justify heading-note">We ’re shaping the future of business travel with our award-winning corporate travel management and booking platform – built on the foundations of trust, choice and great people.
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>                    </div>
@@ -77,7 +77,7 @@ export const Ourcompany = () => {
                     <img src={leadership} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 leader-note ">
+                <div className="col-md-6 p-5 mt-5 leader-note " data-aos="zoom-in">
                 <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Leadership</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 </div>
@@ -91,7 +91,7 @@ export const Ourcompany = () => {
 <section>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-5 mt-5 order-2 order-md-1 profile-note">
+                <div className="col-md-6 p-5 mt-5 order-2 order-md-1 profile-note" data-aos="zoom-in">
                 <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Profile</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.  </p>
                 </div>
@@ -112,7 +112,7 @@ export const Ourcompany = () => {
                     <img src={ourhistory} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 history-note mt-5 ">
+                <div className="col-md-6 p-5 history-note mt-5 " data-aos="zoom-in" >
                 <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>History</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 </div>
@@ -127,8 +127,8 @@ export const Ourcompany = () => {
         <h1 className="head-tag text-center">Frequently Asked <span style={{color:'#0275d8'}}>Question</span></h1>
 
 
-<div className="mt-4">
-      <Accordion  expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+<div className="mt-4" >
+      <Accordion  expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
@@ -145,7 +145,7 @@ export const Ourcompany = () => {
       </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -221,7 +221,7 @@ export const Ourcompany = () => {
 </section>
 
 
-<div className="text-center">
+<div className="text-center mb-5" data-aos="flip-right">
 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link></div>
 
 

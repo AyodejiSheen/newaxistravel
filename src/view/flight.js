@@ -7,6 +7,7 @@ import '../css/flight.css'
 import scroll from '../picture/Scroll.png';
 import smooth from '../picture/smooth.png';
 import partner from '../picture/airline part.png';
+import flight3 from '../picture/flight3.png';
 
  
 
@@ -45,7 +46,7 @@ export const Flight = () => {
                     <img src={smooth} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 smooth-book-note">
+                <div className="col-md-6 p-5 mt-5 smooth-book-note" data-aos="fade-right">
                 <h1 className="head-tag text-left">Smoother Booking With<br></br><span style={{color:'#0275d8'}}>Direct Connections</span></h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 </div>
@@ -65,19 +66,19 @@ export const Flight = () => {
                 in other to make booking quick and easy for you.</p>
                 <div className="row text-justify heading-note">
                     <div className="col-6">
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Emirates</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Fly Dubai</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Etihad Airways</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>British Airways</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>American Airlines</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Emirates</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Fly Dubai</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Etihad Airways</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>British Airways</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>American Airlines</span></p>
                     </div>
 
                     <div className="col-6">
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Qatar Airways</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Oman Air</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Air Arabia</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Virgin Atlantic</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Cathay Pacific</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Qatar Airways</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Oman Air</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Air Arabia</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Virgin Atlantic</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Cathay Pacific</span></p>
                     </div>
                 </div>
                 </div>
@@ -95,17 +96,17 @@ export const Flight = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-0">
-                    <img src={smooth} className="img-fluid"/>
+                    <img src={flight3} className="img-fluid"/>
                 </div>
 
                 <div className="col-md-6 benefit-book-note p-5 mt-5">
                 <h1 className="head-tag text-left"><span style={{color:'#0275d8'}}>Benefits of Booking </span>With Us</h1>
                 <div className="text-justify heading-note">
           
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Flexible Flight travel policy controls, this gives you complete flexibility and &nbsp; &nbsp;&nbsp; &nbsp; control of your travel budget.</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>Preferential rates for airlines booking and flight seat reservation.</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>24/7 Customer support service</span></p>
-                        <p><i className="fa fa-check-circle mr-3"> </i><span>IATA Licensed.</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Flexible Flight travel policy controls, this gives you complete flexibility and &nbsp; &nbsp;&nbsp; &nbsp; control of your travel budget.</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>Preferential rates for airlines booking and flight seat reservation.</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>24/7 Customer support service</span></p>
+                        <p data-aos="fade-down"><i className="fa fa-check-circle mr-3"> </i><span>IATA Licensed.</span></p>
                 </div>
                 </div>
             </div>

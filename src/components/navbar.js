@@ -25,10 +25,9 @@ export const Navbar = () => {
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <Link to="corporate-travel" className="link"><a className="dropdown-item">Corporate Travel</a></Link>
-                    <a className="dropdown-item" href="#">Business Travel</a>
-                    <a className="dropdown-item" href="#">One-Stop Travel solution</a>
-                    <a className="dropdown-item" href="#">Simplified Travel Management</a>
-                    <a className="dropdown-item" href="#">Consulting Services</a>
+                    <Link to="/business-travel" className="link"><a className="dropdown-item" href="#">Business Travel</a></Link>
+                    <Link to="/one-stop-travel" className="link"><a className="dropdown-item" >One-Stop Travel solution</a></Link>
+                    <Link to="/consulting-services" className="link"><a className="dropdown-item">Consulting Services</a></Link>
                     </div>
                 </li>
                 <li className="nav-item">

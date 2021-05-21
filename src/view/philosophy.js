@@ -58,7 +58,7 @@ export const Philosophy = () => {
     <div className="container">
 
 
-    <Accordion  expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+    <Accordion  expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className="animate__animated animate__bounceInDown">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -75,7 +75,7 @@ export const Philosophy = () => {
       </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className="animate__animated animate__bounceInDown">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -116,7 +116,7 @@ eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
 
         <div className="values">
 
-        <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+        <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className="animate__animated animate__bounceInDown">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -134,7 +134,7 @@ eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
       </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className="animate__animated animate__bounceInDown">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -152,7 +152,7 @@ eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
       </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className="animate__animated animate__bounceInDown">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -170,7 +170,7 @@ eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
       </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className="animate__animated animate__bounceInDown">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -188,7 +188,7 @@ eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
       </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className="animate__animated animate__bounceInDown">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -206,7 +206,7 @@ eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
       </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className="animate__animated animate__bounceInDown">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
@@ -231,9 +231,9 @@ eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.</p>
 
 {/* offerring best Destination */}
 <section className="offering pb-4 mb-4">
-        <div className="container-fluid offering-note">
+        <div className="container-fluid offering-note" >
             <div className="container pt-5 pb-5">
-            <div className="col-md-7">
+            <div className="col-md-7" data-aos="fade-right">
             <h1 className="head-tag text-white text-left">We want to offer you the best travel to any of your <span style={{color:'#0275d8'}}> destination worldwide.</span></h1>
             
             <p className="text-justify  text-white heading-note">You can mail us or click here to fill out an online enquiry form and one of our team will give you a call.</p>

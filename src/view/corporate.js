@@ -34,7 +34,7 @@ export const Corporate = () => {
 
 {/* Note section */}
 <section className="note">
-    <div className="container p-5">
+    <div className="container p-5 corporate-note">
         <p className="text-center heading-note">At <b>Axis Travel & Tourism,</b> we know how impeccable our clients prefer their trips to be. For this, our friendly and professional agents who truly understand customer care stand by to respond to client queries and arrange travel requirements promptly. Further, we give high regard to our clients’ safety and peace of mind as we prepare their vacation trips or book their hotels.
 
         With a roster of credible partners in the local and global tourism industry, we ensure that our clients get the best service that they deserve.
@@ -48,10 +48,10 @@ export const Corporate = () => {
 <section className="priemer-section pb-4">
         <div className="container-fluid priemer">
             <div className="container pt-5 pb-5">
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-down">
             <h1 className="head-tag text-white text-left">A Premier Corporate<span style={{color:'#0275d8'}}> Travel Management Agency</span></h1>
             
-            <p className="text-justify text-white heading-note">We're big enough to handle the largest multinationals; small enough to understand the needs of small businesses. We're proud to say that we treat each and every customer with the same high standard of care.
+            <p className="text-justify text-white heading-note" >We're big enough to handle the largest multinationals; small enough to understand the needs of small businesses. We're proud to say that we treat each and every customer with the same high standard of care.
             <br></br>
             Businesses can schedule a demo with Forest Travel and see the benefit of working with a skilled corporate travel company. Between perks that businesses can’t access on their own and the ease of booking trips through a company that takes care of all of the details, business trips will be a breeze. </p>
 
@@ -67,7 +67,7 @@ export const Corporate = () => {
 <section className="corporate-qualities mt-5">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-0 order-2 order-md-1">
+                <div data-aos="fade-up" className="col-md-6 p-0 order-2 order-md-1">
                     <img src={qualities} className="qualities-pics"/>
                 </div>
 
