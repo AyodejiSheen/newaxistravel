@@ -202,7 +202,7 @@ adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna
 aliqua. Tortor at auctor urna nunc id.
 Commodo sed egestas egestas fringilla.</p>
-<a href="#"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></a>
+<Link to="/camel-trekking-safari"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></Link>
                 </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@ adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna
 aliqua. Tortor at auctor urna nunc id.
 Commodo sed egestas egestas fringilla.</p>
-<a href="#"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></a>
+<Link to="/marina-dhow-cruise"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></Link>
                 </div>
                 </div>
             </div>

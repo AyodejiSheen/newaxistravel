@@ -43,7 +43,7 @@
     padding-top: 7rem;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
 }
 
 .hero{
@@ -269,6 +269,11 @@
     margin-left: 200px!important;
 }
 
+.tour-but{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -474,6 +479,12 @@
 
     .trip-idea{
         display: none;
+    }
+
+
+    .tour-but{
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
     }
 
 

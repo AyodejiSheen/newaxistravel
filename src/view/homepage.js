@@ -334,10 +334,13 @@ export const Homepage = () => {
                 <div className="ml-2" data-aos="fade-up">
                 <h1 className="head-tag mt-4">Travel & Tour<span style={{color:'#0275d8'}}> Inspiration</span></h1>
 
-                <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                <p className="text-justify heading-note ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Platea dictumst vestibulum rhoncus est pellentesque. 
-                Risus quis varius quam quisque id diam vel quam elementum. Quis ipsum suspendisse ultrices gravida dictum. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. </p>
+                Risus quis varius quam quisque id diam vel quam elementum. Quis ipsum suspendisse ultrices gravida dictum. </p>
+                <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button tour-but">BOOK A TOUR</button></a>
                 </div>
+
+
             </div>
             </div>
         </div>

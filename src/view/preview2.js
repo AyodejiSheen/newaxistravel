@@ -62,7 +62,7 @@ export const Preview2 = () => {
     <div className="container">
         <div className="row">
             <div className="col-md-8">
-                <h1 className="head-tag text-left">Abu Dubai City,<span style={{color:'#0275d8'}}> Tour.</span> </h1>
+                <h1 className="head-tag text-left">Camel Trekking<span style={{color:'#0275d8'}}> Safari.</span> </h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id.
 Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam
