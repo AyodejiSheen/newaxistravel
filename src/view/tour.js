@@ -11,15 +11,15 @@ import enjoy from '../picture/enjoy.png';
 import tour3 from '../picture/tour-3.png';
 import tour2 from '../picture/tour-2.png';
 import tour1 from '../picture/tour-1.png';
-import tourp1 from '../picture/tourp1.png';
-import tourp2 from '../picture/tourp2.png';
-import tourp3 from '../picture/tourp3.png';
-import tourp5 from '../picture/tourp5.png';
-import tourp4 from '../picture/tourp4.png';
-import tourp6 from '../picture/tourp6.png';
-import travels1 from '../picture/travels1.png';
-import travels2 from '../picture/travels2.png';
-import travels3 from '../picture/travels3.png';
+import tourp1 from '../picture/images/awe1.jpg';
+import tourp2 from '../picture/images/awe4.jpg';
+import tourp3 from '../picture/images/awe6.jpg';
+import tourp5 from '../picture/images/awe2.jpg';
+import tourp4 from '../picture/images/awe3.jpg';
+import tourp6 from '../picture/images/awe5.jpg';
+import travels1 from '../picture/images/abu1.jpg';
+import travels2 from '../picture/images/abu2.jpg';
+import travels3 from '../picture/images/abu3.jpg';
 
 
 export const Tour = () => {
@@ -40,7 +40,7 @@ tours. Your dedicated Tour Consultant will work closely with
 you to deliver the perfect tour at the best possible price. Same
 day booking is available, with pick up and drop off at your hotel
 or accommodation.</p>
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button mt-4">BOOK A TOUR</button></a>
 
                     </div>
                 </div>
@@ -131,7 +131,7 @@ Commodo sed egestas egestas fringilla.</p>
 
     {/* Awesome Destination */}
 
-        <div className="container-fluid mt-5 p-4">
+        <div className="container-fluid mt-5 ">
         <h1 className="head-tag text-center">Awesome <span style={{color:'#0275d8'}}>Destinations</span></h1>
         <p className="text-center mx-auto col-md-6 heading-note">Axis Travel, we promise our guest with the standard</p>
 
@@ -180,13 +180,13 @@ Commodo sed egestas egestas fringilla.</p>
             <div className="card border-0 shadow">
                 <img src={travels1} class="card-img-top img-fluid travels-pic" data-aos="fade-down"/>
                 <div className="card-body ">
-                    <h5 className="card-title tour-title ">Bangkok Tour, Thailand</h5>
+                    <h5 className="card-title tour-title ">Abu Dhabi City Tour</h5>
                     <p className="heading-note text-justify">Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna
 aliqua. Tortor at auctor urna nunc id.
 Commodo sed egestas egestas fringilla.</p>
-<Link to="/bangkok-tour"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></Link>
+<Link to="/abu-dubai-tour"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></Link>
                 </div>
                 </div>
             </div>
@@ -194,9 +194,9 @@ Commodo sed egestas egestas fringilla.</p>
 
             <div className="col-md-4 travel-dest">
             <div className="card border-0 shadow ">
-                <img src={travels2} class="card-img-top img-fluid travels-pic" data-aos="fade-down"/>
+                <img src={travels2} class="card-img-top img-fluid w-100 h-100 travels-pic" data-aos="fade-down"/>
                 <div className="card-body ">
-                    <h5 className="card-title tour-title ">Siam Paragon, Australia</h5>
+                    <h5 className="card-title tour-title ">Camel Trekking Safari</h5>
                     <p className="heading-note text-justify">Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna
@@ -212,7 +212,7 @@ Commodo sed egestas egestas fringilla.</p>
                 <div className="card border-0 shadow">
                 <img src={travels3} class="card-img-top img-fluid travels-pic" data-aos="fade-down"/>
                 <div className="card-body ">
-                    <h5 className="card-title tour-title ">Siam Paragon, Australia</h5>
+                    <h5 className="card-title tour-title ">Marina Dhow Cruise</h5>
                     <p className="heading-note text-justify">Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna

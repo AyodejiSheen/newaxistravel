@@ -49,7 +49,7 @@
 
 .accordion-philosophy{
     background-color: #010e1b!important;
-    border-bottom: 2px solid white!important;
+    border-top: 2px solid white!important;
 }
 
 .accordion-note{
@@ -81,7 +81,7 @@
 
 
     .hero-content-philosophy{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
 

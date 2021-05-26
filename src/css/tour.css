@@ -12,14 +12,20 @@
         background-size: cover;
     }
 
-    65%{
+    25%{
         background-image: url('../picture/tour-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
+    65%{
+        background-image: url('../picture/images/bg2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     100%{
-        background-image: url('../picture/mainhero3.png');
+        background-image: url('../picture/images/bg3.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -112,7 +118,7 @@ border-radius: 0px!important;
 
 
     .hero-content-tour{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
         padding-top: 9rem;
@@ -131,7 +137,6 @@ border-radius: 0px!important;
     }
 
     .t-img-box{
-        padding: 15px;
         margin: -20px 0px 0px 0px!important;
     }
 
@@ -150,7 +155,7 @@ border-radius: 0px!important;
     }
 
     .our-travels{
-        margin-top: 20px!important;
+        margin-top: 35px!important;
     }
 
 

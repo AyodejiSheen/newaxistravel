@@ -12,14 +12,20 @@
         background-size: cover;
     }
 
-    65%{
+    25%{
         background-image: url('../picture/insurance-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
+    65%{
+        background-image: url('../picture/images/bg19.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     100%{
-        background-image: url('../picture/mainhero3.png');
+        background-image: url('../picture/images/bg20.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -135,7 +141,7 @@
 
 
     .hero-content-insurance{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
         padding-top: 9rem;

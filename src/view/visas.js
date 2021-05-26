@@ -20,6 +20,17 @@ import visa1 from '../picture/visa1.png';
 import visa2 from '../picture/visa2.png';
 
 
+
+
+//reactbootstrap
+import { Carousel } from 'react-bootstrap'
+
+
+
+
+
+
+
 export const Visas = () => {
     return(
 
@@ -123,10 +134,9 @@ Visas, or obtaining visas for travel to other countries.</p>
 
 
         <div className="mobile-country">
-            <div id="carouselExampleFade" class="carousel slide" data-ride="carousel" data-aos="fade-right">
-            <div className="carousel-inner">
-                <div className="carousel-item active" data-interval="1000" >
-                    <div className="row p-3">
+        <Carousel>
+  <Carousel.Item interval={3000}>
+  <div className="row p-3">
                         <div className="col-6">
                         <div className="card country-card" >
                             <img src={dubaiFlag} className="flag"/>
@@ -147,12 +157,11 @@ Visas, or obtaining visas for travel to other countries.</p>
                             </div>
                         </div>
                     </div>
-                </div>
+  </Carousel.Item>
 
 
-                <div className="carousel-item" >
-
-                <div className="row p-3">
+  <Carousel.Item interval={3000}>
+  <div className="row p-3">
                         <div className="col-6">
                     <div className="card country-card" >
                         <img src={chinaFlag} className="flag"/>
@@ -173,26 +182,24 @@ Visas, or obtaining visas for travel to other countries.</p>
                         </div>
                     </div>
                     </div>
+  </Carousel.Item>
 
-                </div>
 
+  <Carousel.Item interval={3000}>
+  <div className="row p-3 justify-content-center">
 
-                <div className="carousel-item" >
-                <div className="row p-3 justify-content-center">
-
-                    <div className="col-6">
-                    <div className="card country-card">
-                        <img src={dubaiFlag} className="flag"/>
-                        <img src={dubai} class="card-img-top img-fluid"/>
-                        <div className="card-body">
-                            <h5 className="card-title country-name">Dubai</h5>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
+<div className="col-6">
+<div className="card country-card">
+    <img src={dubaiFlag} className="flag"/>
+    <img src={dubai} class="card-img-top img-fluid"/>
+    <div className="card-body">
+        <h5 className="card-title country-name">Dubai</h5>
+    </div>
+    </div>
+</div>
+</div>
+  </Carousel.Item>
+</Carousel>
         </div>
     </div>
 </section>

@@ -14,7 +14,7 @@
     }
 
     65%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/corporate-2.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -88,6 +88,10 @@ ul{
     .hero-content-corporate{
         padding-left: 20px!important;
         padding-right: 20px!important;
+    }
+
+    .hero-content-corporate{
+        background-color: hsla(210, 95%, 5%, 0.7);
     }
 
     .priemer{

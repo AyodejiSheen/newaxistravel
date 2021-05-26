@@ -20,7 +20,21 @@
 }
 
 .our-travel-preview{
+    margin-top: 50px;
     background-image: url('../picture/Rectangle.png');
+}
+
+
+.preview .carousel-control-prev-icon{
+    display: none;
+}
+
+.preview .carousel-control-next-icon{
+    display: none;
+}
+
+.preview .carousel-indicators{
+    display: none;
 }
 
 
@@ -33,7 +47,7 @@
  @media only screen and (min-device-width:320px) and (max-device-width:480px){
 
     .terms1{
-        height: 100%!important;
+        height: 250px!important;
         margin-top: 5px;
     }
 
@@ -59,7 +73,7 @@
 
 
     .our-travel-preview{
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
  }

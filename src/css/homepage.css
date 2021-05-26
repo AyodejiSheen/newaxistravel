@@ -7,31 +7,31 @@
 
 @keyframes hero-main {
     0%{
-        background-image: url('../picture/mainhero.png');
+        background-image: url('../picture/images/bg10.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/mainhero2.png');
+        background-image: url('../picture/images/bg10.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     50%{
-        background-image: url('../picture/mainhero.png');
+        background-image: url('../picture/images/bg6.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     75%{
-        background-image: url('../picture/mainhero2.png');
+        background-image: url('../picture/leisure-hero.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/mainhero3.png');
+        background-image: url('../picture/images/bg33.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -40,10 +40,10 @@
 
 .hero-content{
     background-color: #010e1b;
-    padding-top: 6rem;
+    padding-top: 7rem;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 .hero{
@@ -293,7 +293,7 @@
 
 
     .hero-content{
-        background-color: hsla(210, 95%, 5%, 0.89)!important;
+        background-color: hsla(210, 95%, 5%, 0.7)!important;
         padding-left: 20px!important;
         padding-right: 20px!important;
     }
@@ -470,6 +470,10 @@
 
     .testimonial-text{
         padding: 20px!important;
+    }
+
+    .trip-idea{
+        display: none;
     }
 
 

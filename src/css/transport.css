@@ -7,19 +7,26 @@
 
 @keyframes hero-anim-transport {
     0%{
+        background-image: url('../picture/images/bg5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    25%{
         background-image: url('../picture/transport-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/transport-bg.png');
+        background-image: url('../picture/images/bg18.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/mainhero.png');
+        background-image: url('../picture/transport-2.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -63,7 +70,7 @@
 
 
     .hero-content-transport{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
         padding-top: 9rem;

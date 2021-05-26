@@ -6,15 +6,19 @@ import {Link} from 'react-router-dom'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import carousel from '../picture/preview-bg.png'
-import carousel1 from '../picture/leisure-hero.png'
-import carousel2 from '../picture/contact-bg.png'
-import travels1 from '../picture/travels1.png';
-import travels2 from '../picture/travels2.png';
-import travels3 from '../picture/travels3.png';
-import preview1 from '../picture/preview1.png';
-import preview2 from '../picture/preview2.png';
+import carousel from '../picture/images/abu-bg1.jpg'
+import carousel1 from '../picture/images/abu-bg2.jpg'
+import travels1 from '../picture/images/abu1.jpg';
+import travels2 from '../picture/images/abu2.jpg';
+import travels3 from '../picture/images/abu3.jpg';
+import preview1 from '../picture/images/pre1.jpg';
+import preview2 from '../picture/images/pre2.jpg';
 
+
+
+
+//reactbootstrap
+import { Carousel } from 'react-bootstrap'
 
 
 
@@ -28,21 +32,24 @@ export const Preview = () => {
                     {/* Hero section */}
                     <section>
                 <div className="container-fluid p-0 hero-terms">
-                <div id="carouselExampleSlidesOnly67" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src={carousel} className="d-block terms1 w-100 img-fluid"  alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={carousel1} className="d-block terms1 w-100 img-fluid" alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={carousel2} className="d-block terms1 w-100 img-fluid" alt="..."/>
-                    </div>
-                </div>
-                </div>
+                <Carousel className="preview">
+
+<Carousel.Item>
+<img src={carousel} className="d-block terms1 w-100 img-fluid"  alt="..."/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img src={carousel1} className="d-block terms1 w-100 img-fluid" alt="..."/>
+
+</Carousel.Item>
+
+</Carousel>
                 </div>
         </section>
+
+
+
+ 
 
 
 {/* scroll */}
@@ -55,7 +62,7 @@ export const Preview = () => {
     <div className="container">
         <div className="row">
             <div className="col-md-8">
-                <h1 className="head-tag text-left">Bangkok Tour,<span style={{color:'#0275d8'}}>Thailand.</span> </h1>
+                <h1 className="head-tag text-left">Abu Dubai City,<span style={{color:'#0275d8'}}> Tour.</span> </h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id.
 Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam
@@ -106,15 +113,15 @@ est. A erat nam at lectus.</p>
             <div className="col-md-4">
             <h4 className="font-weight-bold">Awesome Places</h4>
 
-            <img src={preview1} className="img-fluid"/> 
-            <img src={preview2} className="img-fluid"/> 
+            <img src={preview1} className="img-fluid mb-4 ideas"/> 
+            <img src={preview2} className="img-fluid ideas"/> 
             </div>
         </div>
     </div>
 </section>
 
 
-<section className="our-travel-preview  mb-5">
+<section className="our-travel-preview  pb-5">
 <h1 className="head-tag text-center">Our <span style={{color:'#0275d8'}}>Travels</span></h1>
         <p className="text-center mx-auto col-md-6 heading-note">Axis Travel, we promise our guest with the standard</p>
     <div className="container">
@@ -123,13 +130,13 @@ est. A erat nam at lectus.</p>
             <div className="card border-0 shadow">
                 <img src={travels1} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
-                    <h5 className="card-title tour-title ">Bangkok Tour, Thailand</h5>
+                    <h5 className="card-title tour-title ">Abu Dhabi City Tour</h5>
                     <p className="heading-note text-justify">Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna
 aliqua. Tortor at auctor urna nunc id.
 Commodo sed egestas egestas fringilla.</p>
-<Link to="/bangkok-tour"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></Link>
+<Link to="/abu-dubai-tour"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></Link>
                 </div>
                 </div>
             </div>
@@ -139,13 +146,13 @@ Commodo sed egestas egestas fringilla.</p>
             <div className="card border-0 shadow ">
                 <img src={travels2} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
-                    <h5 className="card-title tour-title ">Siam Paragon, Australia</h5>
+                    <h5 className="card-title tour-title ">Camel Trekking Safari</h5>
                     <p className="heading-note text-justify">Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna
 aliqua. Tortor at auctor urna nunc id.
 Commodo sed egestas egestas fringilla.</p>
-<a href="#"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></a>
+<Link to="/camel-trekking-safari"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></Link>
                 </div>
                 </div>
             </div>
@@ -155,13 +162,13 @@ Commodo sed egestas egestas fringilla.</p>
                 <div className="card border-0 shadow">
                 <img src={travels3} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
-                    <h5 className="card-title tour-title ">Siam Paragon, Australia</h5>
+                    <h5 className="card-title tour-title ">Marina Dhow Cruise</h5>
                     <p className="heading-note text-justify">Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna
 aliqua. Tortor at auctor urna nunc id.
 Commodo sed egestas egestas fringilla.</p>
-<a href="#"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></a>
+<Link to="/marina-dhow-cruise"><button className="btn tour-button shadow p-2 pl-3 pr-3" >READ MORE </button></Link>
                 </div>
                 </div>
             </div>

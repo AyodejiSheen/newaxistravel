@@ -13,14 +13,20 @@
         background-size: cover;
     }
 
+    25%{
+        background-image: url('../picture/corporate-2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     65%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/images/bg1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/corporate bg.png');
+        background-image: url('../picture/images/bg12.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -130,7 +136,7 @@
 
 
     .hero-content-business{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
         padding-top: 9rem;

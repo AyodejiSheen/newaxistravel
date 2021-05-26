@@ -176,21 +176,75 @@ upgrades with minimal or no additional charges. </p>
     <h1 className="head-tag text-center">Popular<span style={{color:'#0275d8'}}> Hotels</span></h1>  
                 
         <div className="row">
-            <div className="col-md-4">
-            <img src={marrothotel} className="img-fluid" data-aos="fade-down"/>
+            <div className="col-md-4" data-toggle="modal" data-target="#marrot-hotel">
+            <img src={marrothotel} className="img-fluid ideas" data-aos="fade-down"/>
             </div>
 
-            <div className="col-md-4">
-            <img src={hiltonhotel} className="img-fluid" data-aos="fade-down"/>
+            <div className="col-md-4" data-toggle="modal" data-target="#hilton-hotel">
+            <img src={hiltonhotel} className="img-fluid ideas" data-aos="fade-down"/>
             </div>
 
-            <div className="col-md-4">
-            <img src={avidhotel} className="img-fluid" data-aos="fade-down"/>
+            <div className="col-md-4" data-toggle="modal" data-target="#avid-hotel">
+            <img src={avidhotel} className="img-fluid ideas" data-aos="fade-down"/>
             </div>
         </div>
     </div>
 </section>
 
+
+
+<div class="modal fade" id="marrot-hotel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+      <img src={marrothotel} className="img-fluid"/>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <h4 className="font-weight-bold">MARRIOT HOTEL</h4>
+        <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="hilton-hotel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+      <img src={hiltonhotel} className="img-fluid"/>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <h4 className="font-weight-bold">HILTON HOTEL</h4>
+        <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="avid-hotel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+      <img src={avidhotel} className="img-fluid"/>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <h4 className="font-weight-bold">AVID HOTEL</h4>
+        <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

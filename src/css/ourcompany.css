@@ -8,7 +8,7 @@
 
 @keyframes hero-anim-ourcompany {
     0%{
-        background-image: url('../picture/ourompnay-bg.png');
+        background-image: url('../picture/corporate-3.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -20,7 +20,7 @@
     }
 
     100%{
-        background-image: url('../picture/corporate bg.png');
+        background-image: url('../picture/meeting-2.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -46,7 +46,7 @@
 
 .accordion{
     background-color: #010e1b!important;
-    border-bottom: 2px solid white!important;
+    border-top: 2px solid white!important;
 }
 
 .MuiIconButton-root{
@@ -79,7 +79,7 @@
 
 
     .hero-content-ourcompany{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
 

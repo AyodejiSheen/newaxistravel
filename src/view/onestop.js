@@ -6,10 +6,11 @@ import '../css/onestop.css'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import visas from '../picture/Passport icon.png';
-import conference from '../picture/conference.png';
-import tour from '../picture/tour.png';
-import hotel from '../picture/hotel.png';
+import book from '../picture/booking.png';
+import approve from '../picture/approval.png';
+import save from '../picture/saving.png';
+import s247 from '../picture/247.png';
+import disflight from '../picture/flight-cancel.png';
 
 
 //video
@@ -59,10 +60,10 @@ export const Onestop = () => {
 <section className="make-most pb-5">
     <div className="container">
         <div   className="row justify-content-center">
-            <div className="col-md-4 ">
+            <div className="col-md-6 col-lg-4">
                 <div data-aos="flip-right" class="card p-4  bg-light mt-3 most-offer-onestop">
                     <div className="time-saving-cont">
-                    <img src={visas} class="card-img-top time-saving-icon"/>
+                    <img src={book} class="card-img-top time-saving-icon"/>
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">BETTER BOOKING</h5>
@@ -71,10 +72,10 @@ export const Onestop = () => {
                 </div>
             </div>
 
-            <div className="col-md-4 ">
+            <div className="col-md-6 col-lg-4 ">
             <div  data-aos="flip-left" class="card p-4 bg-light mt-3 most-offer-onestop">
                     <div className="time-saving-cont">
-                    <img src={conference} class="card-img-top time-saving-icon"/>
+                    <img src={approve} class="card-img-top time-saving-icon"/>
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">PRE-TRIP APPROVAL SYSTEM</h5>
@@ -83,10 +84,10 @@ export const Onestop = () => {
                 </div>
             </div>
 
-            <div className="col-md-4 ">
+            <div className="col-md-6 col-lg-4 ">
             <div data-aos="flip-right" class="card p-4 bg-light mt-3 most-offer-onestop">
                     <div className="time-saving-cont">
-                    <img src={tour} class="card-img-top time-saving-icon"/>
+                    <img src={save} class="card-img-top time-saving-icon"/>
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">MAXIMIZING SAVINGS</h5>
@@ -95,10 +96,10 @@ export const Onestop = () => {
                 </div>
             </div>
 
-            <div className="col-md-4 ">
+            <div className="col-md-6 col-lg-4 ">
             <div data-aos="flip-right" class="card p-4 bg-light mt-3 most-offer-onestop">
                     <div className="time-saving-cont">
-                    <img src={tour} class="card-img-top time-saving-icon"/>
+                    <img src={s247} class="card-img-top time-saving-icon"/>
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">24/7 PERSONALIZED SERVICE</h5>
@@ -107,10 +108,10 @@ export const Onestop = () => {
                 </div>
             </div>
 
-            <div className="col-md-4 ">
+            <div className="col-md-6 col-lg-4 ">
             <div data-aos="flip-left" class="card p-4 bg-light mt-3 most-offer-onestop">
                     <div className="time-saving-cont">
-                    <img src={tour} class="card-img-top time-saving-icon"/>
+                    <img src={disflight} class="card-img-top time-saving-icon"/>
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">FLIGHT DISRUPTION SERVICE</h5>

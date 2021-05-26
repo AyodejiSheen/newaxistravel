@@ -6,9 +6,9 @@ import '../css/business.css'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import visas from '../picture/Passport icon.png';
+import visas from '../picture/save-time.png';
 import conference from '../picture/conference.png';
-import tour from '../picture/tour.png';
+import tour from '../picture/risk.png';
 import hotel from '../picture/hotel.png';
 
 
@@ -138,13 +138,12 @@ export const Business = () => {
     <h1 className="head-tag text-center"><span style={{color:'#0275d8'}}> Tell Us About </span>Yourself</h1>
     <p className="text-center col-md-8 mx-auto heading-note p-0">To get a better idea of how we can help you manage travel, let us know which best describes your company and we’ll point you in the right direction.</p>
 
-    <p data-aos="fade-right"  className="col-md-8 mx-auto pave-list rounded p-3">Does your business need a <span style={{color:'#0275d8', fontWeight:'bold'}}>customized approach?</span></p>
+    <Link to="/business-travel" className="link text-dark"><p data-aos="fade-right"  className="col-md-8 mx-auto pave-list rounded p-3">Does your business need a <span style={{color:'#0275d8', fontWeight:'bold'}}>customized approach?</span></p></Link>
 
-    <p data-aos="fade-right"className="col-md-8 mx-auto pave-list rounded p-3">Does your business need a <span style={{color:'#0275d8', fontWeight:'bold'}}>one-stop solution?</span></p>
+    <Link to ="/one-stop-travel" className="link text-dark"><p data-aos="fade-right"className="col-md-8 mx-auto pave-list rounded p-3">Does your business need a <span style={{color:'#0275d8', fontWeight:'bold'}}>one-stop solution?</span></p></Link> 
 
-    <p data-aos="fade-right" className="col-md-8 mx-auto pave-list rounded p-3">Does your business need a <span style={{color:'#0275d8', fontWeight:'bold'}}>super-simple way to manage travel?</span></p>
-
-    <p data-aos="fade-right" className="col-md-8 mx-auto pave-list rounded p-3">Does your business need a <span style={{color:'#0275d8', fontWeight:'bold'}}>Consultant Service?</span></p>
+    <Link to="/consulting-services" className="link text-dark">
+    <p data-aos="fade-right" className="col-md-8 mx-auto pave-list rounded p-3">Does your business need a <span style={{color:'#0275d8', fontWeight:'bold'}}>Consultant Service?</span></p> </Link> 
 
 
     </div>

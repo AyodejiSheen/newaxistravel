@@ -54,8 +54,8 @@ export const Consult = () => {
 
 <section className="consult-option p-5">
         <div className="container">
-            <div className="row">
-                <div className="col-md-4">
+            <div className="row justify-content-center">
+                <div className="col-md-6 col-lg-4">
                     <div data-aos="flip-right" class="card p-4  bg-light mt-3 most-offer-consult">
                         <div className="time-saving-cont">
                         <img src={data} class="card-img-top time-saving-icon"/>
@@ -68,7 +68,7 @@ export const Consult = () => {
                 </div>
 
 
-                <div className="col-md-4">
+                <div className="col-md-6 col-lg-4">
                 <div data-aos="flip-right" class="card p-4  bg-light mt-3 most-offer-consult">
                     <div className="time-saving-cont">
                     <img src={enacting} class="card-img-top time-saving-icon"/>
@@ -81,7 +81,7 @@ export const Consult = () => {
                 </div>
 
 
-                <div className="col-md-4">
+                <div className="col-md-6 col-lg-4">
                 <div data-aos="flip-right" class="card p-4  bg-light mt-3 most-offer-consult">
                     <div className="time-saving-cont">
                     <img src={brain} class="card-img-top time-saving-icon"/>
@@ -100,7 +100,7 @@ export const Consult = () => {
 
 
 {/* form and address */}
-<section className="consult-form form pt-4 pb-5">
+<section className="consult-form pt-4 pb-5">
     <div className="container">
         <div className="row">
             <div className="col-md-5 mt-5">

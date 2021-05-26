@@ -14,13 +14,13 @@
     }
 
     65%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/images/bg9.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/corporate bg.png');
+        background-image: url('../picture/corporate-3.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -85,7 +85,7 @@
 
 
     .hero-content-consult{
-        background-color: hsla(210, 95%, 5%, 0.8);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
         padding-top: 9rem;

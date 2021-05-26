@@ -12,14 +12,20 @@
         background-size: cover;
     }
 
+    25%{
+        background-image: url('../picture/images/bg29.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     65%{
-        background-image: url('../picture/flight-bg.png');
+        background-image: url('../picture/images/bg28.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/mainhero2.png');
+        background-image: url('../picture/images/bg34.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -30,7 +36,7 @@
     padding-top: 13rem;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 9rem;
+    padding-bottom: 10rem;
 }
 
 .heading{
@@ -67,7 +73,7 @@
 
 
     .hero-content-flight{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
 

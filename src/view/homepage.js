@@ -35,6 +35,10 @@ import movie from '../picture/tour vid.mp4';
 
 
 
+//reactbootstrap
+import { Carousel } from 'react-bootstrap'
+
+
 
 
 export const Homepage = () => {
@@ -46,7 +50,7 @@ export const Homepage = () => {
                 <div className="container-fluid hero-main">
                     <div className="col-md-5 hero-content">
                                 <h1 className="heading text-white"><b>A <span style={{color:"#0275d8"}}> Travel Agency</span> Unlike All Others Travel</b></h1>
-                                <p className="text-white text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. </p>
+                                <p className="text-white text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus.  </p>
                                 <Link to="/contact-us"className="link"><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
                     </div>
                 </div>
@@ -206,6 +210,8 @@ export const Homepage = () => {
                     <p className="text-justify text-white heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. </p>
 
                 <Link to="leisure-travel" className="link"><button className="btn btn-lg button mt-4">READ MORE</button></Link>
+                <div className="trip-idea">
+
             <p className="font-weight-bold mt-5 mb-0 text-secondary">Ideals for your next Trip</p>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -232,6 +238,7 @@ export const Homepage = () => {
                 </div>
             </div>
             </div>
+                </div>
         </div>
 
         </div>
@@ -309,7 +316,7 @@ export const Homepage = () => {
 <section className="about-us mt-5 mb-5">
         <div className="container">
             <div className="row">
-            <div className="col-md-6 about p-5" data-aos="flip-left">
+            <div className="col-md-6 about p-5" data-aos="zoom-in">
                 <h1 className="head-tag text-white">About<span style={{color:'#0275d8'}}> Us</span></h1>
 
                 <p className="text-justify text-white heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eget velit aliquet sagittis id. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Luctus venenatis lectus magna fringilla.
@@ -348,17 +355,9 @@ export const Homepage = () => {
         Platea dictumst vestibulum rhoncus est pellentesque. 
         Risus quis varius quam quisque id diam vel quam elementum. </p>
 
-            
-
-            <div   id="carouselExampleIndicators3" class="carousel slide" data-interval="30000" data-ride="carousel">
-            <ol class="carousel-indicators d-none">
-            <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
-        </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div className="row testimonial-row p-4">
+        <Carousel>
+  <Carousel.Item interval={5000}>
+  <div className="row testimonial-row p-4">
                     <div className="col-md-6">
                             <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
@@ -381,9 +380,10 @@ export const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="carousel-item">
-                <div className="row testimonial-row p-4">
+  </Carousel.Item>
+
+  <Carousel.Item interval={5000}>
+  <div className="row testimonial-row p-4">
                     <div className="col-md-6">
                     <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
@@ -406,9 +406,10 @@ export const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="carousel-item">
-                <div className="row testimonial-row p-4">
+  </Carousel.Item>
+
+  <Carousel.Item interval={5000}>
+  <div className="row testimonial-row p-4">
                     <div className="col-md-6">
                     <div className=" testimonial-text p-5 shadow rounded box position-relative">
                             <h1 className="colon text-right">"</h1>
@@ -431,17 +432,10 @@ export const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            </div>
+  </Carousel.Item>
+
+
+</Carousel>
                 
             </div>
         

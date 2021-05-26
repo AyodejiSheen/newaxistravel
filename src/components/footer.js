@@ -28,7 +28,7 @@ export const Footer = () => {
                 <div className="container pb-3">
                     <div className="row">
                         <div className="col-md-4">
-                        <a className="navbar-brand" href="#"><img className="logo-footer" src={logo}/></a>
+                        <a className="navbar-brand" href="/"><img className="logo-footer" src={logo}/></a>
                         <p className="text-white text-justify foot-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu.</p>
 
 
@@ -56,7 +56,7 @@ export const Footer = () => {
 
                         <div className="col-md-8 pt-5 mt-2 pl-5 foot-link">
                             <div className="row">
-                                    <div className=" col-6 col-md-4 col-lg-3">
+                                <div className=" col-6 col-md-4 col-lg-3">
                                 <h6>Resources</h6>
                                 <ul className="footer-list">
                                 <a href="/#testimonials" className="footer-link"><li>Testimonials</li></a>

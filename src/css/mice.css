@@ -14,13 +14,13 @@
     }
 
     65%{
-        background-image: url('../picture/mice-bg.png');
+        background-image: url('../picture/meeting-2.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/corporate bg.png');
+        background-image: url('../picture/images/bg7.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -28,7 +28,7 @@
 
 .hero-content-mice{
     background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 9rem;
+    padding-top: 8rem;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 5rem;
@@ -85,7 +85,7 @@
 
 
     .hero-content-mice{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
 
         padding-left: 20px!important;
         padding-right: 20px!important;

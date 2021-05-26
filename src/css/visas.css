@@ -22,7 +22,7 @@
     }
 
     100%{
-        background-image: url('../picture/mainhero3.png');
+        background-image: url('../picture/visa-2.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -30,7 +30,7 @@
 
 .hero-content-visa{
     background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 10rem;
+    padding-top: 9rem;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 7rem;
@@ -112,7 +112,7 @@
 
 
     .hero-content-visa{
-        background-color: hsla(210, 95%, 5%, 0.88);
+        background-color: hsla(210, 95%, 5%, 0.7);
         padding-left: 20px!important;
         padding-right: 20px!important;
 
@@ -143,6 +143,10 @@
             margin-top: 10px!important;
         
     }
+
+   .carousel-indicators{
+       display: none!important;
+   }
 
 
 

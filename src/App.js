@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 // components
 import {Navbar} from './components/navbar';
@@ -30,6 +32,8 @@ import { Package } from './view/package';
 import { Business } from './view/business';
 import { Onestop } from './view/onestop';
 import { Consult } from './view/consult';
+import { Preview2 } from './view/preview2';
+import { Preview3 } from './view/preview3';
 
 function App() {
 
@@ -150,9 +154,21 @@ function App() {
               </Route>
 
 
-              <Route exact path="/bangkok-tour">
+              <Route exact path="/abu-dubai-tour">
                 
                 <Preview/>
+                <Footer/>
+              </Route>
+
+              <Route exact path="/camel-trekking-safari">
+                
+                <Preview2/>
+                <Footer/>
+              </Route>
+
+              <Route exact path="/marina-dhow-cruise">
+                
+                <Preview3/>
                 <Footer/>
               </Route>
 
