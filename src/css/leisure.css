@@ -1,5 +1,7 @@
 .hero-leisure{
-    padding: 0px!important;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
     animation-name: hero-anim-leisure;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -7,36 +9,37 @@
 
 @keyframes hero-anim-leisure {
     0%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/refine/bg10.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/leisure-hero.png');
+        background-image: url('../picture/refine/bg10.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/images/bg22.jpg');
+        background-image: url('../picture/refine/bg21.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/images/bg4.jpg');
+        background-image: url('../picture/refine/bg11.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-leisure{
-    background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 10rem;
+    background-color: hsla(210, 95%, 5%, 0.96);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 7rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
 .heading{
@@ -50,7 +53,16 @@
 }
 
 .leisure-dest{
+
+        padding-right: 20px!important;
+    background-image: url('../picture/refine/bg13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dest-note{
     background-color:#F2F8FD;
+    box-shadow: 0px 4px 10px rgba(7, 41, 70, 0.4);
 }
 
 .leisure-stack1{
@@ -77,8 +89,8 @@
 .luxury{
     border: 3px solid white;
     box-shadow: 0px 4px 10px rgba(7, 41, 70, 0.4);
-
 }
+
 
 
 
@@ -104,11 +116,18 @@
         font-size: 30px;
     }
 
+    .hero-leisure{
+padding: 0px!important;
+    }
+
 
     .hero-content-leisure{
-        background-color: hsla(210, 95%, 5%, 0.7);
+        background-color: hsla(210, 95%, 5%, 0.8);
         padding-left: 20px!important;
         padding-right: 20px!important;
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        box-shadow: none;
 
     }
 
@@ -119,9 +138,24 @@
         padding-top: 20px!important;
     }
 
-    .dest-note, .lux-note{
+  .lux-note{
         padding: 0px 20px 0px 20px!important;
     }
+
+    .leisure-dest{
+        padding: 0px 10px 0px 10px!important;
+    }
+
+
+    .dest-note{
+        margin:10px 0px 10px 0px!important;
+        padding: 10px 20px 10px 20px!important;
+        color: white;
+        background-color: hsla(210, 95%, 5%, 0.8);
+        box-shadow: 0px 4px 10px rgba(7, 41, 70, 0.4);
+    }
+
+
 
 
     .leisure-stack{
@@ -148,9 +182,22 @@
 
  /* Tablets */
 
- @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
     .heading-note{
         font-size: 14px;
+    }
+
+    .hero-leisure{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
+
+    .hero-content-leisure{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
     }
 
 
@@ -159,20 +206,57 @@
     }
 
     .dest-note{
-        padding: 0px 20px 0px 20px!important;
+        margin-top: 30px!important;
+        padding: 20px 20px 20px 20px!important;
     }
 
     .lux-note{
+        margin-top: 30px!important;
         padding: 20px 20px 0px 20px!important;
     }
 
+    .leisure-dest{
+        padding-right: 20px!important;
+
+    }
+
+
     .leisure-idea{
         margin-top: -150px!important;
+        margin-bottom: 0px!important;
+    }
+
+    .hero-content-leisure{
+        background-color: hsla(210, 95%, 5%, 0.88);
+        padding-top: 7rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 4rem;
     }
 
 
  }
 
+
+
+ 
+    /* /* 1024 screen */
+    @media only screen and (min-device-width:1024px) and (max-device-width:1276px){
+
+        .hero-content-leisure{
+            padding-left: 30px!important;
+            padding-right: 30px!important;
+            padding-top: 2rem!important;
+            padding-bottom: 2rem!important;
+        }
+
+
+        .leisure-idea{
+            margin-top: -160px!important;
+            margin-bottom: 0px!important;
+        }
+
+    }
 
 /* Larger Screens */
  @media only screen and (min-width:1824px) {

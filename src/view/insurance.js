@@ -11,11 +11,11 @@ import passport from '../picture/lost-visa.png';
 import flightCancel from '../picture/flight-cancel.png';
 import bag from '../picture/bag.png';
 
-import insurance1 from '../picture/insurance1.png';
-import insurance2 from '../picture/insurance2.png';
-import insurance3 from '../picture/insurance3.png';
-import insurance4 from '../picture/insurance4.png';
-import insurance5 from '../picture/insurance5.png';
+import insurance1 from '../picture/refine/mbg23.jpg';
+import insurance2 from '../picture/refine/mbg13.jpg';
+import insurance3 from '../picture/refine/mbg15.jpg';
+import insurance4 from '../picture/refine/mbg22.jpg';
+import insurance5 from '../picture/refine/mbg14.jpg';
 
 
 export const Insurance = () => {
@@ -26,13 +26,13 @@ export const Insurance = () => {
                     <section>
                 <div className="container-fluid hero-insurance">
 
-                    <div className="col-md-5 hero-content-insurance">
+                    <div className="col-md-6 hero-content-insurance animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"><b>Insurance</b></h1>
                                 <p className="text-white text-justify heading-note">At Axis Travel we offer tailored insurance, which can be
                                 issued immediately. Our individual trip option covers you for
                                 between 5 and 92 days, while multi-trip coverage can
                                 protect you for up to one year.</p>
-                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
 
                     </div>
                 </div>
@@ -48,7 +48,7 @@ export const Insurance = () => {
 {/* insurance packages */}
 <section className="mb-5 country">
     <div className="container-fluid mt-4">
-        <div className="mx-auto col-md-8" data-aos="fade-down">
+        <div className="mx-auto col-md-8" >
         <h1 className="head-tag text-center">Our <span style={{color:'#0275d8'}}> Packages</span></h1>
         <p className="text-center heading-note ">Our insurances packages cover you in the event of:</p>
         </div>
@@ -56,74 +56,64 @@ export const Insurance = () => {
         <div className="row mt-4 pt-2 desktop-pack justify-content-center">
 
             <div className="col-md-2 col-6  text-center packs">
-                <div className="card insurance-pack" data-aos="flip-left">
+            <a href="#personal-accident" className="link">    <div className="card insurance-pack" data-aos="flip-left">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={accident} className="pack-icon img-fluid"/>
                     </div>
                     <h5 className="card-title pack-title">Accidents and Injury</h5>
                     <p className="pack-note">Coverage for personal accidents and injuries..</p>
-
-                    <a href="#personal-accident"><button className="btn pack-button" >Learn More </button></a>
                 </div>
-                </div>
+                </div></a>
             </div>
 
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack" data-aos="flip-right">
+            <a href="#medical" className="link"> <div className="card insurance-pack" data-aos="flip-right">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={ambulance} className="pack-icon img-fluid"/>
                     </div>
                     <h5 className="card-title pack-title">Medical Treatment</h5>
                     <p className="pack-note">Coverage for emergency medical treatments.</p>
-
-                    <a href="#medical"><button className="btn pack-button">Learn More </button></a>
-                </div>
-                </div>
+               </div>
+                </div></a>
             </div>
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack" data-aos="flip-left">
+            <a href="#lost-bag" className="link"><div className="card insurance-pack" data-aos="flip-left">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={bag} className="pack-icon img-fluid"/>
                     </div>
                     <h5 className="card-title pack-title">Lost Baggage</h5>
                     <p className="pack-note">Coverage for lost, stolen or misplaced luggages.</p>
-
-                    <a href="#lost-bag"><button className="btn pack-button">Learn More </button></a>
                 </div>
-                </div>
+                </div></a>
             </div>
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack" data-aos="flip-right">
+            <a href="#lost-passport" className="link"> <div className="card insurance-pack" data-aos="flip-right">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={passport} className="pack-icon img-fluid"/>
                     </div>
                     <h5 className="card-title pack-title">Lost Passports </h5>
                     <p className="pack-note">Coverage for lost or stolen travel documents.</p>
-
-                    <a href="#lost-passport"><button className="btn pack-button">Learn More </button></a>
                 </div>
-                </div>
+                </div></a>
             </div>
 
             <div className="col-6 col-md-2 text-center packs">
-                <div className="card insurance-pack" data-aos="flip-right">
+            <a href="#missed-flight" className="link"> <div className="card insurance-pack" data-aos="flip-right">
                 <div className="card-body">
                     <div className="inc-icon mx-auto">
                         <img src={flightCancel} className="pack-icon img-fluid"/>
                     </div>
                     <h5 className="card-title pack-title">Missed Flight</h5>
                     <p className="pack-note">Coverage for cancelled or interrupted trips</p>
-
-                    <a href="#missed-flight"><button className="btn pack-button">Learn More </button></a>
                 </div>
-                </div>
+                </div></a>
             </div>
         </div>
 
@@ -218,7 +208,7 @@ export const Insurance = () => {
                 </div>
 
                 <div className="col-md-6 p-5 mt-5 smooth-book-note" data-aos="fade-down">
-                <h1 className="head-tag text-left">Personal<span style={{color:'#0275d8'}}> Accidents and
+                <h1 className="head-tag text-left">Personal Accidents<span style={{color:'#0275d8'}}> <br></br> and
                 Injury</span></h1>  
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
                 </div>
@@ -329,7 +319,7 @@ accidentally damaged, Axis Travel has you covered. </p>
 
 
 <div className="text-center mb-5">
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
 
 </div>
 

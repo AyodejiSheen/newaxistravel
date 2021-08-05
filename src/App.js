@@ -34,6 +34,21 @@ import { Onestop } from './view/onestop';
 import { Consult } from './view/consult';
 import { Preview2 } from './view/preview2';
 import { Preview3 } from './view/preview3';
+import { Travelmg } from './view/travelmg';
+import { Account } from './view/account';
+import { Technology } from './view/technology';
+import { Mobile } from './view/mobile';
+import { Booking } from './view/booking';
+import { Approval } from './view/approval';
+import {Expenses} from './view/expenses';
+import { Report } from './view/report';
+import { Safety } from './view/safety';
+import { Group } from './view/group';
+import { Delegate } from './view/delegate';
+import { Logistics } from './view/logistics';
+import { Marine } from './view/marine';
+import { Specialist } from './view/specialist';
+import { Choose } from './view/choose';
 
 function App() {
 
@@ -77,7 +92,7 @@ function App() {
                       <Footer/>
                     </Route>
 
-                    <Route exact path="/our-company">
+                    <Route exact path="/who-we-are">
                       
                       <Ourcompany/>
                       <Footer/>
@@ -117,6 +132,86 @@ function App() {
 
                     <Route exact path="/consulting-services">
                       <Consult/>
+                      <Footer/>
+                    </Route>
+
+
+                    <Route exact path="/travel-management">
+                      <Travelmg/>
+                      <Footer/>
+                    </Route>
+
+
+                    <Route exact path="/account-management">
+                      <Account/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/travel-technology">
+                      <Technology/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/mobile">
+                      <Mobile/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/booking">
+                      <Booking/>
+                      <Footer/>
+                    </Route>
+
+
+                    <Route exact path="/approval">
+                      <Approval/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/payments-expenses">
+                      <Expenses/>
+                      <Footer/>
+                    </Route>
+
+
+                    <Route exact path="/reporting-analytics">
+                      <Report/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/safety-risks">
+                      <Safety/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/group-travel">
+                      <Group/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/delegate-management">
+                      <Delegate/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/logistics-travel-essentials">
+                      <Logistics/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/marine-offshore-travel">
+                      <Marine/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/specialized-services">
+                      <Specialist/>
+                      <Footer/>
+                    </Route>
+
+
+                    <Route exact path="/why-choose-us">
+                      <Choose/>
                       <Footer/>
                     </Route>
 
@@ -193,29 +288,6 @@ function App() {
                 <Package/>
                 <Footer/>
               </Route>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                     <Route exact path="*">

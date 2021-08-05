@@ -2,7 +2,9 @@
 
 
   .hero-hotel{
-    padding: 0px!important;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
     animation-name: hero-anim-hotel;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -10,36 +12,37 @@
 
 @keyframes hero-anim-hotel {
     0%{
-        background-image: url('../picture/hotel-bg.png');
+        background-image: url('../picture/refine/bg18.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/hotel-bg.png');
+        background-image: url('../picture/refine/bg18.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/images/bg27.jpg');
+        background-image: url('../picture/refine/bg3.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/images/bg25.jpg');
+        background-image: url('../picture/refine/bg31.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-hotel{
-    background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 11rem;
+    background-color: hsla(210, 95%, 5%, 0.96);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
 .heading{
@@ -93,12 +96,18 @@
     }
 
 
+    .hero-hotel{
+        padding: 0px!important;
+    }
+
+
     .hero-content-hotel{
-        background-color: hsla(210, 95%, 5%, 0.7);
+        background-color: hsla(210, 95%, 5%, 0.8);
         padding-left: 20px!important;
         padding-right: 20px!important;
-        padding-top: 9rem;
-        padding-bottom: 5rem;
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        box-shadow: none;
 
     }
 
@@ -130,7 +139,7 @@
 
  /* Tablets */
 
- @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
     .heading-note{
         font-size: 14px;
     }
@@ -140,13 +149,17 @@
         font-size: 30px;
     }
 
-    .hero-content-hotel{
-        background-color: hsla(210, 95%, 5%, 0.88);
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 9rem;
-        padding-bottom: 5rem;
+    .hero-hotel{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
 
+    .hero-content-hotel{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
     }
 
     .hotel-book-note{
@@ -175,6 +188,10 @@
 
     .hotel-all-screen{
         display: none;
+    }
+
+    .hotel-benefit{
+        padding-bottom: 0px!important;
     }
 
 

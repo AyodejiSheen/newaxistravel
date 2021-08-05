@@ -5,21 +5,21 @@ import {Link} from 'react-router-dom'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import world from '../picture/world.png';
+import world from '../picture/refine/world.jpg';
 import location from '../picture/clocation.png';
-import enjoy from '../picture/enjoy.png';
-import tour3 from '../picture/tour-3.png';
-import tour2 from '../picture/tour-2.png';
+import enjoy from '../picture/refine/enjoy.jpg';
+import tour3 from '../picture/refine/stack3.jpg';
+import tour2 from '../picture/refine/tour-2.jpg';
 import tour1 from '../picture/tour-1.png';
-import tourp1 from '../picture/images/awe1.jpg';
-import tourp2 from '../picture/images/awe4.jpg';
-import tourp3 from '../picture/images/awe6.jpg';
-import tourp5 from '../picture/images/awe2.jpg';
-import tourp4 from '../picture/images/awe3.jpg';
-import tourp6 from '../picture/images/awe5.jpg';
-import travels1 from '../picture/images/abu1.jpg';
-import travels2 from '../picture/images/abu2.jpg';
-import travels3 from '../picture/images/abu3.jpg';
+import tourp1 from '../picture/refine/awe1.jpg';
+import tourp2 from '../picture/refine/awe2.jpg';
+import tourp3 from '../picture/refine/awe3.jpg';
+import tourp5 from '../picture/refine/awe4.jpg';
+import tourp4 from '../picture/refine/awe5.jpg';
+import tourp6 from '../picture/refine/awe6.jpg';
+import travels1 from '../picture/refine/sbg1.jpg';
+import travels2 from '../picture/refine/sbg2.jpg';
+import travels3 from '../picture/refine/sbg3.jpg';
 
 
 export const Tour = () => {
@@ -32,7 +32,7 @@ export const Tour = () => {
                     <section>
                 <div className="container-fluid hero-tour">
 
-                    <div className="col-md-5 hero-content-tour">
+                    <div className="col-md-6 hero-content-tour animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"><b>Tour</b></h1>
                                 <p className="text-white text-justify heading-note">Axis Travel offers VIP tours across Dubai and the Emirates. We
 cater for both individual trips and corporate team building
@@ -40,7 +40,7 @@ tours. Your dedicated Tour Consultant will work closely with
 you to deliver the perfect tour at the best possible price. Same
 day booking is available, with pick up and drop off at your hotel
 or accommodation.</p>
-<a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button mt-4">BOOK A TOUR</button></a>
+<a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button mt-4 tour-but">BOOK A TOUR</button></a>
 
                     </div>
                 </div>
@@ -113,7 +113,7 @@ Commodo sed egestas egestas fringilla.</p>
                 <h1 className="head-tag">Enjoy <br></br> <span style={{color:'#0275d8'}}>Wonderful </span>Feelings</h1>
                 <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. </p>
 
-                <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button mt-4">BOOK A TOUR</button></a>
+                <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button mt-4 tour-but">BOOK A TOUR</button></a>
                 </div>
             </div>
 

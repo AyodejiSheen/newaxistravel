@@ -7,11 +7,12 @@ import {Link} from 'react-router-dom'
 //pictures
 import scroll from '../picture/Scroll.png';
 import carousel from '../picture/images/bg17.jpg'
-import carousel1 from '../picture/images/bg35.jpg'
-import travels1 from '../picture/images/abu1.jpg';
-import travels2 from '../picture/images/abu2.jpg';
-import travels3 from '../picture/images/abu3.jpg';
-import preview1 from '../picture/images/camel1.jpg';
+import carousel1 from '../picture/refine/bg58.jpg'
+import travels1 from '../picture/refine/sbg1.jpg';
+import travels2 from '../picture/refine/sbg2.jpg';
+import travels3 from '../picture/refine/sbg3.jpg';
+
+import preview1 from '../picture/refine/pre3.jpg';
 import preview2 from '../picture/images/camel2.jpg';
 
 
@@ -106,7 +107,7 @@ est. A erat nam at lectus.</p>
 
 <div className="get-book"> 
     <h5 className="font-weight-bold">To get Booked for the destination</h5> 
-    <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button mt-4">BOOK A TOUR</button></a>
+    <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button mt-4 tour-but">BOOK A TOUR</button></a>
 </div>
             </div>
 

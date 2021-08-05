@@ -122,8 +122,8 @@ export const Contact = () => {
                     <section>
                 <div className="container-fluid hero-contact img-fluid">
 
-                    <div className="col-md-5 hero-content-contact">
-                    <h1 className="heading text-white"><b>Contact<span style={{color:"#0275d8"}}> Us</span></b></h1>
+                    <div className="col-md-6 hero-content-contact animate__animated animate__fadeInLeft">
+                    <h1 className="heading text-white"><b>Talk<span style={{color:"#0275d8"}}> To Us</span></b></h1>
                                 <p className="text-white text-justify heading-note">Why not drop in to see us or give us a call to see what a difference we can make to your business travel management function. Tell us a bit about your business and your travel requirements and we can tell you how we can help you save time and money by providing a tailored travel booking solution for you. </p>
                     </div>
                 </div>
@@ -136,20 +136,11 @@ export const Contact = () => {
 </div>
 
 
-{/* map section */}
-<section className="map mt-5 mb-5">
-    <div className="container-fluid">
-        <img src={map} className="img-fluid shadow" data-aos="zoom-in"></img>
-    </div>
-</section>
-
-
-
 {/* form and address */}
 <section className="form pt-4 pb-5">
     <div className="container">
         <div className="row">
-            <div className="col-md-5 mt-5">
+            <div className="col-md-5 mt-5 order-2 order-md-1">
                 <div className="row pt-5 mt-5 location-details ">
                     <div className="col-md-3" >
                         <img src={location} className="contact-icon img-fluid"/>
@@ -187,7 +178,7 @@ export const Contact = () => {
 
 
 
-            <div className="col-md-7">
+            <div className="col-md-7 order-1 order-md-2">
                 <div className="contact-form p-5 shadow">
                     <h4 className="font-weight-bold">Send us a message</h4>
                     <p className="heading-note">You can contact us with anything related to our Products. We'll get in touch with you as soon as possible</p>
@@ -219,6 +210,18 @@ export const Contact = () => {
         </div>
     </div>
 </section>
+
+
+
+{/* map section */}
+<section className="map mb-5">
+    <div className="container-fluid">
+        <img src={map} className="img-fluid shadow" data-aos="zoom-in"></img>
+    </div>
+</section>
+
+
+
 
 
 

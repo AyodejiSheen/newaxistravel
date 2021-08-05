@@ -16,59 +16,87 @@ export const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                <Link to="/" className="link" ><a className="nav-link">HOME <span className="sr-only">(current)</span></a></Link>
-                </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    TIME TRAVEL
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <Link to="corporate-travel" className="link"><a className="dropdown-item">Corporate Travel</a></Link>
-                    <Link to="/business-travel" className="link"><a className="dropdown-item" href="#">Business Travel</a></Link>
-                    <Link to="/one-stop-travel" className="link"><a className="dropdown-item" >One-Stop Travel solution</a></Link>
-                    <Link to="/consulting-services" className="link"><a className="dropdown-item">Consulting Services</a></Link>
-                    </div>
-                </li>
-                <li className="nav-item">
-                    <Link to="/leisure-travel" className="link"><a className="nav-link">LEISURE TRAVEL</a></Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/meetings-and-events" className="link"><a className="nav-link">MEETINGS AND EVENTS</a></Link>
+                <li className="nav-item active ">
+                <Link to="/" className="link" ><a className="nav-link font-weight-bold">HOME <span className="sr-only">(current)</span></a></Link>
                 </li>
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle font-weight-bold" id="navbarDropdownMenuLink" role="button" data-toggle=  "dropdown" aria-haspopup="true" aria-expanded="false">
+                    WHAT WE DO
+                    </a>
+
+                    <div className="dropdown-menu pt-0 pb-0" aria-labelledby="navbarDropdownMenuLink">
+
+                    <li><Link to="/account-management" className="link"><a className="dropdown-item ">Strategic Account Management</a></Link></li>
+
+                    <li><Link to="/corporate-travel" className="link"><a className="dropdown-item ">Business & Corporate Travel Solution</a></Link></li> 
+
+                    <li><Link to="/meetings-and-events" className="link"><a className="dropdown-item ">Meetings & Events</a></Link></li> 
+
+                    <li><Link to="/logistics-travel-essentials" className="link"><a className="dropdown-item ">Logistics & Travel Essential</a></Link></li> 
+
+                    <li><Link to="/marine-offshore-travel" className="link"><a className="dropdown-item ">Marine and Offshore Travel</a></Link></li> 
+
+                    <li><Link to="/specialized-services" className="link"><a className="dropdown-item ">Specialized Services</a></Link></li> 
+                    </div>
+                </li>
+
+
+
+                     <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle font-weight-bold" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    TRAVEL MANAGEMENT
+                    </a>
+                    <div className="dropdown-menu pt-0 pb-0" aria-labelledby="navbarDropdownMenuLink">
+                    <Link to="/travel-technology" className="link"><a className="dropdown-item ">Travel Technology</a></Link>
+                    
+                    <Link to="/safety-risks" className="link"><a className="dropdown-item ">Safety & Risk</a></Link>
+                    </div>
+                </li> 
+
+
+                <li className="nav-item">
+                    <Link to="/leisure-travel" className="link"><a className="nav-link font-weight-bold">LEISURE TRAVEL</a></Link>
+                </li>
+
+
+                {/* <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle font-weight-bold" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     SERVICES
                     </a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <Link to="/flight" className="link"><a className="dropdown-item">Flight</a></Link>
-                    <Link to="/visas-and-passport" className="link"><a className="dropdown-item">Visas</a></Link>
-                    <Link to="/insurance" className="link"><a className="dropdown-item">Insurances</a></Link>
-                    <Link to="/tour" className="link"><a className="dropdown-item">Tours</a></Link>
-                    <Link to="/hotel" className="link"><a className="dropdown-item">Hotel Reservation</a></Link>
-                    <Link to="/transport" className="link"> <a className="dropdown-item">Transport</a></Link>
+                    <div className="dropdown-menu pt-0 pb-0" aria-labelledby="navbarDropdownMenuLink">
+                    <Link to="/flight" className="link"><a className="dropdown-item ">Flight</a></Link>
+                    <Link to="/visas-and-passport" className="link"><a className="dropdown-item ">Visas</a></Link>
+                    <Link to="/insurance" className="link"><a className="dropdown-item ">Insurances</a></Link>
+                    <Link to="/tour" className="link"><a className="dropdown-item ">Tours</a></Link>
+                    <Link to="/hotel" className="link"><a className="dropdown-item ">Hotel Reservation</a></Link>
+                    <Link to="/transport" className="link"> <a className="dropdown-item ">Transport</a></Link>
                     <Link to="/packages" className="link"><a className="dropdown-item">Packages</a></Link>
                     <Link to="/meetings-and-events" className="link"><a className="dropdown-item">Conferences</a></Link>
                     </div>
-                </li>
+                </li> */}
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle  font-weight-bold" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     ABOUT US
                     </a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <Link to="/our-company" className="link"><a className="dropdown-item">Our Company</a></Link>
-                    <Link to="/our-philosophy" className="link"><a className="dropdown-item">Philosophy</a></Link>
+                    <div className="dropdown-menu pt-0 pb-0" aria-labelledby="navbarDropdownMenuLink">
+                    <Link to="/who-we-are" className="link"><a className="dropdown-item">Who We Are</a></Link>
+                    <Link to="/our-philosophy" className="link"><a className="dropdown-item ">Our Corporate Values</a></Link>
+
+                    <Link to="/why-choose-us" className="link"><a className="dropdown-item ">Why Choose Us?</a></Link>
                     </div>
                 </li>
                 <li className="nav-item">
-                   <Link to="/contact-us" className="link" ><a className="nav-link">CONTACT US</a></Link> 
+                   <Link to="/contact-us" className="link" ><a className="nav-link font-weight-bold">TALK TO US</a></Link> 
                 </li>
 
                 </ul>
             </div>
             </nav>
+
+
+            
         </>
     )
 }

@@ -21,12 +21,12 @@ export const Business = () => {
         <section>
                 <div className="container-fluid hero-business">
 
-                    <div className="col-md-5 hero-content-business">
+                    <div className="col-md-6 hero-content-business animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"><b>Business<span style={{color:"#0275d8"}}> <br></br>Travel </span></b></h1>
                                 <p className="text-white text-justify heading-note">With you wherever you need to be
                                 When it comes to managing travel, what works for some companies doesn’t work for others. Supporting your needs is what we’re all about. We are always ready to help and assist you during your travel.
                                 Just to make sure you have an awesome travel experience</p>
-                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                     </div>
                 </div>
         </section>
@@ -48,10 +48,10 @@ export const Business = () => {
     </div>
 
         <div className="col-md-6 pl-5 pr-5 pave-way-list">
-            <div className="">
+            <div>
             <p  data-aos="fade-down" className="pave-list rounded p-3"> <i className="fa fa-check-circle mr-3"></i><span style={{color:'#0275d8', fontWeight:'bold'}}>Maximize</span> your Travel Investment</p>
             <p  data-aos="fade-down" className="pave-list rounded p-3"> <i className="fa fa-check-circle mr-3"></i><span style={{color:'#0275d8', fontWeight:'bold'}}>Get</span> a travel policy that engages travelers</p>
-            <p  data-aos="fade-down" className=" pave-list rounded p-3"> <i className="fa fa-check-circle mr-3"></i><span style={{color:'#0275d8', fontWeight:'bold'}}>Keep</span> travelers suppported 24/7</p>
+            <p  data-aos="fade-down" className="pave-list rounded p-3"> <i className="fa fa-check-circle mr-3"></i><span style={{color:'#0275d8', fontWeight:'bold'}}>Keep</span> travelers suppported 24/7</p>
             <p  data-aos="fade-down" className="pave-list rounded p-3"> <i className="fa fa-check-circle mr-3"></i><span style={{color:'#0275d8', fontWeight:'bold'}}>Identify</span> new saving opportunities</p>
             </div>
         </div>
@@ -74,7 +74,7 @@ export const Business = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">Time Saving Tools</h5>
-                        <p class="card-text text-justify">Do more in less time with technology that streamlines booking, simplifies reporting, and searches best available rates.</p>
+                        <p class="card-text text-justify heading-note">Do more in less time with technology that streamlines booking, simplifies reporting, and searches best available rates.</p>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ export const Business = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">Personalized travel</h5>
-                        <p class="card-text text-justify">Meet the individual needs of your travelers and support them 24/7 through our travel counselors.</p>
+                        <p class="card-text text-justify heading-note">Meet the individual needs of your travelers and support them 24/7 through our travel counselors.</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ export const Business = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">Managing risk</h5>
-                        <p class="card-text text-justify ">Minimize travel risk through technology and services that prioritize traveler safety and support your duty of care obligations.</p>
+                        <p class="card-text text-justify heading-note ">Minimize travel risk through technology and services that prioritize traveler safety and support your duty of care obligations.</p>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ export const Business = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class="font-weight-bold w-100" >Assured accommodations</h5>
-                        <p class="card-text text-justify">Get booking technology that includes over 2 million overnight stay options.</p>
+                        <p class="card-text text-justify heading-note">Get booking technology that includes over 2 million overnight stay options.</p>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@ export const Business = () => {
 <section className="mt-5 mb-5 assured-stay">
         <div className="col-md-6 p-5" style={{backgroundColor:"#010e1b", opacity:'0.9'}}>
         <h1 className="head-tag text-white">Have a nice stay<span style={{color:'#0275d8'}}> </span></h1>
-        <p className="text-white text-justify">Accommodations involve lots of planning and resources. You need diverse options at cost-efficient rates as well as payment and reporting solutions. Where do you start?</p>
+        <p className="text-white text-justify heading-note">Accommodations involve lots of planning and resources. You need diverse options at cost-efficient rates as well as payment and reporting solutions. Where do you start?</p>
 
         <Link to="/hotel"className="link"><button className="btn btn-lg button mt-4">LEARN MORE</button></Link>
         </div>

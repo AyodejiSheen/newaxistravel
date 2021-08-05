@@ -16,8 +16,8 @@ import austraFlag from '../picture/Flag-Australia.png';
 import australia from '../picture/australia.png';
 import unitedFlag from '../picture/usa flag.png';
 
-import visa1 from '../picture/visa1.png';
-import visa2 from '../picture/visa2.png';
+import visa1 from '../picture/refine/mbg11.jpg';
+import visa2 from '../picture/refine/mbg12.jpg';
 
 
 
@@ -40,7 +40,7 @@ export const Visas = () => {
                     <section>
                 <div className="container-fluid hero-visa">
 
-                    <div className="col-md-5 hero-content-visa">
+                    <div className="col-md-6 hero-content-visa animate__animated animate__fadeInLeft">
                     <h1 className="heading text-white"><b>Visas &<span style={{color:"#0275d8"}}> <br></br>Passport</span></b></h1>
 
                                 <p className="text-white text-justify heading-note">Axis Travel offers a 24 hour Express Visa processing
@@ -64,7 +64,7 @@ Visas, or obtaining visas for travel to other countries.</p>
 {/* countries and flag */}
 <section className="mb-5 country">
     <div className="container mt-4">
-        <div className="mx-auto col-md-8 " data-aos="fade-down">
+        <div className="mx-auto col-md-8 " >
         <h1 className="head-tag text-center">Get Your Travel Visa for Any<span style={{color:'#0275d8'}}> Global Destination</span></h1>
         <p className="text-center heading-note ">We process visas for all the 5 contineunts. Find out up-to-dateentry requirements and apply in minutes by contact us.</p>
         </div>
@@ -226,7 +226,7 @@ Visas, or obtaining visas for travel to other countries.</p>
                 paperwork will conform to the requirements of foreign
                 embassies. Choose only trusted online visa services by
                 contactin us now.</p>
-                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
 
                 </div>
             </div>
@@ -240,13 +240,13 @@ Visas, or obtaining visas for travel to other countries.</p>
 <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-5 mt-5 order-2 passport-section order-md-1">
-                <h1 className="head-tag text-left"><span style={{color:'#0275d8'}}>Expedited Passport</span> Passport</h1>
+                <h1 className="head-tag text-left"><span style={{color:'#0275d8'}}>Expedited</span> Passport</h1>
                 <p className="text-justify heading-note">If you’re looking for the best service to apply for a passport
                 online, Travel Visa Pro is the way to go. From expediting
                 new passports to getting a second passport to applying for
                 visas, our travel experts will assist you in every step of the
                 process for our passport services. </p>
-                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                 </div>
 
                 <div className="col-md-6 p-0 order-1 order-md-2">

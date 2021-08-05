@@ -1,5 +1,7 @@
 .hero-flight{
-    padding: 0px!important;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
     animation-name: hero-anim-flight;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -7,13 +9,13 @@
 
 @keyframes hero-anim-flight {
     0%{
-        background-image: url('../picture/flight-bg.png');
+        background-image: url('../picture/refine/bg22.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/images/bg29.jpg');
+        background-image: url('../picture/refine/bg22.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -25,18 +27,19 @@
     }
 
     100%{
-        background-image: url('../picture/images/bg34.jpg');
+        background-image: url('../picture/refine/bg4.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-flight{
-    background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 13rem;
+    background-color: hsla(210, 95%, 5%, 0.96);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
 .heading{
@@ -71,11 +74,18 @@
         font-size: 30px;
     }
 
+    .hero-flight{
+        padding: 0px!important;
+    }
+
 
     .hero-content-flight{
-        background-color: hsla(210, 95%, 5%, 0.7);
+        background-color: hsla(210, 95%, 5%, 0.8);
         padding-left: 20px!important;
         padding-right: 20px!important;
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        box-shadow: none;
 
     }
 
@@ -107,7 +117,7 @@
 
  /* Tablets */
 
- @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
     .heading-note{
         font-size: 14px;
     }
@@ -137,6 +147,19 @@
         padding: 20px!important;
     }
 
+    .hero-flight{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
+
+    .hero-content-flight{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
+
 
 
 
@@ -145,6 +168,14 @@
 
  }
 
+
+
+      /* /* 1024 screen */
+      @media only screen and (min-device-width:1024px) and (max-device-width:1276px){
+
+
+
+      }
 
 /* Larger Screens */
  @media only screen and (min-width:1824px) {

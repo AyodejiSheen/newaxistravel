@@ -27,11 +27,12 @@ export const Onestop = () => {
         <section>
                 <div className="container-fluid hero-onestop">
 
-                    <div className="col-md-5 hero-content-onestop">
+                    <div className="col-md-6 hero-content-onestop
+                    animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"><b>One-Stop<span style={{color:"#0275d8"}}> <br></br>Travel </span></b></h1>
-                                <p className="text-white text-justify heading-note">Business travel is a great way to grow your business. We’re with you every step of the way, delivering all the essentials of a well-managed travel program.We are always ready to help and assist you during your travel.
+                                <p className="text-white  heading-note">Business travel is a great way to grow your business. We’re with you every step of the way, delivering all the essentials of a well-managed travel program.We are always ready to help and assist you during your travel.
                                 Just to make sure you have an awesome travel experience</p>
-                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                     </div>
                 </div>
         </section>
@@ -57,7 +58,7 @@ export const Onestop = () => {
 
 
 
-<section className="make-most pb-5">
+<section className="make-most make-most-onestop pb-5">
     <div className="container">
         <div   className="row justify-content-center">
             <div className="col-md-6 col-lg-4">
@@ -67,7 +68,7 @@ export const Onestop = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">BETTER BOOKING</h5>
-                        <p class="card-text text-justify">Travelers will have a choice of all major airlines, ground transportation providers and over 2 million overnight stay options so there’s no need to search elsewhere.1. They can book a door-to-door trip in minutes with our AI-driven booking platform.</p>
+                        <p class="card-text text-justify heading-note">Travelers will have a choice of all major airlines, ground transportation providers and over 2 million overnight stay options so there’s no need to search elsewhere.1. They can book a door-to-door trip in minutes with our AI-driven booking platform.</p>
                     </div>
                 </div>
             </div>
@@ -79,7 +80,7 @@ export const Onestop = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">PRE-TRIP APPROVAL SYSTEM</h5>
-                        <p class="card-text text-justify">Getting travelers to book economical trips is easier when you have our booking approval system that notifies a manager of bookings before they’re ticketed. Set it up the way that works best for you.</p>
+                        <p class="card-text text-justify heading-note">Getting travelers to book economical trips is easier when you have our booking approval system that notifies a manager of bookings before they’re ticketed. Set it up the way that works best for you.</p>
                     </div>
                 </div>
             </div>
@@ -91,7 +92,7 @@ export const Onestop = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">MAXIMIZING SAVINGS</h5>
-                        <p class="card-text text-justify ">Discounts on flights, hotel, and car rentals are already negotiated for you. And with airfares and hotel rates changing all the time, it’s good to know you’ll never the miss the lowest price with our reshopping technology.</p>
+                        <p class="card-text text-justify heading-note ">Discounts on flights, hotel, and car rentals are already negotiated for you. And with airfares and hotel rates changing all the time, it’s good to know you’ll never the miss the lowest price with our reshopping technology.</p>
                     </div>
                 </div>
             </div>
@@ -103,7 +104,7 @@ export const Onestop = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">24/7 PERSONALIZED SERVICE</h5>
-                        <p class="card-text text-justify ">Travelers get the know-me support of travel counselors. With access to a traveler’s preferences, they’ll know where they’ve been, where they’re going and what they like.</p>
+                        <p class="card-text text-justify  heading-note">Travelers get the know-me support of travel counselors. With access to a traveler’s preferences, they’ll know where they’ve been, where they’re going and what they like.</p>
                     </div>
                 </div>
             </div>
@@ -115,7 +116,7 @@ export const Onestop = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">FLIGHT DISRUPTION SERVICE</h5>
-                        <p class="card-text text-justify ">Cancelled and delayed flights are bound to happen. But now travelers will be notified and assisted so they can get booked on an alternate flight.</p>
+                        <p class="card-text text-justify heading-note ">Cancelled and delayed flights are bound to happen. But now travelers will be notified and assisted so they can get booked on an alternate flight.</p>
                     </div>
                 </div>
             </div>

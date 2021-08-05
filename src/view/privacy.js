@@ -5,9 +5,9 @@ import '../css/privacy.css'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import carousel from '../picture/privacy-bg.png'
-import carousel1 from '../picture/leisure-hero.png'
-import carousel2 from '../picture/contact-bg.png'
+import carousel from '../picture/refine/bg63.jpg'
+import carousel1 from '../picture/refine/bg60.jpg'
+import carousel2 from '../picture/refine/bg64.jpg'
 
 
 export const Privacy = () => {

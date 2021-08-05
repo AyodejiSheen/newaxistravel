@@ -5,9 +5,9 @@ import '../css/terms.css'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import carousel from '../picture/terms-bg.png'
-import carousel1 from '../picture/leisure-hero.png'
-import carousel2 from '../picture/contact-bg.png'
+import carousel from '../picture/refine/bg62.jpg'
+import carousel1 from '../picture/refine/bg61.jpg'
+import carousel2 from '../picture/refine/bg51.jpg'
 
 
 export const Terms = () => {

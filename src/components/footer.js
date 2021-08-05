@@ -4,32 +4,58 @@ import '../css/footer.css';
 
 //picture
 import logo from '../picture/logo-light.png';
-import logos from '../picture/logos.jpg';
+import iata from '../picture/newrefine/iata.png';
+import index from '../picture/index.png';
+import abta from '../picture/abta.png';
+import atoc from '../picture/atoc.png';
+import atol from '../picture/atol.png';
+import eurostar from '../picture/eurostar.png';
 
 
 export const Footer = () => {
     return (
         <>
-            <div className="container-fluid footer-partner mb-4">
+            <div className="container-fluid mt-4 footer-partner mb-4">
                 <div className="container p-2">
-                <div className="row">
-                    <div className="col-12 col-md-3 our-part border-right">
-                    <h1 className="head mb-0">Our <span style={{color:'#0275d8'}}> Partners</span></h1>
+                <h1 className="head-tag col-12 p-0 col-md-6 text-center mx-auto"> Testimonial <span style={{color:'#0275d8'}}> or Companies we work with. </span></h1>
+                <p className="text-center content-why">There are many ways to travel and these companies have chosen us as their travel partners </p>
+
+                <div className="row text-center align-items-baseline">
+
+                    <div className="col-6 col-md-2 order-1 mb-4">
+                        <img src={iata} className="img-fluid partners-logo" data-aos="fade-left"></img>
                     </div>
 
-                    <div data-aos="fade-right" className="col-md-8 pt-3 logos-col">
-                        <img src={logos} className="foot-logo"/>
+                    <div className="col-6 col-md-2 order-4 mb-4">
+                        <img src={abta} className="img-fluid partners-logo" data-aos="zoom-in-down"></img>
+                    </div>                    
+                    
+                    <div className="col-6 col-md-2 order-3 mb-4">
+                        <img src={index} className="img-fluid partners-logo" data-aos="zoom-in-up"></img>
+                    </div>                    
+                    
+                    <div className="col-6 col-md-2 order-6 mb-4">
+                        <img src={atoc} className="img-fluid partners-logo" data-aos="fade-right"></img>
+                    </div>                    
+                    
+                    <div className="col-6 col-md-2 order-2 mb-4">
+                        <img src={atol} className="img-fluid partners-logo" data-aos="zoom-in-down"></img>
+                    </div>
+                    <div className="col-6 col-md-2 order-5 mb-4 ">
+                        <img src={eurostar} className="img-fluid partners-logo" data-aos="zoom-in-up"></img>
                     </div>
                 </div>
-                </div>
+  </div>
             </div>
+
+
 
             <div className="container-fluid footer pb-0 p-3 ">
                 <div className="container pb-3">
                     <div className="row">
                         <div className="col-md-4">
                         <a className="navbar-brand" href="/"><img className="logo-footer" src={logo}/></a>
-                        <p className="text-white text-justify foot-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu.</p>
+                        <p className="text-white text-justify foot-note mt-2">Find us on social media</p>
 
 
                         <div className="row">
@@ -46,7 +72,7 @@ export const Footer = () => {
                             </div>
 
                             <div className="instagram">
-                                <i className="fab fa-instagram"></i>
+                                {/* <i className="fab fa-instagram"></i> */}
                             </div>
                         </div>
 
@@ -107,7 +133,7 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <hr className="footer-line" ></hr>
+                <hr className="footer-line mt-0 " ></hr>
 
                 <p className="text-center pb-0 mb-0 watermark">Designed and Developed By iBuild</p>
             </div>

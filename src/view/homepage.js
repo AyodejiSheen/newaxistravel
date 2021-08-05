@@ -2,26 +2,38 @@ import React from 'react'
 import '../css/homepage.css';
 import {Link, useHistory} from 'react-router-dom';
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, {Autoplay} from 'swiper/core';
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+
+
+
+
+
+
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import flight from '../picture/Airport icon.png';
-import visas from '../picture/Passport icon.png';
-import conference from '../picture/conference.png';
-import tour from '../picture/tour.png';
-import hotel from '../picture/hotel.png';
-import car from '../picture/car.png';
-import packages from '../picture/packages.png';
-import stack3 from '../picture/stack3.jpeg';
-import stack2 from '../picture/stack2.jpeg';
-import stack1 from '../picture/stack1.jpeg';
-import meet1 from '../picture/meet1.png';
-import meet2 from '../picture/meet2.png';
-import meet3 from '../picture/meet3.png';
-import leisure from '../picture/leisure.jpeg';
-import leisure1 from '../picture/leisure1.jpeg';
-import leisure2 from '../picture/leisure2.jpeg';
-import leisure3 from '../picture/leisure3.jpeg';
+// import flight from '../picture/Airport icon.png';
+// import visas from '../picture/Passport icon.png';
+// import conference from '../picture/conference.png';
+// import tour from '../picture/tour.png';
+// import hotel from '../picture/hotel.png';
+// import car from '../picture/car.png';
+// import packages from '../picture/packages.png';
+import stack3 from '../picture/tour-3.png';
+import stack2 from '../picture/refine/stack2.jpg';
+import stack1 from '../picture/refine/stack1.jpg';
+import meet1 from '../picture/refine/poly1.png';
+import meet2 from '../picture//refine/poly2.png';
+import meet3 from '../picture//refine/poly3.png';
+import leisure from '../picture/refine/leisure.jpg';
+import leisure1 from '../picture/refine/leisure1.jpg';
+import leisure2 from '../picture/refine/leisure2.jpg';
+import leisure3 from '../picture/refine/leisure3.jpg';
 import W01 from '../picture/01.png';
 import W02 from '../picture/02.png';
 import W03 from '../picture/03.png';
@@ -38,7 +50,7 @@ import movie from '../picture/tour vid.mp4';
 //reactbootstrap
 import { Carousel } from 'react-bootstrap'
 
-
+SwiperCore.use([Autoplay]);
 
 
 export const Homepage = () => {
@@ -48,10 +60,10 @@ export const Homepage = () => {
         {/* Hero section */}
         <section>
                 <div className="container-fluid hero-main">
-                    <div className="col-md-5 hero-content">
-                                <h1 className="heading text-white"><b>A <span style={{color:"#0275d8"}}> Travel Agency</span> Unlike All Others Travel</b></h1>
-                                <p className="text-white text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus.  </p>
-                                <Link to="/contact-us"className="link"><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                    <div className="col-md-6 hero-content animate__animated animate__fadeInLeft">
+                                <h1 className="heading text-white"> Travel You <span style={{color:"#0275d8"}}>Can Trust</span> </h1>
+                                <p className="text-white heading-note text-justify">Axis Travel is a world class travel management company that offers excellent and premium corporate travel services to a full range of companies. Headquartered in Dubai, UAE, Axis Travel provides round the clock, high-quality business travel management that leaves a powerful impression on our clients.   </p>
+                                <Link to="/contact-us"className="link"><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                     </div>
                 </div>
         </section>
@@ -62,106 +74,77 @@ export const Homepage = () => {
 </div>
 
 
-{/* Our Services */}
-<section className="our-services mt-5 pb-5">
-    <h1 className="head-tag text-center">Our <span style={{color:"#0275d8"}}>Services</span></h1>
-    <p className="text-center col-md-6 mx-auto heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
 
-    <div className="container">
-        <div className="row">
-        <div className=" col-6 col-md-3" data-aos="fade-up">
-        <Link to="/flight" className="link text-dark"><div className="service-box pb-5 pt-5">
-                    <div className="icon mx-auto text-center p-3">
-                        <img src={flight} className="icon-pic"/>
-                    </div>
-                        <p className="service-name mt-4 text-center">Flight</p>
-                </div></Link>
-            </div>
 
-            <div className=" col-6 col-md-3" data-aos="fade-up">
-            <Link to="/visas-and-passport" className="link text-dark"><div className="service-box pb-5 pt-5">
-            <div className="icon mx-auto p-3 text-center ">
-                        <img src={visas} className="icon-pic"/>
-                    </div>
-                        <p className="service-name mt-4 text-center">Visas</p>
-                </div></Link>
-            </div>
+{/* Our Services New */}
+<section className="our-services mt-1 pb-5">
 
-            <div className=" col-6 col-md-3" data-aos="fade-up">
-            <Link to="/insurance" className="link text-dark"><div className="service-box pb-5 pt-5">
-                    <div className="icon mx-auto p-3 text-center">
-                        <i className="fa fa-user-shield shield"></i>
-                    </div>
-                        <p className="service-name mt-4 text-center">Insurances</p>
-                </div></Link>
-            </div>
+<div className="container mt-5 mb-5">
+    <div className="row">
+        <div className="col-md-6 order-md-1 order-2">
+            <h1 className="head-tag">Let's get down  <span style={{color:'#0275d8'}}> <br></br> to business</span></h1>
+                    <p className="text-justify heading-note pr-5">We can help you book hotel rooms and flights, while also arranging insurance and visas. Axis also offers a range of amazing travel and corporate conference packages that give the best travel deals. </p>
 
-            <div className="col-6 col-md-3" data-aos="fade-up">
-            <Link to="/tour" className="link text-dark"><div className="service-box pb-5 pt-5">
-                    <div className="icon mx-auto p-3 text-center">
-                        <img src={tour} className="icon-pic"/>
-                    </div>
-                        <p className="service-name mt-4 text-center">Tours</p>
-                </div></Link>
-            </div>
+                    <p className="text-justify heading-note pr-5">Our modern user platform, combined with the best customer service in the industry, keeps you moving swiftly and with ease.
+
+                    From enhanced traveller experiences, to saving strategies, spend control, data visibility and more – we’re here to help you travel differently.
+
+                    And by differently, we mean better.</p>
         </div>
 
-
-        <div className="row mt-4 service-2">
-            <div className="col-6 col-md-3" data-aos="fade-down">
-            <Link to="/hotel" className="link text-dark"> <div className="service-box pb-5 pt-5">
-                    <div className="icon mx-auto p-3 text-center">
-                        <img src={hotel} className="icon-pic"/>
-                    </div>
-                        <p className="service-name service-name-hotel-1 mt-4 text-center">Hotel Reservation</p>
-                        <p className="service-name-hotel mt-4 text-center">Hotel Resv.</p>
-                </div></Link>
-            </div>
-
-            <div className="col-6 col-md-3 service" data-aos="fade-down">
-            <Link to="/transport" className="link text-dark">
-                    <div className="service-box pb-5 pt-5">
-                            <div className="icon mx-auto p-3 text-center">
-                                <img src={car} className="icon-pic"/>
-                            </div>
-                                <p className="service-name mt-4 text-center">Transport</p>
-                    </div>
-                </Link>
-            </div>
-
-            <div className="col-6 col-md-3" data-aos="fade-down">
-            <Link to="/packages" className="link text-dark"><div className="service-box pb-5 pt-5">
-                    <div className="icon mx-auto p-3 text-center">
-                        <img src={packages} className="icon-pic"/>
-                    </div>
-                        <p className="service-name mt-4 text-center">Packages</p>
-            </div></Link>
-            </div>
-
-            <div className="col-6 col-md-3" data-aos="fade-down">
-            <Link to="/meetings-and-events#conferences" className="link text-dark"><div className="service-box pb-5 pt-5">
-                    <div className="icon mx-auto text-center p-3">
-                        <img src={conference} className="icon-pic"/>
-                    </div>
-                        <p className="service-name mt-4 text-center">Conferences</p>
-                </div></Link>
-            </div>
+        <div className="col-md-6 order-md-2 order-1">
+        <video width="100%" controls autoPlay className="video mb-4">
+                    <source src={movie} type="video/mp4"/>
+                </video>
         </div>
+    </div>
+</div>
+
+    <div className="container-fluid pb-4">
+<div className="row">
+    <div className="col-md-4 flight">
+    <div className="text-white services-note pt-4 pl-4 pr-4">
+                    <h2 className="font-weight-bold">What We Do</h2>
+                    <p className="heading-note">As one of the world’s leading corporate travel companies, we are duty bound to ensure that you arrive safely and peacefully. Not to sound cliché, but the safety of your travelers is our top priority and responsibility.</p>
+                    <Link to="/what-we-do" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow  font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
+                </div>
+    </div>
+
+    <div className="col-md-4 visas">
+    <div className="text-white services-note pt-4 pl-4 pr-4">
+                    <h2 className="font-weight-bold">Travel Technology</h2>
+                    <p className="heading-note">Cutting edge booking technology makes every travel arrangement a stroll in the park. We never have to guess; our booking technology system remembers you and streamlines your booking process, saving time and money.</p>
+                    <Link to="/visas-and-passport" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
+                </div>
+    </div>
+
+
+    <div className="col-md-4 tour">
+    <div className="text-white services-note pt-4 pl-4 pr-4">
+                    <h2 className="font-weight-bold">Why Choose Axis Travel?</h2>
+                    <p className="heading-note">At Axis Travels, we know that your company is unique and so are your trips, this is why we ensure that every trip you make is not just travelling, but achieving your travel goals. </p>
+                    <Link to="/tour" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
+                </div>
+    </div>
+
+</div>
+
     </div>
 </section>
 
 
-
 {/* Corporate Service */}
-<section className="c-travel mt-5 pb-5">
+<section className="c-travel  pb-5">
     <div className="container pb-5">
         <div className="row">
             <div className="col-md-6">
                 <div className=" c-travel-sub pt-5 p-3">
-                <h1 className="head-tag">Corporate Travel With <span style={{color:'#0275d8'}}>Axis Travel</span></h1>
-                <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. </p>
+                <h1 className="head-tag"> Business & Corporate <span style={{color:'#0275d8'}}>  Travel Solution</span></h1>
+                <p className="text-justify heading-note">We source the best travel deals for you wherever in the world you’re headed, skillfully offering premium comfort and safety at great rates. Thanks to our tools and resources, your travelers enjoy 24/7 support and personalized travel that make every business trip a perfect landing in the right place and at the right time.</p>
+                
+                <p className="heading-note text-justify">Avoid the chaos and complexity of planning corporate travel for each trip and enjoy simplified, seamless service and tools that attends to your people’s most basic travel and accommodation need plus more!</p>
 
-                <Link to="/corporate-travel" className="link" ><button className="btn btn-lg button mt-4">READ MORE</button></Link>
+                <Link to="/travel-management" className="link" ><button className="btn btn-lg button mt-4">READ MORE</button></Link>
                 </div>
             </div>
 
@@ -175,21 +158,24 @@ export const Homepage = () => {
         </div>
     </div>
 
+
 {/* Meetings and events */}
-    <div className="container mt-5 pb-5 meeting">
+    <div className="container mt-5 pt-3  pb-5 meeting">
         <div className="row">
             <div className="col-md-6 order-2 order-md-1">
-                <div className="stack-poly ">
-                    <img src={meet1} className="position-absolute poly1" data-aos="flip-left"/>
-                    <img src={meet2} className="position-absolute poly2 " data-aos="flip-right"/>
-                    <img src={meet3} className="position-absolute poly3 " data-aos="flip-down"/>
+                <div className="stack-poly">
+                    <img src={meet1} className="position-absolute poly1 " data-aos="flip-left"/>
+                    <img src={meet2} className="position-absolute poly2" data-aos="flip-right"/>
+                    <img src={meet3} className="position-absolute poly3" data-aos="flip-down"/>
                 </div>
             </div>
 
             <div className="col-md-6 order-1 order-md-2" data-aos="zoom-in">
                 <h1 className="head-tag">Meetings And <br></br> <span style={{color:'#0275d8'}}>Events</span></h1>
-                    <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. Quam nulla porttitor massa id neque aliquam vestibulum morbi.</p>
+                <p className=" text-justify heading-note">Plan international meetings, conferences and events with us. We have the team, tools and technical capacity to make your meetings interactive and engaging - whether virtual, face-to-face or hybrid. Your attendees enjoy seamless connection and lively conversations no matter what part of the world they are connected from.</p>
 
+        <p className=" text-justify heading-note">
+        We provide you with complete end-to-end event management from venue sourcing, agenda planning, event theming, delegate travel and transfers, accommodation and meals, innovative event technology, entertainment and post-event reporting and evaluation. Let our team take care of every aspect of your event, so you can focus on your business.</p>
                     <Link to="/meetings-and-events" className="link" ><button className="btn btn-lg button mt-4">READ MORE</button></Link>
             </div>
         </div>
@@ -198,23 +184,25 @@ export const Homepage = () => {
 
 
 {/* Leisure travel */}
-<section className="leisure-travel pb-5">
+<section className="leisure-travel mb-4">
     <div className="container-fluid ">
         <div className="row">
-        <div className="col-md-6 p-0 order-2 order-md-1" data-aos="fade-down">
-            <img src={leisure} className="leisure-pic" />
+        <div className="col-md-6 p-0 order-2 order-md-1" >
+            <img src={leisure} className="leisure-pic img-fluid" />
         </div>
 
         <div className="col-md-6 leisure-content p-5 order-1 order-md-2">
-                <h1 className="head-tag text-white text-left"> We Know & Understand Your Great Choice of <span style={{color:'#0275d8'}}>Leisure Travel</span></h1>
-                    <p className="text-justify text-white heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. </p>
+                <h1 className="head-tag text-white text-left"> We Know & Understand Your Great Choice of <span style={{color:'#0275d8'}}><br></br>Leisure Travel</span></h1>
+                    <p className="text-justify text-white heading-note">We know your vacation time is precious and we are committed to creating beautiful moments for lifetime memories. Our travel experts have the insider knowledge and experience to create an authentic vacation you’ll never forget.
+
+                    We understand leisure travel. We live it. We know where you want to go and how to get you there. </p>
 
                 <Link to="leisure-travel" className="link"><button className="btn btn-lg button mt-4">READ MORE</button></Link>
                 <div className="trip-idea">
 
             <p className="font-weight-bold mt-5 mb-0 text-secondary">Ideals for your next Trip</p>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+             <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicator"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicator"></li>
@@ -237,7 +225,7 @@ export const Homepage = () => {
                 <img src={leisure2} className="leisure-car"/>
                 </div>
             </div>
-            </div>
+            </div> 
                 </div>
         </div>
 
@@ -247,98 +235,39 @@ export const Homepage = () => {
 
 
 {/* Why choose Us */}
-<section className="mt-5 pb-5 why-us" id="why-choose-us">
-    <section className="pb-4">
-        <div className="container">
-            <div className="row">
-                <div className="col-md-4">
-                <h1 className="head-tag"> Why Choose Our<span style={{color:'#0275d8'}}> Travel</span></h1>
-                    <p className="text-justify content-why">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
-                    <div className="col-2"><img src={W01} className="numbering"/></div>
-                    <div className="col-10">
-                    <h5 className="font-weight-bold">Save Time and Money</h5>
-                    <p className="text-justify content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
-                    </div>
-                    </div>
-
-                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
-                    <div className="col-2"><img src={W02} className="numbering"/></div>
-                    <div className="col-10">
-                    <h5 className="font-weight-bold">Trave Assistance</h5>
-                    <p className="text-justify content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
-                    </div>
-                    </div>
-
-                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
-                    <div className="col-2"><img src={W03} className="numbering"/></div>
-                    <div className="col-10">
-                    <h5 className="font-weight-bold">Expert Guidance</h5>
-                    <p className="text-justify content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
-                    <div className="col-2"><img src={W04} className="numbering"/></div>
-                    <div className="col-10">
-                    <h5 className="font-weight-bold">Best Travel Experience</h5>
-                    <p className="text-justify content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
-                    </div>
-                    </div>
-
-                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
-                    <div className="col-2"><img src={W05} className="numbering"/></div>
-                    <div className="col-10">
-                    <h5 className="font-weight-bold">Personalized Service</h5>
-                    <p className="text-justify content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
-                    </div>
-                    </div>
-
-                    <div className="row shadow m-1 p-2 choice-list" data-aos="fade-down">
-                    <div className="col-2"><img src={W06} className="numbering"/></div>
-                    <div className="col-10">
-                    <h5 className="font-weight-bold">Covid-19 Pandemic </h5>
-                    <p className="text-justify content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. </p>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<section className="mt-5 why-us" id="why-choose-us">
+     
 
 {/* About Us */}
-<section className="about-us mt-5 mb-5">
+<section className="about-us mt-5 mb-5 pb-5">
         <div className="container">
             <div className="row">
-            <div className="col-md-6 about p-5" data-aos="zoom-in">
+            <div className="col-md-6 about p-5">
                 <h1 className="head-tag text-white">About<span style={{color:'#0275d8'}}> Us</span></h1>
 
-                <p className="text-justify text-white heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Morbi enim nunc faucibus a pellentesque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eget velit aliquet sagittis id. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Luctus venenatis lectus magna fringilla.
-                Platea dictumst vestibulum rhoncus est pellentesque. 
-                Risus quis varius quam quisque id diam vel quam elementum. Quis ipsum suspendisse ultrices gravida dictum. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. </p>
+                <p className="text-justify text-white heading-note">Axis Travel is a world class travel management company that offers excellent and premium corporate travel services to a full range of companies. Headquartered in Dubai, UAE, Axis Travel provides round the clock, high-quality business travel management that leaves a powerful impression on our clients. We can help you book hotel rooms and flights, while also arranging insurance and visas. Axis also offers a range of amazing travel and corporate conference packages that give the best travel deals. </p>
 
-                <Link to="/our-company" className="link"><button className="btn btn-lg button mt-4">READ MORE</button></Link>
+                <p className="text-white text-justify heading-note">Axis Travel & Tourism makes each experience refreshingly easy and hassle-free. 
+                                We worry about and attend to your company’s travel plans, bookings and accommodations so that you don’t have to. 
+                                </p>
+
+                <Link to="/who-we-are" className="link"><button className="btn btn-lg button mt-4">READ MORE</button></Link>
             </div>
 
             <div className="col-md-6 mt-4 about-us-video">
-                <video width="100%" controls className="video ">
-                    <source src={movie} type="video/mp4"/>
-                </video>
 
                 <div className="ml-2" data-aos="fade-up">
                 <h1 className="head-tag mt-4">Travel & Tour<span style={{color:'#0275d8'}}> Inspiration</span></h1>
 
-                <p className="text-justify heading-note ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Platea dictumst vestibulum rhoncus est pellentesque. 
-                Risus quis varius quam quisque id diam vel quam elementum. Quis ipsum suspendisse ultrices gravida dictum. </p>
+                <p className="text-justify heading-note ">Finding yourself the world's most intriguing destinations starts here. It's where you'll access the essentials to create authentic experiences from the most trusted source in travel. Whether it's trip that's specific or one that's spontaneous - these are the dynamic deals and stunning splurges that make seeing the world not only possible, but incredible.</p>
                 <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button tour-but">BOOK A TOUR</button></a>
                 </div>
+
+                <div >
+        <video width="100%" controls autoPlay className="video mb-4">
+                    <source src={movie} type="video/mp4"/>
+                </video>
+        </div>
 
 
             </div>
@@ -347,104 +276,13 @@ export const Homepage = () => {
 </section>
 
 
-{/* Testimonials */}
-
-<section className="testimonial mt-5" id="testimonials">
-        <div className="container">
-
-        <h1 className="head-tag text-center">What Our <span style={{color:'#0275d8'}}> Clients</span> Say</h1>
-
-        <p className="text-center heading-note"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Platea dictumst vestibulum rhoncus est pellentesque. 
-        Risus quis varius quam quisque id diam vel quam elementum. </p>
-
-        <Carousel>
-  <Carousel.Item interval={5000}>
-  <div className="row testimonial-row p-4">
-                    <div className="col-md-6">
-                            <div className=" testimonial-text p-5 shadow rounded box position-relative">
-                            <h1 className="colon text-right">"</h1>
-                            <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Platea dictumst vestibulum rhoncus est pellentesque. 
-                            Risus quis varius quam quisque id diam vel quam elementum.  Quis ipsum suspendisse ultrices gravida dictum. </p>
-                            <h5 className="text-center font-weight-bold heading-note" style={{color:'#0275d8'}}>Phillip Moris</h5>
-                            <i className="text-dark text-center d-block heading-note">CEO, Company Name</i>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6">
-                        <div className=" testimonial-text p-5 shadow rounded box position-relative">
-                            <h1 className="colon text-right">"</h1>
-                            <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Platea dictumst vestibulum rhoncus est pellentesque. 
-                            Risus quis varius quam quisque id diam vel quam elementum.  Quis ipsum suspendisse ultrices gravida dictum. </p>
-                            <h5 className="text-center font-weight-bold heading-note" style={{color:'#0275d8'}}>Phillip Moris</h5>
-                            <i className="text-dark text-center d-block heading-note">CEO, Company Name</i>
-                            </div>
-                        </div>
-                    </div>
-  </Carousel.Item>
-
-  <Carousel.Item interval={5000}>
-  <div className="row testimonial-row p-4">
-                    <div className="col-md-6">
-                    <div className=" testimonial-text p-5 shadow rounded box position-relative">
-                            <h1 className="colon text-right">"</h1>
-                            <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Platea dictumst vestibulum rhoncus est pellentesque. 
-                            Risus quis varius quam quisque id diam vel quam elementum.  Quis ipsum suspendisse ultrices gravida dictum. </p>
-                            <h5 className="text-center font-weight-bold heading-note" style={{color:'#0275d8'}}>Phillip Moris</h5>
-                            <i className="text-dark text-center d-block heading-note">CEO, Company Name</i>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6">
-                        <div className=" testimonial-text p-5 shadow rounded box position-relative">
-                            <h1 className="colon text-right">"</h1>
-                            <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Platea dictumst vestibulum rhoncus est pellentesque. 
-                            Risus quis varius quam quisque id diam vel quam elementum.  Quis ipsum suspendisse ultrices gravida dictum. </p>
-                            <h5 className="text-center font-weight-bold heading-note" style={{color:'#0275d8'}}>Phillip Moris</h5>
-                            <i className="text-dark text-center d-block heading-note">CEO, Company Name</i>
-                            </div>
-                        </div>
-                    </div>
-  </Carousel.Item>
-
-  <Carousel.Item interval={5000}>
-  <div className="row testimonial-row p-4">
-                    <div className="col-md-6">
-                    <div className=" testimonial-text p-5 shadow rounded box position-relative">
-                            <h1 className="colon text-right">"</h1>
-                            <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Platea dictumst vestibulum rhoncus est pellentesque. 
-                            Risus quis varius quam quisque id diam vel quam elementum.  Quis ipsum suspendisse ultrices gravida dictum. </p>
-                            <h5 className="text-center font-weight-bold heading-note" style={{color:'#0275d8'}}>Phillip Moris</h5>
-                            <i className="text-dark text-center d-block heading-note">CEO, Company Name</i>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6">
-                        <div className=" testimonial-text p-5 shadow rounded box position-relative">
-                            <h1 className="colon text-right">"</h1>
-                            <p className="text-justify mt-3 heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Platea dictumst vestibulum rhoncus est pellentesque. 
-                            Risus quis varius quam quisque id diam vel quam elementum.  Quis ipsum suspendisse ultrices gravida dictum. </p>
-                            <h5 className="text-center font-weight-bold heading-note" style={{color:'#0275d8'}}>Phillip Moris</h5>
-                            <i className="text-dark text-center d-block heading-note">CEO, Company Name</i>
-                            </div>
-                        </div>
-                    </div>
-  </Carousel.Item>
 
 
-</Carousel>
-                
-            </div>
-        
 </section>
 
-</section>
+<div className="partner-quote col-10 col-md-5 text-center mx-auto mb-5">
+            <p className="text-justify heading-note mb-0 text-center font-weight-bold" style={{color:"#0275d8"}}><i>We are excited to welcome you aboard. Make us your travel partner and let’s take you to grander heights!</i></p>
+</div>
 
 
 

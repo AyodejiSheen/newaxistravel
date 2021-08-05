@@ -10,10 +10,10 @@ import plane from '../picture/plane.png';
 import ship from '../picture/ship.png';
 import train from '../picture/train.png';
 import road from '../picture/road.png';
-import air from '../picture/air.png';
-import rail from '../picture/railbg.png';
-import ocean from '../picture/ocean.png';
-import vehicle from '../picture/vehcile.png';
+import air from '../picture/refine/mbg18.jpg';
+import rail from '../picture/refine/mbg19.jpg';
+import ocean from '../picture/refine/mbg17.jpg';
+import vehicle from '../picture/refine/mbg16.jpg';
 
 
 
@@ -26,7 +26,7 @@ export const Transport = () => {
                     <section>
                 <div className="container-fluid hero-transport">
 
-                    <div className="col-md-5 hero-content-transport">
+                    <div className="col-md-6 hero-content-transport animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"><b>Transport</b></h1>
                                 <p className="text-white text-justify heading-note">At Axis Travel we offer global transport solutions to meet
 all your travel needs. Our fleet of vehicles includes
@@ -34,7 +34,7 @@ everything from private chauffeur-driven cars to luxury
 coaches, which are perfect for airport transfers. We are
 also able to source and book other forms of transport
 including trains, planes, helicopters and boats.</p>
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
 
                     </div>
                 </div>
@@ -51,7 +51,7 @@ including trains, planes, helicopters and boats.</p>
 {/* insurance packages */}
 <section className="mb-5 country">
     <div className="container-fluid mt-4">
-        <div className="mx-auto col-md-8 " data-aos="fade-down">
+        <div className="mx-auto col-md-8 " >
         <h1 className="head-tag text-center">Our <span style={{color:'#0275d8'}}> Packages</span></h1>
         <p className="text-center heading-note ">Our insurances packages cover you in the event of:</p>
         </div>
@@ -119,7 +119,7 @@ including trains, planes, helicopters and boats.</p>
         <div className="inc-icon mx-auto">
             <img src={plane} className="pack-icon img-fluid"/>
         </div>
-        <h5 className="card-title pack-title text-decoration-none">Air</h5>
+        <h5 className="card-title pack-title  transport-title text-decoration-none">Air</h5>
 
        <button className="btn pack-button" >Learn More </button>
     </div>
@@ -133,7 +133,7 @@ including trains, planes, helicopters and boats.</p>
         <div className="inc-icon mx-auto">
             <img src={ship} className="pack-icon img-fluid"/>
         </div>
-        <h5 className="card-title pack-title text-decoration-none">Ocean</h5>
+        <h5 className="card-title pack-title  transport-title text-decoration-none">Ocean</h5>
 
         <button className="btn pack-button">Learn More </button>
     </div>
@@ -147,7 +147,7 @@ including trains, planes, helicopters and boats.</p>
         <div className="inc-icon mx-auto">
             <img src={train} className="pack-icon img-fluid"/>
         </div>
-        <h5 className="card-title pack-title text-decoration-none">Rail</h5>
+        <h5 className="card-title pack-title transport-title  text-decoration-none">Rail</h5>
 
 
         <button className="btn pack-button">Learn More </button>
@@ -161,7 +161,7 @@ including trains, planes, helicopters and boats.</p>
         <div className="inc-icon mx-auto">
             <img src={road} className="pack-icon img-fluid"/>
         </div>
-        <h5 className="card-title pack-title text-decoration-none">Vehcile </h5>
+        <h5 className="card-title pack-title  transport-title text-decoration-none">Vehcile </h5>
 
 
         <button className="btn pack-button">Learn More </button>
@@ -292,7 +292,7 @@ neque aliquam vestibulum morbi.  </p>
 
 
 <div className="text-center mb-5">
-<Link to="/contact-us" className="link" ><button data-aos="flip-down"  className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<Link to="/contact-us" className="link" ><button data-aos="flip-down"  className="btn btn-lg button mt-4">TALK TO US</button></Link>
 
 </div>
 

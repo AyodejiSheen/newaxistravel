@@ -1,5 +1,7 @@
 .hero-insurance{
-    padding: 0px!important;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
     animation-name: hero-anim-insurance;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -7,36 +9,37 @@
 
 @keyframes hero-anim-insurance {
     0%{
-        background-image: url('../picture/insurance-bg.png');
+        background-image: url('../picture/refine/bg41.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/insurance-bg.png');
+        background-image: url('../picture/refine/bg41.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/images/bg19.jpg');
+        background-image: url('../picture/refine/bg44.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/images/bg20.jpg');
+        background-image: url('../picture/refine/bg47.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-insurance{
-    background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 12rem;
+    background-color: hsla(210, 95%, 5%, 0.96);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 9rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
 .heading{
@@ -82,11 +85,12 @@
 }
 
 .pack-button{
-    border: 1px solid #0275d8;
+    /* border: 1px solid #0275d8; */
     border-radius: 0px;
     font-size: 14px;
-    color: #0275d8;
+    background-color: #0275d8;
     font-weight: 600;
+    color: white;
 }
 
 .pack-button:hover{
@@ -140,12 +144,18 @@
     }
 
 
+    .hero-insurance{
+        padding: 0px!important;
+    }
+
+
     .hero-content-insurance{
-        background-color: hsla(210, 95%, 5%, 0.7);
+        background-color: hsla(210, 95%, 5%, 0.8);
         padding-left: 20px!important;
         padding-right: 20px!important;
-        padding-top: 9rem;
-        padding-bottom: 5rem;
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        box-shadow: none;
 
     }
 
@@ -214,6 +224,18 @@
 }
 
 
+.lost-baggage{
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+.missed-flight{
+    padding-top: 10px!important;
+}
+
+.medical-section{
+    padding-top: 0px!important;
+}
 
 
  }
@@ -225,7 +247,7 @@
 
  /* Tablets */
 
- @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
     .heading-note{
         font-size: 14px;
     }
@@ -240,17 +262,101 @@
         margin-left: 80px!important;
     }
     
+    .pack-button{
+        display: none;
+    }
+
     .desktop-pack{
         margin-left: -120px;
+        margin-top: 0px!important;
+        padding-top: 0px!important;
+    }
+
+
+    .hero-insurance{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
+
+    .hero-content-insurance{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
+    .personal-accident{
+        margin-top: 0px!important;
     }
 
 
 
 
 
-
-
  }
+
+
+
+    /* /* 1024 screen */
+    @media only screen and (min-device-width:1024px) and (max-device-width:1276px){
+   
+        .insurance-pack{
+            width: 100%;
+            transition: box-shadow 0.5s;
+            border-radius: 10px;
+            background: #ffffff;
+            box-shadow: 0px 4px 6px rgba(46,46,46,0.5);
+        }
+        
+        .insurance-pack:hover{
+            box-shadow: 0px 2px 12px rgba(0,0,0,0.89);
+        }
+        
+        
+        .packs{
+            margin: 0px!important;
+            padding: 5px 10px 5px 10px;
+        }
+        
+        .desktop-pack{
+            padding: 8px;
+        }
+        
+          .pack-button{
+            display: none;
+        }
+        
+        .pack-title, .pack-note{
+            font-size: 12px;
+        }
+        
+        
+        .insurance-pack{
+            border: 0px;
+            text-decoration: none!important;
+        }
+        
+        
+        .pack-icon{
+            width: 70%;
+        }
+        
+        .inc-icon{
+            width: 70px;
+            height: 70px;
+        }
+        
+        
+        .desktop-pack{
+            display: none;
+        }
+        
+        .mobile-pack{
+            display: flex;
+        }
+        
+
+    }
 
 
 /* Larger Screens */

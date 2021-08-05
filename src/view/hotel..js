@@ -5,15 +5,15 @@ import '../css/hotel.css'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import hotel11 from '../picture/hotel11.png';
-import hotel12 from '../picture/hotel12.png';
-import hotel13 from '../picture/hotel13.png';
-import hotel14 from '../picture/hotel14.png';
-import hotel2 from '../picture/hotel2.png';
+import hotel11 from '../picture/refine/lbg6.jpg';
+import hotel12 from '../picture/refine/lbg7.jpg';
+import hotel13 from '../picture/refine/lbg5.jpg';
+import hotel14 from '../picture/refine/lbg8.jpg';
+import hotel2 from '../picture/refine/mbg3.jpg';
 import hotel3 from '../picture/hotel3.png';
-import marrothotel from '../picture/marrothotel.png';
-import hiltonhotel from '../picture/hiltonhotel.png';
-import avidhotel from '../picture/avidhotel.png';
+import marrothotel from '../picture/refine/lbg9.jpg';
+import hiltonhotel from '../picture/refine/lbg11.jpg';
+import avidhotel from '../picture/refine/lbg10.jpg';
 
 import img from '../picture/img.png';
 import hilton from '../picture/hilton1.png';
@@ -30,14 +30,14 @@ export const Hotel = () =>{
                     <section>
                 <div className="container-fluid hero-hotel">
 
-                    <div className="col-md-5 hero-content-hotel">
+                    <div className="col-md-6 hero-content-hotel animate__animated animate__fadeInLeft">
                     <h1 className="heading text-white"><b>Hotel<span style={{color:"#0275d8"}}> <br></br>Reservation</span></b></h1>
 
                                 <p className="text-white text-justify heading-note">Whatever your budget, whenever you need to book,
 wherever you need to go, our platform puts you and your
 team in pole position to find the right hotel for your next
 business trip.</p>
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
 
                     </div>
                 </div>
@@ -58,26 +58,26 @@ business trip.</p>
         <div className="col-md-6 order-2 order-md-1">
             <div className="row">
                 <div className="col-6 p-1">
-                    <img src={hotel11} className="img-fluid" data-aos="flip-right"/>
+                    <img src={hotel11} className=" img-fluid" data-aos="flip-right"/>
                 </div>
 
                 <div className="col-6 p-1">
-                    <img src={hotel12} className="img-fluid" data-aos="flip-left"/>
+                    <img src={hotel12} className=" luxury img-fluid" data-aos="flip-left"/>
                 </div>
             </div>
 
             <div className="row">
                 <div className="col-6 p-1">
-                    <img src={hotel13} className="img-fluid" data-aos="flip-right"/>
+                    <img src={hotel13} className=" luxury img-fluid" data-aos="flip-right"/>
                 </div>
 
                 <div className="col-6 p-1">
-                    <img src={hotel14} className="img-fluid" data-aos="flip-left"/>
+                    <img src={hotel14} className=" luxury img-fluid" data-aos="flip-left"/>
                 </div>
             </div>
         </div>
 
-        <div className="col-md-6 p-5 mt-5 hotel-book-note order-1 order-md-2" data-aos="fade-right"> 
+        <div className="col-md-6 p-5 mt-5 hotel-book-note order-1 order-md-2"> 
         <h1 className="head-tag text-left">Hotel Booking with<span style={{color:'#0275d8'}}> more choice, better rates, total control.</span></h1>  
                 <p className="text-justify heading-note">Axis Travel has access to thousands of hotels and properties,
 both within the UAE and across the globe. Our team has the
@@ -86,7 +86,7 @@ needs within seconds, offering on-hand inventory during key
 exhibition periods. We constantly review the market to ensure
 that our clients' hotel bookings offer the highest quality at the
 best price.</p>
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
 
         </div>
         </div>
@@ -163,7 +163,7 @@ upgrades with minimal or no additional charges. </p>
           <p><i className="fa fa-check-circle mr-3"> </i><span>Preferential rates for hotel booking and room reservation.</span></p>
           <p><i className="fa fa-check-circle mr-3"> </i><span>IATA Licensed.</span></p>
   </div>
-  <Link to="/contact-us" className="link" ><button data-aos="fade-left" className="btn btn-lg button mt-4 mb-4">CONTACT US</button></Link>
+  <Link to="/contact-us" className="link" ><button data-aos="fade-left" className="btn btn-lg button mt-4 mb-4">TALK TO US</button></Link>
 
                 </div>
             </div>
@@ -203,7 +203,7 @@ upgrades with minimal or no additional charges. </p>
         </button>
       </div>
       <div class="modal-body">
-          <h4 className="font-weight-bold">MARRIOT HOTEL</h4>
+          <h4 className="font-weight-bold">HILTON HOTEL</h4>
         <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
       </div>
     </div>
@@ -221,7 +221,7 @@ upgrades with minimal or no additional charges. </p>
         </button>
       </div>
       <div class="modal-body">
-          <h4 className="font-weight-bold">HILTON HOTEL</h4>
+          <h4 className="font-weight-bold">AVID HOTEL</h4>
         <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
       </div>
     </div>
@@ -239,7 +239,7 @@ upgrades with minimal or no additional charges. </p>
         </button>
       </div>
       <div class="modal-body">
-          <h4 className="font-weight-bold">AVID HOTEL</h4>
+          <h4 className="font-weight-bold">MARRIOTT HOTEL</h4>
         <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
       </div>
     </div>

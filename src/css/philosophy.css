@@ -1,36 +1,39 @@
 .hero-philosophy{
-    padding: 0px!important;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
     animation-name: hero-anim-philosophy;
-    animation-duration: 20s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
 }
 
 @keyframes hero-anim-philosophy {
     0%{
-        background-image: url('../picture/ourphilosophy.png');
+        background-image: url('../picture/refine/bg57.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/ourphilosophy.png');
+        background-image: url('../picture/refine/bg57.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/mainhero2.png');
+        background-image: url('../picture/ourphilosophy.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-philosophy{
-    background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 9rem;
+    background-color: hsla(210, 95%, 5%, 0.96);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
 .heading{
@@ -50,6 +53,7 @@
 .accordion-philosophy{
     background-color: #010e1b!important;
     border-top: 2px solid white!important;
+    height: 60px!important;
 }
 
 .accordion-note{
@@ -80,10 +84,18 @@
     }
 
 
+    .hero-philosophy{
+        padding: 0px!important;
+    }
+
+
     .hero-content-philosophy{
-        background-color: hsla(210, 95%, 5%, 0.7);
+        background-color: hsla(210, 95%, 5%, 0.8);
         padding-left: 20px!important;
         padding-right: 20px!important;
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        box-shadow: none;
 
     }
 
@@ -108,7 +120,7 @@
 
  /* Tablets */
 
- @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
     .heading-note{
         font-size: 14px;
     }
@@ -123,7 +135,18 @@
     }
 
 
+    .hero-philosophy{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
 
+    .hero-content-philosophy{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
 
 
  }

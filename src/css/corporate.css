@@ -1,37 +1,39 @@
 .hero-corporate{
-    padding: 0px!important;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
     animation-name: hero-anim-corporate;
     animation-duration: 20s;
-    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     animation-iteration-count: infinite;
 }
 
 @keyframes hero-anim-corporate{
     0%{
-        background-image: url('../picture/corporate bg.png');
+        background-image: url('../picture/refine/bg38.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/corporate-2.png');
+        background-image: url('../picture/refine/bg38.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/corporate bg.png');
+        background-image: url('../picture/refine/bg5.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-corporate{
-    background-color: hsla(210, 95%, 5%, 0.88);
-    padding-top: 9rem;
+    background-color: hsla(210, 95%, 5%, 0.96);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
 .heading{
@@ -45,10 +47,20 @@
 }
 
 .priemer{
-    background-image: url('../picture/corporate\ bg2.png');
+    background-image: url('../picture/refine/bg42.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.priemer-note{
+    background-color:#F2F8FD;
+    padding: 55px!important;
+}
+
+.feature-list{
+    list-style-type: square;
+}
+
 
 .qualities-pics{
     width: 100%;
@@ -71,6 +83,13 @@ ul{
     width: 100%;
 }
 
+.corporate-feature{
+    height: 450px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 5px rgba(46,46,46,0.5);
+    background-color:#F2F8FD;
+}
+
 
 
 
@@ -86,12 +105,16 @@ ul{
  @media only screen and (min-device-width:320px) and (max-device-width:480px){
 
     .hero-content-corporate{
+        background-color: hsla(210, 95%, 5%, 0.8)!important;
         padding-left: 20px!important;
         padding-right: 20px!important;
+        padding-top: 6rem!important;
+        box-shadow: none;
+
     }
 
-    .hero-content-corporate{
-        background-color: hsla(210, 95%, 5%, 0.7);
+    .hero-corporate{
+padding: 0px!important;
     }
 
     .priemer{
@@ -100,6 +123,10 @@ ul{
 
     .priemer-section{
         padding-bottom: 0px!important;
+    }
+
+    .priemer-note{
+        padding: 20px 10px 20px 10px!important;
     }
 
     .corporate-qualities{
@@ -114,14 +141,24 @@ ul{
         margin-top: 0px!important;
     }
 
-    .corporate-part .col-md-6{
+    .corporate-part.col-md-6{
         margin-top: 25px!important;
         padding: 20px!important;
+    }
+
+    .part-pic{
+        margin-top: 0px!important;
+        padding: 0px!important;
     }
 
 
     .corporate-note{
         padding: 20px!important;
+    }
+
+
+    ul{
+        line-height: 1.8;
     }
 
  }
@@ -133,26 +170,78 @@ ul{
 
  /* Tablets */
 
- @media only screen and (min-device-width:768px) and (max-device-width:1024px){
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
     .heading-note{
         font-size: 14px;
     }
 
+    .hero-content-corporate{
+        padding-top: 2rem!important;
+        padding-bottom: 3rem;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .hero-corporate{
+        padding: 6rem 2rem 2rem 2rem!important;
+    }
 
     .head{
         font-size: 30px;
     }
 
-    .facebook, .twitter, .linkedin, .instagram{
-        width: 50px;
-        height: 50px;
+    .corporate-q{
+        font-size: 13px;
     }
 
-    .foot-link{
-        padding-left: 20px!important;
+    .corporate-list{
+        padding: 40px 20px 0px 20px!important;
+    }
+
+
+    .corporate-part{
+        padding: 0px 20px 30px 20px!important;
+    }
+
+    .corporate-note{
+        padding-top: 30px!important;
+        padding-bottom: 30px!important;
+    }
+
+    .corporate-qualities{
+        margin-top: 30px!important;
     }
 
  }
+
+
+ /* /* 1024 screen */
+ @media only screen and (min-device-width:1024px) and (max-device-width:1276px){
+ 
+    .hero-content-corporate{
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .corporate-note{
+        padding-top: 30px!important;
+        padding-bottom: 30px!important;
+    }
+
+    .corporate-q{
+        font-size: 13.5px;
+    }
+
+    .corporate-list{
+        margin-top: 40px;
+    }
+
+
+}
+
+
 
 
 /* Larger Screens */

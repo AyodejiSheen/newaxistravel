@@ -1,0 +1,21 @@
+.anchor-item{
+    background-color: #010e1b;
+    color: white;
+    padding: 20px;    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.anchor-item:hover{
+    background-color: #0275d8;
+    transition: background-color 1s;
+}
+
+
+
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .anchor{
+        display: block!important;
+    }
+}

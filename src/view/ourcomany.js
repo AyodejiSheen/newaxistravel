@@ -6,8 +6,8 @@ import '../css/ourcompany.css';
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import leadership from '../picture/ourcompany-bg2.png';
-import ourprofile from '../picture/ourcompany-bg3.png';
+import leadership from '../picture/refine/mbg20.jpg';
+import ourprofile from '../picture/refine/mbg21.jpg';
 import ourhistory from '../picture/ourcompany-bg4.png';
 
 
@@ -43,11 +43,13 @@ export const Ourcompany = () => {
         <section>
                 <div className="container-fluid hero-ourcompany img-fluid">
 
-                    <div className="col-md-5 hero-content-ourcompany">
-                                <h1 className="heading text-white"><b>Our <br></br><span style={{color:'#0275d8'}}>Company</span></b></h1>
-                                <p className="text-white text-justify heading-note">We ’re shaping the future of business travel with our award-winning corporate travel management and booking platform – built on the foundations of trust, choice and great people.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>                    </div>
+                    <div className="col-md-6 hero-content-ourcompany
+                    animate__animated animate__fadeInLeft">
+                                <h1 className="heading text-white"><b>Premium comfort <span style={{color:'#0275d8'}}>for limitless success</span></b></h1>
+                                <p className="text-white text-justify heading-note">The best ideas sprout in a worry-free zone. Whether you’re making business trips to conquer new terrains or you seek to explore new sights in faraway places, Axis Travel & Tourism makes each experience refreshingly easy and hassle-free. 
+                                We worry about and attend to your company’s travel plans, bookings and accommodations so that you don’t have to. 
+                                </p>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-2">TALK TO US</button></Link>                    </div>
                 </div>
         </section>
 
@@ -60,11 +62,10 @@ export const Ourcompany = () => {
 
 {/* Note section */}
 <section className="note">
-    <div className="container p-4 page-note">
-    <h1 className="head-tag text-center">Our<span style={{color:'#0275d8'}}> Team</span></h1>
-        <p className="text-center heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-        magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium 
-        vulputate sapien nec sagittis aliquam malesuada.</p>
+    <div className="container col-md-8  p-4 page-note">
+        <p className="text-center heading-note font-weight-bold" style={{color:'#010e1b'}}>Since we understand that your growth and success are tied to calm and comfort, our travel and tour solutions are designed to give you peace of mind. 
+We offer first-rate management service for both local and international travels, for any company at a perfectly reasonable cost.  
+</p>
     </div>
 </section>
 
@@ -77,9 +78,18 @@ export const Ourcompany = () => {
                     <img src={leadership} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 mt-5 leader-note " data-aos="zoom-in">
-                <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Leadership</span></h1>
-                <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
+                <div className="col-md-6 p-5 leader-note " data-aos="zoom-in">
+                <h1 className="head-tag text-left">We care <br></br><span style={{color:'#0275d8'}}>about your people</span></h1>
+                <p className="text-justify heading-note">Headquartered in the modern and progressive city that is Dubai, Axis Travels comes highly recommended because we instantly recognize the uniqueness of each client and provide highly personalized service specific to your organization. Our efficient and professional agents who fully understand customer care are always at hand to attend to your travel needs and make necessary arrangements immediately, even at the shortest notice. </p>
+
+                <p className="text-justify heading-note">Our rare ability to pay attention to the smallest travel detail, intuitively detect or predict sudden changes and swiftly make excellent alternatives differentiates us. From booking flight and ferry tickets to organizing leisure tours as well as arranging meeting or conference venues and hotel bookings, we know how to guarantee your comfort and safety. 
+                With a long list of credible international and local partners, our clients get exclusive treatment and the best service that they deserve.</p>
+
+                <p className="text-justify heading-note">
+                Reserve a seat with us and experience a wonderful trip of a lifetime.
+                </p>
+
+
                 </div>
             </div>
         </div>
@@ -88,12 +98,16 @@ export const Ourcompany = () => {
 
 {/* Our profile */}
 
-<section>
+<section className="our-mission">
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-5 mt-5 order-2 order-md-1 profile-note" data-aos="zoom-in">
-                <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Profile</span></h1>
-                <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada.  </p>
+                <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Mission</span></h1>
+                <p className="text-justify heading-note">We aim to constantly provide affordable travel and tours services at premium standards, inspired by our corporate values of excellence, integrity, respect, teamwork, social responsibility and human resource development.  </p>
+
+                
+                <div className="mb-5" data-aos="flip-right">
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link></div>
                 </div>
 
                 <div className="col-md-6 order-1 p-0 order-md-2">
@@ -113,116 +127,27 @@ export const Ourcompany = () => {
                 </div>
 
                 <div className="col-md-6 p-5 history-note mt-5 " data-aos="zoom-in" >
-                <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>History</span></h1>
-                <p className="text-justify heading-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Vitae aliquet nec ullamcorper sit amet risus. </p>
+                <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Vision</span></h1>
+                <p className="text-justify heading-note">We envision a society where more people can journey to places they love through reasonably priced and stress-free travel and tour solutions.</p>
+
+                
+                <div className=" mb-5" data-aos="flip-right">
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link></div>
                 </div>
             </div>
         </div>
 </section>
 
 
-{/* faq */}
-<section className="faq mt-5 mb-5">
-        <div className="container">
-        <h1 className="head-tag text-center">Frequently Asked <span style={{color:'#0275d8'}}>Question</span></h1>
 
 
-<div className="mt-4" >
-      <Accordion  expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
-          className="accordion text-white"
-        >
-          <Typography>What is Axis Travel?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography className="heading-note">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2bh-content"
-          id="panel2bh-header"
-          className="accordion text-white"
-        >
-          <Typography > What are Axis Travel Benefits?</Typography>
-
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography className="heading-note">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. 
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3bh-content"
-          id="panel3bh-header"
-          className="accordion text-white"
-        >
-          <Typography>How Do I Make A Booking With Axis Travel?</Typography>
-
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography className="heading-note">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. 
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel4bh-content"
-          id="panel4bh-header"
-          className="accordion text-white"
-        >
-          <Typography >How long does it takes To Make A Booking?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography className="heading-note">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. 
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
 
 
-      <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel5bh-content"
-          id="panel5bh-header"
-          className="accordion text-white"
-        >
-          <Typography  >What Happens After Booking?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography  className="heading-note">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Commodo sed egestas egestas fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. 
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-  
-    </div>
 
-
-        
-        </div>
-</section>
-
-
-<div className="text-center mb-5" data-aos="flip-right">
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link></div>
 
 
 

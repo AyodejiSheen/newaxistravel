@@ -5,9 +5,9 @@ import '../css/flight.css'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import smooth from '../picture/smooth.png';
-import partner from '../picture/airline part.png';
-import flight3 from '../picture/flight3.png';
+import smooth from '../picture/refine/mbg9.jpg';
+import partner from '../picture/refine/mbg5.jpg';
+import flight3 from '../picture/airline part.png';
 
  
 
@@ -20,12 +20,12 @@ export const Flight = () => {
                     <section>
                 <div className="container-fluid hero-flight">
 
-                    <div className="col-md-5 hero-content-flight">
+                    <div className="col-md-6 hero-content-flight animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"><b>Flight</b></h1>
                                 <p className="text-white text-justify heading-note">Axis Travel works closely with large number of partner
                                 airlines from around the globe, allowing us to book flight
                                 tickets quickly on any flight around the world.</p>
-                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                     </div>
                 </div>
         </section>

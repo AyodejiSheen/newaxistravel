@@ -24,10 +24,10 @@ export const Consult = () => {
         <section>
                 <div className="container-fluid hero-consult">
 
-                    <div className="col-md-5 hero-content-consult">
+                    <div className="col-md-6 hero-content-consult animate__animated animate__fadeInLeft" >
                                 <h1 className="heading text-white"><b>Consulting<span style={{color:"#0275d8"}}> <br></br>Services </span></b></h1>
                                 <p className="text-white text-justify heading-note">Gain a competitive advantage with our deep expertise in global travel to create a roadmap for your travel managers to follow. Whether you need a professional travel consultant or consulting on how to build your travel program internally, our team of experts is at your service.</p>
-                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                     </div>
                 </div>
         </section>
@@ -62,7 +62,7 @@ export const Consult = () => {
                         </div>
                         <div class="card-body p-0 mt-3">
                             <h5 class=" font-weight-bold">Data & Analytics Insight</h5>
-                            <p class="card-text text-justify">Maximize efficiency with our policy evaluation, peer benchmarking, and system integration.</p>
+                            <p class="card-text text-justify heading-note">Maximize efficiency with our policy evaluation, peer benchmarking, and system integration.</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ export const Consult = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">Enacting Change</h5>
-                        <p class="card-text text-justify">Implement the right travel programs to meet your objectives and increase your traveler’s satisfaction.</p>
+                        <p class="card-text text-justify heading-note">Implement the right travel programs to meet your objectives and increase your traveler’s satisfaction.</p>
                     </div>
                 </div>
                 </div>
@@ -88,7 +88,7 @@ export const Consult = () => {
                     </div>
                     <div class="card-body p-0 mt-3">
                         <h5 class=" font-weight-bold">Insights & Strategy</h5>
-                        <p class="card-text text-justify">Our consulting services can also help you better manage, track, and predict your travel spend using research, reporting, and insights.</p>
+                        <p class="card-text text-justify heading-note">Our consulting services can also help you better manage, track, and predict your travel spend using research, reporting, and insights.</p>
                     </div>
                 </div>
                 </div>

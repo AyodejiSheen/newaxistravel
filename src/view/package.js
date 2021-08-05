@@ -26,14 +26,14 @@ export const Package = () => {
                     <section>
                 <div className="container-fluid hero-package">
 
-                    <div className="col-md-5 hero-content-package">
+                    <div className="col-md-6 hero-content-package animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"><b>Packages</b></h1>
                                 <p className="text-white text-justify heading-note">At Axis Travel we offer a range of travel packages. A typical
 package will include air travel, visas, accommodation and
 tickets for an event or tour. The duration of each package
 can be tailored to fit your schedule. Group packages are
 available at preferential rates.</p>
-<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+<Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                     </div>
                 </div>
         </section>
@@ -47,7 +47,7 @@ available at preferential rates.</p>
 
 <section className="our-travels  mb-5">
   
-<div data-aos="fade-down">
+<div >
 <h1 className="head-tag text-center">Our <span style={{color:'#0275d8'}}>UAE Packages</span></h1>
         <p className="text-center mx-auto col-md-6 heading-note">Axis Travel UAE packages cover you in the following</p>
     </div>
@@ -159,7 +159,7 @@ arcu.</p>
                 <div className="card border-0 shadow">
                 <img src={emirate} class="card-img-top img-fluid travels-pic"/>
                 <div className="card-body ">
-                <h5 className="card-title tour-title ">Emirates Airline<span style={{color:'#0275d8'}}>Dubai Rugby Sevens</span></h5>
+                <h5 className="card-title tour-title ">Emirates Airline<span style={{color:'#0275d8'}}> Dubai Rugby Sevens</span></h5>
                     <p className="heading-note text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing
 elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Tortor at auctor urna nunc id.
@@ -205,8 +205,8 @@ packages for other events, both in UAE and elsewhere in the
 world.</p>
                 </div>
 
-                <div className="col-md-4 text-center" data-aos="fade-left">
-                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">CONTACT US</button></Link>
+                <div className="col-md-4 text-center" data-aos="fade-down">
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                 </div>
             </div>
         </div>
