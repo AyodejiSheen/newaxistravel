@@ -7,9 +7,11 @@ import '../css/account.css';
 
 
 //pictures
-import consult from '../picture/refine/consult-mbg.jpg'
-import meeting from '../picture/refine/meeting.jpg'
-import business from '../picture/refine/business.jpg'
+import employee from '../picture/newrefine/mbg1.jpg'
+import booking from '../picture/newrefine/mbg2.jpg'
+import ticket from '../picture/newrefine/mbg3.jpg'
+import security from '../picture/newrefine/mbg6.jpg'
+import accomodation from '../picture/newrefine/mbg5.jpg'
 
 
 export const Account = () => {
@@ -20,7 +22,7 @@ export const Account = () => {
                 <div className="container-fluid hero-account">
 
                     <div className="col-md-6 hero-content-account                     animate__animated animate__fadeInLeft">
-                                <h1 className="heading text-white"><b>Partner, Collaborate. Get outstanding results when your trips revolve around Axis<span style={{color:"#0275d8"}}> </span></b></h1>
+                                <h1 className="font-weight-bold text-white">Partner, Collaborate. Get outstanding results when your trips revolve around Axis<span style={{color:"#0275d8"}}> </span></h1>
                             
                                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                     </div>
@@ -36,7 +38,7 @@ export const Account = () => {
 
 
 {/* pave the way */}
-<section className="pave mt-5 mb-5 ">
+<section className="pave mt-5 mb-5 top-note">
     <div className="container">
         <div className="row">
             <div className="col-md-5">
@@ -65,7 +67,7 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
         <div className="container-fluid">
             <div className="row">
 
-                <div className="col-md-6 p-5">
+                <div className="col-md-6 pl-5 pr-5 pt-5 column-note">
                 <h1 className="head-tag text-left" > EXCLUSIVE EMPLOYEE  <span style={{color:'#0275d8'}}>CARE AND SUPPORT</span> </h1>
                 <p className="text-justify heading-note mb-0">Your workforce will never travel alone. </p>  
 
@@ -80,8 +82,8 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
             </ul>
                 </div>
 
-                <div className="col-md-6">
-                    <img src={business} className="img-fluid"/>
+                <div className="col-md-6 p-0">
+                    <img src={employee} className="img-fluid"/>
                 </div>
 
             </div>
@@ -124,15 +126,15 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
 </div>
 
 
-<section className="">
+<section className="booking-section">
         <div className="container-fluid">
             <div className="row">
 
-            <div className="col-md-6">
-                    <img src={business} className="img-fluid"/>
+            <div className="col-md-6 p-0 order-2 order-md-1 ">
+                    <img src={booking} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5">
+                <div className="col-md-6 pl-5 pr-5 pt-2 order-1 order-md-2 column-note">
                 <h1 className="head-tag text-left" > REMOVE THE COMPLEXITY   <span style={{color:'#0275d8'}}>AND CHAOS OF TRAVEL BOOKINGS</span> </h1>
                 <p className="text-justify heading-note mb-0">Your time and money are precious to you so we help you to save both.  </p>  
 
@@ -159,16 +161,17 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
         <div className="container-fluid">
             <div className="row">
 
-                <div className="col-md-5 p-5">
+                <div className="col-md-5 p-5 column-note">
                 <h1 className="head-tag text-left" ><span style={{color:'#0275d8'}}>AIRLINE TICKETS</span> </h1>
                 <p className=" text-justify heading-note">Achieve more with one less thing to worry about. Avoid long waiting lines, say goodbye to impromptu flight rescheduling without a backup plan and welcome the ability to obtain travel tickets without the associated hassle. With us as your travel partner, you have one less thing to worry about. We do all the running around and correspondence so that you never have to.</p>
                 
                 <p className="text-justify heading-note" >	With the best airline ticket deals and surprisingly huge discounts, your travelers enjoy travel management that serves them at every point and makes them truly happy. Our friendly travel consultants always deliver prompt ticketing services for international trips. Since we are regularly updated with the latest promo fares and the cheapest rates, we can accommodate any budget size.</p>
             
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                 </div>
 
-                <div className="col-md-7">
-                    <img src={business} className="img-fluid"/>
+                <div className="col-md-7 p-0">
+                    <img src={ticket} className="img-fluid"/>
                 </div>
 
             </div>
@@ -177,20 +180,20 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
 
 
 
-<section className="">
+<section className="hotel-section">
         <div className="container-fluid">
             <div className="row">
 
-            <div className="col-md-7">
-                    <img src={business} className="img-fluid"/>
+            <div className="col-md-7 p-0 order-2 order-md-1">
+                    <img src={accomodation} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-5 p-5">
+                <div className="col-md-5 p-5 order-1 order-md-2 column-note">
                 <h1 className="head-tag text-left" >PERSONALIZED TRAVEL, <span style={{color:'#0275d8'}}>ACCOMMODATION AND TRANSPORT NEEDS </span> </h1>
                 <p className=" text-justify heading-note">We can tell which trip requires a limousine service and which does not. No business trip is similar, even within the same company. As we understand your company’s preference and style as well as your travelling plan, we serve you better and can predict your needs for each business trip. 
                 Thanks to our intelligent booking technology that always remembers you and our dedicated support staff, we know what you would prefer for each trip. We organize specific hotel bookings, transport services, travel arrangements, etc. in line with the demands of each trip.
                 </p>
-            
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                 </div>
 
             </div>
@@ -204,17 +207,18 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
 
 
 
-                <div className="col-md-5 p-5">
+                <div className="col-md-5 p-5 column-note">
                 <h1 className="head-tag text-left" >DATA SECURITY <span style={{color:'#0275d8'}}></span> </h1>
                 <p className=" text-justify heading-note">We understand the need for discretion and so we protect your privacy by every means. We keep correspondence secure, ensuring that your travel itinerary remains within the company alone. We build an advanced firewall around your company’s accounts to keep hackers and cybercriminals out and your company information securely locked in.</p>
 
                 <p className=" text-justify heading-note">We constantly update our data security systems to provide a safe online and digital environment to run your business and confidently conduct travel arrangements.  </p>
             
+                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                 </div>
 
 
-                <div className="col-md-7">
-                    <img src={business} className="img-fluid"/>
+                <div className="col-md-7 p-0">
+                    <img src={security} className="img-fluid"/>
                 </div>
 
             </div>

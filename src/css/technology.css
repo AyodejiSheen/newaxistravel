@@ -4,8 +4,8 @@
 
 
 .hero-tech{
-    padding-top: 7rem;
-    padding-bottom: 5rem;
+    padding-top: 9rem;
+    padding-bottom: 6rem;
     padding-left: 4rem;
     animation-name: hero-anim-tech;
     animation-duration: 20s;
@@ -15,37 +15,36 @@
 
 @keyframes hero-anim-tech {
     0%{
-        background-image: url('../picture/refine/bg76.jpg');
+        background-image: url('../picture/newrefine/bg20.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/refine/bg76.jpg');
+        background-image: url('../picture/newrefine/bg20.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/refine/bg65.jpg');
+        background-image: url('../picture/newrefine/bg21.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/refine/bg51.jpg');
+        background-image: url('../picture/newrefine/bg22.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-tech{
-    background-color: hsla(210, 95%, 5%, 0.96);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
+    background-color: hsla(210, 95%, 5%, 0.88);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -78,10 +77,14 @@
         background-color: hsla(210, 95%, 5%, 0.8);
         padding-left: 20px!important;
         padding-right: 20px!important;
-        padding-top: 7rem;
-        padding-bottom: 4rem;
+        padding-top: 9rem;
+        padding-bottom: 6rem;
         box-shadow: none;
 
+    }
+
+    .seamless-section{
+        margin-top: 30px!important;
     }
 
 

@@ -4,11 +4,19 @@ import {Link} from 'react-router-dom'
 
 
 
+import '../css/marine.css';
+
+
 //pictures
 import scroll from '../picture/Scroll.png';
-import carousel from '../picture/refine/bg36.jpg'
-import carousel1 from '../picture/refine/bg37.jpg'
-import meetincentices from '../picture/refine/mbg4.jpg'
+import carousel from '../picture/newrefine/bg14.jpg'
+import carousel1 from '../picture/newrefine/bg15.jpg'
+import carousel2 from '../picture/newrefine/bg16.jpg'
+import cruise from '../picture/newrefine/mbg20.jpg'
+
+import carousel3 from '../picture/newrefine/smbg1.jpg'
+import carousel4 from '../picture/newrefine/smbg2.jpg'
+import carousel5 from '../picture/newrefine/smbg3.jpg'
 
 import email from '../picture/email.png';
 import call from '../picture/call.png';
@@ -32,7 +40,7 @@ export const Marine = () => {
         <>
 
                     {/* Hero section */}
-                    <section>
+                    <section className="lg-screen">
                 <div className="container-fluid p-0 hero-terms">
                 <Carousel className="preview">
 
@@ -42,7 +50,32 @@ export const Marine = () => {
 
 <Carousel.Item>
 <img src={carousel1} className="d-block terms1 w-100 img-fluid" alt="..."/>
+</Carousel.Item>
 
+<Carousel.Item>
+<img src={carousel2} className="d-block terms1 w-100 img-fluid" alt="..."/>
+</Carousel.Item>
+
+</Carousel>
+                </div>
+        </section>
+
+
+                            {/* Hero section */}
+                            <section className="sm-screen">
+                <div className="container-fluid p-0 hero-terms">
+                <Carousel className="preview">
+
+<Carousel.Item>
+<img src={carousel3} className="d-block  img-fluid"  alt="..."/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img src={carousel4} className="d-block img-fluid" alt="..."/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img src={carousel5} className="d-block img-fluid" alt="..."/>
 </Carousel.Item>
 
 </Carousel>
@@ -55,7 +88,7 @@ export const Marine = () => {
 
 
 {/* scroll */}
-<div className="text-center">
+<div className="text-center mb-5">
     <img src={scroll} className="scroll animate__animated animate__bounce"/>
 </div>
 
@@ -64,16 +97,15 @@ export const Marine = () => {
 <section className="group-travel">
     <div className="container-fluid">
         <div className="row">
-            <div className="col-md-5 mx-auto p-5">
+            <div className="col-md-5 mx-auto p-5  column-note">
             <h1 className="head-tag">MARINE AND OFFSHORE TRAVEL<span style={{color:'#0275d8'}}> - LUXURY CRUISES? </span></h1>
         <p className=" text-justify heading-note">We specialize in servicing large group travel needs (10 to 10,000 travelers), providing complex logistical event support, discounted airfares with flexible conditions* and group check-in facilities.</p>
 
         <p className=" text-justify heading-note">Our Group Travel Team manage inbound and outbound group travel programs, and our global network is underpinned by compatible systems and processes in every market driving efficiency, consistency and peace of mind.</p>
     </div>
 
-    <div className="col-md-7">
-
-
+    <div className="col-md-7 p-0">
+        <img src={cruise} className="img-fluid"/>
     </div>
 
     
@@ -89,7 +121,7 @@ export const Marine = () => {
             <div className="col-md-5 mt-5 order-2 order-md-1">
                 <div className="row pt-5 mt-5 location-details ">
                     <div className="col-md-3" >
-                        <img src={location} className="contact-icon img-fluid"/>
+                        <img src={location} className="contact-icon"/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Find us at the Office</h5>
@@ -101,7 +133,7 @@ export const Marine = () => {
 
                 <div className="row mt-5 detail">
                     <div className="col-md-3 ">
-                        <img src={call} className="contact-icon img-fluid"/>
+                        <img src={call} className="contact-icon"/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Give us a call</h5>
@@ -113,7 +145,7 @@ export const Marine = () => {
 
                 <div className="row mt-5 detail">
                     <div className="col-md-3">
-                        <img src={email} className="contact-icon img-fluid"/>
+                        <img src={email} className="contact-icon"/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Send us an Email</h5>

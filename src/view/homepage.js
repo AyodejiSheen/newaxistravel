@@ -30,10 +30,17 @@ import stack1 from '../picture/refine/stack1.jpg';
 import meet1 from '../picture/refine/poly1.png';
 import meet2 from '../picture//refine/poly2.png';
 import meet3 from '../picture//refine/poly3.png';
-import leisure from '../picture/refine/leisure.jpg';
-import leisure1 from '../picture/refine/leisure1.jpg';
-import leisure2 from '../picture/refine/leisure2.jpg';
-import leisure3 from '../picture/refine/leisure3.jpg';
+import leisure from '../picture/newrefine/lbg1.jpg';
+import leisure1 from '../picture/newrefine/sssbg1.jpg';
+import leisure2 from '../picture/newrefine/sssbg2.jpg';
+import leisure3 from '../picture/newrefine/sssbg3.jpg';
+
+import leisure4 from '../picture/newrefine/sssbg4.jpg';
+import leisure5 from '../picture/newrefine/sssbg5.jpg';
+import leisure6 from '../picture/newrefine/sssbg6.jpg';
+
+
+
 import W01 from '../picture/01.png';
 import W02 from '../picture/02.png';
 import W03 from '../picture/03.png';
@@ -103,7 +110,7 @@ export const Homepage = () => {
     <div className="container-fluid pb-4">
 <div className="row">
     <div className="col-md-4 flight">
-    <div className="text-white services-note pt-4 pl-4 pr-4">
+    <div className="text-white services-note pl-4 pr-4">
                     <h2 className="font-weight-bold">What We Do</h2>
                     <p className="heading-note">As one of the world’s leading corporate travel companies, we are duty bound to ensure that you arrive safely and peacefully. Not to sound cliché, but the safety of your travelers is our top priority and responsibility.</p>
                     <Link to="/what-we-do" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow  font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
@@ -111,7 +118,7 @@ export const Homepage = () => {
     </div>
 
     <div className="col-md-4 visas">
-    <div className="text-white services-note pt-4 pl-4 pr-4">
+    <div className="text-white services-note pl-4 pr-4">
                     <h2 className="font-weight-bold">Travel Technology</h2>
                     <p className="heading-note">Cutting edge booking technology makes every travel arrangement a stroll in the park. We never have to guess; our booking technology system remembers you and streamlines your booking process, saving time and money.</p>
                     <Link to="/visas-and-passport" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
@@ -120,7 +127,7 @@ export const Homepage = () => {
 
 
     <div className="col-md-4 tour">
-    <div className="text-white services-note pt-4 pl-4 pr-4">
+    <div className="text-white services-note pl-4 pr-4">
                     <h2 className="font-weight-bold">Why Choose Axis Travel?</h2>
                     <p className="heading-note">At Axis Travels, we know that your company is unique and so are your trips, this is why we ensure that every trip you make is not just travelling, but achieving your travel goals. </p>
                     <Link to="/tour" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
@@ -215,18 +222,14 @@ export const Homepage = () => {
                 <img src={leisure3} className="leisure-car"/>
                 </div>
                 <div class="carousel-item">
-                <img src={leisure2} className="leisure-car"/>
-                <img src={leisure1} className="leisure-car"/>
-                <img src={leisure3} className="leisure-car"/>
-                </div>
-                <div class="carousel-item">
-                <img src={leisure3} className="leisure-car"/>
-                <img src={leisure1} className="leisure-car"/>
-                <img src={leisure2} className="leisure-car"/>
+                <img src={leisure4} className="leisure-car"/>
+                <img src={leisure5} className="leisure-car"/>
+                <img src={leisure6} className="leisure-car"/>
                 </div>
             </div>
             </div> 
                 </div>
+                
         </div>
 
         </div>

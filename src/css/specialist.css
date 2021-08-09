@@ -1,0 +1,178 @@
+.hero-specialized{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    animation-name: hero-anim-specialized;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-specialized {
+    0%{
+        background-image: url('../picture/newrefine/bg17.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    25%{
+        background-image: url('../picture/newrefine/bg17.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    65%{
+        background-image: url('../picture/newrefine/bg18.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/newrefine/bg19.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-specialized{
+    background-color: hsla(210, 95%, 5%, 0.88);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+
+.anchor-item{
+    background-color: #010e1b;
+    color: white;
+    padding: 20px;    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.anchor-item:hover{
+    background-color: #0275d8;
+    transition: background-color 1s;
+}
+
+
+.adjust-head{
+    padding:48px 48px 0px 48px;
+}
+
+.adjust-note{
+    padding:0px 48px 0px 48px;
+}
+
+.adjust-btn{
+    padding-left: 48px;
+}
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+ 
+    .hero-specialized{
+        padding: 0px!important;
+    }
+
+
+    .hero-content-specialized{
+        background-color: hsla(210, 95%, 5%, 0.8);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+        box-shadow: none;
+
+    }
+
+
+    .column-note{
+        padding: 20px!important;
+    }
+    
+    .top-note{
+        margin-bottom: 20px!important;
+    }
+
+
+    .booking-section, .hotel-section{
+        background-color:#F2F8FD;
+        padding-bottom: 20px!important;
+        padding-top: 20px!important;
+    }
+
+    .adjust-head{
+        padding:0px!important;
+    }
+    
+    .adjust-note{
+        padding:0px!important;
+    }
+
+    .adjust-btn{
+        padding-left: 0px!important;
+    }
+
+    
+
+
+
+ }
+
+
+
+
+ /* tablet */
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
+
+
+    .hero-specialized{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
+
+    .hero-content-specialized{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
+
+    .column-note{
+        padding: 20px!important;
+    }
+    
+    .top-note{
+        margin-bottom: 20px!important;
+    }
+
+
+
+ }
+
+
+
+
+  /* /* 1024 screen */
+  @media only screen and (min-device-width:1024px) and (max-device-width:1276px){
+
+
+    .hero-content-specialized{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
+    
+
+  }

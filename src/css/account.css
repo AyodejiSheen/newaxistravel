@@ -1,5 +1,5 @@
 .hero-account{
-    padding-top: 7rem;
+    padding-top: 8rem;
     padding-bottom: 5rem;
     padding-left: 4rem;
     animation-name: hero-anim-account;
@@ -9,19 +9,19 @@
 
 @keyframes hero-anim-account {
     0%{
-        background-image: url('../picture/refine/bg74.jpg');
+        background-image: url('../picture/newrefine/bg6.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/refine/bg74.jpg');
+        background-image: url('../picture/newrefine/bg6.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/refine/bg65.jpg');
+        background-image: url('../picture/newrefine/bg7.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -34,12 +34,11 @@
 }
 
 .hero-content-account{
-    background-color: hsla(210, 95%, 5%, 0.96);
+    background-color: hsla(210, 95%, 5%, 0.88);
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
 
@@ -54,6 +53,15 @@
     color: white!important;
     backdrop-filter: blur(15px);
 }
+
+.booking-section, .hotel-section{
+    background-color:#F2F8FD;
+    padding-bottom: 50px!important;
+    padding-top: 50px!important;
+}
+
+
+
 
 
 
@@ -79,6 +87,21 @@
 
     }
 
+
+    .column-note{
+        padding: 20px!important;
+    }
+    
+    .top-note{
+        margin-bottom: 20px!important;
+    }
+
+
+    .booking-section, .hotel-section{
+        background-color:#F2F8FD;
+        padding-bottom: 20px!important;
+        padding-top: 20px!important;
+    }
 
 
 
@@ -113,6 +136,14 @@
         padding-right: 30px!important;
         padding-top: 2rem!important;
         padding-bottom: 2rem!important;
+    }
+
+    .column-note{
+        padding: 20px!important;
+    }
+    
+    .top-note{
+        margin-bottom: 20px!important;
     }
 
 

@@ -143,7 +143,7 @@ export const Contact = () => {
             <div className="col-md-5 mt-5 order-2 order-md-1">
                 <div className="row pt-5 mt-5 location-details ">
                     <div className="col-md-3" >
-                        <img src={location} className="contact-icon img-fluid"/>
+                        <img src={location} className="contact-icon "/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Find us at the Office</h5>
@@ -155,7 +155,7 @@ export const Contact = () => {
 
                 <div className="row mt-5 detail">
                     <div className="col-md-3 ">
-                        <img src={call} className="contact-icon img-fluid"/>
+                        <img src={call} className="contact-icon "/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Give us a call</h5>
@@ -167,7 +167,7 @@ export const Contact = () => {
 
                 <div className="row mt-5 detail">
                     <div className="col-md-3">
-                        <img src={email} className="contact-icon img-fluid"/>
+                        <img src={email} className="contact-icon "/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Send us an Email</h5>

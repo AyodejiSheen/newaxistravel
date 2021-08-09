@@ -6,9 +6,9 @@ import '../css/ourcompany.css';
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import leadership from '../picture/refine/mbg20.jpg';
+import leadership from '../picture/newrefine/mbg44.jpg';
 import ourprofile from '../picture/refine/mbg21.jpg';
-import ourhistory from '../picture/ourcompany-bg4.png';
+import ourhistory from '../picture/newrefine/mbg45.jpg';
 
 
 
@@ -101,16 +101,16 @@ We offer first-rate management service for both local and international travels,
 <section className="our-mission">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-5 mt-5 order-2 order-md-1 profile-note" data-aos="zoom-in">
-                <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Mission</span></h1>
-                <p className="text-justify heading-note">We aim to constantly provide affordable travel and tours services at premium standards, inspired by our corporate values of excellence, integrity, respect, teamwork, social responsibility and human resource development.  </p>
+                <div className="col-md-5 p-5 mt-5 order-2 order-md-1 profile-note" data-aos="zoom-in">
+                <h1 className="head-tag text-left adjust-head">Our<br></br><span style={{color:'#0275d8'}}>Mission</span></h1>
+                <p className="text-justify heading-note adjust-note">We aim to constantly provide affordable travel and tours services at premium standards, inspired by our corporate values of excellence, integrity, respect, teamwork, social responsibility and human resource development.  </p>
 
                 
                 <div className="mb-5" data-aos="flip-right">
-                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link></div>
+                <Link to="/contact-us" className="link adjust-btn" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link></div>
                 </div>
 
-                <div className="col-md-6 order-1 p-0 order-md-2">
+                <div className="col-md-7 order-1 p-0 order-md-2">
                 <img src={ourprofile} className="img-fluid"/>
                 </div>
             </div>
@@ -122,17 +122,17 @@ We offer first-rate management service for both local and international travels,
 <section className="history pt-5 pb-5">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 p-0">
+                <div className="col-md-7 p-0">
                     <img src={ourhistory} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-6 p-5 history-note mt-5 " data-aos="zoom-in" >
-                <h1 className="head-tag text-left">Our<br></br><span style={{color:'#0275d8'}}>Vision</span></h1>
-                <p className="text-justify heading-note">We envision a society where more people can journey to places they love through reasonably priced and stress-free travel and tour solutions.</p>
+                <div className="col-md-5 p-5 history-note mt-5 " data-aos="zoom-in" >
+                <h1 className="head-tag text-left adjust-head">Our<br></br><span style={{color:'#0275d8'}}>Vision</span></h1>
+                <p className="text-justify heading-note adjust-note">We envision a society where more people can journey to places they love through reasonably priced and stress-free travel and tour solutions.</p>
 
                 
                 <div className=" mb-5" data-aos="flip-right">
-                <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link></div>
+                <Link to="/contact-us" className="link adjust-btn" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link></div>
                 </div>
             </div>
         </div>

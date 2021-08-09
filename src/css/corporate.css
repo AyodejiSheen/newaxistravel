@@ -9,26 +9,26 @@
 
 @keyframes hero-anim-corporate{
     0%{
-        background-image: url('../picture/refine/bg38.jpg');
+        background-image: url('../picture/newrefine/bg8.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/refine/bg38.jpg');
+        background-image: url('../picture/newrefine/bg8.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/refine/bg5.jpg');
+        background-image: url('../picture/newrefine/bg9.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-corporate{
-    background-color: hsla(210, 95%, 5%, 0.96);
+    background-color: hsla(210, 95%, 5%, 0.88);
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 2rem;
@@ -47,7 +47,7 @@
 }
 
 .priemer{
-    background-image: url('../picture/refine/bg42.jpg');
+    background-image: url('../picture/refine/bg52.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -55,6 +55,12 @@
 .priemer-note{
     background-color:#F2F8FD;
     padding: 55px!important;
+}
+
+.priemer-section{
+    background-color:#F2F8FD;
+    padding-bottom: 50px!important;
+    padding-top: 50px!important;
 }
 
 .feature-list{
@@ -84,12 +90,16 @@ ul{
 }
 
 .corporate-feature{
-    height: 450px;
+    height: 500px;
     margin-top: 20px;
     box-shadow: 0px 4px 5px rgba(46,46,46,0.5);
     background-color:#F2F8FD;
 }
 
+
+.card-image{
+    height:250px!important;
+}
 
 
 
@@ -161,6 +171,26 @@ padding: 0px!important;
         line-height: 1.8;
     }
 
+    .main-scroll{
+        margin-bottom: 0px!important;
+    }
+
+    .corporate-key{
+        margin-top: 40px!important;
+    }
+
+    .card-image{
+        height:200px!important;
+    }
+
+    .corporate-feature{
+        height: 450px;
+    }
+
+    .other-features{
+        padding: 0px!important;
+    }
+
  }
 
 
@@ -208,8 +238,29 @@ padding: 0px!important;
         padding-bottom: 30px!important;
     }
 
-    .corporate-qualities{
-        margin-top: 30px!important;
+
+    .main-scroll{
+        margin-bottom: 0px!important;
+    }
+
+    .priemer{
+        padding: 0px!important;
+    }
+
+    .priemer-note{
+        padding: 30px!important;
+    }
+
+    .card-image{
+        height:180px!important;
+    }
+
+    .corporate-feature{
+        height: 450px;
+    }
+
+    .other-features{
+        padding: 0px!important;
     }
 
  }
@@ -238,6 +289,17 @@ padding: 0px!important;
         margin-top: 40px;
     }
 
+    .corporate-feature{
+        height: 480px;
+    }
+
+    .priemer-note{
+        padding: 40px!important;
+    }
+    
+    .priemer{
+        padding: 0px!important;
+    }
 
 }
 

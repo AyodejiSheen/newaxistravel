@@ -9,13 +9,13 @@
 
 @keyframes hero-anim-leisure {
     0%{
-        background-image: url('../picture/refine/bg10.jpg');
+        background-image: url('../picture/newrefine/bg24.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/refine/bg10.jpg');
+        background-image: url('../picture/newrefine/bg24.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -34,12 +34,11 @@
 }
 
 .hero-content-leisure{
-    background-color: hsla(210, 95%, 5%, 0.96);
+    background-color: hsla(210, 95%, 5%, 0.88);
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
 .heading{
@@ -232,6 +231,11 @@ padding: 0px!important;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 4rem;
+    }
+
+
+    .adjust-head, .adjust-note, .adjust-btn{
+        padding: 0px!important;
     }
 
 

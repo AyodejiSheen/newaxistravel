@@ -4,9 +4,13 @@ import '../css/corporate.css';
 
 
 //pictures
-import qualities from '../picture/refine/mbg1.jpg'
+import trip from '../picture/newrefine/mbg7.jpg'
 import scroll from '../picture/Scroll.png';
-import partners from '../picture/refine/mbg9.jpg'
+import unique from '../picture/newrefine/mbg8.jpg'
+import visibility from '../picture/newrefine/ssbg3.jpg'
+import simpler from '../picture/newrefine/ssbg4.jpg'
+import industry from '../picture/newrefine/ssbg5.jpg'
+import policy from '../picture/newrefine/ssbg6.jpg'
 
 
 
@@ -27,7 +31,7 @@ export const Corporate = () => {
 
 
 
-<div className="text-center">
+<div className="text-center mb-5 main-scroll">
     <img src={scroll} className="scroll animate__animated animate__bounce"/>
 </div>
 
@@ -37,11 +41,11 @@ export const Corporate = () => {
     <div className="container-fluid">
             <div className="row">
 
-                <div className="col-md-7">
-
+                <div className="col-md-7 p-0 order-2 order-md-1">
+                <img src={trip} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-5 p-5">
+                <div className="col-md-5 p-5 order-1 order-md-2 column-note">
                 <h1 className="head-tag text-left" >When we plan your business trips,  <span style={{color:'#0275d8'}}>we mean business.</span> </h1>
                 <p className="text-justify heading-note">We understand that business travel is a big deal for global organizations so we take yours seriously. Our focus is to make your business trips as smooth as possible with zero time wasted on the unnecessary back and forth.</p>  
 
@@ -55,7 +59,7 @@ export const Corporate = () => {
 
 {/* preimer Corporate */}
 <section className="priemer-section pb-4">
-        <div className="container-fluid priemer pl-0">
+        <div className="container-fluid priemer">
             <div className="">
             <div className="col-md-6 priemer-note" data-aos="fade-down">
             <h1 className="head-tag text-left">Key Features of our <span style={{color:'#0275d8'}}> business travel solutions</span></h1>
@@ -81,11 +85,11 @@ export const Corporate = () => {
 
 {/* corporate travel qualities */}
 
-<section className="corporate-qualities mt-5">
+<section className="corporate-qualities">
         <div className="container-fluid">
             <div className="row">
                 <div data-aos="fade-up" className="col-md-7 p-0 order-2 order-md-1">
-                    <img src={qualities} className="qualities-pics"/>
+                    <img src={unique} className="qualities-pics img-fluid"/>
                 </div>
 
                 <div className="col-md-5 corporate-list p-5 order-1 order-md-2">
@@ -101,14 +105,14 @@ export const Corporate = () => {
 {/* partnership section */}
 <section className="corporate-part mt-5 pb-5">
         <div className="container">
-            <div className="col-md-6 mx-auto">
-        <h1 className="head-tag text-center">Key Features of our  <span style={{color:'#0275d8'}}>Corporate Travel solutions</span></h1>
+            <div className="col-md-6 mx-auto p-0 corporate-key">
+        <h1 className="head-tag text-center mb-0">Key Features of our  <span style={{color:'#0275d8'}}>Corporate Travel solutions</span></h1>
             </div>
 
             <div className="row mt-4 ">
                 <div className="col-md-4">
                         <div className="card border-0  corporate-feature">
-                        <img src={qualities} class="card-img-top img-fluid rounded-0" style={{height:"200px"}}/>
+                        <img src={visibility} class="card-img-top card-image img-fluid rounded-0" />
                         <div className="card-body ">
                             <h4 className="card-title tour-title " style={{color:'#0275d8', fontWeight:'bold'}}>Financial visibility for your business</h4>
                             <p className="heading-note text-justify">Get the best travel and accommodation management aligned to your specifications with cost-effective options plus a comprehensive, easy to understand financial report for every trip. </p>
@@ -118,7 +122,7 @@ export const Corporate = () => {
 
                 <div className="col-md-4">
                 <div className="card border-0  corporate-feature">
-                        <img src={qualities} class="card-img-top img-fluid rounded-0" style={{height:"200px"}}/>
+                        <img src={simpler} class="card-img-top img-fluid card-image rounded-0" />
                         <div className="card-body ">
                             <h4 className="card-title tour-title " style={{color:'#0275d8', fontWeight:'bold'}}>Simpler business travel for your people</h4>
                             <p className="heading-note text-justify">Avoid the chaos and complexity of planning corporate travel for each trip and enjoy simplified, seamless service and tools that attends to your people’s most basic travel and accommodation need plus more!</p>
@@ -130,7 +134,7 @@ export const Corporate = () => {
 
                 <div className="col-md-4">
                 <div className="card border-0  corporate-feature">
-                        <img src={qualities} class="card-img-top img-fluid rounded-0" style={{height:"200px"}}/>
+                        <img src={industry} class="card-img-top img-fluid card-image rounded-0"/>
                         <div className="card-body ">
                             <h4 className="card-title tour-title " style={{color:'#0275d8', fontWeight:'bold'}}>We have advanced industry insight</h4>
                             <p className="heading-note text-justify">Whether healthcare, construction, technology, extraction, etc. We master every industry to understand their trends and avert challenges that may come up before any damage occurs.</p>
@@ -145,7 +149,7 @@ export const Corporate = () => {
             <div className="row">
                 <div className="col-md-4">
                 <div className="card border-0  corporate-feature">
-                        <img src={qualities} class="card-img-top img-fluid rounded-0" style={{height:"200px"}}/>
+                        <img src={policy} class="card-img-top img-fluid card-image rounded-0" style={{height:"200px"}}/>
                         <div className="card-body ">
                             <h4 className="card-title tour-title " style={{color:'#0275d8', fontWeight:'bold'}}>We adhere strongly to your company travel policy</h4>
                             <p className="heading-note text-justify">We ensure that every travel arrangement for your company follows due process and abides by your company’s travel policy.  
@@ -157,9 +161,9 @@ export const Corporate = () => {
                 </div>
 
                 <div className="col-md-8">
-                <h1 className="head-tag text-center mt-4" >Other  <span style={{color:'#0275d8'}}> Features</span> </h1>
+                <h1 className="head-tag text-center mt-5" >Other  <span style={{color:'#0275d8'}}> Features</span> </h1>
 
-                <div className="container">
+                <div className="container other-features">
                     <div className="row">
                         <div className="col-md-6 ">
                             <p  data-aos="fade-down" className="pave-list rounded p-3 bg-white" style={{color:'#010e1b'}}> <i className="fa fa-check-circle mr-3"></i><span style={{color:'#0275d8', fontWeight:'bold'}}>Online/Offline </span> travel and accommodation support</p>
