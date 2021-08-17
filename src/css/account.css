@@ -79,12 +79,12 @@
 
     .hero-content-account{
         background-color: hsla(210, 95%, 5%, 0.8);
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 7rem;
-        padding-bottom: 4rem;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+        padding-top: 12rem;
+        padding-bottom: 10rem;
         box-shadow: none;
-
+        text-align: center;
     }
 
 

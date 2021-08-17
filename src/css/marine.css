@@ -2,6 +2,46 @@
     display: none;
 }
 
+.hero-marine{
+    animation-name: hero-anim-marine;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-marine {
+    0%{
+        background-image: url('../picture/newrefine/bg14.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    35%{
+        background-image: url('../picture/newrefine/bg14.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    65%{
+        background-image: url('../picture/newrefine/bg15.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/newrefine/bg16.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-marine{
+    background-color: hsla(210, 95%, 5%, 0.7);
+    padding-top: 15rem;
+    padding-bottom: 13rem;
+}
+
 
 
 
@@ -20,6 +60,21 @@
     }
 
 
+    .hero-marine{
+        padding: 0px!important;
+    }
+
+
+    .hero-content-marine{
+        background-color: hsla(210, 95%, 5%, 0.8);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 10rem;
+        padding-bottom: 9rem;
+        box-shadow: none;
+
+    }
+
 
 
 
@@ -31,7 +86,18 @@
  /* tablet */
  @media only screen and (min-device-width:768px) and (max-device-width:1023px){
 
+    .hero-marine{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
 
+    .hero-content-marine{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 14rem!important;
+        padding-bottom: 10rem!important;
+    }
 
  }
 

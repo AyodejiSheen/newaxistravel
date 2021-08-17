@@ -5,9 +5,7 @@ import '../css/privacy.css'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import carousel from '../picture/refine/bg63.jpg'
-import carousel1 from '../picture/refine/bg60.jpg'
-import carousel2 from '../picture/refine/bg64.jpg'
+
 
 
 export const Privacy = () => {
@@ -15,21 +13,14 @@ export const Privacy = () => {
         <>
 
                     {/* Hero section */}
-            <section>
-                <div className="container-fluid p-0 hero-terms">
-                <div id="carouselExampleSlidesOnly67" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src={carousel} className="d-block terms1 w-100 img-fluid"  alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={carousel1} className="d-block terms1 w-100 img-fluid" alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={carousel2} className="d-block terms1 w-100 img-fluid" alt="..."/>
-                    </div>
-                </div>
-                </div>
+
+
+        <section>
+                <div className="container-fluid hero-privacy p-0">
+
+                    <div className="col-12 text-center hero-content-privacy animate__animated animate__fadeInLeft">
+                    <h1 className="heading text-white font-weight-bold">PRIVACY <span style={{color:'#0275d8'}}>POLICY</span></h1>
+                      </div>
                 </div>
         </section>
 
@@ -43,9 +34,8 @@ export const Privacy = () => {
 {/* terms of service */}
 <section className="terms pb-4">
     <div className="container">
-            <h1 className="head-tag ">Privacy <span style={{color:'#0275d8'}}>Policy</span></h1>
 
-            <hr></hr>
+
 
             <div className="mt-4">
                 <p className="terms-note">AXIS Travel and Tourism, LLC. ("AXIS Travel") wants to protect the privacy of all of our customers whether you visit our office or our Web site, www.axistravel.com ("the Web site").</p>
@@ -176,7 +166,7 @@ constitute acceptance of such changes.</p>
     </div>
 </section>
 
-
+<hr></hr>
 
 
 

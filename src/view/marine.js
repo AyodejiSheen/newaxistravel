@@ -9,18 +9,17 @@ import '../css/marine.css';
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import carousel from '../picture/newrefine/bg14.jpg'
-import carousel1 from '../picture/newrefine/bg15.jpg'
-import carousel2 from '../picture/newrefine/bg16.jpg'
 import cruise from '../picture/newrefine/mbg20.jpg'
 
-import carousel3 from '../picture/newrefine/smbg1.jpg'
-import carousel4 from '../picture/newrefine/smbg2.jpg'
-import carousel5 from '../picture/newrefine/smbg3.jpg'
+
 
 import email from '../picture/email.png';
 import call from '../picture/call.png';
 import location from '../picture/location.png';
+
+import tech from '../picture/refine/tech.png'
+import safety from '../picture/refine/safety.png'
+import account from '../picture/refine/account.png'
 
 
 
@@ -40,45 +39,13 @@ export const Marine = () => {
         <>
 
                     {/* Hero section */}
-                    <section className="lg-screen">
-                <div className="container-fluid p-0 hero-terms">
-                <Carousel className="preview">
+        <section>
+                <div className="container-fluid hero-marine p-0">
 
-<Carousel.Item>
-<img src={carousel} className="d-block terms1 w-100 img-fluid"  alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel1} className="d-block terms1 w-100 img-fluid" alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel2} className="d-block terms1 w-100 img-fluid" alt="..."/>
-</Carousel.Item>
-
-</Carousel>
-                </div>
-        </section>
-
-
-                            {/* Hero section */}
-                            <section className="sm-screen">
-                <div className="container-fluid p-0 hero-terms">
-                <Carousel className="preview">
-
-<Carousel.Item>
-<img src={carousel3} className="d-block  img-fluid"  alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel4} className="d-block img-fluid" alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel5} className="d-block img-fluid" alt="..."/>
-</Carousel.Item>
-
-</Carousel>
+                    <div className="col-12 text-center hero-content-marine animate__animated animate__fadeInLeft">
+                    <h1 className="heading text-white font-weight-bold"> MARINE AND<span style={{color:'#0275d8'}}> OFFSHORE TRAVEL</span></h1>
+                    <Link to="/contact-us" className="link " ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
+                      </div>
                 </div>
         </section>
 
@@ -187,6 +154,39 @@ export const Marine = () => {
             </div>
         </div>
     </div>
+</section>
+
+
+<section className="mb-5 specialist p-5">
+    <h1 className="font-weight-bold text-center">What We Do</h1>
+
+        <div className="container">
+            <div className="row">
+                <div className="col-md-4 mt-4">
+                    <div className="text-center">
+                        <img src={tech} className="wedo-icon" />
+                        <h3 className="mt-3"><b>Travel Technology</b></h3>
+                        <Link to="/travel-technology" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
+                    </div>
+                </div>
+
+                <div className="col-md-4 mt-4">
+                <div className="text-center">
+                        <img src={safety} className="wedo-icon" />
+                        <h3 className="mt-3"><b>Safety and Risk</b></h3>
+                        <Link to="/safety-risks" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
+                    </div>
+                </div>
+
+                <div className="col-md-4 mt-4">
+                <div className="text-center">
+                        <img src={account} className="wedo-icon" />
+                        <h3 className="mt-3"><b>Account Management</b></h3>
+                        <Link to="/account-management" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
 
 

@@ -49,6 +49,7 @@ import { Logistics } from './view/logistics';
 import { Marine } from './view/marine';
 import { Specialist } from './view/specialist';
 import { Choose } from './view/choose';
+import { Whatwedo } from './view/what';
 
 function App() {
 
@@ -93,12 +94,11 @@ function App() {
                     </Route>
 
                     <Route exact path="/who-we-are">
-                      
                       <Ourcompany/>
                       <Footer/>
                     </Route>
 
-                    <Route exact path="/our-philosophy">
+                    <Route exact path="/our-corporate-values">
                      
                       <Philosophy/>
                       <Footer/>
@@ -149,6 +149,11 @@ function App() {
 
                     <Route exact path="/travel-technology">
                       <Technology/>
+                      <Footer/>
+                    </Route>
+
+                    <Route exact path="/what-we-do">
+                      <Whatwedo/>
                       <Footer/>
                     </Route>
 

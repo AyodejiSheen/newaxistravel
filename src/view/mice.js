@@ -60,7 +60,7 @@ export const Mice = () => {
 <section className="meeting-section mt-5">
     <div className="container-fluid">
         <div className="row">
-            <div className="col-md-6 p-5 column-note">
+            <div className="col-md-6 p-5 column-note mt-5">
             <h1 className="head-tag">Meetings and <span style={{color:'#0275d8'}}>Events Management </span></h1>
 
 
@@ -75,7 +75,6 @@ export const Mice = () => {
     </div>
 
         <div className="col-md-6 p-0">
-            
             <img src={meeting} className="img-fluid"/>
             
         </div>
@@ -88,11 +87,11 @@ export const Mice = () => {
 <section className="meet-incent ">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-7 p-0 order-2 order-md-1">
+                <div className="col-md-7 p-md-0 order-2 order-md-1">
                     <img src={incentive} className="img-fluid"/>
                 </div>
 
-                <div className="col-md-5 p-5 mt-5 meeting-col order-1 order-md-2 column-note" data-aos="zoom-in-down" >
+                <div className="col-md-5 p-5 mt-4 mb-4 order-1 order-md-2 column-note" data-aos="zoom-in-down " >
 
                 <h1 className="head-tag">Incentive  <span style={{color:'#0275d8'}}> Travel</span></h1>
                 <p className=" text-justify heading-note">Axis creates and delivers event management and incentive travel experiences that inspire and motivate both staff and business partners.</p>
@@ -111,7 +110,7 @@ export const Mice = () => {
             <div className="row">
 
 
-                <div className="col-md-5 p-5 mt-5 meeting-col column-note" data-aos="fade-down">
+                <div className="col-md-5 p-5 mt-5 meeting-col column-note mt-4 mb-4" data-aos="fade-down">
 
                 <h1 className="head-tag">Event  <span style={{color:'#0275d8'}}> Technology</span></h1>
                 <p className=" text-justify heading-note">From event registration and travel bookings, to delegate tracking, agenda management, social engagement and budget management, our extensive suite of event technologies are designed to make your event run smoothly and efficiently at all times.</p>

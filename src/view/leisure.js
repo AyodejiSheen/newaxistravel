@@ -6,13 +6,7 @@ import '../css/leisure.css'
 //pictures
 import scroll from '../picture/Scroll.png';
 
-import carousel from '../picture/newrefine/bg24.jpg'
-import carousel1 from '../picture/refine/bg21.jpg'
-import carousel2 from '../picture/newrefine/bg26.jpg'
 
-import carousel3 from '../picture/newrefine/smbg4.jpg'
-import carousel4 from '../picture/newrefine/smbg5.jpg'
-import carousel5 from '../picture/newrefine/smbg7.jpg'
 
 
 import vessel from '../picture/newrefine/mbg34.jpg'
@@ -38,45 +32,13 @@ export const Leisure = () => {
         <>
 
                     {/* Hero section */}
-                    <section className="lg-screen">
-                <div className="container-fluid p-0 hero-terms">
-                <Carousel className="preview">
+        <section>
+                <div className="container-fluid hero-leisure p-0">
 
-<Carousel.Item>
-<img src={carousel} className="d-block terms1 w-100 img-fluid"  alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel1} className="d-block terms1 w-100 img-fluid" alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel2} className="d-block terms1 w-100 h-50 img-fluid" alt="..."/>
-</Carousel.Item>
-
-</Carousel>
-                </div>
-        </section>
-
-
-                            {/* Hero section */}
-                            <section className="sm-screen">
-                <div className="container-fluid p-0 hero-terms">
-                <Carousel className="preview">
-
-<Carousel.Item>
-<img src={carousel3} className="d-block  img-fluid"  alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel4} className="d-block img-fluid" alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel5} className="d-block img-fluid" alt="..."/>
-</Carousel.Item>
-
-</Carousel>
+                    <div className="col-12 text-center hero-content-leisure animate__animated animate__fadeInLeft">
+                    <h1 className="heading text-white font-weight-bold">LEISURE<span style={{color:'#0275d8'}}> TRAVEL</span></h1>
+                    <Link to="/contact-us" className="link " ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
+                      </div>
                 </div>
         </section>
 
@@ -87,7 +49,7 @@ export const Leisure = () => {
 </div>
 
 
-<section className="mt-5">
+<section className="mt-5 vessel-top">
   <div className="container-fluid">
     <div className="row">
       <div className="col-md-5 p-5" data-aos="fade-down">
@@ -109,7 +71,7 @@ export const Leisure = () => {
   <div className="container-fluid">
     <div className="row">
 
-    <div className="col-md-7 p-0 order-2 order-md-1">
+    <div className="col-md-7 p-md-0 order-2 order-md-1">
         <img src={tour} className="img-fluid"/>
     </div>
 
@@ -150,7 +112,7 @@ export const Leisure = () => {
   <div className="container-fluid">
     <div className="row">
 
-    <div className="col-md-7 p-0 order-2 order-md-1">
+    <div className="col-md-7 p-md-0 order-2 order-md-1">
         <img src={rental} className="img-fluid"/>
     </div>
 
@@ -178,7 +140,7 @@ export const Leisure = () => {
           
       </div>
 
-      <div className="col-md-7 p-0">
+      <div className="col-md-7 p-md-0">
         <img src={local} className="img-fluid"/>
     </div>
     </div>

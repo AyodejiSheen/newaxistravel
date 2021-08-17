@@ -6,7 +6,7 @@ import '../css/technology.css';
 
 
 //pictures
-import booking from '../picture/newrefine/mbg26.jpg'
+import booking from '../picture/newrefine/mbg48.jpg'
 import advance from '../picture/newrefine/mbg27.jpg'
 
 
@@ -47,7 +47,7 @@ export const Technology = () => {
                 <p className="text-justify heading-note">We provide one booking platform for all your travelers with personalized travel insights to guide you to the best traveling decisions. Our travel technology analyses your complex and complicated travel data and presents you with a much simpler travel report.</p>
                 </div>
 
-                <div className="col-md-7 p-0">
+                <div className="col-md-7 p-md-0">
                 <img src={booking} className="img-fluid"/>
                 </div>
             </div>
@@ -70,7 +70,7 @@ export const Technology = () => {
                 </div>
 
 
-                <div className="col-md-5 p-5 order-1 order-md-2 column-note">
+                <div className="col-md-5 p-5 order-1 order-md-2 column-note mt-4 mb-4">
                 <h1 className="head-tag text-left" > ADVANCED TECHNOLOGY   <span style={{color:'#0275d8'}}> WITH A HUMAN TOUCH </span> </h1>
                 <p className="text-justify heading-note">Perhaps the only thing better than our cutting edge technology is the dedicated human team behind it. We apply the perfect combination of human touch and innovative technology to constantly provide excellent solutions to your travel needs.  </p>  
 

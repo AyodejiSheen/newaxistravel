@@ -95,10 +95,10 @@
 
     .hero-content-safety{
         background-color: hsla(210, 95%, 5%, 0.8);
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 8rem;
-        padding-bottom: 5rem;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+        padding-top: 13rem;
+        padding-bottom: 11rem;
         box-shadow: none;
 
     }

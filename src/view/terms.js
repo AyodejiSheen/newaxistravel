@@ -5,9 +5,7 @@ import '../css/terms.css'
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import carousel from '../picture/refine/bg62.jpg'
-import carousel1 from '../picture/refine/bg61.jpg'
-import carousel2 from '../picture/refine/bg51.jpg'
+
 
 
 export const Terms = () => {
@@ -15,21 +13,14 @@ export const Terms = () => {
         <>
 
                     {/* Hero section */}
-            <section>
-                <div className="container-fluid p-0 hero-terms">
-                <div id="carouselExampleSlidesOnly44" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src={carousel} className="d-block terms1 w-100 img-fluid"  alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={carousel1} className="d-block terms1 w-100 img-fluid" alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={carousel2} className="d-block terms1 w-100 img-fluid" alt="..."/>
-                    </div>
-                </div>
-                </div>
+
+
+        <section>
+                <div className="container-fluid hero-terms p-0">
+
+                    <div className="col-12 text-center hero-content-terms animate__animated animate__fadeInLeft">
+                    <h1 className="heading text-white font-weight-bold">TERMS <span style={{color:'#0275d8'}}>OF SERVICE</span></h1>
+                      </div>
                 </div>
         </section>
 
@@ -43,9 +34,7 @@ export const Terms = () => {
 {/* terms of service */}
 <section className="terms pb-4">
     <div className="container">
-            <h1 className="head-tag ">Terms <span style={{color:'#0275d8'}}>of Service</span></h1>
 
-            <hr></hr>
 
             <div className="text-justify">
                 <h5 className="font-weight-bold terms-head">AXIS TRAVEL AND TOURISM, LLC.</h5>
@@ -239,7 +228,7 @@ Credit Cards: We accept Visa and MasterCard</p>
 
 
 
-
+<hr></hr>
 
 
 

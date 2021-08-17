@@ -400,11 +400,12 @@
 
     .hero-content{
         background-color: hsla(210, 95%, 5%, 0.7)!important;
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 6rem!important;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+        padding-top: 8rem!important;
+        padding-bottom: 8rem!important;
         box-shadow: none;
-
+        border-radius: 0px!important;
     }
 
 
@@ -495,6 +496,7 @@
         width: 250px;
         height: 300px;
         right: 0%;
+        z-index: 90;
     }
     
     .stack2{
@@ -506,26 +508,26 @@
     
     .stack1{
         width: 150px;
-        height: 190px;
+        height: 180px;
         margin-top: 15%;
         left: 0%;
     }
 
     .poly1{
         z-index: 90;
-        left: 1.3rem;
+        left: 2.5rem;
         transform: scale(0.8)!important;
     }
     
     .poly2{
         z-index: 90;
-        left: -4rem;
+        left: -3rem;
         margin-top: 170px;
         transform: scale(0.8)!important;
     }
     
     .poly3{
-        left: 6.5rem;
+        left: 8.5rem;
         margin-top: 170px;
         transform: scale(0.8)!important;
     } 
@@ -559,6 +561,7 @@
 
     .about-us{
         margin-top: 0px!important;
+        margin-bottom: 0px!important;
     }
 
     .about{
@@ -599,7 +602,14 @@
 
 
     .services-note{
-        margin-top: 120px!important;
+        margin-top: 200px!important;
+    }
+
+    .video{
+        margin-top: 30px!important;
+        margin-bottom: 30px!important;
+            box-shadow: 0 15px 15px -5px rgb(124, 130, 141);
+            box-shadow: 0 15px 15px -5px rgb(52, 57, 68);
     }
 
 

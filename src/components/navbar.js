@@ -26,16 +26,16 @@ export const Navbar = () => {
                     </a>
 
                     <div className="dropdown-menu pt-0 pb-0" aria-labelledby="navbarDropdownMenuLink">
+                    
+                    <li><Link to="/what-we-do" className="link"><a className="dropdown-item ">Travel Management</a></Link></li>
 
                     <li><Link to="/account-management" className="link"><a className="dropdown-item ">Strategic Account Management</a></Link></li>
 
-                    <li><Link to="/corporate-travel" className="link"><a className="dropdown-item ">Business & Corporate Travel Solution</a></Link></li> 
+                    <li><Link to="/corporate-travel" className="link"><a className="dropdown-item ">Business & Corporate Travel </a></Link></li> 
 
                     <li><Link to="/meetings-and-events" className="link"><a className="dropdown-item ">Meetings & Events</a></Link></li> 
 
                     <li><Link to="/logistics-travel-essentials" className="link"><a className="dropdown-item ">Logistics & Travel Essential</a></Link></li> 
-
-                    <li><Link to="/marine-offshore-travel" className="link"><a className="dropdown-item ">Marine and Offshore Travel</a></Link></li> 
 
                     <li><Link to="/specialized-services" className="link"><a className="dropdown-item ">Specialized Services</a></Link></li> 
                     </div>
@@ -45,7 +45,7 @@ export const Navbar = () => {
 
                      <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle font-weight-bold" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    TRAVEL MANAGEMENT
+                    TECHNOLOGY
                     </a>
                     <div className="dropdown-menu pt-0 pb-0" aria-labelledby="navbarDropdownMenuLink">
                     <Link to="/travel-technology" className="link"><a className="dropdown-item ">Travel Technology</a></Link>
@@ -82,7 +82,7 @@ export const Navbar = () => {
                     </a>
                     <div className="dropdown-menu pt-0 pb-0" aria-labelledby="navbarDropdownMenuLink">
                     <Link to="/who-we-are" className="link"><a className="dropdown-item">Who We Are</a></Link>
-                    <Link to="/our-philosophy" className="link"><a className="dropdown-item ">Our Corporate Values</a></Link>
+                    <Link to="/our-corporate-values" className="link"><a className="dropdown-item ">Our Corporate Values</a></Link>
 
                     <Link to="/why-choose-us" className="link"><a className="dropdown-item ">Why Choose Us?</a></Link>
                     </div>

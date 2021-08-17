@@ -14,6 +14,7 @@ import insurance from '../picture/newrefine/mbg33.jpg'
 
 
 
+
 export const Safety = () => {
     return (
         <>
@@ -51,7 +52,7 @@ export const Safety = () => {
                 </div>
 
 
-                <div className="col-md-7 p-0 ">
+                <div className="col-md-7 p-md-0 ">
                 <img src={easy} className="img-fluid"/>
                 </div>
             </div>
@@ -64,12 +65,12 @@ export const Safety = () => {
         <div className="container-fluid">
             <div className="row">
 
-            <div className="col-md-7 p-0 order-2 order-md-1">
+            <div className="col-md-7 p-md-0 order-2 order-md-1">
                 <img src={covid} className="img-fluid"/>
             </div>
 
-                <div className="col-md-5 p-5 order-1 order-md-2 column-note">
-                <h1 className="head-tag text-left" > COVID-19  <span style={{color:'#0275d8'}}>PROTOCOLS</span> </h1>
+                <div className="col-md-5 p-5 order-1 order-md-2 column-note mt-5 mb-5">
+                <h1 className="head-tag text-left " > COVID-19  <span style={{color:'#0275d8'}}>PROTOCOLS</span> </h1>
                 <p className="text-justify heading-note">Travel has changed slightly, so we had to. In line with the demands of the pandemic, we have put in place everything required to ensure that even as we transit to the new normal, it remains business as usual for your organization with no adverse implications whatsoever.</p>  
 
                 <p className="text-justify heading-note">We help you with the necessary information you need to stay at peak of your business activities, especially travelling. From getting a Covid-19 pass, keeping up to date with restricted countries and Covid-19 updates, we are with you at every step, even in quarantine.</p>  
@@ -86,14 +87,14 @@ export const Safety = () => {
         <div className="container-fluid">
             <div className="row">
 
-                <div className="col-md-5 p-5 column-note">
+                <div className="col-md-5 p-5 column-note mt-5 mb-5">
                 <h1 className="head-tag text-left" > TRANSPARENT <span style={{color:'#0275d8'}}> TRAVEL INSURANCE </span> </h1>
                 <p className="text-justify heading-note">We are a world class travelling company so you can trust us to keep our word. Our insurance package ensures that any loss or mishap to your organization will be fully covered and refunded without undue paperwork, delay or stress. </p>  
                 <Link to="/contact-us" className="link" ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
                 </div>
 
 
-                <div className="col-md-7 p-0 ">
+                <div className="col-md-7 p-md-0 ">
                 <img src={insurance} className="img-fluid"/>
                 </div>
 
@@ -102,6 +103,13 @@ export const Safety = () => {
             </div>
         </div>
 </section>
+
+
+
+
+
+
+
 
 
 

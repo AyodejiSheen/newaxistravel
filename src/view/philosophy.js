@@ -34,13 +34,13 @@ export const Philosophy = () => {
 
                     {/* Hero section */}
         <section>
-                <div className="container-fluid hero-philosophy">
+                <div className="container-fluid hero-philosophy p-0">
 
-                    <div className="col-md-6 hero-content-philosophy animate__animated animate__fadeInLeft">
+                    <div className="col-12 text-center hero-content-philosophy animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"><b>Our <br></br><span style={{color:'#0275d8'}}> Corporate Values</span></b></h1>
-                                <p className="text-white text-justify heading-note">We are guided by the following corporate values:
+                                <p className="text-white heading-note">We are guided by the following corporate values:
                                 </p>
-                                  </div>
+                      </div>
                 </div>
         </section>
 

@@ -89,12 +89,12 @@
 
     .hero-content-ourcompany{
         background-color: hsla(210, 95%, 5%, 0.8);
-        padding-left: 20px!important;
-        padding-right: 20px!important;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
         padding-top: 7rem;
         padding-bottom: 4rem;
         box-shadow: none;
-
+        border-radius: 0px!important;
     }
 
     .page-note{

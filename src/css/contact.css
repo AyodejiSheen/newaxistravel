@@ -1,5 +1,5 @@
 .hero-contact{
-    padding-top: 7rem;
+    padding-top: 9rem;
     padding-bottom: 5rem;
     padding-left: 4rem;
     animation-name: hero-anim-contact;
@@ -97,10 +97,10 @@ input, textarea{
 
     .hero-content-contact{
         background-color: hsla(210, 95%, 5%, 0.8);
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 7rem;
-        padding-bottom: 4rem;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+        padding-top: 10rem;
+        padding-bottom: 6rem;
         box-shadow: none;
 
     }

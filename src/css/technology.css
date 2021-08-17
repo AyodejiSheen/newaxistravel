@@ -15,25 +15,25 @@
 
 @keyframes hero-anim-tech {
     0%{
-        background-image: url('../picture/newrefine/bg20.jpg');
+        background-image: url('../picture/newrefine/bg34.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     25%{
-        background-image: url('../picture/newrefine/bg20.jpg');
+        background-image: url('../picture/newrefine/bg34.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     65%{
-        background-image: url('../picture/newrefine/bg21.jpg');
+        background-image: url('../picture/newrefine/bg36.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%{
-        background-image: url('../picture/newrefine/bg22.jpg');
+        background-image: url('../picture/newrefine/bg37.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -75,10 +75,10 @@
 
     .hero-content-tech{
         background-color: hsla(210, 95%, 5%, 0.8);
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 9rem;
-        padding-bottom: 6rem;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+        padding-top: 13rem;
+        padding-bottom: 11rem;
         box-shadow: none;
 
     }

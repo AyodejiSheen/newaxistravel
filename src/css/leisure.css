@@ -1,7 +1,4 @@
 .hero-leisure{
-    padding-top: 7rem;
-    padding-bottom: 5rem;
-    padding-left: 4rem;
     animation-name: hero-anim-leisure;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -34,11 +31,9 @@
 }
 
 .hero-content-leisure{
-    background-color: hsla(210, 95%, 5%, 0.88);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    background-color: hsla(210, 95%, 5%, 0.7);
+    padding-top: 15rem;
+    padding-bottom: 12.5rem;
 }
 
 .heading{
@@ -115,6 +110,10 @@
         font-size: 30px;
     }
 
+    .vessel-top{
+        margin-top: 20px!important;
+    }
+
     .hero-leisure{
 padding: 0px!important;
     }
@@ -122,10 +121,10 @@ padding: 0px!important;
 
     .hero-content-leisure{
         background-color: hsla(210, 95%, 5%, 0.8);
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 7rem;
-        padding-bottom: 4rem;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+        padding-top: 13rem;
+        padding-bottom: 11rem;
         box-shadow: none;
 
     }

@@ -12,6 +12,38 @@
     animation-iteration-count: 5;
 }
 
+.hero-terms{
+    animation-name: hero-anim-terms;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-terms {
+    0%{
+        background-image: url('../picture/refine/bg62.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    65%{
+        background-image: url('../picture/refine/bg61.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/refine/bg51.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-terms{
+    background-color: hsla(210, 95%, 5%, 0.7);
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
 
 /* Media Queries begins */
 
@@ -39,6 +71,20 @@
         font-size: 16px;
     }
 
+    .hero-terms{
+        padding: 0px!important;
+    }
+
+
+    .hero-content-terms{
+        background-color: hsla(210, 95%, 5%, 0.8);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 14rem;
+        padding-bottom: 10rem;
+        box-shadow: none;
+
+    }
 
  }
 
@@ -70,6 +116,20 @@
     .terms-head{
         font-size: 16px;
     }
+
+    .hero-terms{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
+
+    .hero-content-terms{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 10rem!important;
+        padding-bottom: 10rem!important;
+    }
+
 
  }
 

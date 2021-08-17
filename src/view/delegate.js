@@ -3,14 +3,14 @@ import '../css/group.css'
 import {Link} from 'react-router-dom'
 
 
+import '../css/delegate.css';
+
 
 //pictures
 import scroll from '../picture/Scroll.png';
-import carousel from '../picture/refine/bg36.jpg'
-import carousel1 from '../picture/refine/bg37.jpg'
-import meetincentices from '../picture/refine/mbg4.jpg'
 
 
+import delegate from '../picture/newrefine/mbg46.jpg'
 
 
 
@@ -29,19 +29,12 @@ export const Delegate = () => {
 
                     {/* Hero section */}
                     <section>
-                <div className="container-fluid p-0 hero-terms">
-                <Carousel className="preview">
+                <div className="container-fluid hero-delegate p-0">
 
-<Carousel.Item>
-<img src={carousel} className="d-block terms1 w-100 img-fluid"  alt="..."/>
-</Carousel.Item>
-
-<Carousel.Item>
-<img src={carousel1} className="d-block terms1 w-100 img-fluid" alt="..."/>
-
-</Carousel.Item>
-
-</Carousel>
+                    <div className="col-12 text-center hero-content-delegate animate__animated animate__fadeInLeft">
+                    <h1 className="heading text-white font-weight-bold"> DELEGATE TRAVEL<span style={{color:'#0275d8'}}>  MANAGEMENT</span></h1>
+                    <Link to="/contact-us" className="link " ><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
+                      </div>
                 </div>
         </section>
 
@@ -57,21 +50,23 @@ export const Delegate = () => {
 
 
 
-<section className="group-travel">
+<section className="delegate-travel mt-5">
     <div className="container-fluid">
         <div className="row">
             <div className="col-md-5 mx-auto p-5">
-            <h1 className="head-tag">Delegate<span style={{color:'#0275d8'}}> Management </span></h1>
-        <p className=" text-justify heading-note">Our integrated travel and event technology keeps your delegates connected and engaged at every stage of the event experience, from registration to post-event reviews and everything in between.</p>
+            <h1 className="head-tag adjust-head">Delegate<span style={{color:'#0275d8'}}> Management </span></h1>
+        <p className=" text-justify heading-note adjust-note">Our integrated travel and event technology keeps your delegates connected and engaged at every stage of the event experience, from registration to post-event reviews and everything in between.</p>
 
-        <p className=" text-justify heading-note">Our innovative tools support maximum efficiency, safety and engagement from the very first communication to returning your travelers safely home, ensuring your teams are highly productive and motivated throughout the experience.</p>
+        <p className=" text-justify heading-note adjust-note">Our innovative tools support maximum efficiency, safety and engagement from the very first communication to returning your travelers safely home, ensuring your teams are highly productive and motivated throughout the experience.</p>
 
         
     </div>
 
-    <div className="col-md-7">
-        
+    <div className="col-md-7 p-0">
+        <img src={delegate} className="img-fluid"/>
     </div>
+
+
     </div>
     </div>
 </section>

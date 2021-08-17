@@ -24,9 +24,9 @@ import scroll from '../picture/Scroll.png';
 // import hotel from '../picture/hotel.png';
 // import car from '../picture/car.png';
 // import packages from '../picture/packages.png';
-import stack3 from '../picture/tour-3.png';
+import stack3 from '../picture/newrefine/stack3.png';
 import stack2 from '../picture/refine/stack2.jpg';
-import stack1 from '../picture/refine/stack1.jpg';
+import stack1 from '../picture/newrefine/stack1.png';
 import meet1 from '../picture/refine/poly1.png';
 import meet2 from '../picture//refine/poly2.png';
 import meet3 from '../picture//refine/poly3.png';
@@ -51,6 +51,7 @@ import W06 from '../picture/06.png';
 
 //video
 import movie from '../picture/tour vid.mp4';
+import movie2 from '../picture/video inp.m4v';
 
 
 
@@ -121,7 +122,7 @@ export const Homepage = () => {
     <div className="text-white services-note pl-4 pr-4">
                     <h2 className="font-weight-bold">Travel Technology</h2>
                     <p className="heading-note">Cutting edge booking technology makes every travel arrangement a stroll in the park. We never have to guess; our booking technology system remembers you and streamlines your booking process, saving time and money.</p>
-                    <Link to="/visas-and-passport" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
+                    <Link to="/travel-technology" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
                 </div>
     </div>
 
@@ -130,7 +131,7 @@ export const Homepage = () => {
     <div className="text-white services-note pl-4 pr-4">
                     <h2 className="font-weight-bold">Why Choose Axis Travel?</h2>
                     <p className="heading-note">At Axis Travels, we know that your company is unique and so are your trips, this is why we ensure that every trip you make is not just travelling, but achieving your travel goals. </p>
-                    <Link to="/tour" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
+                    <Link to="/why-choose-us" className="link text-dark"><button className="bg-white btn text-dark rounded-0 shadow font-weight-bold pl-4 pr-4 home-explore">Explore</button></Link>
                 </div>
     </div>
 
@@ -267,8 +268,8 @@ export const Homepage = () => {
                 </div>
 
                 <div >
-        <video width="100%" controls autoPlay className="video mb-4">
-                    <source src={movie} type="video/mp4"/>
+        <video width="100%" controls  className="video mb-4 ">
+                    <source src={movie2} type="video/mp4"/>
                 </video>
         </div>
 

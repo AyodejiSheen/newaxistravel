@@ -1,7 +1,4 @@
 .hero-philosophy{
-    padding-top: 7rem;
-    padding-bottom: 4rem;
-    padding-left: 4rem;
     animation-name: hero-anim-philosophy;
     animation-duration: 40s;
     animation-iteration-count: infinite;
@@ -21,19 +18,16 @@
     }
 
     100%{
-        background-image: url('../picture/ourphilosophy.png');
+        background-image: url('../picture/newrefine/bg28.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 .hero-content-philosophy{
-    background-color: hsla(210, 95%, 5%, 0.96);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
+    background-color: hsla(210, 95%, 5%, 0.7);
+    padding-top: 15rem;
+    padding-bottom: 10rem;
 }
 
 .heading{
@@ -91,10 +85,10 @@
 
     .hero-content-philosophy{
         background-color: hsla(210, 95%, 5%, 0.8);
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 7rem;
-        padding-bottom: 4rem;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+        padding-top: 12rem;
+        padding-bottom: 8rem;
         box-shadow: none;
 
     }

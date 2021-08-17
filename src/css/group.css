@@ -1,0 +1,113 @@
+.hero-group{
+    animation-name: hero-anim-group;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-anim-group {
+    0%{
+        background-image: url('../picture/newrefine/bg46.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    35%{
+        background-image: url('../picture/newrefine/bg46.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    65%{
+        background-image: url('../picture/newrefine/bg30.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url('../picture/newrefine/bg48.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-content-group{
+    background-color: hsla(210, 95%, 5%, 0.7);
+    padding-top: 15rem;
+    padding-bottom: 13rem;
+}
+
+
+
+
+/* Media Queries begins */
+
+ /* Smartphones */
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .lg-screen{
+        display: none;
+    }
+
+    .sm-screen{
+        display: block;
+    }
+
+
+    .hero-group{
+        padding: 0px!important;
+    }
+
+
+    .hero-content-group{
+        background-color: hsla(210, 95%, 5%, 0.8);
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 14rem;
+        padding-bottom: 12rem;
+        box-shadow: none;
+
+    }
+
+    .group-travel{
+        margin-top: 0px!important;
+    }
+
+
+
+
+ }
+
+
+
+
+ /* tablet */
+ @media only screen and (min-device-width:768px) and (max-device-width:1023px){
+
+    .hero-group{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+    }
+
+    .hero-content-group{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 14rem!important;
+        padding-bottom: 10rem!important;
+    }
+
+ }
+
+
+
+
+  /* /* 1024 screen */
+  @media only screen and (min-device-width:1024px) and (max-device-width:1276px){
+
+
+
+
+  }
