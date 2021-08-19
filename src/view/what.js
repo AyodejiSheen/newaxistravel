@@ -60,7 +60,7 @@ export const Whatwedo = () => {
                 </div>
 
                 <div className="col-md-7 p-0">
-                <img src={booking} className="img-fluid"/>
+                <img src={booking} className="img-fluid" loading="lazy"/>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@ export const Whatwedo = () => {
             <div className="row">
                 <div className="col-md-4 mt-4">
                     <div className="text-center">
-                        <img src={tech} className="wedo-icon" />
+                        <img src={tech} className="wedo-icon" loading="lazy"/>
                         <h3 className="mt-3"><b>Travel Technology</b></h3>
                         <Link to="/travel-technology" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
                     </div>
@@ -85,7 +85,7 @@ export const Whatwedo = () => {
 
                 <div className="col-md-4 mt-4">
                 <div className="text-center">
-                        <img src={safety} className="wedo-icon" />
+                        <img src={safety} className="wedo-icon" loading="lazy"/>
                         <h3 className="mt-3"><b>Safety and Risk</b></h3>
                         <Link to="/safety-risks" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
                     </div>
@@ -93,7 +93,7 @@ export const Whatwedo = () => {
 
                 <div className="col-md-4 mt-4">
                 <div className="text-center">
-                        <img src={account} className="wedo-icon" />
+                        <img src={account} className="wedo-icon" loading="lazy"/>
                         <h3 className="mt-3"><b>Account Management</b></h3>
                         <Link to="/account-management" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
                     </div>
@@ -124,7 +124,7 @@ export const Whatwedo = () => {
 
             <div className="col-md-4 col-lg-3">
                     <div className="card corporate-division">
-                        <img src={vip} class="card-img-top img-fluid card-image rounded-0"/>
+                        <img src={vip} class="card-img-top img-fluid card-image rounded-0" loading="lazy"/>
                         <div className="card-body p-4">
                             <h3 className="card-title tour-title " style={{fontWeight:'bold'}}>VIP & Executives Travel</h3>
                             <p className="heading-note div-note text-justify">Do your travellers expect a travel experience that goes above and beyond? We make sure your executives travel in luxury with our VIP travel services.</p>
@@ -137,7 +137,7 @@ export const Whatwedo = () => {
 
             <div className="col-md-4 col-lg-3">
                     <div className="card corporate-division">
-                        <img src={offshore} class="card-img-top img-fluid card-image rounded-0"/>
+                        <img src={offshore} class="card-img-top img-fluid card-image rounded-0" loading="lazy"/>
                         <div className="card-body p-4">
                             <h3 className="card-title tour-title " style={{fontWeight:'bold'}}>Marine & Offshore Travel</h3>
                             <p className="heading-note div-note text-justify">Looking for marine and offshore travel experts? Our maritime experts here at Axis Travel have decades of experience in your industry.</p>
@@ -150,7 +150,7 @@ export const Whatwedo = () => {
 
             <div className="col-md-4 col-lg-3">
                     <div className="card corporate-division">
-                        <img src={special} class="card-img-top img-fluid card-image rounded-0"/>
+                        <img src={special} class="card-img-top img-fluid card-image rounded-0" loading="lazy"/>
                         <div className="card-body p-4">
                             <h3 className="card-title tour-title " style={{fontWeight:'bold'}}>Specialized Travel</h3>
                             <p className="heading-note div-note text-justify">We also offer specialized services in Exclusive International and local hotel booking, International and UAE Visa Assistance, Covid-19 Assistance.</p>

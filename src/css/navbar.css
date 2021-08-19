@@ -34,6 +34,7 @@
 .dropdown-item{
     color: #0275d8;
     font-weight: 540;
+    border-bottom: 0.1px solid #d8eafa;
 }
 
 

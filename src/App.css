@@ -70,7 +70,7 @@ body{
         background: #010e1b!important;
         box-shadow: none!important;
         border: 1px solid #0275d8!important;
-        transition: box-shadow 1s border 1s  !important;
+        transition: box-shadow 1s border 1s !important;
         border-radius: 50px!important;
     }
 

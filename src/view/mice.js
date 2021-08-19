@@ -75,7 +75,7 @@ export const Mice = () => {
     </div>
 
         <div className="col-md-6 p-0">
-            <img src={meeting} className="img-fluid"/>
+            <img src={meeting} className="img-fluid" loading="lazy"/>
             
         </div>
             </div>
@@ -88,7 +88,7 @@ export const Mice = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-7 p-md-0 order-2 order-md-1">
-                    <img src={incentive} className="img-fluid"/>
+                    <img src={incentive} className="img-fluid" loading="lazy"/>
                 </div>
 
                 <div className="col-md-5 p-5 mt-4 mb-4 order-1 order-md-2 column-note" data-aos="zoom-in-down " >
@@ -121,7 +121,7 @@ export const Mice = () => {
 
 
                 <div className="col-md-7 p-0">
-                    <img src={event} className="img-fluid"/>
+                    <img src={event} className="img-fluid" loading="lazy"/>
                 </div>
             </div>
         </div>

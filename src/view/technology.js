@@ -48,7 +48,7 @@ export const Technology = () => {
                 </div>
 
                 <div className="col-md-7 p-md-0">
-                <img src={booking} className="img-fluid"/>
+                <img src={booking} className="img-fluid" loading="lazy"/>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@ export const Technology = () => {
 
 
             <div className="col-md-7 p-0 order-2 order-md-1">
-                <img src={advance} className="img-fluid"/>
+                <img src={advance} className="img-fluid" loading="lazy"/>
                 </div>
 
 

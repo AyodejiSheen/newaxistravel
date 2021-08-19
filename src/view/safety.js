@@ -53,7 +53,7 @@ export const Safety = () => {
 
 
                 <div className="col-md-7 p-md-0 ">
-                <img src={easy} className="img-fluid"/>
+                <img src={easy} className="img-fluid" loading="lazy"/>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@ export const Safety = () => {
             <div className="row">
 
             <div className="col-md-7 p-md-0 order-2 order-md-1">
-                <img src={covid} className="img-fluid"/>
+                <img src={covid} className="img-fluid" loading="lazy"/>
             </div>
 
                 <div className="col-md-5 p-5 order-1 order-md-2 column-note mt-5 mb-5">
@@ -95,7 +95,7 @@ export const Safety = () => {
 
 
                 <div className="col-md-7 p-md-0 ">
-                <img src={insurance} className="img-fluid"/>
+                <img src={insurance} className="img-fluid" loading="lazy"/>
                 </div>
 
 

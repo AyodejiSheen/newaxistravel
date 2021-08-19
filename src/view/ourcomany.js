@@ -75,7 +75,7 @@ We offer first-rate management service for both local and international travels,
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-0">
-                    <img src={leadership} className="img-fluid"/>
+                    <img src={leadership} className="img-fluid" loading="lazy"/>
                 </div>
 
                 <div className="col-md-6 p-5 leader-note " data-aos="zoom-in">
@@ -111,7 +111,7 @@ We offer first-rate management service for both local and international travels,
                 </div>
 
                 <div className="col-md-7 order-1 p-0 order-md-2">
-                <img src={ourprofile} className="img-fluid"/>
+                <img src={ourprofile} className="img-fluid" loading="lazy"/>
                 </div>
             </div>
         </div>
@@ -123,7 +123,7 @@ We offer first-rate management service for both local and international travels,
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-7 p-0">
-                    <img src={ourhistory} className="img-fluid"/>
+                    <img src={ourhistory} className="img-fluid" loading="lazy"/>
                 </div>
 
                 <div className="col-md-5 p-5 history-note mt-5 " data-aos="zoom-in" >

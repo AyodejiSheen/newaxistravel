@@ -63,7 +63,7 @@ export const Delegate = () => {
     </div>
 
     <div className="col-md-7 p-0">
-        <img src={delegate} className="img-fluid"/>
+        <img src={delegate} className="img-fluid" loading="lazy"/>
     </div>
 
 

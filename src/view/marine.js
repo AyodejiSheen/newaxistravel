@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../css/group.css'
 import {Link} from 'react-router-dom'
+import emailjs from 'emailjs-com';
+
 
 
 
@@ -35,6 +37,28 @@ import { Carousel } from 'react-bootstrap'
 
 
 export const Marine = () => {
+
+
+    let [msg, setMsg] = useState("");
+
+
+    function submitemail (e) {
+        e.preventDefault();
+
+            emailjs.sendForm('Axistravel', 'template_oc110dk', e.target, 'user_zoHbWkfzksp87vx5j6L1k')
+              .then((result) => {
+                  console.log(result.text);
+                  setMsg("Your Message has been recieved!");
+                }, (error) => {
+                    console.log(error.text);
+                    setMsg("Message not submitted!");
+              });
+
+              e.target.reset()
+
+    }
+
+
     return(
         <>
 
@@ -72,7 +96,7 @@ export const Marine = () => {
     </div>
 
     <div className="col-md-7 p-0">
-        <img src={cruise} className="img-fluid"/>
+        <img src={cruise} className="img-fluid" loading="lazy"/>
     </div>
 
     
@@ -88,7 +112,7 @@ export const Marine = () => {
             <div className="col-md-5 mt-5 order-2 order-md-1">
                 <div className="row pt-5 mt-5 location-details ">
                     <div className="col-md-3" >
-                        <img src={location} className="contact-icon"/>
+                        <img src={location} className="contact-icon "/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Find us at the Office</h5>
@@ -100,7 +124,7 @@ export const Marine = () => {
 
                 <div className="row mt-5 detail">
                     <div className="col-md-3 ">
-                        <img src={call} className="contact-icon"/>
+                        <img src={call} className="contact-icon "/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Give us a call</h5>
@@ -112,13 +136,15 @@ export const Marine = () => {
 
                 <div className="row mt-5 detail">
                     <div className="col-md-3">
-                        <img src={email} className="contact-icon"/>
+                        <img src={email} className="contact-icon "/>
                     </div>
                     <div className="col-md-9">
                         <h5 className="font-weight-bold">Send us an Email</h5>
                         <p>bookings@axistravel.ae</p>
                     </div>
                 </div>
+
+
             </div>
 
 
@@ -129,26 +155,27 @@ export const Marine = () => {
                     <p className="heading-note">You can contact us with anything related to our Products. We'll get in touch with you as soon as possible</p>
 
 
-                    <form>
+                    <form onSubmit={submitemail}>
                     <div class="form-group">
                         <label for="exampleInputEmail1" className="label-note">Full Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" required/>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1" className="label-note">Email Address</label>
-                        <input type="email" class="form-control" id="exampleInputPassword1"/>
+                        <label for="exampleInputPassword1" className="label-note">Email Address </label>
+                        <input type="email" class="form-control" id="exampleInputPassword1" name="email" required/>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1" className="label-note">Phone Number</label>
-                        <input type="number" class="form-control" id="exampleInputPassword1"/>
+                        <label for="exampleInputPassword1" className="label-note">Subject</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="subject" required/>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1" className="label-note">Your Message</label>
-                        <textarea type="text" rows="4" class="form-control" id="exampleInputPassword1"/>
+                        <textarea type="text" rows="4" class="form-control" id="exampleInputPassword1" name="message" required/>
                     </div>
 
                     <button className="btn btn-lg button mt-4">SUBMIT</button>
                     </form>
+    <p className="text-center font-weight-bold mb-0 mt-2" style={{color:"#0275d8"}}>{msg}</p>
 
                 </div>
             </div>
@@ -164,7 +191,7 @@ export const Marine = () => {
             <div className="row">
                 <div className="col-md-4 mt-4">
                     <div className="text-center">
-                        <img src={tech} className="wedo-icon" />
+                        <img src={tech} className="wedo-icon" loading="lazy"/>
                         <h3 className="mt-3"><b>Travel Technology</b></h3>
                         <Link to="/travel-technology" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
                     </div>
@@ -172,7 +199,7 @@ export const Marine = () => {
 
                 <div className="col-md-4 mt-4">
                 <div className="text-center">
-                        <img src={safety} className="wedo-icon" />
+                        <img src={safety} className="wedo-icon" loading="lazy"/>
                         <h3 className="mt-3"><b>Safety and Risk</b></h3>
                         <Link to="/safety-risks" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
                     </div>
@@ -180,7 +207,7 @@ export const Marine = () => {
 
                 <div className="col-md-4 mt-4">
                 <div className="text-center">
-                        <img src={account} className="wedo-icon" />
+                        <img src={account} className="wedo-icon" loading="lazy"/>
                         <h3 className="mt-3"><b>Account Management</b></h3>
                         <Link to="/account-management" className="link" ><button className="btn exp-btn mt-2 pl-4 pr-4">Explore</button></Link>
                     </div>

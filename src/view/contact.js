@@ -58,6 +58,8 @@ import {Link, useHistory} from 'react-router-dom';
 import axios from 'axios';
 import '../css/contact.css'
 
+import emailjs from 'emailjs-com';
+
 
 
 //pictures
@@ -77,33 +79,50 @@ export const Contact = () => {
 
 
 
-    let [message, setMessage] = useState({ fullname: "", email: "", phone: "", message: ""});
+    let [msg, setMsg] = useState("");
 
     let[usercontact, Setusercontact] = useState([]);
 
-    const handleChange = (e) => {
-        let name = e.target.name;
-        let value = e.target.value;
-        setMessage({ ...message, [name]: value });
+    // const handleChange = (e) => {
+    //     let name = e.target.name;
+    //     let value = e.target.value;
+    //     setMessage({ ...message, [name]: value });
+    // }
+
+    // const submit = (e) => {
+    //      e.preventDefault();
+    //     Setusercontact([...usercontact, message]);
+
+    //     //to send to backend then to database  sweetalert2, aos-animation, skeleton-loader
+    //     axios.post(`${Baseurl}contact.php`, JSON.stringify(message)).then(res => {
+    //         let contResponse = res.data;
+    //         console.log(res.data)
+    //         if(res.data.Success){
+    //             alert("submitted")
+    //         }
+    //     })
+
+
+    //     setMessage({ fullname: "", email: "", phone: "", message: ""});
+    
+
+
+
+    function submitemail (e) {
+        e.preventDefault();
+
+            emailjs.sendForm('Axistravel', 'template_oc110dk', e.target, 'user_zoHbWkfzksp87vx5j6L1k')
+              .then((result) => {
+                  console.log(result.text);
+                  setMsg("Your Message has been recieved!");
+                }, (error) => {
+                    console.log(error.text);
+                    setMsg("Message not submitted!");
+              });
+
+              e.target.reset()
+
     }
-
-    const submit = (e) => {
-         e.preventDefault();
-        Setusercontact([...usercontact, message]);
-
-        //to send to backend then to database  sweetalert2, aos-animation, skeleton-loader
-        axios.post(`${Baseurl}contact.php`, JSON.stringify(message)).then(res => {
-            let contResponse = res.data;
-            console.log(res.data)
-            if(res.data.Success){
-                alert("submitted")
-            }
-        })
-
-
-        setMessage({ fullname: "", email: "", phone: "", message: ""});
-    }
-
 
 
 
@@ -130,10 +149,14 @@ export const Contact = () => {
         </section>
 
 
+
 {/* scroll */}
 <div className="text-center">
     <img src={scroll} className="scroll animate__animated animate__bounce"/>
 </div>
+
+
+
 
 
 {/* form and address */}
@@ -174,6 +197,8 @@ export const Contact = () => {
                         <p>bookings@axistravel.ae</p>
                     </div>
                 </div>
+
+
             </div>
 
 
@@ -184,26 +209,27 @@ export const Contact = () => {
                     <p className="heading-note">You can contact us with anything related to our Products. We'll get in touch with you as soon as possible</p>
 
 
-                    <form>
+                    <form onSubmit={submitemail}>
                     <div class="form-group">
                         <label for="exampleInputEmail1" className="label-note">Full Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" required/>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1" className="label-note">Email Address</label>
-                        <input type="email" class="form-control" id="exampleInputPassword1"/>
+                        <label for="exampleInputPassword1" className="label-note">Email Address </label>
+                        <input type="email" class="form-control" id="exampleInputPassword1" name="email" required/>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1" className="label-note">Phone Number</label>
-                        <input type="number" class="form-control" id="exampleInputPassword1"/>
+                        <label for="exampleInputPassword1" className="label-note">Subject</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="subject" required/>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1" className="label-note">Your Message</label>
-                        <textarea type="text" rows="4" class="form-control" id="exampleInputPassword1"/>
+                        <textarea type="text" rows="4" class="form-control" id="exampleInputPassword1" name="message" required/>
                     </div>
 
                     <button className="btn btn-lg button mt-4">SUBMIT</button>
                     </form>
+    <p className="text-center font-weight-bold mb-0 mt-2" style={{color:"#0275d8"}}>{msg}</p>
 
                 </div>
             </div>
@@ -216,9 +242,10 @@ export const Contact = () => {
 {/* map section */}
 <section className="map mb-5">
     <div className="container-fluid">
-        <img src={map} className="img-fluid shadow" data-aos="zoom-in"></img>
+        <img src={map} className="img-fluid shadow" data-aos="zoom-in" loading="lazy"></img>
     </div>
 </section>
+
 
 
 

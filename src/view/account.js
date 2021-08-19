@@ -83,7 +83,7 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
                 </div>
 
                 <div className="col-md-6 p-0 order-1 order-md-2">
-                    <img src={employee} className="img-fluid"/>
+                    <img src={employee} className="img-fluid" loading="lazy"/>
                 </div>
 
             </div>
@@ -131,7 +131,7 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
             <div className="row">
 
             <div className="col-md-6 p-0 ">
-                    <img src={booking} className="img-fluid"/>
+                    <img src={booking} className="img-fluid" loading="lazy"/>
                 </div>
 
                 <div className="col-md-6 pl-5 pr-5 pt-2 column-note">
@@ -171,7 +171,7 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
                 </div>
 
                 <div className="col-md-7 p-0 order-1 order-md-2">
-                    <img src={ticket} className="img-fluid"/>
+                    <img src={ticket} className="img-fluid" loading="lazy"/>
                 </div>
 
             </div>
@@ -185,7 +185,7 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
             <div className="row">
 
             <div className="col-md-7 p-0 ">
-                    <img src={accomodation} className="img-fluid"/>
+                    <img src={accomodation} className="img-fluid" loading="lazy"/>
                 </div>
 
                 <div className="col-md-5 p-5 column-note mt-4 mb-4">
@@ -218,7 +218,7 @@ Our modern tools help your travelers enjoy travelling even more and make life ea
 
 
                 <div className="col-md-7 p-0 order-1 order-md-2">
-                    <img src={security} className="img-fluid"/>
+                    <img src={security} className="img-fluid" loading="lazy"/>
                 </div>
 
             </div>

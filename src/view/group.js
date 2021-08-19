@@ -61,7 +61,7 @@ export const Group = () => {
     </div>
 
     <div className="col-md-7 p-0">
-        <img src={group} className="img-fluid"/>
+        <img src={group} className="img-fluid" loading="lazy"/>
     </div>
 
 

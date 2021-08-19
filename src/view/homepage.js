@@ -15,7 +15,11 @@ import "swiper/swiper.min.css";
 
 
 
+
+
 //pictures
+
+// import Img from 'react-optimized-image';
 import scroll from '../picture/Scroll.png';
 // import flight from '../picture/Airport icon.png';
 // import visas from '../picture/Passport icon.png';
@@ -71,7 +75,17 @@ export const Homepage = () => {
                     <div className="col-md-6 hero-content animate__animated animate__fadeInLeft">
                                 <h1 className="heading text-white"> Travel You <span style={{color:"#0275d8"}}>Can Trust</span> </h1>
                                 <p className="text-white heading-note text-justify">Axis Travel is a world class travel management company that offers excellent and premium corporate travel services to a full range of companies. Headquartered in Dubai, UAE, Axis Travel provides round the clock, high-quality business travel management that leaves a powerful impression on our clients.   </p>
-                                <Link to="/contact-us"className="link"><button className="btn btn-lg button mt-4">TALK TO US</button></Link>
+
+                                <div className="row">
+                                    <div className="col-md-6 mt-4">
+                                <Link to="/contact-us"className="link"><button className="btn btn-lg button ">TALK TO US</button></Link>
+                                    </div>
+
+                                    <div className="col-md-6 mt-4">
+                                <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button tour-but">BOOK A TOUR</button></a>
+                                    </div>
+                                </div>
+
                     </div>
                 </div>
         </section>
@@ -158,9 +172,9 @@ export const Homepage = () => {
 
             <div className="col-md-6" >
                 <div className="stack-rect" >
-                    <img src={stack3} className="position-absolute stack3" data-aos="fade-up"/>
-                    <img src={stack2} className="position-absolute stack2" data-aos="fade-down"/>
-                    <img src={stack1} className="position-absolute stack1" data-aos="fade-up"/>
+                    <img src={stack3} className="position-absolute stack3" data-aos="fade-up" loading="lazy"/>
+                    <img src={stack2} className="position-absolute stack2" data-aos="fade-down" loading="lazy"/>
+                    <img src={stack1} className="position-absolute stack1" data-aos="fade-up" loading="lazy"/>
                 </div>
             </div>
         </div>
@@ -172,9 +186,9 @@ export const Homepage = () => {
         <div className="row">
             <div className="col-md-6 order-2 order-md-1">
                 <div className="stack-poly">
-                    <img src={meet1} className="position-absolute poly1 " data-aos="flip-left"/>
-                    <img src={meet2} className="position-absolute poly2" data-aos="flip-right"/>
-                    <img src={meet3} className="position-absolute poly3" data-aos="flip-down"/>
+                    <img src={meet1} className="position-absolute poly1 " data-aos="flip-left" loading="lazy"/>
+                    <img src={meet2} className="position-absolute poly2" data-aos="flip-right" loading="lazy"/>
+                    <img src={meet3} className="position-absolute poly3" data-aos="flip-down" loading="lazy"/>
                 </div>
             </div>
 
@@ -196,7 +210,7 @@ export const Homepage = () => {
     <div className="container-fluid ">
         <div className="row">
         <div className="col-md-6 p-0 order-2 order-md-1" >
-            <img src={leisure} className="leisure-pic img-fluid" />
+            <img src={leisure} className="leisure-pic img-fluid" loading="lazy"/>
         </div>
 
         <div className="col-md-6 leisure-content p-5 order-1 order-md-2">
@@ -218,14 +232,14 @@ export const Homepage = () => {
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src={leisure1} className="leisure-car"/>
-                <img src={leisure2} className="leisure-car"/>
-                <img src={leisure3} className="leisure-car"/>
+                <img src={leisure1} className="leisure-car" loading="lazy"/>
+                <img src={leisure2} className="leisure-car" loading="lazy"/>
+                <img src={leisure3} className="leisure-car" loading="lazy"/>
                 </div>
                 <div class="carousel-item">
-                <img src={leisure4} className="leisure-car"/>
-                <img src={leisure5} className="leisure-car"/>
-                <img src={leisure6} className="leisure-car"/>
+                <img src={leisure4} className="leisure-car" loading="lazy"/>
+                <img src={leisure5} className="leisure-car" loading="lazy"/>
+                <img src={leisure6} className="leisure-car" loading="lazy"/>
                 </div>
             </div>
             </div> 

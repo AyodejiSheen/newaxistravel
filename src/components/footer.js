@@ -15,6 +15,11 @@ import eurostar from '../picture/eurostar.png';
 export const Footer = () => {
     return (
         <>
+
+
+
+
+
             <div className="container-fluid mt-4 footer-partner mb-4" id="testimonials">
                 <div className="container p-2">
                 <h1 className="head-tag col-12 p-0 col-md-6 text-center mx-auto" > Testimonial <span style={{color:'#0275d8'}}> or Companies we work with. </span></h1>
@@ -48,6 +53,12 @@ export const Footer = () => {
   </div>
             </div>
 
+
+        <section className="wave-section">
+            <div className="wave wave1"></div>
+            <div className="wave wave2"></div>
+            <div className="wave wave3"></div>
+        </section>
 
 
             <div className="container-fluid footer pb-0 p-3 ">
@@ -135,7 +146,7 @@ export const Footer = () => {
 
                 <hr className="footer-line mt-0 " ></hr>
 
-                <p className="text-center pb-0 mb-0 watermark">Designed and Developed By iBuild</p>
+                <p className="text-center pb-0 mb-0 watermark">Designed and Developed By Adeyemi Ayodeji</p>
             </div>
         </>
     )

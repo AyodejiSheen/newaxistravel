@@ -63,7 +63,7 @@ export const Specialist = () => {
     </div>
 
     <div className="col-md-7 p-0">
-        <img src={international} className="img-fluid"/>
+        <img src={international} className="img-fluid" loading="lazy"/>
         </div>
             </div>
         </div>
@@ -75,7 +75,7 @@ export const Specialist = () => {
         <div className="row">
 
         <div className="col-md-7 p-md-0 order-2 order-md-1">
-        <img src={covid} className="img-fluid"/>
+        <img src={covid} className="img-fluid" loading="lazy"/>
         </div>
 
 
@@ -106,7 +106,7 @@ export const Specialist = () => {
     </div>
 
     <div className="col-md-7 p-0">
-        <img src={localbook} className="img-fluid"/>
+        <img src={localbook} className="img-fluid" loading="lazy"/>
         </div>
             </div>
         </div>
@@ -119,7 +119,7 @@ export const Specialist = () => {
         <div className="row">
 
         <div className="col-md-7 p-md-0 order-2 order-md-1">
-        <img src={industry} className="img-fluid"/>
+        <img src={industry} className="img-fluid" loading="lazy"/>
         </div>
 
 

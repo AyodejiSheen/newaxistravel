@@ -60,7 +60,7 @@ export const Leisure = () => {
       </div>
 
       <div className="col-md-7 p-0">
-        <img src={vessel} className="img-fluid"/>
+        <img src={vessel} className="img-fluid" loading="lazy"/>
     </div>
     </div>
   </div>
@@ -72,14 +72,14 @@ export const Leisure = () => {
     <div className="row">
 
     <div className="col-md-7 p-md-0 order-2 order-md-1">
-        <img src={tour} className="img-fluid"/>
+        <img src={tour} className="img-fluid" loading="lazy"/>
     </div>
 
 
       <div className="col-md-5 p-5 order-1 order-md-2" data-aos="zoom-in-out">
             <h1 className="head-tag adjust-head">Tours  <span style={{color:'#0275d8'}}></span></h1>
                 <p className=" text-justify heading-note adjust-note">We offer both regular and VIP tours across Dubai and the Emirates. We cater for corporate team building and tours as well as tours for guests and delegates. Same day booking is available with comfortable pick-up and drop-off at your hotel or accommodation.</p>
-                <a href="https://indextours.axistravel.ae" className="link adjust-btn" ><button className="btn btn-lg button tour-but">BOOK A TOUR</button></a>
+                <a href="https://indextours.axistravel.ae"  className="link adjust-btn" ><button className="btn btn-lg button tour-but">BOOK A TOUR</button></a>
           
       </div>
 
@@ -100,7 +100,7 @@ export const Leisure = () => {
       </div>
 
       <div className="col-md-7 p-0">
-        <img src={insur} className="img-fluid"/>
+        <img src={insur} className="img-fluid" loading="lazy"/>
     </div>
     </div>
   </div>
@@ -113,7 +113,7 @@ export const Leisure = () => {
     <div className="row">
 
     <div className="col-md-7 p-md-0 order-2 order-md-1">
-        <img src={rental} className="img-fluid"/>
+        <img src={rental} className="img-fluid" loading="lazy"/>
     </div>
 
 
@@ -141,7 +141,7 @@ export const Leisure = () => {
       </div>
 
       <div className="col-md-7 p-md-0">
-        <img src={local} className="img-fluid"/>
+        <img src={local} className="img-fluid" loading="lazy"/>
     </div>
     </div>
   </div>

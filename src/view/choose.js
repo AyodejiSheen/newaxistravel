@@ -48,7 +48,7 @@ export const Choose = () => {
     </div>
 
     <div className="col-md-7 p-0">
-        <img src={committed} className="img-fluid"/>
+        <img src={committed} className="img-fluid" loading="lazy"/>
     </div>
             </div>
         </div>
@@ -60,7 +60,7 @@ export const Choose = () => {
         <div className="row">
 
         <div className="col-md-7 p-0 order-2 order-md-1">
-        <img src={improve} className="img-fluid"/>
+        <img src={improve} className="img-fluid" loading="lazy"/>
     </div>
 
 
@@ -90,7 +90,7 @@ export const Choose = () => {
     </div>
 
     <div className="col-md-7 p-0">
-        <img src={global} className="img-fluid"/>
+        <img src={global} className="img-fluid" loading="lazy"/>
     </div>
             </div>
         </div>

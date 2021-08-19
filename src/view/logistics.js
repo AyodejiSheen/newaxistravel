@@ -53,7 +53,7 @@ export const Logistics = () => {
     </div>
 
         <div className="col-md-7 p-0 ">
-                    <img src={uae} className="img-fluid"/>
+                    <img src={uae} className="img-fluid" loading="lazy"/>
         </div>
             </div>
         </div>
@@ -65,7 +65,7 @@ export const Logistics = () => {
         <div className="row">
 
         <div className="col-md-7 p-md-0 order-2 order-md-1">
-        <img src={greet} className="img-fluid"/>
+        <img src={greet} className="img-fluid" loading="lazy"/>
         </div>
 
 
@@ -92,7 +92,7 @@ export const Logistics = () => {
     </div>
 
         <div className="col-md-7 p-0">
-        <img src={globally} className="img-fluid"/>
+        <img src={globally} className="img-fluid" loading="lazy"/>
         </div>
             </div>
         </div>
@@ -105,7 +105,7 @@ export const Logistics = () => {
         <div className="row">
 
         <div className="col-md-7 p-md-0 order-2 order-md-1">
-        <img src={insurance} className="img-fluid"/>
+        <img src={insurance} className="img-fluid" loading="lazy"/>
         </div>
 
 
@@ -145,7 +145,7 @@ export const Logistics = () => {
         <div className="row">
 
         <div className="col-md-7 p-md-0 order-2 order-md-1">
-        <img src={rental} className="img-fluid"/>
+        <img src={rental} className="img-fluid" loading="lazy"/>
         </div>
 
 
@@ -177,7 +177,7 @@ export const Logistics = () => {
     </div>
 
     <div className="col-md-7 p-0">
-        <img src={passport} className="img-fluid"/>
+        <img src={passport} className="img-fluid" loading="lazy"/>
         </div>
             </div>
         </div>
@@ -190,7 +190,7 @@ export const Logistics = () => {
         <div className="row">
 
         <div className="col-md-7 p-md-0 order-2 order-md-1">
-        <img src={executive} className="img-fluid"/>
+        <img src={executive} className="img-fluid" loading="lazy"/>
         </div>
 
 
