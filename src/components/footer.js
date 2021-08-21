@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../css/footer.css';
 
 //picture
@@ -22,70 +22,70 @@ export const Footer = () => {
 
             <div className="container-fluid mt-4 footer-partner mb-4" id="testimonials">
                 <div className="container p-2">
-                <h1 className="head-tag col-12 p-0 col-md-6 text-center mx-auto" > Testimonial <span style={{color:'#0275d8'}}> or Companies we work with. </span></h1>
-                <p className="text-center content-why">There are many ways to travel and these companies have chosen us as their travel partners </p>
+                    <h1 className="head-tag col-12 p-0 col-md-6 text-center mx-auto" > Testimonial <span style={{ color: '#0275d8' }}> or Companies we work with. </span></h1>
+                    <p className="text-center content-why">There are many ways to travel and these companies have chosen us as their travel partners </p>
 
-                <div className="row text-center align-items-baseline">
+                    <div className="row text-center align-items-baseline">
 
-                    <div className="col-6 col-md-2 order-1 mb-4">
-                        <img src={iata} className="img-fluid partners-logo" data-aos="fade-left"></img>
-                    </div>
+                        <div className="col-6 col-md-2 order-1 mb-4">
+                            <img src={iata} className="img-fluid partners-logo" data-aos="fade-left"></img>
+                        </div>
 
-                    <div className="col-6 col-md-2 order-4 mb-4">
-                        <img src={abta} className="img-fluid partners-logo" data-aos="zoom-in-down"></img>
-                    </div>                    
-                    
-                    <div className="col-6 col-md-2 order-3 mb-4">
-                        <img src={index} className="img-fluid partners-logo" data-aos="zoom-in-up"></img>
-                    </div>                    
-                    
-                    <div className="col-6 col-md-2 order-6 mb-4">
-                        <img src={atoc} className="img-fluid partners-logo" data-aos="fade-right"></img>
-                    </div>                    
-                    
-                    <div className="col-6 col-md-2 order-2 mb-4">
-                        <img src={atol} className="img-fluid partners-logo" data-aos="zoom-in-down"></img>
-                    </div>
-                    <div className="col-6 col-md-2 order-5 mb-4 ">
-                        <img src={eurostar} className="img-fluid partners-logo" data-aos="zoom-in-up"></img>
+                        <div className="col-6 col-md-2 order-4 mb-4">
+                            <img src={abta} className="img-fluid partners-logo" data-aos="zoom-in-down"></img>
+                        </div>
+
+                        <div className="col-6 col-md-2 order-3 mb-4">
+                            <img src={index} className="img-fluid partners-logo" data-aos="zoom-in-up"></img>
+                        </div>
+
+                        <div className="col-6 col-md-2 order-6 mb-4">
+                            <img src={atoc} className="img-fluid partners-logo" data-aos="fade-right"></img>
+                        </div>
+
+                        <div className="col-6 col-md-2 order-2 mb-4">
+                            <img src={atol} className="img-fluid partners-logo" data-aos="zoom-in-down"></img>
+                        </div>
+                        <div className="col-6 col-md-2 order-5 mb-4 ">
+                            <img src={eurostar} className="img-fluid partners-logo" data-aos="zoom-in-up"></img>
+                        </div>
                     </div>
                 </div>
-  </div>
             </div>
 
 
-        <section className="wave-section">
-            <div className="wave wave1"></div>
-            <div className="wave wave2"></div>
-            <div className="wave wave3"></div>
-        </section>
+            <section className="wave-section">
+                <div className="wave wave1"></div>
+                <div className="wave wave2"></div>
+                <div className="wave wave3"></div>
+            </section>
 
 
             <div className="container-fluid footer pb-0 p-3 ">
                 <div className="container pb-3">
                     <div className="row">
                         <div className="col-md-4">
-                        <a className="navbar-brand" href="/"><img className="logo-footer" src={logo}/></a>
-                        <p className="text-white text-justify foot-note mt-2">Find us on social media</p>
+                            <a className="navbar-brand" href="/"><img className="logo-footer" src={logo} /></a>
+                            <p className="text-white text-justify foot-note mt-2">Find us on social media</p>
 
 
-                        <div className="row">
-                            <div className="twitter">
-                                <a href="https://twitter.com/axistraveldubai" className="link"><i className="fab fa-twitter text-dark"></i></a>
+                            <div className="row">
+                                <div className="twitter">
+                                    <a href="https://twitter.com/axistraveldubai" className="link"><i className="fab fa-twitter text-dark"></i></a>
+                                </div>
+
+                                <div className="facebook">
+                                    <a href="https://facebook.com/AxisTravelDubai" className="link"><i class="fab fa-facebook text-dark"></i></a>
+                                </div>
+
+                                <div className="linkedin">
+                                    <a href="https://za.linkedin.com/company/axis-travel" className="link"><i className="fab fa-linkedin text-dark"></i></a>
+                                </div>
+
+                                <div className="instagram">
+                                    {/* <i className="fab fa-instagram"></i> */}
+                                </div>
                             </div>
-
-                            <div className="facebook">
-                                <a href="https://facebook.com/AxisTravelDubai" className="link"><i class="fab fa-facebook text-dark"></i></a>
-                            </div>
-
-                            <div className="linkedin">
-                                <a href="https://za.linkedin.com/company/axis-travel" className="link"><i className="fab fa-linkedin text-dark"></i></a>
-                            </div>
-
-                            <div className="instagram">
-                                {/* <i className="fab fa-instagram"></i> */}
-                            </div>
-                        </div>
 
 
                         </div>
@@ -94,43 +94,43 @@ export const Footer = () => {
                         <div className="col-md-8 pt-5 mt-2 pl-5 foot-link">
                             <div className="row">
                                 <div className=" col-6 col-md-4 col-lg-3">
-                                <h6>Resources</h6>
-                                <ul className="footer-list">
-                                <a href="/#testimonials" className="footer-link"><li>Testimonials</li></a>
-                                <Link to="/why-choose-us" className="footer-link"><li>Why Choose Us</li></Link>
-                                    <Link to="/terms-and-conditions" className="footer-link"><li>Terms & Services</li></Link>
-                                    <Link to="/privacy-policy" className="footer-link"><li>Privacy Policy</li></Link>
-                                </ul>
+                                    <h6>Resources</h6>
+                                    <ul className="footer-list">
+                                        <a href="/#testimonials" className="footer-link"><li>Testimonials</li></a>
+                                        <Link to="/why-choose-us" className="footer-link"><li>Why Choose Us</li></Link>
+                                        <Link to="/terms-and-conditions" className="footer-link"><li>Terms & Services</li></Link>
+                                        <Link to="/privacy-policy" className="footer-link"><li>Privacy Policy</li></Link>
+                                    </ul>
                                 </div>
 
                                 <div className=" col-6 col-md-4 col-lg-3">
-                                <h6>Quick Link</h6>
-                                <ul className="footer-list">
-                                <Link to="/corporate-travel" className="footer-link"><li>Corporate Travel</li></Link>
-                                <Link to="/leisure-travel" className="footer-link"><li>Leisure Travel</li></Link>
-                                <Link to="/meetings-and-events" className="footer-link"><li>Meetings and Events</li></Link>
-                                <Link to="/who-we-are" className="footer-link"><li>About Us</li></Link>
-                                <Link to="/contact-us" className="footer-link"><li>Contact Us</li></Link>
-                                </ul>
+                                    <h6>Quick Link</h6>
+                                    <ul className="footer-list">
+                                        <Link to="/corporate-travel" className="footer-link"><li>Corporate Travel</li></Link>
+                                        <Link to="/leisure-travel" className="footer-link"><li>Leisure Travel</li></Link>
+                                        <Link to="/meetings-and-events" className="footer-link"><li>Meetings and Events</li></Link>
+                                        <Link to="/who-we-are" className="footer-link"><li>About Us</li></Link>
+                                        <Link to="/contact-us" className="footer-link"><li>Contact Us</li></Link>
+                                    </ul>
                                 </div>
 
                                 <div className=" col-md-4 col-lg-3">
-                                <h6>Services</h6>
-                                <ul className="footer-list">
-                                <Link to="" className="footer-link"> <li>Flight</li></Link>
-                                <Link to="" className="footer-link"> <li>Visas</li></Link>
-                                <Link to="" className="footer-link"> <li disabled="true">Hotel Reservation</li></Link>
-                                    <Link to="" className="footer-link"> <li>Tours</li></Link>
-                                    <Link to="" className="footer-link "> <li>Insurance</li></Link>
-                                    <Link to="" className="footer-link "><li>Transport</li></Link>
-                                    <Link to="" className="footer-link "><li>Packages</li></Link>
-                                    <Link to="" className="footer-link "><li>Conferences</li></Link>
-                                </ul>
+                                    <h6>Services</h6>
+                                    <ul className="footer-list">
+                                        <Link to="" className="footer-link"> <li>Flight</li></Link>
+                                        <Link to="" className="footer-link"> <li>Visas</li></Link>
+                                        <Link to="" className="footer-link"> <li disabled="true">Hotel Reservation</li></Link>
+                                        <Link to="" className="footer-link"> <li>Tours</li></Link>
+                                        <Link to="" className="footer-link "> <li>Insurance</li></Link>
+                                        <Link to="" className="footer-link "><li>Transport</li></Link>
+                                        <Link to="" className="footer-link "><li>Packages</li></Link>
+                                        <Link to="" className="footer-link "><li>Conferences</li></Link>
+                                    </ul>
                                 </div>
 
                                 <div className="col-md-6 col-lg-3">
-                                <h6>Contact</h6>
-                                <ul className="footer-list">115 Office Court Building, Oud Metha P.O.Box 23240 Dubai, United Arab Emirates.
+                                    <h6>Contact</h6>
+                                    <ul className="footer-list">115 Office Court Building, Oud Metha P.O.Box 23240 Dubai, United Arab Emirates.
                                 <br></br>Office: +971 4 399 9332
                                 <br></br>Fax: +971 4 399 9335
                                 <br></br>Email: bookings@axistravel.ae
@@ -139,14 +139,14 @@ export const Footer = () => {
                             </div>
                         </div>
 
- 
+
 
                     </div>
                 </div>
 
                 <hr className="footer-line mt-0 " ></hr>
 
-                <p className="text-center pb-0 mb-0 watermark">Designed and Developed By Adeyemi Ayodeji</p>
+                <p className="text-center pb-0 mb-0 watermark">Copyright &copy;2015 - Axis Travel All Rights Reserved</p>
             </div>
         </>
     )
