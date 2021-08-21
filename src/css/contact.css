@@ -81,6 +81,7 @@ input, textarea {
     position: fixed;
     bottom: 10%;
     right: 1%;
+    z-index: 1200;
 }
 
 
@@ -129,6 +130,16 @@ input, textarea {
     .recap {
         width: 250px!important;
     }
+
+    
+.whatsapp-img{
+    width: 20%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10%;
+    right: 1%;
+    z-index: 1200;
+}
 }
 
 /* Tablets */
@@ -155,6 +166,16 @@ input, textarea {
         padding-top: 2rem!important;
         padding-bottom: 2rem!important;
     }
+
+    .whatsapp-img{
+        width: 12%;
+        cursor: pointer;
+        position: fixed;
+        bottom: 10%;
+        right: 1%;
+        z-index: 1200;
+    }
+
 }
 
 /* /* 1024 screen */
