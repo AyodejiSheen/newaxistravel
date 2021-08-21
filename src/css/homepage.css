@@ -1,4 +1,4 @@
-.hero-main{
+.hero-main {
     padding-top: 7rem;
     padding-bottom: 5rem;
     padding-left: 5rem;
@@ -8,39 +8,34 @@
 }
 
 @keyframes hero-main {
-    0%{
+    0% {
         background-image: url('../picture/newrefine/bg1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    25%{
+    25% {
         background-image: url('../picture/newrefine/bg1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    50%{
+    50% {
         background-image: url('../picture/newrefine/bg4.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    75%{
+    75% {
         background-image: url('../picture/refine/bg38.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    100%{
+    100% {
         background-image: url('../picture/newrefine/bg5.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
-
-.hero-content{
+.hero-content {
     background-color: hsla(210, 95%, 5%, 0.88);
     padding-left: 50px;
     padding-right: 50px;
@@ -49,121 +44,117 @@
     border-radius: 5px;
 }
 
-.hero{
+.hero {
     background-color: #010e1b;
 }
 
-
-.home-explore:hover{
+.home-explore:hover {
     background-color: #0275d8!important;
     color: white!important;
 }
 
-
-.heading{
+.heading {
     font-weight: 900;
     font-size: 45px!important;
 }
 
-.scroll{
+.scroll {
     margin-top: -40px!important;
     animation-iteration-count: 5;
 }
 
-.service-box{
+.service-box {
     width: 260px;
     height: 250px;
     border-radius: 10px;
     background: #ffffff;
     transition: box-shadow 0.5s;
-    box-shadow: 0px 2px 10px rgba(15,72,122,0.3);
+    box-shadow: 0px 2px 10px rgba(15, 72, 122, 0.3);
 }
 
-.service-box:hover{
+.service-box:hover {
     background-color: #010e1b;
-    box-shadow: 0px 8px 25px rgba(0,0,0,0.89);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.89);
     color: white;
     cursor: pointer;
     transition: box-shadow 0.5s;
 }
 
-
-.icon{
+.icon {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    border: 10px solid #f1f2f6;;
+    border: 10px solid #f1f2f6;
+    ;
 }
 
-.icon-pic{
+.icon-pic {
     width: 100%;
 }
 
-
-.service-name{
+.service-name {
     font-weight: 700;
     font-size: 20px!important;
 }
 
-.shield{
+.shield {
     font-size: 40px;
     color: #0275d8;
 }
 
-
-.c-travel, .our-services{
+.c-travel, .our-services {
     background-image: url('../picture/Rectangle.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.stack-rect{
+.stack-rect {
     position: relative;
     width: 100%;
 }
 
-.stack-poly{
+.stack-poly {
     position: relative;
     width: 100%;
 }
 
-.stack3{
+.stack3 {
     width: 374px;
     height: 500px;
     z-index: 70;
     right: 0;
-    box-shadow: 0px 2px 10px rgba(15,72,122,0.3);
+    box-shadow: 0px 2px 10px rgba(15, 72, 122, 0.3);
 }
 
-.stack2{
+.stack2 {
     width: 324px;
     height: 390px;
     z-index: 80;
     margin-top: 9.8%;
     left: 20%;
-    box-shadow: 0px 2px 10px rgba(15,72,122,0.3);
+    box-shadow: 0px 2px 10px rgba(15, 72, 122, 0.3);
 }
 
-.stack1{
+.stack1 {
     width: 250px;
     height: 290px;
     z-index: 90;
     margin-top: 19.5%;
     left: 5%;
-    box-shadow: 0px 2px 10px rgba(15,72,122,0.3);
+    box-shadow: 0px 2px 10px rgba(15, 72, 122, 0.3);
 }
 
-.stack2:hover{
-    z-index:95;
-    transition: all 2s;
-}
-
-.stack3:hover{
+.stack2:hover {
     z-index: 95;
     transition: all 2s;
 }
 
-.poly1{
+.stack3:hover {
+    z-index: 95;
+    transition: all 2s;
+}
+
+.poly1 {
     width: 16rem;
     height: 16rem;
     z-index: 90;
@@ -171,7 +162,7 @@
     left: 23%;
 }
 
-.poly2{
+.poly2 {
     width: 16rem;
     height: 16rem;
     z-index: 90;
@@ -179,7 +170,7 @@
     left: 0%;
 }
 
-.poly3{
+.poly3 {
     width: 16rem;
     height: 16rem;
     z-index: 90;
@@ -187,82 +178,76 @@
     left: 45%;
 }
 
-.poly1:hover, .poly2:hover, .poly3:hover{
+.poly1:hover, .poly2:hover, .poly3:hover {
     animation-name: animate__heartBeat;
 }
 
-.leisure-pic{
+.leisure-pic {
     width: 100%;
 }
 
-.leisure-content{
+.leisure-content {
     background-color: #010e1b;
 }
 
-
-
-.carousel-indicators li{
+.carousel-indicators li {
     border-radius: 50%;
     width: 10px!important;
     height: 10px!important;
-    background-color: #ffffff!important ;
+    background-color: #ffffff!important;
     opacity: 100;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     top: 105%;
 }
 
-
-.indicator.active{
+.indicator.active {
     background-color: #0275d8!important;
 }
 
-
-.leisure-car{
+.leisure-car {
     width: 32%;
     margin: 0.5%;
 }
 
-
-.why-us{
+.why-us {
     background-image: url('../picture/background.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.numbering{
+.numbering {
     width: 140%;
 }
 
-.content{
+.content {
     font-size: 12px;
 }
 
-.content-why{
+.content-why {
     font-size: 14px;
 }
 
-.about{
+.about {
     border: 10px solid white;
-    box-shadow: 0px 4px 10px rgba(15,72,122,0.3);
+    box-shadow: 0px 4px 10px rgba(15, 72, 122, 0.3);
     background-color: #010e1b;
 }
 
-.service-name-hotel{
+.service-name-hotel {
     display: none;
 }
 
-
-.video{
+.video {
     border: 1.5px solid white;
     box-shadow: 0 25px 25px -5px rgb(124, 130, 141);
     box-shadow: 0 25px 25px -5px rgb(52, 57, 68);
-    transition: box-shadow 0.2s ;
+    transition: box-shadow 0.2s;
     border-radius: 4px;
 }
 
-.colon{
+.colon {
     font-size: 100px;
     position: absolute;
     opacity: 0.2;
@@ -271,18 +256,18 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     background-color: #0275d8!important;
     border-radius: 50%;
     padding: 15px!important;
     opacity: 100!important;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     margin-left: -100px;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
     background-color: #0275d8!important;
     border-radius: 50%;
     padding: 15px!important;
@@ -290,119 +275,101 @@
     margin-left: 200px!important;
 }
 
-.tour-but{
+.tour-but {
     margin-top: 5px;
     margin-bottom: 20px;
     padding: 8px!important;
 }
 
-
-.testimonial-box{
-    box-shadow: 0px 4px 5px rgba(46,46,46,0.3);
+.testimonial-box {
+    box-shadow: 0px 4px 5px rgba(46, 46, 46, 0.3);
     margin-bottom: 20px!important;
 }
 
-
-.flight{
+.flight {
     background-image: url('../picture/newrefine/ssbg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
-.services-note{
-    margin-top:250px!important;
+.services-note {
+    margin-top: 250px!important;
 }
 
-.visas{
-        background-image: url('../picture/newrefine/ssbg2.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-bottom:50px;
+.visas {
+    background-image: url('../picture/newrefine/ssbg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
 }
 
-.tour{
+.tour {
     background-image: url('../picture/refine/ssbg9.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
-.insurance{
+.insurance {
     background-image: url('../picture/refine/ssbg4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
-.hotel{
+.hotel {
     background-image: url('../picture/refine/ssbg5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
-.transport{
+.transport {
     background-image: url('../picture/refine/ssbg6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
-.packages{
+.packages {
     background-image: url('../picture/refine/ssbg7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
-
-.conference{
+.conference {
     background-image: url('../picture/refine/ssbg8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:50px; 
+    padding-bottom: 50px;
 }
 
-
-.img-fluid{
+.img-fluid {
     width: 100%;
     height: 100%;
 }
 
-
-
-
-
-
-
-
-
 /* Media Queries begins */
 
- /* Smartphones */
+/* Smartphones */
 
- @media only screen and (min-device-width:320px) and (max-device-width:480px){
-
-    .heading{
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+    .heading {
         font-weight: 900;
         font-size: 32px!important;
     }
-    
-    .head-tag{
+    .head-tag {
         font-size: 28px;
     }
-
-    .two{
+    .two {
         text-align: center!important;
     }
-    
-    .hero-main{
+    .hero-main {
         padding: 0px!important;
     }
-
-
-    .hero-content{
+    .hero-content {
         background-color: hsla(210, 95%, 5%, 0.7)!important;
         padding-left: 50px!important;
         padding-right: 50px!important;
@@ -411,33 +378,27 @@
         box-shadow: none;
         border-radius: 0px!important;
     }
-
-
-    .image{
-        height:30rem!important
+    .image {
+        height: 30rem!important
     }
-
-    .heading-note{
+    .heading-note {
         font-size: 14px;
     }
-
-    .indicator-1, .scroll, .service-name-hotel-1{
+    .indicator-1, .scroll, .service-name-hotel-1 {
         display: none;
     }
-
-    .button{
-        width: 120px!important;
-        height: 40px!important;
+    .button {
+        width: 150px!important;
+        height: 50px!important;
         background: #0275d8;
-        font-size: 13px!important;
+        font-size: 14px!important;
         margin-top: 10px!important;
+        font-weight: bold!important;
     }
-
-    .c-travel{
+    .c-travel {
         margin-top: 50px!important;
     }
-
-    .service-box{
+    .service-box {
         margin: auto;
         width: 100%;
         height: 90%;
@@ -446,241 +407,185 @@
         padding-bottom: 20px!important;
         margin-bottom: 20px!important;
     }
-
-    .icon{
+    .icon {
         border-radius: 50%;
         width: 80px;
         height: 80px;
-        border: 10px solid #f1f2f6;;
+        border: 10px solid #f1f2f6;
+        ;
     }
-    
-    .icon-pic{
+    .icon-pic {
         width: 100%;
     }
-    
-    .service-2{
+    .service-2 {
         margin-top: 0px!important;
     }
-    
-    .service-name{
+    .service-name {
         margin-bottom: 0px!important;
         margin-top: 10px!important;
         font-size: 16px!important;
     }
-
-    .service-name-hotel{
+    .service-name-hotel {
         display: block;
         font-weight: 700;
         margin-bottom: 0px!important;
         margin-top: 10px!important;
         font-size: 16px!important;
     }
-    
-    .shield{
+    .shield {
         font-size: 27px;
         color: #0275d8;
     }
-
-    .our-services{
+    .our-services {
         margin-top: 20px!important;
         padding-bottom: 0px!important;
     }
-
-    .c-travel .c-travel-sub{
+    .c-travel .c-travel-sub {
         margin-top: -20px!important;
         padding: 0px!important;
     }
-
-    .stack-rect{
+    .stack-rect {
         margin-bottom: 300px;
         margin-top: 40px;
     }
-
-    .stack3{
+    .stack3 {
         width: 250px;
         height: 300px;
         right: 0%;
         z-index: 90;
     }
-    
-    .stack2{
+    .stack2 {
         width: 200px;
         height: 250px;
-        margin-top:8%;
+        margin-top: 8%;
         left: 5%;
     }
-    
-    .stack1{
+    .stack1 {
         width: 150px;
         height: 180px;
         margin-top: 15%;
         left: 0%;
     }
-
-    .poly1{
+    .poly1 {
         z-index: 90;
         left: 2.5rem;
         transform: scale(0.8)!important;
     }
-    
-    .poly2{
+    .poly2 {
         z-index: 90;
         left: -3rem;
         margin-top: 170px;
         transform: scale(0.8)!important;
     }
-    
-    .poly3{
+    .poly3 {
         left: 8.5rem;
         margin-top: 170px;
         transform: scale(0.8)!important;
-    } 
-    
-    .stack-poly{
+    }
+    .stack-poly {
         margin-top: 10px;
         margin-bottom: 280px;
         transform: scale(0.85);
     }
-
-    .leisure-content{
+    .leisure-content {
         padding: 20px 20px 40px 20px!important;
     }
-
-    .leisure-car{
+    .leisure-car {
         height: 70px!important;
     }
-
-    .choice-list{
+    .choice-list {
         padding: 10px 2px 0px 2px!important;
     }
-
-    .why-us{
+    .why-us {
         margin-top: 45px!important;
     }
-
-    h5{
+    h5 {
         font-size: 18px;
     }
-
-
-    .about-us{
+    .about-us {
         margin-top: 0px!important;
         margin-bottom: 0px!important;
     }
-
-    .about{
+    .about {
         padding: 20px!important;
     }
-
-    .text-secondary{
+    .text-secondary {
         margin-top: 20px!important;
         font-size: 14px;
     }
-
-    .carousel-control-prev{
+    .carousel-control-prev {
         display: none;
     }
-    
-    .carousel-control-next-icon{
+    .carousel-control-next-icon {
         display: none;
     }
-
-    .testimonial-row{
+    .testimonial-row {
         padding: 15px 5px 25px 5px!important;
     }
-
-    .testimonial-text{
+    .testimonial-text {
         padding: 20px!important;
     }
-
-    .trip-idea{
+    .trip-idea {
         display: none;
     }
-
-
-    .tour-but{
+    .tour-but {
         margin-top: 0px!important;
         margin-bottom: 0px!important;
     }
-
-
-
-    .services-note{
+    .services-note {
         margin-top: 200px!important;
     }
-
-    .video{
+    .video {
         margin-top: 30px!important;
         margin-bottom: 30px!important;
-            box-shadow: 0 15px 15px -5px rgb(124, 130, 141);
-            box-shadow: 0 15px 15px -5px rgb(52, 57, 68);
+        box-shadow: 0 15px 15px -5px rgb(124, 130, 141);
+        box-shadow: 0 15px 15px -5px rgb(52, 57, 68);
     }
+}
 
+/* Tablets */
 
-
- }
-
-
-
-
-
-
- /* Tablets */
-
- @media only screen and (min-device-width:768px) and (max-device-width:1023px){
-    
-    .heading{
+@media only screen and (min-device-width:768px) and (max-device-width:1023px) {
+    .heading {
         font-weight: 900;
         font-size: 35px!important;
     }
-    
-    .head-tag{
+    .head-tag {
         font-size: 24px!important;
     }
-
-    .hero-main{
+    .hero-main {
         padding-top: 5rem;
         padding-bottom: 3rem;
         padding-left: 3rem;
     }
-
-    .img-fluid{
+    .img-fluid {
         width: 100%;
         height: 100%;
     }
-
-    
-
-    .hero-content{
+    .hero-content {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 6rem;
         background-color: hsla(210, 95%, 5%, 0.92);
         z-index: 70;
     }
-
-    .image{
-        height:30rem!important
+    .image {
+        height: 30rem!important
     }
-
-    .heading-note{
+    .heading-note {
         font-size: 13px!important;
     }
-
-    .indicator-1, .scroll, .service-name-hotel-1{
+    .indicator-1, .scroll, .service-name-hotel-1 {
         display: none;
     }
-
-    .button{
+    .button {
         width: 150px;
         height: 50px;
         background: #0275d8;
         font-size: 14px;
         margin-top: 10px!important;
     }
-
-
-    .service-box{
+    .service-box {
         margin: auto;
         width: 100%;
         height: 90%;
@@ -689,319 +594,255 @@
         padding-bottom: 20px!important;
         margin-bottom: 20px!important;
     }
-
-    .icon{
+    .icon {
         border-radius: 50%;
         width: 80px;
         height: 80px;
-        border: 10px solid #f1f2f6;;
+        border: 10px solid #f1f2f6;
+        ;
     }
-    
-    .icon-pic{
+    .icon-pic {
         width: 100%;
     }
-    
-    .service-2{
+    .service-2 {
         margin-top: 0px!important;
     }
-    
-    .service-name{
+    .service-name {
         margin-bottom: 0px!important;
         margin-top: 10px!important;
         font-size: 16px!important;
     }
-
-    .service-name-hotel{
+    .service-name-hotel {
         display: block;
         font-weight: 700;
         margin-bottom: 0px!important;
         margin-top: 10px!important;
         font-size: 16px!important;
     }
-    
-    .shield{
+    .shield {
         font-size: 27px;
         color: #0275d8;
     }
-
-    .our-services{
+    .our-services {
         padding-bottom: 0px!important;
     }
-
-     .c-travel-sub{
+    .c-travel-sub {
         margin-top: 10px!important;
         padding: 0px!important;
     }
-
-    .c-travel{
+    .c-travel {
         padding: 0px!important;
         margin-top: 30px!important;
     }
-
-    .meeting, .leisure-travel{
+    .meeting, .leisure-travel {
         margin-top: 0px!important;
         padding-bottom: 0px!important;
     }
-
-    .meeting{
+    .meeting {
         margin-top: 30px!important;
-        }
-
-    .stack-rect{
+    }
+    .stack-rect {
         margin-bottom: 300px;
         margin-top: 40px;
     }
-
-    .stack3{
+    .stack3 {
         width: 250px;
         height: 300px;
         right: 0%;
     }
-    
-    .stack2{
+    .stack2 {
         width: 200px;
         height: 250px;
-        margin-top:8%;
+        margin-top: 8%;
         left: 5%;
     }
-    
-    .stack1{
+    .stack1 {
         width: 150px;
         height: 190px;
         margin-top: 15%;
         left: 0%;
     }
-
-    .poly1{
+    .poly1 {
         z-index: 90;
         left: 2rem;
         transform: scale(0.8)!important;
     }
-    
-    .poly2{
+    .poly2 {
         z-index: 90;
         margin-left: -4rem;
         margin-top: 170px;
         transform: scale(0.8)!important;
     }
-    
-    .poly3{
+    .poly3 {
         margin-left: -1rem;
         margin-top: 170px;
         transform: scale(0.8)!important;
-    } 
-    
-    .stack-poly{
+    }
+    .stack-poly {
         margin-top: 10px;
         margin-bottom: 280px;
         transform: scale(0.85);
     }
-    .meeting{
+    .meeting {
         margin-bottom: 50px!important;
     }
-
-    .leisure-content{
+    .leisure-content {
         padding: 20px 20px 40px 20px!important;
     }
-
-    .leisure-pic{
-        height:100% ;
+    .leisure-pic {
+        height: 100%;
     }
-
-    .why-us{
+    .why-us {
         margin-top: 50px!important;
     }
-
-    .numbering{
+    .numbering {
         width: 30px!important;
     }
-
-    h5{
+    h5 {
         font-size: 18px;
     }
-
-
-    .about-us{
+    .about-us {
         margin-top: 0px!important;
     }
-
-    .about{
+    .about {
         padding: 20px!important;
     }
-
-    .about-us-video{
+    .about-us-video {
         margin-top: 10%!important;
     }
-
-    .text-secondary{
+    .text-secondary {
         margin-top: 20px!important;
         font-size: 14px;
     }
-
-    .carousel-control-prev{
+    .carousel-control-prev {
         display: none;
     }
-    
-    .carousel-control-next-icon{
+    .carousel-control-next-icon {
         display: none;
     }
-
-    .testimonial-row{
+    .testimonial-row {
         padding: 15px 15px 25px 15px!important;
     }
-
-    .testimonial-text{
+    .testimonial-text {
         padding: 20px!important;
     }
-
-    .services-note{
+    .services-note {
         margin-top: 100px!important;
     }
- }
+}
 
+/* /* 1024 screen */
 
-
-
- /* /* 1024 screen */
- @media only screen and (min-device-width:1024px) and (max-device-width:1276px){
- 
-    .heading{
+@media only screen and (min-device-width:1024px) and (max-device-width:1276px) {
+    .heading {
         font-weight: 900;
         font-size: 35px!important;
     }
-    
-    .head-tag{
+    .head-tag {
         font-size: 32px!important;
     }
-
-    .heading-note{
+    .heading-note {
         font-size: 13.5px!important;
     }
-
-    .hero-content{
-       
-            padding-left: 30px!important;
-            padding-right: 30px!important;
-            padding-top: 3rem!important;
-            padding-bottom: 3rem!important;
-        
+    .hero-content {
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
     }
-
-    .button{
+    .button {
         width: 160px;
         height: 50px;
         background: #0275d8;
         font-size: 14px;
         margin-top: 10px!important;
     }
-
-    .service-box{
+    .service-box {
         width: 200px;
         height: 200px;
         padding-top: 30px!important;
         padding-bottom: 30px!important;
     }
-
-    .stack3{
+    .stack3 {
         width: 274px;
         height: 400px;
         z-index: 70;
         right: 0;
-        box-shadow: 0px 2px 10px rgba(15,72,122,0.3);
+        box-shadow: 0px 2px 10px rgba(15, 72, 122, 0.3);
     }
-    
-    .stack2{
+    .stack2 {
         width: 224px;
         height: 290px;
         z-index: 80;
         margin-top: 9.8%;
         left: 20%;
-        box-shadow: 0px 2px 10px rgba(15,72,122,0.3);
+        box-shadow: 0px 2px 10px rgba(15, 72, 122, 0.3);
     }
-    
-    .stack1{
+    .stack1 {
         width: 150px;
         height: 190px;
         z-index: 90;
         margin-top: 19.5%;
         left: 5%;
-        box-shadow: 0px 2px 10px rgba(15,72,122,0.3);
+        box-shadow: 0px 2px 10px rgba(15, 72, 122, 0.3);
     }
-
-    .poly1{
+    .poly1 {
         width: 13rem;
         height: 13rem;
         z-index: 90;
         top: 19.5%;
         left: 23%;
     }
-    
-    .poly2{
+    .poly2 {
         width: 13rem;
         height: 13rem;
         z-index: 90;
         margin-top: 40%;
         left: 0%;
     }
-    
-    .poly3{
+    .poly3 {
         width: 13rem;
         height: 13rem;
         z-index: 90;
         margin-top: 40%;
         left: 45%;
     }
-
-    .meeting{
+    .meeting {
         margin-top: 30px!important;
         margin-bottom: 10px!important;
     }
-
-    .leisure-pic{
+    .leisure-pic {
         height: 100%!important;
     }
-    
-
-    .testimonial{
+    .testimonial {
         padding-left: 30px!important;
         padding-right: 30px!important;
     }
-
-    .services-note{
+    .services-note {
         margin-top: 120px!important;
     }
-
-} 
-
-
-
-
-
+}
 
 /* Larger Screens */
- @media only screen and (min-width:1824px) {
-    .hero-content{
+
+@media only screen and (min-width:1824px) {
+    .hero-content {
         padding-left: 100px;
         padding-right: 100px;
         padding-top: 10rem;
     }
-
-    .heading{
+    .heading {
         font-weight: 900;
         font-size: 60px;
         margin-bottom: 30px;
     }
-
-    .heading-note{
+    .heading-note {
         font-size: 18px;
     }
-
-    .leisure-content{
+    .leisure-content {
         padding: 100px!important;
     }
-
-    .text-secondary{
+    .text-secondary {
         margin-top: 100px!important;
     }
-
- }
+}
