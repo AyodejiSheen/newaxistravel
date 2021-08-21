@@ -76,12 +76,12 @@ export const Homepage = () => {
                                 <h1 className="heading text-white"> Travel You <span style={{color:"#0275d8"}}>Can Trust</span> </h1>
                                 <p className="text-white heading-note text-justify">Axis Travel is a world class travel management company that offers excellent and premium corporate travel services to a full range of companies. Headquartered in Dubai, UAE, Axis Travel provides round the clock, high-quality business travel management that leaves a powerful impression on our clients.   </p>
 
-                                <div className="row">
-                                    <div className="col-md-6 mt-4">
+                                <div className="row ">
+                                    <div className="col-md-6 mt-4 text-left two">
                                 <Link to="/contact-us"className="link"><button className="btn btn-lg button ">TALK TO US</button></Link>
                                     </div>
 
-                                    <div className="col-md-6 mt-4">
+                                    <div className="col-md-6 mt-4 text-right two">
                                 <a href="https://indextours.axistravel.ae" className="link" ><button className="btn btn-lg button tour-but">BOOK A TOUR</button></a>
                                     </div>
                                 </div>

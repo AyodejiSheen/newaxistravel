@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import '../css/group.css'
 import {Link} from 'react-router-dom'
 import emailjs from 'emailjs-com';
+import Recaptcha from 'react-recaptcha';
 
 
 
@@ -41,11 +42,14 @@ export const Marine = () => {
 
     let [msg, setMsg] = useState("");
 
+    let [auth, setAuth] = useState(true);
+
+
 
     function submitemail (e) {
         e.preventDefault();
 
-            emailjs.sendForm('Axistravel', 'template_oc110dk', e.target, 'user_zoHbWkfzksp87vx5j6L1k')
+        emailjs.sendForm('service_fv5fobp', 'template_75o6bxo', e.target, 'user_s6suYiiLQDxXNLuT8jDZ5')
               .then((result) => {
                   console.log(result.text);
                   setMsg("Your Message has been recieved!");
@@ -58,6 +62,17 @@ export const Marine = () => {
 
     }
 
+
+
+    function callback () {
+        console.log("recaptcha has loaded")
+    }
+
+    var verifyCallback = function (response) {
+        if (response){
+            setAuth(false);
+        }
+      };
 
     return(
         <>
@@ -150,7 +165,7 @@ export const Marine = () => {
 
 
             <div className="col-md-7 order-1 order-md-2">
-                <div className="contact-form p-5 shadow">
+                <div className="contact-form p-5">
                     <h4 className="font-weight-bold">Send us a message</h4>
                     <p className="heading-note">You can contact us with anything related to our Products. We'll get in touch with you as soon as possible</p>
 
@@ -173,7 +188,15 @@ export const Marine = () => {
                         <textarea type="text" rows="4" class="form-control" id="exampleInputPassword1" name="message" required/>
                     </div>
 
-                    <button className="btn btn-lg button mt-4">SUBMIT</button>
+                    <Recaptcha
+                        sitekey="6LeZuxIcAAAAAKPluVHQy9ZzWWAuhP_7PLO0alxe"
+                        render="explicit"
+                        onloadCallback={callback}
+                        verifyCallback={verifyCallback}
+                    />,
+
+
+                    <button className="btn btn-lg button mt-4" disabled={auth}>SUBMIT</button>
                     </form>
     <p className="text-center font-weight-bold mb-0 mt-2" style={{color:"#0275d8"}}>{msg}</p>
 
@@ -183,8 +206,7 @@ export const Marine = () => {
     </div>
 </section>
 
-
-<section className="mb-5 specialist p-5">
+<section className="mb-5 specialist pt-0 pb-5 px-5">
     <h1 className="font-weight-bold text-center">What We Do</h1>
 
         <div className="container">

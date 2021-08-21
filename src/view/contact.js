@@ -52,13 +52,14 @@
 // }
 
 
-import React, {useState} from 'react';
-import {Baseurl} from '../baseurl';
-import {Link, useHistory} from 'react-router-dom';
+import React, { useState } from 'react';
+import { Baseurl } from '../baseurl';
+import { Link, useHistory } from 'react-router-dom';
 import axios from 'axios';
 import '../css/contact.css'
 
 import emailjs from 'emailjs-com';
+import Recaptcha from 'react-recaptcha';
 
 
 
@@ -68,6 +69,7 @@ import map from '../picture/map.png';
 import location from '../picture/location.png';
 import email from '../picture/email.png';
 import call from '../picture/call.png';
+import whatsapp from '../picture/newrefine/whatsapp.png';
 
 
 
@@ -81,7 +83,9 @@ export const Contact = () => {
 
     let [msg, setMsg] = useState("");
 
-    let[usercontact, Setusercontact] = useState([]);
+    let [usercontact, Setusercontact] = useState([]);
+
+    let [auth, setAuth] = useState(true);
 
     // const handleChange = (e) => {
     //     let name = e.target.name;
@@ -104,147 +108,162 @@ export const Contact = () => {
 
 
     //     setMessage({ fullname: "", email: "", phone: "", message: ""});
-    
 
 
 
-    function submitemail (e) {
+
+    function submitemail(e) {
         e.preventDefault();
 
-            emailjs.sendForm('Axistravel', 'template_oc110dk', e.target, 'user_zoHbWkfzksp87vx5j6L1k')
-              .then((result) => {
-                  console.log(result.text);
-                  setMsg("Your Message has been recieved!");
-                }, (error) => {
-                    console.log(error.text);
-                    setMsg("Message not submitted!");
-              });
+        emailjs.sendForm('service_fv5fobp', 'template_75o6bxo', e.target, 'user_s6suYiiLQDxXNLuT8jDZ5')
+            .then((result) => {
+                console.log(result.text);
+                setMsg("Your Message has been recieved!");
+            }, (error) => {
+                console.log(error.text);
+                setMsg("Message not submitted!");
+            });
 
-              e.target.reset()
+        e.target.reset()
 
     }
 
 
 
+    function callback() {
+        console.log("recaptcha has loaded")
+    }
 
-
-
-
-
-
+    var verifyCallback = function (response) {
+        if (response) {
+            setAuth(false);
+        }
+    };
 
 
     return (
         <>
 
-                    {/* Hero section */}
-                    <section>
+            {/* Hero section */}
+            <section>
                 <div className="container-fluid hero-contact img-fluid">
 
                     <div className="col-md-6 hero-content-contact animate__animated animate__fadeInLeft">
-                    <h1 className="heading text-white"><b>Talk<span style={{color:"#0275d8"}}> To Us</span></b></h1>
-                                <p className="text-white text-justify heading-note">Why not drop in to see us or give us a call to see what a difference we can make to your business travel management function. Tell us a bit about your business and your travel requirements and we can tell you how we can help you save time and money by providing a tailored travel booking solution for you. </p>
+                        <h1 className="heading text-white"><b>Talk<span style={{ color: "#0275d8" }}> To Us</span></b></h1>
+                        <p className="text-white text-justify heading-note">Why not drop in to see us or give us a call to see what a difference we can make to your business travel management function. Tell us a bit about your business and your travel requirements and we can tell you how we can help you save time and money by providing a tailored travel booking solution for you. </p>
                     </div>
                 </div>
-        </section>
+            </section>
 
 
 
-{/* scroll */}
-<div className="text-center">
-    <img src={scroll} className="scroll animate__animated animate__bounce"/>
-</div>
+            {/* scroll */}
+            <div className="text-center">
+                <img src={scroll} className="scroll animate__animated animate__bounce" />
+            </div>
 
 
 
 
 
-{/* form and address */}
-<section className="form pt-4 pb-5">
-    <div className="container">
-        <div className="row">
-            <div className="col-md-5 mt-5 order-2 order-md-1">
-                <div className="row pt-5 mt-5 location-details ">
-                    <div className="col-md-3" >
-                        <img src={location} className="contact-icon "/>
-                    </div>
-                    <div className="col-md-9">
-                        <h5 className="font-weight-bold">Find us at the Office</h5>
-                        <p>115, Office Court Building,
-                            Oud Metha P.O.Box 23240
+            {/* form and address */}
+            <section className="form pt-4 pb-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-5 mt-5 order-2 order-md-1">
+                            <div className="row pt-5 mt-5 location-details ">
+                                <div className="col-md-3" >
+                                    <img src={location} className="contact-icon " />
+                                </div>
+                                <div className="col-md-9">
+                                    <h5 className="font-weight-bold">Find us at the Office</h5>
+                                    <p>115, Office Court Building,
+                                    Oud Metha P.O.Box 23240
                             Dubai, United Arab Emirates</p>
+                                </div>
+                            </div>
+
+                            <div className="row mt-5 detail">
+                                <div className="col-md-3 ">
+                                    <img src={call} className="contact-icon " />
+                                </div>
+                                <div className="col-md-9">
+                                    <h5 className="font-weight-bold">Give us a call</h5>
+                                    <p>+971 4 399 9332 <br>
+                                    </br>+971 4 399 9335</p>
+                                </div>
+                            </div>
+
+
+                            <div className="row mt-5 detail">
+                                <div className="col-md-3">
+                                    <img src={email} className="contact-icon " />
+                                </div>
+                                <div className="col-md-9">
+                                    <h5 className="font-weight-bold">Send us an Email</h5>
+                                    <p>bookings@axistravel.ae</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div className="col-md-7 order-1 order-md-2">
+                            <div className="contact-form p-5">
+                                <h4 className="font-weight-bold">Send us a message</h4>
+                                <p className="heading-note">You can contact us with anything related to our Products. We'll get in touch with you as soon as possible</p>
+
+
+                                <form onSubmit={submitemail}>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1" className="label-note">Full Name</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1" className="label-note">Email Address </label>
+                                        <input type="email" class="form-control" id="exampleInputPassword1" name="email" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1" className="label-note">Subject</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1" name="subject" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1" className="label-note">Your Message</label>
+                                        <textarea type="text" rows="4" class="form-control" id="exampleInputPassword1" name="message" required />
+                                    </div>
+
+                                    <Recaptcha
+                                        sitekey="6LeZuxIcAAAAAKPluVHQy9ZzWWAuhP_7PLO0alxe"
+                                        render="explicit"
+                                        onloadCallback={callback}
+                                        verifyCallback={verifyCallback}
+                                    />,
+
+
+                    <button className="btn btn-lg button mt-4" disabled={auth}>SUBMIT</button>
+                                </form>
+                                <p className="text-center font-weight-bold mb-0 mt-2" style={{ color: "#0275d8" }}>{msg}</p>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-                <div className="row mt-5 detail">
-                    <div className="col-md-3 ">
-                        <img src={call} className="contact-icon "/>
-                    </div>
-                    <div className="col-md-9">
-                        <h5 className="font-weight-bold">Give us a call</h5>
-                        <p>+971 4 399 9332 <br>
-                        </br>+971 4 399 9335</p>
-                    </div>
+
+
+            {/* map section */}
+            <section className="map mb-5">
+                <div className="container-fluid">
+                    <img src={map} className="img-fluid shadow" data-aos="zoom-in" loading="lazy"></img>
                 </div>
+            </section>
 
-
-                <div className="row mt-5 detail">
-                    <div className="col-md-3">
-                        <img src={email} className="contact-icon "/>
-                    </div>
-                    <div className="col-md-9">
-                        <h5 className="font-weight-bold">Send us an Email</h5>
-                        <p>bookings@axistravel.ae</p>
-                    </div>
-                </div>
-
-
+            <div className="whatsapp">
+                <a href="https://wa.link/bpeawe" target="_blank" className="link"><img src={whatsapp} className="whatsapp-img"></img></a>
             </div>
-
-
-
-            <div className="col-md-7 order-1 order-md-2">
-                <div className="contact-form p-5 shadow">
-                    <h4 className="font-weight-bold">Send us a message</h4>
-                    <p className="heading-note">You can contact us with anything related to our Products. We'll get in touch with you as soon as possible</p>
-
-
-                    <form onSubmit={submitemail}>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1" className="label-note">Full Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" required/>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1" className="label-note">Email Address </label>
-                        <input type="email" class="form-control" id="exampleInputPassword1" name="email" required/>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1" className="label-note">Subject</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" name="subject" required/>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1" className="label-note">Your Message</label>
-                        <textarea type="text" rows="4" class="form-control" id="exampleInputPassword1" name="message" required/>
-                    </div>
-
-                    <button className="btn btn-lg button mt-4">SUBMIT</button>
-                    </form>
-    <p className="text-center font-weight-bold mb-0 mt-2" style={{color:"#0275d8"}}>{msg}</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-{/* map section */}
-<section className="map mb-5">
-    <div className="container-fluid">
-        <img src={map} className="img-fluid shadow" data-aos="zoom-in" loading="lazy"></img>
-    </div>
-</section>
 
 
 

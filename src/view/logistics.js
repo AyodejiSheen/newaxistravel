@@ -127,7 +127,7 @@ export const Logistics = () => {
     <div className="container-fluid">
         <div className="row">
             <div className="col-md-5 p-5 column-note mt-4 mb-4">
-            <h1 className="head-tag adjust-head ">   <span style={{color:'#0275d8'}}> Airport Lounge</span>&nbsp; &nbsp; access</h1>
+            <h1 className="head-tag adjust-head ">   <span style={{color:'#0275d8'}}> Airport Lounge</span> access</h1>
         <p className=" text-justify heading-note adjust-note">We make sure that your arrival is as grand as you want it to be and that you experience the red carpet feeling as well as complete comfort that make you happier you made the trip. No matter where you are in the world, we provide premium limousine services that are professional, reliable and will smoothly take you wherever you need to go. Put your best foot forward in an exclusive and stylish limousine arrival.</p>
     </div>
 
@@ -195,7 +195,7 @@ export const Logistics = () => {
 
 
             <div className="col-md-5 p-5 order-1 order-md-2 column-note mt-4 mb-4">
-            <h1 className="head-tag">VIP & Executive<span style={{color:'#0275d8'}}> &nbsp; &nbsp; &nbsp;Travel</span></h1>
+            <h1 className="head-tag">VIP & Executive<span style={{color:'#0275d8'}}> Travel</span></h1>
             <p className=" text-justify heading-note">We are the best at organizing travel luxury and executive travel arrangements. Whatever the purpose of the travelling is, we know it’s important. We also know that your executives or VIPs need to arrive looking like they have their act together – because they do! We will go above and beyond to ensure that they get all they need to own whatever meeting or event they are attending.</p>
 
             <p className=" text-justify heading-note">Your security and safety remain our priority. Our security network and support teams provide safety to your travelers 24/7 and keep your data constantly protected. Enjoy supreme comfort, relaxing calm and the invigorating drive that comes with being on our VIP list.</p>

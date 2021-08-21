@@ -1,4 +1,4 @@
-.hero-contact{
+.hero-contact {
     padding-top: 9rem;
     padding-bottom: 5rem;
     padding-left: 4rem;
@@ -8,32 +8,29 @@
 }
 
 @keyframes hero-anim-contact {
-    0%{
+    0% {
         background-image: url('../picture/refine/bg16.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    25%{
+    25% {
         background-image: url('../picture/refine/bg16.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    65%{
+    65% {
         background-image: url('../picture/refine/bg56.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    100%{
+    100% {
         background-image: url('../picture/refine/bg14.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
-.hero-content-contact{
+.hero-content-contact {
     background-color: hsla(210, 95%, 5%, 0.96);
     padding-left: 50px;
     padding-right: 50px;
@@ -42,152 +39,135 @@
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.779);
 }
 
-.heading{
+.heading {
     font-weight: 900;
     font-size: 50px;
 }
 
-.scroll{
+.scroll {
     margin-top: -20px;
     animation-iteration-count: 5;
 }
 
-
-.form{
-    background-color:#F2F8FD;
+.form {
+    background-color: #F2F8FD;
 }
 
-.label-note{
+.contact-form {
+    box-shadow: 0px 4px 5px rgba(46, 46, 46, 0.5);
+}
+
+.label-note {
     font-size: 12px!important;
     font-weight: 600;
 }
 
-input, textarea{
+input, textarea {
     border-radius: 0px!important;
 }
 
-
-.contact-icon{
+.contact-icon {
     width: 50%!important;
 }
 
+.whatsapp{
+    /* position: relative; */
+}
+
+
+.whatsapp-img{
+    width: 8%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10%;
+    right: 1%;
+}
 
 
 
 /* Media Queries begins */
 
- /* Smartphones */
+/* Smartphones */
 
- @media only screen and (min-device-width:320px) and (max-device-width:480px){
-
-    .heading-note{
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+    .heading-note {
         font-size: 14px;
     }
-
-
-    .head{
+    .head {
         font-size: 30px;
     }
-
-
-
-    .hero-contact{
+    .hero-contact {
         padding: 0px!important;
     }
-
-
-    .hero-content-contact{
+    .hero-content-contact {
         background-color: hsla(210, 95%, 5%, 0.8);
         padding-left: 50px!important;
         padding-right: 50px!important;
         padding-top: 10rem;
         padding-bottom: 6rem;
         box-shadow: none;
-
     }
-
-    .map{
+    .map {
         margin-bottom: 0px!important;
     }
-
-    .location-details{
+    .location-details {
         margin-top: 0px!important;
         padding-top: 0px!important;
         text-align: center;
     }
-
-
-    .contact-icon{
+    .contact-icon {
         width: 15%!important;
         margin-bottom: 20px;
     }
-    
-    .detail{
+    .detail {
         text-align: center;
         margin-top: 30px!important;
     }
-
-    .contact-form{
+    .contact-form {
         padding: 20px!important;
     }
+    .recap {
+        width: 250px!important;
+    }
+}
 
+/* Tablets */
 
- }
-
-
-
-
-
-
- /* Tablets */
-
- @media only screen and (min-device-width:768px) and (max-device-width:1023px){
-    .heading-note{
+@media only screen and (min-device-width:768px) and (max-device-width:1023px) {
+    .heading-note {
         font-size: 14px;
     }
-
-
-    .head{
+    .head {
         font-size: 30px;
     }
-
-    .contact-icon{
-        width:100%!important;
+    .contact-icon {
+        width: 100%!important;
         margin-bottom: 20px;
     }
-
-
-    .hero-contact{
+    .hero-contact {
         padding-top: 7rem;
         padding-bottom: 4rem;
         padding-left: 2rem;
     }
-
-    .hero-content-contact{
+    .hero-content-contact {
         padding-left: 30px!important;
         padding-right: 30px!important;
         padding-top: 2rem!important;
         padding-bottom: 2rem!important;
     }
+}
 
- }
+/* /* 1024 screen */
 
-
-      /* /* 1024 screen */
-      @media only screen and (min-device-width:1024px) and (max-device-width:1276px){
-      
-
-        .hero-content-contact{
-            padding-left: 30px!important;
-            padding-right: 30px!important;
-            padding-top: 3rem!important;
-            padding-bottom: 3rem!important;
-        }
-
-
-      }
+@media only screen and (min-device-width:1024px) and (max-device-width:1276px) {
+    .hero-content-contact {
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
+    }
+}
 
 /* Larger Screens */
- @media only screen and (min-width:1824px) {
-     
- }
+
+@media only screen and (min-width:1824px) {}
