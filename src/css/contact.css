@@ -136,7 +136,7 @@ input, textarea {
     width: 20%;
     cursor: pointer;
     position: fixed;
-    bottom: 10%;
+    bottom: 7%;
     right: 1%;
     z-index: 1200;
 }
